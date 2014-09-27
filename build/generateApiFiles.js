@@ -1,3 +1,5 @@
+'use strict';
+
 var fs = require('fs'),
   prettyjson = require('./prettyjson');
 
@@ -10,7 +12,7 @@ module.exports = function(grunt){
 			for (j = 0; j < obj.points.length; j++) {
 				obj.pointsData[obj.points[j]] = grunt.file.readJSON('points/'+obj.points[j]+'.json');
 			}
-			grunt.file.write('api/1/service/'+i+'.json', prettyjson.stringify(obj));
+			grunt.file.write(grunt.config.get('conf').dist + '/api/1/service/'+i+'.json', prettyjson.stringify(obj));
 		}
   });
 };

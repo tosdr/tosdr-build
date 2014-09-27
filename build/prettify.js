@@ -1,3 +1,5 @@
+'use strict';
+
 var path = module.require('path');
 
 function sortObject(obj, strict)
@@ -40,7 +42,7 @@ function process(dir, grunt){
   grunt.file.recurse(path.resolve(__filename, '../../' + dir), function(abspath, rootdir, subdir, filename){
     if(filename.match(/\.json$/)){
       item = grunt.file.readJSON(abspath);
-      grunt.file.write(abspath, JSON.stringify(sortObject(item, true), null, 2));
+      grunt.file.write(grunt.config.get('conf').dist + '/' + dir + '/' + filename, JSON.stringify(sortObject(item, true), null, 2));
     }
   });
 }

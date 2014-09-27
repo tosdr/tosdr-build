@@ -1,11 +1,12 @@
+'use strict';
+
 //this nodejs script will read the data points from the points/ directory, and 
 //generate the index.html and get-involved.html files from that.
 
 var elements = {};
 var prettyjson = require('../scripts/prettyjson');
-var grunt;
 
-function renderDataPoint(service, dataPoint, forPopup) {
+function renderDataPoint(grunt, service, dataPoint, forPopup) {
   var obj = grunt.file.readJSON('points/' + dataPoint + '.json');
   var badge, icon, sign, score;
   if(!obj.tosdr) {
@@ -38,27 +39,28 @@ function renderDataPoint(service, dataPoint, forPopup) {
     return {
       id:dataPoint,
       score:obj.tosdr.score,
-      text:'<div class="' + obj.tosdr.point + '"><h5><span class="badge ' + badge
-        + '" title="' + obj.tosdr.point + '"><i class="icon-' + icon + ' icon-white">' + sign + '</i></span> ' + obj.title + ' <a href="' + obj.discussion + '" target="_blank" class="label context">Discussion</a></h5><p>'
-        + obj.tosdr.tldr + '</p></div>'
+      text:'<div class="' + obj.tosdr.point + '"><h5><span class="badge ' + badge +
+				'" title="' + obj.tosdr.point + '"><i class="icon-' + icon + ' icon-white">' + sign + '</i></span> ' + obj.title + ' <a href="' + obj.discussion + '" target="_blank" class="label context">Discussion</a></h5><p>' +
+				obj.tosdr.tldr + '</p></div>'
     };
   } else {
     return {
       id:dataPoint,
       score:obj.tosdr.score,
-      text:'<span class="badge ' + badge + '" title="' + obj.tosdr.score + '">'
-        + '<i class="icon-' + icon + ' icon-white">' + sign + '</i></span>&nbsp;' + obj.title
+      text:'<span class="badge ' + badge + '" title="' + obj.tosdr.score + '">' +
+				'<i class="icon-' + icon + ' icon-white">' + sign + '</i></span>&nbsp;' + obj.title
     };
   }
 }
-function getServiceObject(name) {
+function getServiceObject(grunt, name) {
   //each service (website) has its own generic description data, that is stored in the services/ directory
   //of this repo. this function loads in such a file:
   var obj = grunt.file.readJSON('services/' + name + '.json');
   if (obj) {
     return obj;
   } else {
-    die('no obj in services/' + name + '.json');
+    grunt.log.error('no obj in services/' + name + '.json');
+		process.exit();
   }
 }
 function getRatingText(className) {
@@ -74,7 +76,7 @@ function getRatingText(className) {
   return ratingText[className];
 }
 
-function renderDetails(name, points, toslinks, obj) {
+function renderDetails(grunt, name, points, toslinks, obj) {
   grunt.log.writeln('renderDetails ' + name);
   grunt.log.writeln(points);
   grunt.log.writeln(toslinks);
@@ -91,9 +93,9 @@ function renderDetails(name, points, toslinks, obj) {
     rating = '<div id="' + name + '-rating" class="service-rating"><a title="Learn more about our classification" href="classification.html"><span class="label ' + obj.tosdr.rated + '">No Class Yet</span></a></div></h3>';
   }
   //we collect the data points into an array first, so that we can sort them by score (the score is the impact/importance of a data point):
-  var renderables = [];
-  for (var i in points) {
-    renderables.push(renderDataPoint(name, points[i], false));
+  var renderables = [], i;
+  for (i in points) {
+    renderables.push(renderDataPoint(grunt, name, points[i], false));
   }
   renderables.sort(function (a, b) {
     return (Math.abs(b.score) - Math.abs(a.score));
@@ -102,26 +104,26 @@ function renderDetails(name, points, toslinks, obj) {
 
   //construct the issues list from the sorted data points:
   var issues = '<section class="specificissues"><ul class="tosdr-points">';
-  for (var i = 0; i < renderables.length; i++) {
-    issues += '<li id="point-' + name + '-' + renderables[i].id + '">'
-      + renderables[i].text
-      + '</li>';
+  for (i = 0; i < renderables.length; i++) {
+    issues += '<li id="point-' + name + '-' + renderables[i].id + '">' +
+			renderables[i].text +
+			'</li>';
   }
   //add link to have more details at the bottom:
-  issues += '</ul>'
-    + '<a class="modal-link" data-service-name="' + name + '" href="#"><i class="icon  icon-th-list"></i> More details</a>'
+  issues += '</ul>' +
+		'<a class="modal-link" data-service-name="' + name + '" href="#"><i class="icon  icon-th-list"></i> More details</a>' +
     // add link to read the full terms (removed)
-    //    + (toslinks.terms ? '<br /><a href="' + toslinks.terms.url + '" target="_blank"><i class="icon  icon-list-alt"></i> Read the full terms</a>' : '')
-    + '</section>';
+    //    (toslinks.terms ? '<br /><a href="' + toslinks.terms.url + '" target="_blank"><i class="icon  icon-list-alt"></i> Read the full terms</a>' : '') +
+    '</section>';
   //add some search terms to the data-search field. this is quite crude, but it works:
-  var search = [name];
+  var search = [name], j;
   if (obj.keywords) {
-    for (var j = 0; j < obj.keywords.length; j++) {
+    for (j = 0; j < obj.keywords.length; j++) {
       search.push(obj.keywords[j]);
     }
   }
   if (obj.related) {
-    for (var j = 0; j < obj.related.length; j++) {
+    for (j = 0; j < obj.related.length; j++) {
       search.push(obj.related[j]);
     }
   }
@@ -134,9 +136,9 @@ function renderDetails(name, points, toslinks, obj) {
   if (obj.parent) {
     search.push(obj.parent);
   }
-  return '\t<div data-search="' + search.join(',') + '" id="' + name + '-tosdr" class="span6 service-nutshell">'
-    + header + rating + issues
-    + '</div>\n';
+  return '\t<div data-search="' + search.join(',') + '" id="' + name + '-tosdr" class="span6 service-nutshell">' +
+		header + rating + issues +
+		'</div>\n';
 }
 function isEmpty(map) {
   for (var key in map) {
@@ -158,11 +160,11 @@ function getTweetLink(obj, name) {
     text = ' Your class '+obj.tosdr.rated+' rating at https://tosdr.org/#'+name+' worries me, can you comment?';
     action = 'Discuss with ';
   }
-  return ' <a class="tweet" href="https://twitter.com/intent/tweet/?text='+encodeURIComponent(obj.twitter+text)
-      +'">'+action+obj.twitter+'</a>';
+  return ' <a class="tweet" href="https://twitter.com/intent/tweet/?text='+encodeURIComponent(obj.twitter+text) +
+		'">'+action+obj.twitter+'</a>';
 }
 
-function renderPopup(name, obj, points, links) {
+function renderPopup(grunt, name, obj, points, links) {
   //the popup is actually a popin, it is what you see when you click 'expand' for one of the services on index.html.
   //this is how we generate the html for them:
   grunt.log.writeln('Rendering popup for ' + name);
@@ -176,25 +178,25 @@ function renderPopup(name, obj, points, links) {
     domain = obj.url,
     verdict = obj.tosdr.rated,
     ratingText = getRatingText(obj.tosdr.rated);
-  var headerHtml = '<div class="modal-header"><button data-dismiss="modal" class="close" type="button">×</button>'
-    + '<img src="logo/' + name + '.png" alt="" class="pull-left favlogo" height="36" >'
-    + '<h3>' + longName
-    + '<small class="service-url">Share review <input class="share-link" type="text" value="http://tosdr.org/#' + name + '" readonly /></small>'
-    + '</h3></div>\n';
-  var classHtml = '<div class="tosdr-rating"><label class="label ' + verdict + '">'
-    + (verdict ? 'Class ' + verdict : 'No Class Yet') + '</label><p>' + ratingText
-    + getTweetLink(obj, name)
-    + '</p></div>\n';
+  var headerHtml = '<div class="modal-header"><button data-dismiss="modal" class="close" type="button">×</button>' +
+			'<img src="logo/' + name + '.png" alt="" class="pull-left favlogo" height="36" >' +
+			'<h3>' + longName +
+			'<small class="service-url">Share review <input class="share-link" type="text" value="http://tosdr.org/#' + name + '" readonly /></small>' +
+			'</h3></div>\n';
+  var classHtml = '<div class="tosdr-rating"><label class="label ' + verdict + '">' +
+			(verdict ? 'Class ' + verdict : 'No Class Yet') + '</label><p>' + ratingText +
+			getTweetLink(obj, name) +
+			'</p></div>\n';
   var renderables = [];
   //sort the data points by importance:
   for (var i in points) {
-    renderables.push(renderDataPoint(name, points[i], true));
+    renderables.push(renderDataPoint(grunt, name, points[i], true));
   }
   renderables.sort(function (a, b) {
     return (Math.abs(b.score) - Math.abs(a.score));
   });
   var pointsHtml = '';
-  for (var i = 0; i < renderables.length; i++) {
+  for (i = 0; i < renderables.length; i++) {
     pointsHtml += '<li id="popup-point-' + name + '-' + renderables[i].id + '" class="point">' + renderables[i].text + '</li>\n';
   }
   var bodyHtml = '<div class="modal-body">' + classHtml + '<section class="specificissues"> <ul class="tosdr-points">' + pointsHtml + '</ul></section>\n';
@@ -202,7 +204,7 @@ function renderPopup(name, obj, points, links) {
     bodyHtml += '<section><a href="/get-involved.html" class="btn">Help us find the Terms »</a></section>\n';
   } else {
     bodyHtml += '<section><h4>Read the Terms</h4><ul class="tosback2">\n';
-    for (var i in links) {
+    for (i in links) {
       bodyHtml += '<li><a href="' + links[i].url + '">' + (links[i].name ? links[i].name : i) + '</a></li>\n';
     }
     bodyHtml += '</ul></section>\n';
@@ -212,7 +214,7 @@ function renderPopup(name, obj, points, links) {
 }
 
 module.exports = function(grunt) {
-  grunt.task.registerTask('render', 'Render the website', function(){
+  grunt.task.registerTask('renderPages', 'Render the website', function(){
     var services = grunt.file.readJSON('index/services.json');
     var popups = {};
     var servicesList = '';
@@ -238,7 +240,7 @@ module.exports = function(grunt) {
     grunt.log.writeln('by Alexa', serviceNames);
     var serviceNamesRated = [],
       serviceNamesNotRated = [];
-    for(var i=0; i<serviceNames.length; i++) {
+    for(i=0; i<serviceNames.length; i++) {
       if(typeof(services[serviceNames[i]].class)=='string') {
         grunt.log.writeln(serviceNames[i], 'yes');
         serviceNamesRated.push(serviceNames[i]);
@@ -250,43 +252,42 @@ module.exports = function(grunt) {
     serviceNames = serviceNamesRated.concat(serviceNamesNotRated);
     grunt.log.writeln('by rated', serviceNames);
     //twitter is used as an example on /get-involved.html, so we store its html in a variable to render it there:
-    var twitterService = null;
-    for (var i = 0; i < serviceNames.length; i++) {
-      var serviceName = serviceNames[i];
+    var twitterService = null, serviceName;
+    for (i = 0; i < serviceNames.length; i++) {
+      serviceName = serviceNames[i];
   
-      var obj = getServiceObject(serviceName);
+      var obj = getServiceObject(grunt, serviceName);
       //if(obj.alexa >= 1000000) {
       //  continue;
       //}
-  
       if(serviceName == 'twitter') {
-        twitterService = renderDetails(serviceName, services[serviceName].points, services[serviceName].links, obj);
+        twitterService = renderDetails(grunt, serviceName, services[serviceName].points, services[serviceName].links, obj);
       }
-  
       if (last) {
         servicesList +=
-          renderDetails(last, services[last].points, services[last].links, lastObj)
-          + renderDetails(serviceName, services[serviceName].points, services[serviceName].links, obj);
+          renderDetails(grunt, last, services[last].points, services[last].links, lastObj) +
+					renderDetails(grunt, serviceName, services[serviceName].points, services[serviceName].links, obj);
         last = undefined;
       } else {
         last = serviceName;
         lastObj = obj;
       }
-      popups[serviceName] = renderPopup(serviceName, obj, services[serviceName].points, services[serviceName].links);
+      popups[serviceName] = renderPopup(grunt, serviceName, obj, services[serviceName].points, services[serviceName].links);
     }
     if (last) {
-      servicesList += '\t<div class="row-fluid">\n\t'
-        + renderDetails(last, services[serviceName].points, services[serviceName].links, lastObj)
-        + '\t</div>\n';
+      servicesList += '\t<div class="row-fluid">\n\t' +
+				renderDetails(grunt, last, services[serviceName].points, services[serviceName].links, lastObj) +
+				'\t</div>\n';
     }
-    grunt.file.write('index.html',
+		
+    grunt.file.write(grunt.config.get('conf').dist + '/index.html',
       grunt.file.read('index-template.html').
         replace('<!-- ##services-content## -->', '<div id="services-list" class="row">\n' + servicesList + '</div>\n')
     );
-    grunt.file.write('js/services.js', "var popupsContent = " + prettyjson(popups) + ";");
-    grunt.file.write('get-involved.html',
+    grunt.file.write(grunt.config.get('conf').dist + '/js/services.js', "var popupsContent = " + prettyjson(popups) + ";");
+    grunt.file.write(grunt.config.get('conf').dist + '/get-involved.html',
       grunt.file.read('get-involved-template.html').
         replace('<!-- ##github-service-content## -->', '<div id="services-list" class="row">\n' + twitterService + '</div>\n')
     );
   });
-}
+};
