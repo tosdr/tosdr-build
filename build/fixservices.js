@@ -1,8 +1,10 @@
+'use strict';
+
 var prettyjson = require('../scripts/prettyjson');
 
 module.exports = function(grunt){
   grunt.task.registerTask('fixservices', 'Make services consistent', function(){
-    grunt.file.recurse('services/', function(abspath, rootdir, subdir, filename){
+    grunt.file.recurse(grunt.config.get('conf').src + '/services/', function(abspath, rootdir, subdir, filename){
       if(filename==='README.md'){
         return;
       }

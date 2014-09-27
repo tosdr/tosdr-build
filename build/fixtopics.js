@@ -1,8 +1,10 @@
+'use strict';
+
 var prettyjson = require('../scripts/prettyjson');
 
 module.exports = function(grunt){
   grunt.task.registerTask('fixtopics', 'Make topics consistent', function(){
-    grunt.file.recurse('topics/', function(abspath, rootdir, subdir, filename){
+    grunt.file.recurse(grunt.config.get('conf').src + '/topics/', function(abspath, rootdir, subdir, filename){
       if(filename==='README.md'){
         return;
       }
@@ -42,6 +44,6 @@ function doFile(filepath, filename, grunt) {
   }
   if(changed) {
     grunt.file.write('topics/'+filename, prettyjson(obj));
-    console.log('fixed '+fileName);
+    console.log('fixed '+filename);
   }
 }
