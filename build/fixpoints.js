@@ -1,8 +1,10 @@
+'use strict';
+
 var prettyjson = require('../scripts/prettyjson');
 
 module.exports = function(grunt){
   grunt.task.registerTask('fixpoints', 'Make data points consistent', function(){
-    grunt.file.recurse('points/', function(abspath, rootdir, subdir, filename){
+    grunt.file.recurse(grunt.config.get('conf').src + '/points/', function(abspath, rootdir, subdir, filename){
       if(filename==='README.md'){
         return;
       }

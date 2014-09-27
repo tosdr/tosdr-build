@@ -1,3 +1,5 @@
+'use strict';
+
 var path = module.require('path');
 
 function sortObject(obj, strict)
@@ -37,7 +39,11 @@ function fixArrays(obj){
 
 function process(dir, grunt){
   var item;
-  grunt.file.recurse(path.resolve(__filename, '../../' + dir), function(abspath, rootdir, subdir, filename){
+	var files = path.resolve(__filename, '../../' + grunt.config.get('conf').src + '/' + dir);
+	if('index' === dir){
+		files = path.resolve(__filename, '../../' + dir); // TODO Remove this once the index/ files have been moved to a proper location
+	}
+  grunt.file.recurse(files, function(abspath, rootdir, subdir, filename){
     if(filename.match(/\.json$/)){
       item = grunt.file.readJSON(abspath);
       grunt.file.write(abspath, JSON.stringify(sortObject(item, true), null, 2));

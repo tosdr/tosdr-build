@@ -1,3 +1,5 @@
+'use strict';
+
 // this nodejs script reads all the data points from the points/ directory,
 // collects some data about which services and topics are mentioned in all
 // those data points, and writes that information out to two files in the
@@ -57,10 +59,10 @@ function parsePointFile(id, grunt) {
   //have a look at the files in the points/ directory of this
   //repo to get a better feeling for what this function does
 
-  var obj = grunt.file.readJSON('points/'+id+'.json');
-  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined'
-                  || typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined'
-                  || typeof(obj.tosdr.tldr)=='undefined' ) {
+  var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/'+id+'.json');
+  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined' ||
+		 typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined' ||
+		 typeof(obj.tosdr.tldr)=='undefined' ) {
     return;
   }
   addToServices(obj.services, id);
@@ -72,7 +74,7 @@ function parseServiceFile(id, grunt) {
   //repo to get a better feeling for what this function does
 
   //console.log('SERVICE '+id);
-  var obj = grunt.file.readJSON('services/'+id+'.json');
+  var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/'+id+'.json');
   console.log(id);
   if(typeof(obj.tosback2)=='object') {
     for(var i in obj.tosback2) { 
@@ -91,7 +93,7 @@ function parseServiceFile(id, grunt) {
 //whenever mentioned.
 module.exports = function(grunt){
   grunt.task.registerTask('buildIndexes', 'Create indexes of all the points', function(){
-    grunt.file.recurse('points/', function(abspath, rootdir, subdir, filename){
+    grunt.file.recurse(grunt.config.get('conf').src + '/points/', function(abspath, rootdir, subdir, filename){
         if(filename.substring(filename.length-5) == '.json') {
           parsePointFile(filename.substring(0, filename.length-5), grunt);
         }

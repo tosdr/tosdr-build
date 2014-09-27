@@ -64,32 +64,37 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            src: 'import/points/*',
-            dest: '<%= conf.dist %>/points/'
+						cwd: '<%= conf.src %>',
+            src: 'points/*',
+            dest: '<%= conf.dist %>'
           },
           {
             expand: true,
-            src: 'import/topics/*',
-            dest: '<%= conf.dist %>/topics/'
+						cwd: '<%= conf.src %>',
+            src: 'topics/*',
+            dest: '<%= conf.dist %>'
           },
           {
             expand: true,
-            src: 'import/services/*',
-            dest: '<%= conf.dist %>/services/'
+						cwd: '<%= conf.src %>',
+            src: 'services/*',
+            dest: '<%= conf.dist %>'
           },
           {
             expand: true,
-            src: 'import/cases/*',
-            dest: '<%= conf.dist %>/cases/'
+						cwd: '<%= conf.src %>',
+            src: 'cases/*',
+            dest: '<%= conf.dist %>'
           },
           {
             expand: true,
-            src: 'import/posts/*',
-            dest: '<%= conf.dist %>/posts/'
+						cwd: '<%= conf.src %>',
+            src: 'posts/*',
+            dest: '<%= conf.dist %>'
           },
           {
             expand: true,
-            src: 'import/index/*',
+            src: 'index/*',
             dest: '<%= conf.dist %>/index/'
           }
         ]

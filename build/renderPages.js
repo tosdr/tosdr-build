@@ -7,7 +7,7 @@ var elements = {};
 var prettyjson = require('../scripts/prettyjson');
 
 function renderDataPoint(grunt, service, dataPoint, forPopup) {
-  var obj = grunt.file.readJSON('points/' + dataPoint + '.json');
+  var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/' + dataPoint + '.json');
   var badge, icon, sign, score;
   if(!obj.tosdr) {
     obj.tosdr = {};
@@ -55,7 +55,7 @@ function renderDataPoint(grunt, service, dataPoint, forPopup) {
 function getServiceObject(grunt, name) {
   //each service (website) has its own generic description data, that is stored in the services/ directory
   //of this repo. this function loads in such a file:
-  var obj = grunt.file.readJSON('services/' + name + '.json');
+  var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/' + name + '.json');
   if (obj) {
     return obj;
   } else {
