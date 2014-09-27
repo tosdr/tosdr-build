@@ -122,8 +122,15 @@ module.exports = function (grunt) {
 					{
 						expand: true,
 						cwd: '<%= conf.src %>',
-						src: ['bootstrap/{,*/}*',
+						src: ['bootstrap/**/*',
 								  '!bootstrap/docs'],
+            dest: '<%= conf.dist %>'
+					},
+					{
+						expand: true,
+						cwd: '<%= conf.src %>',
+						src: ['bootstrap-3.1.1/**/*',
+								  '!bootstrap-3.1.1/docs'],
             dest: '<%= conf.dist %>'
 					},
 					{
