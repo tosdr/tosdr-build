@@ -1,3 +1,5 @@
+'use strict';
+
 // this nodejs script reads all the data points from the points/ directory,
 // collects some data about which services and topics are mentioned in all
 // those data points, and writes that information out to two files in the
@@ -7,10 +9,10 @@ var prettyjson = require('../scripts/prettyjson');
 var service = {}, topic = {};
 function writeOut(grunt) {
   //console.log(service);
-  grunt.file.write('index/services.json', prettyjson(service));
+  grunt.file.write(grunt.config.get('conf').dist + '/index/services.json', prettyjson(service));
   grunt.log.writeln('wrote index/services.json');
   //console.log(topic);
-  grunt.file.write('index/topics.json', prettyjson(topic));
+  grunt.file.write(grunt.config.get('conf').dist + '/index/topics.json', prettyjson(topic));
   grunt.log.writeln('wrote index/topics.json');
 }
 function addToServices(services, point) {
@@ -53,9 +55,12 @@ function parsePointFile(id, grunt) {
   //repo to get a better feeling for what this function does
 
   var obj = grunt.file.readJSON('points/'+id+'.json');
-  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined'
-                  || typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined'
-                  || typeof(obj.tosdr.tldr)=='undefined' ) {
+  if(obj.tosdr.disputed || 
+		 obj.tosdr.irrelevant ||
+		 !obj.tosdr.binding ||
+		 typeof(obj.tosdr)=='undefined' ||
+		 typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined' ||
+		 typeof(obj.tosdr.tldr)=='undefined' ) {
     return;
   }
   addToServices(obj.services, id);

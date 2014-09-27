@@ -1,3 +1,5 @@
+'use strict';
+
 var prettyjson = require('../scripts/prettyjson');
 
 module.exports = function(grunt){
@@ -12,8 +14,7 @@ module.exports = function(grunt){
 };
 
 function doFile(filepath, filename, grunt) {
-  var obj = grunt.file.readJSON(filepath),
-      changed = false;
+  var obj = grunt.file.readJSON(filepath);
   
   
   if(typeof(obj.id) != 'string') {
@@ -23,25 +24,20 @@ function doFile(filepath, filename, grunt) {
     grunt.log.error('title wrong (' + filename + ')');
     if(!obj.title) {
       obj.title = (obj.name || '');
-      changed = true;
     }
   }
   if(typeof(obj.subtitle) != 'string') {
     grunt.log.error('subtitle wrong (' + filename + ')');
     if(!obj.subtitle) {
       obj.subtitle = '';
-      changed = true;
     }
   }
   if(obj.type != 'topic' && obj.type != 'category') {
     grunt.log.error('type wrong (' + filename + ')');
     if(!obj.type) {
       obj.type = 'topic';
-      changed = true;
     }
   }
-  if(changed) {
-    grunt.file.write('topics/'+filename, prettyjson(obj));
-    console.log('fixed '+fileName);
-  }
+	grunt.file.write(grunt.config.get('conf').dist + '/topics/'+filename, prettyjson(obj));
+	console.log('fixed '+filename);
 }
