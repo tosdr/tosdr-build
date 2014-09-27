@@ -108,6 +108,12 @@ module.exports = function (grunt) {
 				files: [
 					{
 						expand: true,
+						cwd: '<%= conf.src %>/img',
+						src: '*.gif', // TODO: Minify gifs as well
+            dest: '<%= conf.dist %>/img'
+					},
+					{
+						expand: true,
 						cwd: '<%= conf.src %>',
 						src: 'js/*',
             dest: '<%= conf.dist %>'
