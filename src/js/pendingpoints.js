@@ -2,7 +2,7 @@
 
 var pendingpointsListUrl = 'https://3pp.io:4343/get/pendingpoints';
 var assertionUrl = 'https://3pp.io:4343/persona';
-var postCommentUrl = 'https://3pp.io:4343/post/comment';
+var postCommentUrl = 'https://3pp.io:4343/post/point';
 
 $(document).ready(function(){
     var loggedInUser = null;
@@ -41,7 +41,7 @@ $(document).ready(function(){
 	function showCommentForms(email){
         $('#pendingpoints .comments').each(function(){
             var pointId = $(this).attr('id').substr(9);
-            $(this).find('.leaveComment').html('<p>Commenting as ' + email + ' <a href="" class="signoutButton">(Not your email address?)</a></p><form class="commentForm"><fieldset><div class="control-group"><textarea name="comment" required class="input-xxlarge"></textarea></div><div class="control-group"><button class="btn btn-primary" id="postComment">Send</button></div></fieldset></form>')
+            $(this).find('.leaveComment').html('<form class="commentForm"><fieldset><label for="comment">Comment</label><textarea name="comment" required class="input-xxlarge"></textarea><div class="form-actions"><button class="btn btn-primary" id="postComment">Send</button><span class="help-user">Commenting as ' + email + ' <a href="" class="signoutButton">(Not your email address? Log out!)</a></span></div></fieldset></form>')
             .find('.commentForm').submit(function(e){
                 var response = $.ajax(postCommentUrl, {data: {comment: $('#comments-' + pointId + ' .leaveComment textarea').val(), pointId: pointId}, type: 'POST', xhrFields: {withCredentials: true}});
                 response.done(showConfirmation);
@@ -98,7 +98,10 @@ $(document).ready(function(){
 
                 $.each(point.comments, function(index, comment){
                     $('#pendingpoints .comments-' + point.id + ' .leaveComment').before('<p id="currentAddition" class="comment"></p>');
-                    $('#currentAddition').text(comment.content).prepend('<img src="https://secure.gravatar.com/avatar/' + comment.author.replace(/[^a-f0-9]/gi, '') + '?d=retro&r=g" class="avatar" style="margin: 1em;" />').removeAttr('id');
+                    var commentContent = $('#currentAddition').text(comment.content);
+                    if (commentContent) {
+                      commentContent.prepend('<img src="https://secure.gravatar.com/avatar/' + comment.author.replace(/[^a-f0-9]/gi, '') + '?d=retro&r=g" class="avatar" />').removeAttr('id');
+                    }
                 });
             });
             showPersona();
