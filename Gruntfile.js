@@ -95,7 +95,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             src: 'index/*',
-            dest: '<%= conf.dist %>/index/'
+            dest: '<%= conf.dist %>'
           }
         ]
       },
