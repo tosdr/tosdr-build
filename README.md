@@ -17,7 +17,7 @@ The data specification is available [on the wiki][wiki].
 
 Build
 =====
-Unfortunately, the source files are currently mixed in with the build files. These build files use the source files to generate the contents of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), which are placed in the dist/ folder. If you want to make changes, you can do so as follows:
+Unfortunately, the source files are currently partly mixed in with the build files, and partly located in the src/ directory (the long-term goal is to move all non-build files there). These build files use the source files to generate the contents of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), which are placed in the dist/ folder. If you want to make changes, you can do so as follows:
 
 1. Make sure that repository is checked out and up-to-date in the dist/ folder.
 2. Run `npm install` in the root of this repository to make sure you have the required packages.
