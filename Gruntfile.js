@@ -94,6 +94,11 @@ module.exports = function (grunt) {
           },
           {
             expand: true,
+            src: 'comments/*',
+            dest: '<%= conf.dist %>'
+          },
+          {
+            expand: true,
             src: 'index/*',
             dest: '<%= conf.dist %>'
           }
