@@ -7,7 +7,7 @@ Overview
 We welcome other people to copy this project for other specific purposes (like a ToS;DR specific for API terms) or for country-specific (translation and national law issues). Just:
 
  1. open a public mailing list for people to contribute and start translating,
- 2. fork the code from www.github.com/tosdr/tosdr.org and translate, or adapt, etc.
+ 2. fork the code from https://github.com/tosdr/tosdr-build and translate, or adapt, etc.
  3. change the name and the logo, and have a look at the license (AGPL for HTML/JS/CSS and CC BY SA for JSON) 
 
 The data specification is available [on the wiki][wiki].
@@ -17,17 +17,15 @@ The data specification is available [on the wiki][wiki].
 
 Build
 =====
+Unfortunately, the source files are currently mixed in with the build files. These build files use the source files to generate the contents of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), which are placed in the dist/ folder. If you want to make changes, you can do so as follows:
 
-    git pull; git status
-    git diff #see what changes you are about to build
-    git commit -am"some changes i made" #make sure you `git add` and new files you added
-    npm install
-    grunt
-    python -m SimpleHTTPServer
-    #browse to http://localhost:8000/ and http://localhost:8000/topics.html to see if everything looks ok
-    git commit -am"build"
-    git push
-    git push 5apps master #this will update the live site! Be careful. Ask Hugo or Michiel if you don't have permission
+1. Make sure that repository is checked out and up-to-date in the dist/ folder.
+2. Run `npm install` in the root of this repository to make sure you have the required packages.
+3. Make the changes you wish to make to the source files in this repository.
+4. Run `grunt` in the root of this repository.
+5. Check whether the output in the dist/ directory is looking as intended.
+6. Commit and push both repositories.
+7. To publish the new version of the website, assuming you have 5apps set up as a remote in the dist/ folder, run `git push 5apps master`. But be careful: this updates the live site! Ask Hugo or Michiel if you don't have permission
 
 Import
 ======
