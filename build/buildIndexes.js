@@ -11,14 +11,14 @@ function writeOut(grunt) {
   grunt.file.write('index/services.json', prettyjson(service));
   grunt.log.writeln('wrote index/services.json');
 
-  grunt.file.write('js/servicesArr.js', 'var services = '+prettyjson(Object.keys(service))+';\n');
-  grunt.log.writeln('wrote js/servicesArr.js');
+  grunt.file.write(grunt.config.get('conf').dist + '/js/servicesArr.js', 'var services = '+prettyjson(Object.keys(service))+';\n');
+  grunt.log.writeln('wrote ' + grunt.config.get('conf').dist + '/js/servicesArr.js');
 
   grunt.file.write('index/topics.json', prettyjson(topic));
   grunt.log.writeln('wrote index/topics.json');
 
-  grunt.file.write('js/topicsArr.js', 'var topics = '+prettyjson(Object.keys(topic))+';\n');
-  grunt.log.writeln('wrote js/topicsArr.js');
+  grunt.file.write(grunt.config.get('conf').dist + '/js/topicsArr.js', 'var topics = '+prettyjson(Object.keys(topic))+';\n');
+  grunt.log.writeln('wrote ' + grunt.config.get('conf').dist + '/js/topicsArr.js');
 }
 function addToServices(services, point) {
   //console.log('adding point "'+point+'" to services:');
