@@ -173,7 +173,7 @@ function getTweetLink(obj, name) {
     text = ' Your Class '+obj.tosdr.rated+' rating https://tosdr.org/#'+name+' worries me, can you comment? #ToS via @ToSDR';
     action = 'Discuss with ';
   }
-  return ' <a class="tweet" href="https://twitter.com/intent/tweet/?text=Hello,+'+encodeURIComponent(obj.twitter+text)
+  return ' <a class="tweet" href="https://twitter.com/intent/tweet/?text='+encodeURIComponent(obj.twitter+text)
       +'">'+action+obj.twitter+'</a>';
 }
 
