@@ -17,9 +17,9 @@ The data specification is available [on the wiki][wiki].
 
 Build
 =====
-Unfortunately, the source files are currently partly mixed in with the build files, and partly located in the src/ directory (the long-term goal is to move all non-build files there). These build files use the source files to generate the contents of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), which are placed in the dist/ folder. If you want to make changes, you can do so as follows:
+Most of the website's source files are located in the src/ directory (although unfortunately some of it is still intermingled with the build files). These source files are used to generate the contents of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), which are placed in the dist/ folder. If you want to make changes, you can do so as follows:
 
-1. Make sure that repository is checked out and up-to-date in the dist/ folder.
+1. Make sure that repository is checked out and up-to-date in the dist/ folder (i.e. by running `git submodule add https://github.com/tosdr/tosdr.org.git dist`).
 2. Run `npm install` in the root of this repository to make sure you have the required packages.
 3. Make the changes you wish to make to the source files in this repository.
 4. Run `grunt` in the root of this repository.
