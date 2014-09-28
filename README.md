@@ -19,7 +19,7 @@ Build
 =====
 Most of the website's source files are located in the src/ directory (although unfortunately some of it is still intermingled with the build files). These source files are used to generate the contents of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), which are placed in the dist/ folder. If you want to make changes, you can do so as follows:
 
-1. Make sure that repository is checked out and up-to-date in the dist/ folder (i.e. by running `git submodule add https://github.com/tosdr/tosdr.org.git dist`).
+1. Make sure that repository is checked out and up-to-date as a [submodule](http://www.git-scm.com/book/en/Git-Tools-Submodules) in the dist/ folder (i.e. by running `git submodule add https://github.com/tosdr/tosdr.org.git dist`).
 2. Run `npm install` in the root of this repository to make sure you have the required packages.
 3. Make the changes you wish to make to the source files in this repository.
 4. Run `grunt` in the root of this repository.
