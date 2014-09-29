@@ -154,11 +154,11 @@ function getTweetLink(obj, name) {
     return '';
   }
   if (obj.tosdr.rated === 'A') {
-    text = ' Congratulations on your A rating on https://tosdr.org/#'+name+' - thanks for caring!';
+    text = ' Congratulations on your Class A rating https://tosdr.org/#'+name+' thanks for caring! #ToS via @ToSDR';
     action = 'Congratulate ';
   } else {
-    text = ' Your class '+obj.tosdr.rated+' rating at https://tosdr.org/#'+name+' worries me, can you comment?';
-    action = 'Discuss with ';
+    text = ' Your Class '+obj.tosdr.rated+' rating worries me https://tosdr.org/#'+name+' can you comment? #ToS via @ToSDR';
+    action = 'Tweet to ';
   }
   return ' <a class="tweet" href="https://twitter.com/intent/tweet/?text='+encodeURIComponent(obj.twitter+text) +
 		'">'+action+obj.twitter+'</a>';
