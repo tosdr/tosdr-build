@@ -15,6 +15,11 @@ The data specification is available [on the wiki][wiki].
 [wiki]: https://github.com/tosdr/tosdr.org/wiki
 
 
+Clone this repository
+=====================
+
+There are git submodules in this repository. To automatically have them all, clone this repository with the `git clone --recursive` option.
+
 Build
 =====
 Most of the website's source files are located in the src/ directory (although unfortunately some of it is still intermingled with the build files). 
