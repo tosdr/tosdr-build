@@ -2,7 +2,7 @@
   "alexa": 1,
   "freesoftware": false,
   "fulltos": {},
-  "id": "facebook",
+  "meta": {"spec-version": "1.1"}, "id": "facebook",
   "keywords": [
     "social network"
   ],

@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "fightforthefuture.org",
+  "meta": {"spec-version": "1.1"}, "id": "fightforthefuture.org",
   "name": "fightforthefuture.org",
   "tosdr": {
     "keywords": [],

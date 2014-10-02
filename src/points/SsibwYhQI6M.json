@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/SsibwYhQI6M/discussion",
   "id": "SsibwYhQI6M",
-  "meta": {
+  "meta": {"spec-version": "1.1",
     "author": "Ian McGowan",
     "contributors": [
       "Jil Larner <jil.larner@fsfe.org>"

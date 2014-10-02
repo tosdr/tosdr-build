@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/3tUTqt6hjNY/discussion",
   "id": "3tUTqt6hjNY",
-  "meta": {
+  "meta": {"spec-version": "1.1",
     "author": "Ian McGowan",
     "contributors": [
       "Robin Monks <devlinks@gmail.com>"

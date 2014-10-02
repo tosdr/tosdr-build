@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "allrecipe",
+  "meta": {"spec-version": "1.1"}, "id": "allrecipe",
   "name": "allrecipe",
   "tosdr": {
     "keywords": [],
