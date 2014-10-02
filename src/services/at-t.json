@@ -13,7 +13,7 @@
       "url": "http://www.att.com/gen/general?pid=11561"
     }
   },
-  "id": "at-t",
+  "meta": {"spec-version": "1.1"}, "id": "at-t",
   "last-diff": "",
   "name": "AT&T",
   "related": {},

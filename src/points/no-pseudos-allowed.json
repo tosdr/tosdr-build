@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/J6F7dG8dqSo/discussion",
   "id": "no-pseudos-allowed",
-  "meta": {
+  "meta": {"spec-version": "1.1",
     "author": "ToS;DR by Unhosted: Hugo",
     "contributors": [
       "Hugo Roy <hugo@unhosted.org>"

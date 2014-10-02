@@ -3,7 +3,7 @@
   "federated": true,
   "freesoftware": false,
   "fulltos": {},
-  "id": "status-net",
+  "meta": {"spec-version": "1.1"}, "id": "status-net",
   "license": "agpl-3+",
   "name": "Status.net instances",
   "related": [

@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/zWoT_ZWAEM8/discussion",
   "id": "at-their-discretion-with-notice",
-  "meta": {
+  "meta": {"spec-version": "1.1",
     "author": "Hugo for “Terms of Service; Didn't Read”",
     "contributors": [
       "Hugo Roy <hugo@tosdr.org>"
