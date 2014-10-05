@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "quake",
+  "meta": {"spec-version": "1.1"}, "id": "quake",
   "name": "quake",
   "tosdr": {
     "keywords": [],

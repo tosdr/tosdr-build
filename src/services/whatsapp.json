@@ -2,7 +2,7 @@
   "alexa": 5167,
   "freesoftware": false,
   "fulltos": {},
-  "id": "whatsapp",
+  "meta": {"spec-version": "1.1"}, "id": "whatsapp",
   "name": "WhatsApp",
   "tosdr": {
     "keywords": [],

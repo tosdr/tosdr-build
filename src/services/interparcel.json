@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "interparcel",
+  "meta": {"spec-version": "1.1"}, "id": "interparcel",
   "name": "interparcel",
   "tosdr": {
     "keywords": [],

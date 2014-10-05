@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/sK89ltXERXs/discussion",
   "id": "sK89ltXERXs",
-  "meta": {
+  "meta": {"spec-version": "1.1",
     "author": "Ian McGowan",
     "contributors": [
       "Jil Larner <jil.larner@fsfe.org>"

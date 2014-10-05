@@ -7,7 +7,7 @@
       "url": ""
     }
   },
-  "id": "wordpress-com",
+  "meta": {"spec-version": "1.1"}, "id": "wordpress-com",
   "last-diff": "",
   "name": "Wordpress.com",
   "related": {},

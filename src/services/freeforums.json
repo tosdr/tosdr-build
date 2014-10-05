@@ -9,7 +9,7 @@
       "url": "http://www.crowdgather.com/legal"
     }
   },
-  "id": "freeforums",
+  "meta": {"spec-version": "1.1"}, "id": "freeforums",
   "name": "Freeforums",
   "related": [
     "phpbb"

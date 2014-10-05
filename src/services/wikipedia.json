@@ -9,7 +9,7 @@
       "url": "https://wikimediafoundation.org/wiki/Terms_of_use"
     }
   },
-  "id": "wikipedia",
+  "meta": {"spec-version": "1.1"}, "id": "wikipedia",
   "name": "Wikipedia",
   "tosback2": {
     "privacy": {

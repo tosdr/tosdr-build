@@ -3,7 +3,7 @@
   "dataexport": true,
   "freesoftware": false,
   "fulltos": {},
-  "id": "soundcloud",
+  "meta": {"spec-version": "1.1"}, "id": "soundcloud",
   "name": "SoundCloud",
   "related": [
     "spotify"

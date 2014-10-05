@@ -10,7 +10,7 @@
       "url": "https://identi.ca/doc/tos"
     }
   },
-  "id": "identi-ca",
+  "meta": {"spec-version": "1.1"}, "id": "identi-ca",
   "name": "identi.ca",
   "parent": "status-net",
   "tosdr": {

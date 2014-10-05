@@ -1,7 +1,7 @@
 This is the source code for www.tosdr.org. You should
 find more information about the project itself on the website.
 
-Overview
+<!--Overview
 ========
 
 We welcome other people to copy this project for other specific purposes (like a ToS;DR specific for API terms) or for country-specific (translation and national law issues). Just:
@@ -10,23 +10,39 @@ We welcome other people to copy this project for other specific purposes (like a
  2. fork the code from https://github.com/tosdr/tosdr-build and translate, or adapt, etc.
  3. change the name and the logo, and have a look at the license (AGPL for HTML/JS/CSS and CC BY SA for JSON) 
 
+-->
+
 The data specification is available [on the wiki][wiki].
 
 [wiki]: https://github.com/tosdr/tosdr.org/wiki
 
 
+Clone this repository
+=====================
+
+There are git submodules in this repository. To automatically have them all, clone this repository with the `git clone --recursive` option.
+
 Build
 =====
-Most of the website's source files are located in the src/ directory (although unfortunately some of it is still intermingled with the build files). These source files are used to generate the contents of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), which are placed in the dist/ folder. If you want to make changes, you can do so as follows:
+Most of the website's source files are located in the `src/` directory (although unfortunately some of it is still intermingled with the build files). 
 
-1. Make sure that repository is checked out and up-to-date as a [submodule](http://www.git-scm.com/book/en/Git-Tools-Submodules) in the dist/ folder (i.e. by running `git submodule add https://github.com/tosdr/tosdr.org.git dist`).
+To build:
+
+1. Make sure you have the git [submodule](http://www.git-scm.com/book/en/Git-Tools-Submodules) in the `dist/` folder and that it is up-to-date (i.e. by running `git submodule add https://github.com/tosdr/tosdr.org.git dist` and `cd dist && git pull`).
+
+    The source files are used to generate the content of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), generated in the `dist/` folder. 
+
 2. Run `npm install` in the root of this repository to make sure you have the required packages.
 3. Make the changes you wish to make to the source files in this repository.
 4. Run `grunt` in the root of this repository.
 5. Check whether the output in the dist/ directory is looking as intended.
 6. Commit and push both repositories.
-7. To publish the new version of the website, assuming you have 5apps set up as a remote in the dist/ folder, run `git push 5apps master`. But be careful: this updates the live site! Ask Hugo or Michiel if you don't have permission
+7. To publish the new version of the website, assuming you have 5apps set up as a remote in the `dist/` folder, run `git push 5apps master`. But be careful: this updates the live site! Ask [@hugoroy] or [@michielbdejong] if you don't have permission
 
+[@hugoroy]: https://github.com/hugoroy
+[@michielbdejong]: https://github.com/michielbdejong
+
+<!-- This should have its own README
 Import
 ======
 To import new and/or updated threads from the Google Group:
@@ -45,6 +61,7 @@ These scripts are what I (Michiel) currently use for curating points after impor
 * `node scripts/curator.js` - will run a curating webinterface on http://localhost:21337/ that lets you change the (local) files on disk
 * `node scripts/checkcases.js` - an interactive command-line tool that helps you assign cases to points that don't have one yet
 * `node scripts/checkclasses.js` - outputs recommendations for adding/updating the class of services, based on their data points
+-->
 
 
 Develop other applications
