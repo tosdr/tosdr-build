@@ -51,11 +51,11 @@ module.exports = function (grunt) {
     less : {
       all: {
         options: {
-          paths: 'css/',
+          paths: 'style/',
           compress: true
         },
         files: {
-          '<%= conf.dist %>/css/custom.css': 'css/custom.less'
+          '<%= conf.dist %>/css/custom.css': '<%= conf.src %>/style/custom.less'
         }
       }
     },
@@ -119,11 +119,17 @@ module.exports = function (grunt) {
                              'bootstrap/**/*',
                               '!bootstrap/docs',
                               '1901/*',
-                              'css/*',
                               'js/*',
                               'img/*.gif'
                              ],
                         dest: '<%= conf.dist %>'
+					},
+					{
+						expand: true,
+						cwd: '<%= conf.src %>/style',
+						src: ['*.css',
+                              '*.woff',],
+                        dest: '<%= conf.dist %>/css'
 					},
 					{
 						expand: true,
