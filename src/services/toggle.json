@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "toggle",
+  "meta": {"spec-version": "1.1"}, "id": "toggle",
   "name": "toggle",
   "tosdr": {
     "keywords": [],

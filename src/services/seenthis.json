@@ -2,7 +2,7 @@
   "alexa": 129098,
   "freesoftware": false,
   "fulltos": {},
-  "id": "seenthis",
+  "meta": {"spec-version": "1.1"}, "id": "seenthis",
   "name": "SeenThis",
   "related": [
     "twitter",

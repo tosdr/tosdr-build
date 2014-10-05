@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "indeed.com",
+  "meta": {"spec-version": "1.1"}, "id": "indeed.com",
   "name": "indeed.com",
   "tosdr": {
     "keywords": [],

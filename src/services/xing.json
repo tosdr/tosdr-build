@@ -2,7 +2,7 @@
   "alexa": 254,
   "freesoftware": false,
   "fulltos": {},
-  "id": "xing",
+  "meta": {"spec-version": "1.1"}, "id": "xing",
   "keywords": [
     "professional",
     "jobs"

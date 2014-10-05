@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "envato",
+  "meta": {"spec-version": "1.1"}, "id": "envato",
   "name": "envato",
   "tosdr": {
     "keywords": [],

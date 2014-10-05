@@ -2,7 +2,7 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "grammarly",
+  "meta": {"spec-version": "1.1"}, "id": "grammarly",
   "name": "Grammarly",
   "tosback2": {
     "privacy": {

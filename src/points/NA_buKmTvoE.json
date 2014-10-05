@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/NA_buKmTvoE/discussion",
   "id": "NA_buKmTvoE",
-  "meta": {
+  "meta": {"spec-version": "1.1",
     "author": "ToS;DR",
     "contributors": [
       "Hugo Roy <hugo@unhosted.org>"

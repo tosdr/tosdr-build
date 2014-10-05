@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/Kj5tyqxJkz4/discussion",
   "id": "Kj5tyqxJkz4",
-  "meta": {
+  "meta": {"spec-version": "1.1",
     "author": "Hugo Roy for ToS;DR",
     "contributors": [
       "Lars Clausen &lt;lars@raeder.dk&gt;",

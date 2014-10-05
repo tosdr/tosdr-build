@@ -9,7 +9,7 @@
       "url": "http://www.vbulletin.com/terms"
     }
   },
-  "id": "vbulletin",
+  "meta": {"spec-version": "1.1"}, "id": "vbulletin",
   "name": "vBulletin",
   "related": [
     "phpbb"
