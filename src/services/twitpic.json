@@ -2,7 +2,10 @@
   "alexa": 453,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "twitpic",
+  "id": "twitpic",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Twitpic",
   "related": [
     "identi-ca",

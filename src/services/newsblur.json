@@ -6,7 +6,10 @@
       "url": "https://groups.google.com/forum/#!topic/tosdr/DRj4SuDbnP8"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "newsblur",
+  "id": "newsblur",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Newsblur",
   "tosdr": {
     "keywords": [],

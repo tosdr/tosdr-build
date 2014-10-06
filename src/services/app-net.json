@@ -2,11 +2,14 @@
   "alexa": 13949,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "app-net",
+  "id": "app-net",
   "keywords": [
     "tweet",
     "microblog"
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "App.net",
   "related": [
     "twitter",

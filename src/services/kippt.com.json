@@ -2,7 +2,10 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "kippt.com",
+  "id": "kippt.com",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "kippt.com",
   "tosdr": {
     "keywords": [],

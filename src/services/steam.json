@@ -2,7 +2,10 @@
   "alexa": 80348,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "steam",
+  "id": "steam",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Steam",
   "tosback2": {
     "privacy": {

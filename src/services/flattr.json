@@ -9,7 +9,10 @@
       "url": "https://flattr.com/terms"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "flattr",
+  "id": "flattr",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Flattr",
   "related": [
     "paypal"

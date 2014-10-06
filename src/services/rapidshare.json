@@ -2,7 +2,10 @@
   "alexa": 199,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "rapidshare",
+  "id": "rapidshare",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Rapidshare",
   "tosdr": {
     "keywords": [],

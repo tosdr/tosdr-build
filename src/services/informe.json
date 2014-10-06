@@ -2,7 +2,10 @@
   "alexa": 6089,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "informe",
+  "id": "informe",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Informe",
   "tosdr": {
     "keywords": [],

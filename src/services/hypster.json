@@ -9,7 +9,10 @@
       "url": "http://hypster.com/hypster/TermsofService"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "hypster",
+  "id": "hypster",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Hypster",
   "tosdr": {
     "keywords": [],

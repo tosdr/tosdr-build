@@ -2,11 +2,14 @@
   "alexa": 2095,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "duckduckgo",
+  "id": "duckduckgo",
   "keywords": [
     "search",
     "search engine"
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "DuckDuckGo",
   "related": [
     "google"

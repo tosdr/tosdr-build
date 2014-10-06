@@ -19,8 +19,11 @@
       "url": "https://foursquare.com/legal/terms"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "foursquare",
+  "id": "foursquare",
   "last-diff": "",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Foursquare",
   "related": {},
   "tosback": "",

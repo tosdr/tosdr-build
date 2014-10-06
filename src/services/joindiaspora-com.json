@@ -8,8 +8,11 @@
       "url": ""
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "joindiaspora-com",
+  "id": "joindiaspora-com",
   "last-diff": "",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "JoinDiaspora.com",
   "parent": "diaspora",
   "tosdr": {

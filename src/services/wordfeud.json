@@ -2,7 +2,10 @@
   "alexa": 545775,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "wordfeud",
+  "id": "wordfeud",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Wordfeud",
   "tosdr": {
     "keywords": [],

@@ -2,7 +2,10 @@
   "alexa": 21179,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "videobb",
+  "id": "videobb",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "videoBB",
   "tosdr": {
     "keywords": [],

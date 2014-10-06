@@ -2,8 +2,11 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "facebook-connect",
+  "id": "facebook-connect",
   "license": "(proprietary)",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Facebook Connect",
   "parent": "facebook",
   "related": [

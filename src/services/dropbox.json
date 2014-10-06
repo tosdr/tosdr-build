@@ -16,8 +16,11 @@
       "url": "https://www.dropbox.com/terms"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "dropbox",
+  "id": "dropbox",
   "last-diff": "",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Dropbox",
   "related": [
     "spideroak"
