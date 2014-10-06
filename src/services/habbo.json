@@ -9,7 +9,10 @@
       "url": "https://help.habbo.com/entries/23027093-Terms-of-Service"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "habbo",
+  "id": "habbo",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Habbo",
   "tosdr": {
     "keywords": [],

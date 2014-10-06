@@ -6,7 +6,10 @@
       "url": "www.bearshare.com/eula.shtml"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "bearshare",
+  "id": "bearshare",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "BearShare",
   "tosdr": {
     "keywords": [],

@@ -9,7 +9,10 @@
       "url": "http://www.ebuddy.com/terms.html"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "ebuddy",
+  "id": "ebuddy",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "eBuddy",
   "tosdr": {
     "keywords": [],

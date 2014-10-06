@@ -2,7 +2,10 @@
   "alexa": 1000000,
   "freesoftware": true,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "mykolab-com",
+  "id": "mykolab-com",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "MyKolab.com",
   "tosdr": {
     "keywords": [

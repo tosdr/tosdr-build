@@ -2,11 +2,14 @@
   "alexa": 3,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "youtube",
+  "id": "youtube",
   "keywords": [
     "video",
     "videos"
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "YouTube",
   "parent": [
     "google"

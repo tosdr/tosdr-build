@@ -2,7 +2,10 @@
   "alexa": 652362,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "owncube",
+  "id": "owncube",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "OwnCube",
   "tosback2": {
     "privacy": {

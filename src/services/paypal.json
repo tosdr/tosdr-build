@@ -8,8 +8,11 @@
       "url": ""
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "paypal",
+  "id": "paypal",
   "last-diff": "",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "PayPal",
   "related": [],
   "tosdr": {

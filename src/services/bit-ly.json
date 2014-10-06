@@ -6,7 +6,10 @@
       "url": "https://bitly.com/pages/terms-of-service"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "bit-ly",
+  "id": "bit-ly",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "bitly",
   "tosdr": {
     "keywords": [],

@@ -2,7 +2,10 @@
   "alexa": 2369,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "nabble",
+  "id": "nabble",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Nabble",
   "tosdr": {
     "keywords": [],

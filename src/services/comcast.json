@@ -14,8 +14,11 @@
       "url": "http://www.comcast.com/corporate/legal/visitorAgreement.html"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "comcast",
+  "id": "comcast",
   "last-diff": "",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Comcast",
   "related": {},
   "tosdr": {

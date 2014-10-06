@@ -2,7 +2,10 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "etsy",
+  "id": "etsy",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "etsy",
   "tosdr": {
     "keywords": [],

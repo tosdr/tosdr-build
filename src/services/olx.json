@@ -2,7 +2,10 @@
   "alexa": 2660,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "olx",
+  "id": "olx",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "OLX",
   "tosdr": {
     "keywords": [],

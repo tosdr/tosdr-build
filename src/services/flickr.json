@@ -2,11 +2,14 @@
   "alexa": 56,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "flickr",
+  "id": "flickr",
   "keywords": [
     "photos",
     "pictures"
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Flickr",
   "parent": [
     "yahoo"

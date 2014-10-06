@@ -14,8 +14,11 @@
       "url": ""
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "spideroak",
+  "id": "spideroak",
   "last-diff": "",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Spideroak",
   "related": [
     "dropbox"

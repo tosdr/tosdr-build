@@ -6,7 +6,10 @@
       "url": "https://www.couchsurfing.org/terms.html?locale=en_US"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "couchsurfing",
+  "id": "couchsurfing",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "couchsurfing",
   "tosdr": {
     "keywords": [],

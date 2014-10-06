@@ -2,7 +2,10 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "reputation.com",
+  "id": "reputation.com",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "reputation.com",
   "tosdr": {
     "keywords": [],

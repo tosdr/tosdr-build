@@ -6,7 +6,10 @@
       "url": "https://ifttt.com/terms"
     }
   },
-  "meta": {"spec-version": "1.1"}, "id": "ifttt",
+  "id": "ifttt",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "IFTTT",
   "tosdr": {
     "keywords": [],

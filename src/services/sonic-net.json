@@ -3,7 +3,10 @@
   "class": "",
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "sonic-net",
+  "id": "sonic-net",
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Sonic.net",
   "tosdr": {
     "keywords": [],

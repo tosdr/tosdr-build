@@ -2,11 +2,14 @@
   "alexa": 4,
   "freesoftware": false,
   "fulltos": {},
-  "meta": {"spec-version": "1.1"}, "id": "yahoo",
+  "id": "yahoo",
   "keywords": [
     "search",
     "groups"
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
   "name": "Yahoo!",
   "related": [
     "google"
