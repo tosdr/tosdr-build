@@ -71,3 +71,10 @@ API: http://www.tosdr.org/api.html
 
 Also have a look at other apps, like the browser extensions: https://github.com/tosdr
 
+
+License
+======
+
+AGPL-3.0+ (GNU Affero General Public License, version 3 or later)
+
+See <https://tosdr.org/legal.html> for more details on the legal aspects of the project.
