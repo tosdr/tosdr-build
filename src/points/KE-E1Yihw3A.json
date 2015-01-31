@@ -6,7 +6,7 @@
     "spec-version": "1.1"
   },
   "services": [
-    "mykolab-com"
+    "kolabnow", "mykolab-com"
   ],
   "title": "Disclosure",
   "topics": [
