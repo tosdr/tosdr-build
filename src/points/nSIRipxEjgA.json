@@ -6,7 +6,7 @@
     "spec-version": "1.1"
   },
   "services": [
-    "mykolab-com"
+    "kolabnow", "mykolab-com"
   ],
   "source": {
     "tos": "https://mykolab.com/tos"
