@@ -29,7 +29,7 @@ module.exports = {
      { name: 'limited for purpose of same service', point: 'good', score: 80 },
      { name: 'limited for purpose across broad platform', point: 'good', score: 40 },
      { name: 'you have control over licensing options', point: 'good', score: 100 },
-     { name: 'they will help you react to other infringing your copyright', point: 'good', score: 50 },
+     { name: 'they will help you react to others infringing on your copyright', point: 'good', score: 50 },
      { name: 'broad license including right to distribute through any media', point: 'bad', score: 100 },
   ],
   'data-export': [

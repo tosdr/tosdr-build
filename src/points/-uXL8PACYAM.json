@@ -4,13 +4,13 @@
   "services": [
     "disqus"
   ],
-  "title": "Disqus DMCA [good] ? [Fwd] [tosdr:1059] Re: Terms may be changed any time at their discretion, without notice to the user",
+  "title": "Disqus will help you react to others infringing on your copyright",
   "topics": [
     "copyright-scope"
   ],
   "tosdr": {
     "binding": true,
-    "case": "they will help you react to other infringing your copyright",
+    "case": "they will help you react to others infringing on your copyright",
     "point": "good",
     "score": 50
   }
