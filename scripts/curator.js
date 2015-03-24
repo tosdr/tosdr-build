@@ -7,14 +7,14 @@ var fs = require('fs'),
 
 function addFile(filename) {
   try {
-    points[filename] = JSON.parse(fs.readFileSync('points/' + filename));
+    points[filename] = JSON.parse(fs.readFileSync('src/points/' + filename));
   } catch(e) {
     console.log(e, filename);
   }
 }
 
 function savePoint(filename) {
-  fs.writeFileSync('points/' + filename, prettyjson(points[filename]));
+  fs.writeFileSync('src/points/' + filename, prettyjson(points[filename]));
 }
 
 function displayPoint(res, filename, reason, data) {
@@ -59,7 +59,7 @@ function displayForm(res, filename) {
 
 function displayPoints(res) {
   loadPoints();
-  res.write(fs.readFileSync('curator-prefix.html'));
+  res.write(fs.readFileSync('src/curator-prefix.html'));
   for(var i in points) {
     if (!points[i].topic && points[i].tosdr && points[i].tosdr.topic) {
       points[i].topic = points[i].tosdr.topic;
@@ -79,7 +79,7 @@ function displayPoints(res) {
       displayPoint(res, i, 'no topics', points[i]);
     }
   }
-  res.write(fs.readFileSync('curator-postfix.html'));
+  res.write(fs.readFileSync('src/curator-postfix.html'));
   //console.log(points);
 }
 function processPost(req) {
@@ -122,7 +122,7 @@ function processPost(req) {
 }
 function loadPoints() {
   points={};
-  files = fs.readdirSync('points/');
+  files = fs.readdirSync('src/points/');
   for(var i=0; i<files.length; i++) {
     if(files[i]!='README.md') {
       addFile(files[i]);
