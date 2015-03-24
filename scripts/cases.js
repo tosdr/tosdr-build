@@ -29,6 +29,7 @@ module.exports = {
      { name: 'limited for purpose of same service', point: 'good', score: 80 },
      { name: 'limited for purpose across broad platform', point: 'good', score: 40 },
      { name: 'you have control over licensing options', point: 'good', score: 100 },
+     { name: 'they will help you react to other infringing your copyright', point: 'good', score: 50 },
      { name: 'broad license including right to distribute through any media', point: 'bad', score: 100 },
   ],
   'data-export': [
@@ -100,6 +101,7 @@ module.exports = {
     { name: 'personal data is given to third parties', point: 'bad', score: 10 },
     { name: 'only aggregate data is given to third parties', point: 'neutral', score: 10 },
     { name: 'personal data is not sold', point: 'good', score: 25 },
+    { name: 'your data may be stored anywhere in the world', point: 'bad', score: 25 },
     { name: 'no liability for unauthorized access', point: 'bad', score: 30 },
   ],
   'readability': [
