@@ -95,31 +95,33 @@ $(function () {
     }
   }
   
-  if (location.search.indexOf('?') == 0) {
-    var GETarguments = location.search.substring(1)
-    var splits = GETarguments.split("=");
-    if (splits.length == 2 && splits[0] == "servicePoint" && splits[1].length > 0) {
-      
-      // allows for directly referencing a service's point in URL
-        // ex.: https://tosdr.org/?servicePoint=google__lU-QhFXMOcU 
-        // GET parameters syntax: /?servicePoint=<serviceName>__<pointId>
-        
-      if (splits[1].indexOf('__') != -1 && splits[1].split('__')[0].length > 0 && 
-          splits[1].split('__')[1].length > 0 ) {
-        var serviceName = splits[1].split('__')[0];
-        var pointId = splits[1].split('__')[1];
-        var serviceMatchBool = showModal(serviceName);
-        if (serviceMatchBool){
-          var subtractFromOffset = $(".modal-header").outerHeight() + $("#modal_" + serviceName).offset().top + 5
-          var offset = $("#popup-point-" + serviceName + "-" + pointId).offset().top;
-          $('#modal_' + serviceName + ' .modal-body').animate({
-            scrollTop: offset - subtractFromOffset
-          }, 1000)
-        }
-      } 
-    } else {  // also add GET parameter support for basic service referencing
-      showModal(GETarguments);
-    }
+  function getURLParam(oTarget, sVar) {
+    return decodeURI(oTarget.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURI(sVar).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
+  }
+  
+  if (getURLParam(window.location, 'service') !== '') {
+    // allows for service permalink with explicit GET parameter
+    var serviceName = getURLParam(window.location, 'service');
+    showModal(serviceName);
+    
+  } else if (getURLParam(window.location, 'servicePoint') !== '') {
+    
+    // allows for directly referencing a service's point in URL
+      // ex.: https://tosdr.org/?servicePoint=google__lU-QhFXMOcU 
+      // GET parameters syntax: /?servicePoint=<serviceName>__<pointId>
+    var servicePoint = getURLParam(window.location, 'servicePoint')
+    if (servicePoint.indexOf('__') != -1 && servicePoint.split('__')[0].length > 0 && servicePoint.split('__')[1].length > 0 ) {
+      var serviceName = servicePoint.split('__')[0];
+      var pointId = servicePoint.split('__')[1];
+      var serviceMatchBool = showModal(serviceName);
+      if (serviceMatchBool){
+        var subtractFromOffset = $(".modal-header").outerHeight() + $("#modal_" + serviceName).offset().top + 25
+        var offset = $("#popup-point-" + serviceName + "-" + pointId).offset().top;
+        $('#modal_' + serviceName + ' .modal-body').animate({
+          scrollTop: offset - subtractFromOffset
+        }, 1000)
+      }
+    } 
   }
   
 });
