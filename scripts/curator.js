@@ -46,6 +46,8 @@ function displayForm(res, filename) {
   res.write('<form method="POST">');
   displayField(res, {filename: filename}, 'filename', true);
   displayField(res, point, 'service', false, Object.keys(services));
+  res.write('<h5>Topic:</h5>');
+  res.write('<input type="submit" value="(no topic yet)" name="set"><br>');
   for (topic in cases) {
     res.write('<h6>'+topic+'</h6>');
     for (i=0; i<cases[topic].length; i++) {
@@ -101,14 +103,12 @@ function processPost(req) {
     for (i in incoming) {
       if (i === 'set') {
         parts = incoming[i].split('+%7C+');
-        if (parts.length != 2) {
-          console.log('cannot parse set field', incoming);
-          die();
+        if (parts.length == 2) {
+          points[incoming.filename].topics = [parts[0]];
+          points[incoming.filename].tosdr['case'] = cases[parts[0]][parseInt(parts[1])]['name'];
+          points[incoming.filename].tosdr.point = cases[parts[0]][parseInt(parts[1])].point;
+          points[incoming.filename].tosdr.score = cases[parts[0]][parseInt(parts[1])].score;
         }
-        points[incoming.filename].topics = [parts[0]];
-        points[incoming.filename].tosdr['case'] = cases[parts[0]][parseInt(parts[1])]['name'];
-        points[incoming.filename].tosdr.point = cases[parts[0]][parseInt(parts[1])].point;
-        points[incoming.filename].tosdr.score = cases[parts[0]][parseInt(parts[1])].score;
       } else if(i === 'service') {
         points[incoming.filename].services = [incoming[i]];
       } else if(i === 'irrelevant') {
