@@ -31,11 +31,11 @@ function displayField(res, point, field, hidden, options) {
     point[field]=point[field].split('"').join('&quot;');
   }
   if (Array.isArray(options)) {
-    res.write('<select name="' + field + '">');
+    res.write('<input type="text" name="' + field + '" list="services"><datalist id="services">');
     for (var i=0; i<options.length; i++) {
       res.write('<option value="' + options[i] + '"' + (point[field] === options[i] ? ' selected' : '') + '>' + options[i] + '</option>');
     }
-    res.write('</select>');
+    res.write('</datalist>');
   } else {
     res.write((hidden?'<input hidden ': field + ': <input ') + 'value="' + point[field] + '" name="' + field + '"/>');
   }
@@ -43,7 +43,7 @@ function displayField(res, point, field, hidden, options) {
 function displayForm(res, filename) {
   var topic, i, point = points[filename];
   res.write('<pre>' + prettyjson(point) + '</pre>');
-  res.write('<form method="POST">');
+  res.write('<form method="POST" target="/">');
   displayField(res, {filename: filename}, 'filename', true);
   displayField(res, point, 'service', false, Object.keys(services));
   res.write('<h5>Topic:</h5>');
@@ -77,8 +77,8 @@ function displayPoints(res) {
       displayPoint(res, i, 'no title', points[i]);
     } else if (!points[i].tosdr.irrelevant && !points[i].services) {
       displayPoint(res, i, 'no services', points[i]);
-    } else if (!points[i].tosdr.irrelevant && !points[i].topics) {
-      displayPoint(res, i, 'no topics', points[i]);
+//    } else if (!points[i].tosdr.irrelevant && !points[i].topics) {
+//      displayPoint(res, i, 'no topics', points[i]);
     }
   }
   res.write(fs.readFileSync('src/curator-postfix.html'));
