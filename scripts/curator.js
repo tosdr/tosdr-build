@@ -43,7 +43,7 @@ function displayField(res, point, field, hidden, options) {
 function displayForm(res, filename) {
   var topic, i, point = points[filename];
   res.write('<pre>' + prettyjson(point) + '</pre>');
-  res.write('<form method="POST" target="/">');
+  res.write('<form method="POST" action="/">');
   displayField(res, {filename: filename}, 'filename', true);
   displayField(res, point, 'service', false, Object.keys(services));
   res.write('<h5>Topic:</h5>');
@@ -84,7 +84,7 @@ function displayPoints(res) {
   res.write(fs.readFileSync('src/curator-postfix.html'));
   //console.log(points);
 }
-function processPost(req) {
+function processPost(req, callback) {
   var str='';
   req.on('data', function(chunk) {
     str += chunk;
@@ -92,6 +92,7 @@ function processPost(req) {
   req.on('end', function() {
     var pairs, i, j, parts, caseObj, incoming = {};
     if (!str.length) {
+      callback();
       return;
     }
     pairs = str.split('&');
@@ -118,6 +119,7 @@ function processPost(req) {
       }
     }
     savePoint(incoming.filename);
+    callback();
   });
 }
 function loadPoints() {
@@ -130,21 +132,22 @@ function loadPoints() {
   }
 }
 //...
-loadPoints();
 var server = http.createServer(function(req, res) {
   var point = req.url.substring(2);
-  processPost(req);
-  if(point.length && req.url.substring(0,2)=='/?') {
-    console.log('displaying form for '+point);
-    res.writeHead(200, {});
-    displayForm(res, point);
-  } else if(req.url=='/') {
-    res.writeHead(200, {});
-    displayPoints(res);
-  } else {
-    res.writeHead(404, {});
-  }
-  res.end('</ul></html>');
+  processPost(req, function() {
+    loadPoints();
+    if(point.length && req.url.substring(0,2)=='/?') {
+      console.log('displaying form for '+point);
+      res.writeHead(200, {});
+      displayForm(res, point);
+    } else if(req.url=='/') {
+      res.writeHead(200, {});
+      displayPoints(res);
+    } else {
+      res.writeHead(404, {});
+    }
+    res.end('</ul></html>');
+  });
 });
 server.listen(21337);
 console.log('see http://localhost:21337/');
