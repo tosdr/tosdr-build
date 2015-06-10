@@ -3,7 +3,7 @@
   "id": "iOVvNen2X3k",
   "title": "ToS;DR was started at Chaos Communication Camp",
   "tosdr": {
-    "irrelevant": "dismissed+by+the+curator",
-    "binding": true
+    "binding": true,
+    "irrelevant": "dismissed+by+the+curator"
   }
 }
