@@ -17,6 +17,10 @@ function savePoint(filename) {
   fs.writeFileSync('src/points/' + filename, prettyjson(points[filename]));
 }
 
+function displayServiceHeader(res, service) {
+  res.write('<h2>'+service+'</h2>');
+}
+
 function displayPoint(res, filename, reason, data) {
   res.write('<li> <!-- <a href="#upvote" class="arrow-upvote btn btn-small"><img src="https://tosdr.org/img/grayarrow.gif" alt="" /></a> -->'
     + '<a href="?' + filename + '" class="btn btn-small">Make a point</a>  <a target="_blank" href="'
@@ -60,6 +64,7 @@ function displayForm(res, filename) {
 }
 
 function displayPoints(res) {
+  var perService = {};
   loadPoints();
   res.write(fs.readFileSync('src/curator-prefix.html'));
   for(var i in points) {
@@ -77,8 +82,24 @@ function displayPoints(res) {
       displayPoint(res, i, 'no title', points[i]);
     } else if (!points[i].tosdr.irrelevant && !points[i].services) {
       displayPoint(res, i, 'no services', points[i]);
-//    } else if (!points[i].tosdr.irrelevant && !points[i].topics) {
-//      displayPoint(res, i, 'no topics', points[i]);
+    } else if (!points[i].tosdr.irrelevant && !points[i].topics) {
+      console.log('perService', i, points[i].services);
+      for (var j=0; j<points[i].services.length; j++) {
+         if (!perService[points[i].services[j]]) {
+           perService[points[i].services[j]] = [];
+         }
+         perService[points[i].services[j]].push({
+           i: i,
+           obj: points[i]
+        });
+      }
+    }
+  }
+  console.log('no topics', perService);
+  for (var i in perService) {
+    displayServiceHeader(res, i);
+    for (var j=0; j<perService[i].length; j++) {
+      displayPoint(res, perService[i][j].i, 'no topic', perService[i][j].obj);
     }
   }
   res.write(fs.readFileSync('src/curator-postfix.html'));
