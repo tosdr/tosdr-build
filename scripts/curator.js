@@ -29,13 +29,14 @@ function displayPoint(res, filename, reason, data) {
   console.log(filename);
 }
 
-function displayField(res, point, field, hidden, options) {
+function displayField(res, point, field, hidden, existingValue, options) {
+  console.log('displayField(res', point, field, hidden, existingValue, options);
   console.log(point, field, hidden);
   if (typeof(point[field]) === 'string') {
     point[field]=point[field].split('"').join('&quot;');
   }
   if (Array.isArray(options)) {
-    res.write('<input type="text" name="' + field + '" list="services"><datalist id="services">');
+    res.write('<input type="text" value="' + existingValue + '" name="' + field + '" list="services"><datalist id="services">');
     for (var i=0; i<options.length; i++) {
       res.write('<option value="' + options[i] + '"' + (point[field] === options[i] ? ' selected' : '') + '>' + options[i] + '</option>');
     }
@@ -49,14 +50,19 @@ function displayForm(res, filename) {
   res.write('<pre>' + prettyjson(point) + '</pre>');
   res.write('<form method="POST" action="/">');
   displayField(res, {filename: filename}, 'filename', true);
-  displayField(res, point, 'service', false, Object.keys(services));
+  displayField(res, point, 'service', false, point.services.join(' '), Object.keys(services));
+  displayField(res, point, 'tldr', false, point.tosdr.tldr);
   res.write('<h5>Topic:</h5>');
-  res.write('<input type="submit" value="(no topic yet)" name="set"><br>');
-  for (topic in cases) {
-    res.write('<h6>'+topic+'</h6>');
-    for (i=0; i<cases[topic].length; i++) {
-      res.write('<input type="submit" value="' + topic + ' | ' + i + '" name="set"> '
-          + cases[topic][i].name + ' (' + cases[topic][i].point + ':' + cases[topic][i].score + ')<br>');
+  if (point.tosdr['case'] && Array.isArray(point.topics)) {
+    res.write('<input type="submit" value="' + point.topics[0] + ' | no-edit" name="set"><br>');
+  } else {
+    res.write('<input type="submit" value="(no topic yet)" name="set"><br>');
+    for (topic in cases) {
+      res.write('<h6>'+topic+'</h6>');
+      for (i=0; i<cases[topic].length; i++) {
+        res.write('<input type="submit" value="' + topic + ' | ' + i + '" name="set"> '
+            + cases[topic][i].name + ' (' + cases[topic][i].point + ':' + cases[topic][i].score + ')<br>');
+      }
     }
   }
   res.write('<a href="/">index</a> ');
@@ -68,6 +74,15 @@ function displayPoints(res) {
   loadPoints();
   res.write(fs.readFileSync('src/curator-prefix.html'));
   for(var i in points) {
+    // the conditions we want to satisfy (unless the curator dismisses the point as disputed, irrelevant, or not binding)
+    // are those which make ../build/buildIndexes.js decide whether to show a data point on the website or not, namely:
+    //  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined'
+    //                  || typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined'
+    //                  || typeof(obj.tosdr.tldr)=='undefined' ) {
+    //    return;
+    //  }
+    // (see https://github.com/tosdr/tosdr-build/blob/8c6c908fa33d52388cae067a2babf60f7fb63e5e/build/buildIndexes.js#L63-L67 )
+
     if (!points[i].topic && points[i].tosdr && points[i].tosdr.topic) {
       points[i].topic = points[i].tosdr.topic;
       savePoint(i);
@@ -76,7 +91,9 @@ function displayPoints(res) {
       points[i].discussion='https://groups.google.com/forum/#!topic/tosdr/'+points[i].id;
       savePoint(i);
     }
-    if (!points[i].id) {
+    if (typeof(points[i].tosdr)=='undefined') {
+      displayPoint(res, i, 'no tosdr object', points[i]);
+    } else if (!points[i].id) {
       displayPoint(res, i, 'no id', points[i]);
     } else if (!points[i].title) {
       displayPoint(res, i, 'no title', points[i]);
@@ -92,6 +109,18 @@ function displayPoints(res) {
            i: i,
            obj: points[i]
         });
+      }
+    } else if (!points[i].tosdr.disputed && !points[i].tosdr.irrelevant && points[i].tosdr.binding) {
+      // point has services and topics, so try to get this on the site:
+      if (typeof (points[i].tosdr.score)=='undefined') {
+          console.log('no score:', i);
+//        displayPoint(res, i, 'almost displayable but no score', points[i]);
+      } else if (typeof (points[i].tosdr.point)=='undefined') {
+          console.log('score, but no point:', i);
+//        displayPoint(res, i, 'almost displayable but no point', points[i]);
+      } else if (typeof (points[i].tosdr.tldr)=='undefined') {
+        console.log('score and point, but no tldr:', i);
+        displayPoint(res, i, 'almost displayable but no tldr', points[i]);
       }
     }
   }
@@ -125,7 +154,7 @@ function processPost(req, callback) {
     for (i in incoming) {
       if (i === 'set') {
         parts = incoming[i].split('+%7C+');
-        if (parts.length == 2) {
+        if (parts.length == 2 && parts[1] !== 'no-edit') {
           points[incoming.filename].topics = [parts[0]];
           points[incoming.filename].tosdr['case'] = cases[parts[0]][parseInt(parts[1])]['name'];
           points[incoming.filename].tosdr.point = cases[parts[0]][parseInt(parts[1])].point;
@@ -135,8 +164,10 @@ function processPost(req, callback) {
         points[incoming.filename].services = [incoming[i]];
       } else if(i === 'irrelevant') {
         points[incoming.filename].tosdr.irrelevant = incoming[i];
+      } else if(i === 'tldr') {
+        points[incoming.filename].tosdr.tldr = decodeURIComponent(incoming[i]).split('+').join(' ');
       } else if(i != 'filename') {
-        points[incoming.filename][i] = incoming[i];
+        points[incoming.filename][i] = decodeURIComponent(incoming[i]).split('+').join(' ');
       }
     }
     savePoint(incoming.filename);
