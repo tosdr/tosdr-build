@@ -50,6 +50,7 @@ function displayForm(res, filename) {
   res.write('<pre>' + prettyjson(point) + '</pre>');
   res.write('<form method="POST" action="/">');
   displayField(res, {filename: filename}, 'filename', true);
+  displayField(res, point, 'title', false, point.title);
   displayField(res, point, 'service', false, point.services.join(' '), Object.keys(services));
   displayField(res, point, 'tldr', false, point.tosdr.tldr);
   res.write('<h5>Topic:</h5>');
