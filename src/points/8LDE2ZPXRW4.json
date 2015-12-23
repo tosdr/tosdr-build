@@ -15,7 +15,7 @@
   "source": {
     "terms": "https://github.com/site/terms"
   },
-  "title": "GitHub will notify you before transferring your information in the event of a merger or acquisition",
+  "title": "Githib te avisa antes de transmitir tu informacion al mezclar o adquirir",
   "topics": [
     "business-transfer"
   ],
@@ -24,6 +24,6 @@
     "case": "will notify before merger",
     "point": "good",
     "score": 20,
-    "tldr": "“We transfer information about you if GitHub is acquired by or merged with another company. In this event, GitHub will notify you before information about you is transferred and becomes subject to a different privacy policy. ”"
+    "tldr": "“Transferimos tu informacion relacionada si Github es adquirido por o mezclado con otra compañia. En este punto, Github te avisara antes de que tu informacion sea transferida y pase a formar parte de una politica de privacidad diferente. ”"
   }
 }
