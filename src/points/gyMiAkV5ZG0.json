@@ -15,7 +15,7 @@
   "source": {
     "privacy": "https://help.github.com/privacy-policy"
   },
-  "title": "GitHub requires cookies",
+  "title": "GitHub necesita cookies",
   "topics": [
     "cookies"
   ],
@@ -24,6 +24,6 @@
     "case": "requires first-party cookies",
     "point": "neutral",
     "score": 10,
-    "tldr": "GitHub requires cookies to work and misleads you to believe that you remain anonymous while cookies contain “unique identifiers”. However, only session cookies are used, not persistent cookies."
+    "tldr": "GitHub necesita cookies para funcionar e induce a error haciendote creer que permaneces anonimo mientras las cookies contienen “identificadores unicos”. Sin embargo, solo se usan cookies de sesion, no cookies persistentes."
   }
 }

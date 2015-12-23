@@ -13,7 +13,7 @@
     "yahoo",
     "github"
   ],
-  "title": "You must provide your legal name upon registration",
+  "title": "Tienes que dar tu nombre legal completo durante el registro",
   "topics": [
     "track"
   ],
@@ -22,6 +22,6 @@
     "case": "pseudonym not allowed (not because of user-to-user trust)",
     "point": "bad",
     "score": 20,
-    "tldr": "You agree to provide your full legal name when you register to the service. It does not prevent you from using a pseudonym."
+    "tldr": "Aceptas dar tu nombre legal completo cuando te registras en el servicio. No te impide usar un pseudonimo."
   }
 }

@@ -15,7 +15,7 @@
   "source": {
     "privacy": "https://github.com/site/terms"
   },
-  "title": "You don't grant any copyright license to github",
+  "title": "No cedes ninguna licencia de Copyright a Github",
   "topics": [
     "copyright-scope"
   ],
@@ -24,6 +24,6 @@
     "case": "you publish under a free license, not a bilateral one",
     "point": "good",
     "score": 90,
-    "tldr": "“We claim no intellectual property rights over the material you provide to the Service. Your profile and materials uploaded remain yours. However, by setting […] your repositories to be viewed publicly, you agree to allow others to view and fork your repositories.” "
+    "tldr": "“No reclamammos ningun derecho de propiedad intelectual del material que proporcionas al Servicio. Tu perfil y material subido se mantiene tuyo. Sin embargo, estableciendo [...] tu repositorio como publico, estas a favor de permitir a otros ver y derivar tus repositorios.” "
   }
 }

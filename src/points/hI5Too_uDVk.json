@@ -15,7 +15,7 @@
   "source": {
     "terms": "https://github.com/site/terms"
   },
-  "title": "Your account can be suspended and your data deleted any time for any reason",
+  "title": "Tu cuenta puede ser suspendida y tus datos borrados en cualquier momento por cualquier razon",
   "topics": [
     "suspension"
   ],
@@ -24,6 +24,6 @@
     "case": "they can delete your account without prior notice and without a reason",
     "point": "bad",
     "score": 50,
-    "tldr": "“GitHub, in its sole discretion, has the right to suspend or terminate your account and refuse any and all current or future use of the Service, or any other GitHub service, for any reason at any time. Such termination of the Service will result in the deactivation or deletion of your Account or your access to your Account, and the forfeiture and relinquishment of all Content in your Account. GitHub reserves the right to refuse service to anyone for any reason at any time. ” However, most of your data at GitHub can be exported with 'git clone' (for the wiki) and with the API (for the issues)."
+    "tldr": "“Github, a su exclusivo criterio, tiene el derecho de suspender o acabar con tu Cuenta y rechazar todo o parte del uso del servicio, o cualquier otro servicio de Github, por cualquier razon y en cualquier momento. Este finalizacion del servicio resultara en la desactivacion o eliminacion de tu Cuenta o tu acceso a ella, y la perdidda y cesion de todo el contenido en tu Cuenta. Github se reserva el derecho a rechazar el servicio a cualquiera por cualquier razon en cualquier momento. ” However, la mayor parte de tus datos en Github puede ser exportado con 'git clone' (para la wiki) y con la API (para los tickets)."
   }
 }

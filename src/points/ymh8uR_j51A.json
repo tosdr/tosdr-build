@@ -15,7 +15,7 @@
   "source": {
     "privacy": "https://help.github.com/privacy-policy"
   },
-  "title": "Your personal information is used for limited purposes",
+  "title": "Tu informacion personal tiene fines limitados",
   "topics": [
     "personal-data"
   ],
@@ -24,6 +24,6 @@
     "case": "your personal data is used for limited purposes",
     "point": "good",
     "score": 60,
-    "tldr": "“The information we collect is used to improve the content of our Web pages and the quality of our service, and is not shared with or sold to other organizations for commercial purposes, except to provide products or services you’ve requested, when we have your permission, […] GitHub uses collected information for the following general purposes: products and services provision, billing, identification and authentication, services improvement, contact, and research.”"
+    "tldr": "“La informacion que recojamos es usada para mejorar el contenido de nuestras paginas Web y la calidad de nuestro servicio, y no es compartida con o vendida a otras organizaciones con fines comerciales, excepto para proveer productos o servicios que hayas solicitado, cuando tengamos tu permiso, [...] Github usa la infomacion recogida para los siguientes propositos generales: disposicion de productos y servicios, facturacion, identificacion y autentificacion, mejora de servicios, contato, e investigacion.”"
   }
 }

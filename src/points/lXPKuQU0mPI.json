@@ -15,7 +15,7 @@
   "source": {
     "privacy": "https://github.com/site/terms"
   },
-  "title": "Choice of law: California",
+  "title": "Eleccion de derecho: California",
   "topics": [
     "jurisdiction-law"
   ],
@@ -24,6 +24,6 @@
     "case": "court of law is in location X",
     "point": "neutral",
     "score": 0,
-    "tldr": "“You agree that these Terms of Service and Your use of the Service are governed under California law.”"
+    "tldr": "“Aceptas estos Terminos del Servicio y Tu uso del servicio esta regido bajo la ley de California.”"
   }
 }

@@ -5,12 +5,12 @@
     "github"
   ],
   "set": "set+service+and+topic",
-  "title": "How GitHub deals with your data and legal requests or obligation",
+  "title": "Como Github lidia con tus datos y peticiones legales u obligaciones",
   "topics": [
     "law-gov"
   ],
   "tosdr": {
     "binding": true,
-    "tldr": "How GitHub deals with your data and legal requests or obligation"
+    "tldr": "Como Github lidia con tus datos y peticiones legales u obligaciones"
   }
 }

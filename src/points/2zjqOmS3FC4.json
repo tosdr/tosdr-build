@@ -16,7 +16,7 @@
   "source": {
     "privacy": "https://github.com/site/terms"
   },
-  "title": "You must provide your legal name",
+  "title": "Tienes que dar tu nombre real",
   "topics": [
     "track"
   ],
@@ -26,6 +26,6 @@
     "point": "bad",
     "reason": true,
     "score": 10,
-    "tldr": "“You must provide your legal full name,” when you register. "
+    "tldr": "“Tienes que dar tu nombre legal completo,” cuando te registras. "
   }
 }

@@ -15,7 +15,7 @@
   "source": {
     "privacy": "https://help.github.com/privacy-policy"
   },
-  "title": "Changes can happen any time, sometimes without notice",
+  "title": "Puede haber cambios en cualquier momento, incluso sin previo aviso",
   "topics": [
     "changes-notice"
   ],
@@ -24,6 +24,6 @@
     "case": "user needs to check tosback.org",
     "point": "bad",
     "score": 70,
-    "tldr": "“GitHub reserves the right to update and change the Terms of Service from time to time without notice.” Fortunately, the privacy policy benefits from a special clause: changes to the privacy policy will be notified to you, but there is no delay."
+    "tldr": "“Github se reserva el derecho de actualizar y cambiar los Terminos del Servicio de vez en cuando sin avisar.” Afortunadamente, la politica de privacidad favorece por esta clausula especial: cambios a la politica de privacidad seran te notificados, pero no hay demora"
   }
 }
