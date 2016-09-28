@@ -2,6 +2,9 @@ var fs = require('fs'),
   prettyjson = require('./prettyjson'),
   cases = require('./cases'),
   found = false;
+
+//...
+var numFilesOK = 0;
 fs.readdir('points/', function(err, files) {
   if(err) {
     console.log(err, 'readdir');
@@ -12,8 +15,10 @@ fs.readdir('points/', function(err, files) {
         doFile(files[i]);
       }
     }
+    console.log(`${numFilesOK} files OK.`);
   }
 });
+
 function doFile(fileName) {
   data = fs.readFileSync('points/'+fileName);
   try {
@@ -27,9 +32,11 @@ function doFile(fileName) {
     if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined'
                     || typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined'
                     || typeof(obj.tosdr.tldr)=='undefined' ) {
+      numFilesOK++;
       return;
     }
     if(found || !cases[obj.topics[0]] || obj.tosdr.case) {
+      numFilesOK++;
       return;
     }
     var topic = obj.topics[0];
