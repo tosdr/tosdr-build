@@ -1,0 +1,19 @@
+{
+  "_id": "BrdMXDao6xXJpDqyf",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Good]  eBay has a Returns Policy and a Cancellation Policy.",
+  "topics": null,
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  eBay has a Returns Policy and a Cancellation Policy.\nhttp://pages.ebay.com/help/sell/return-process.html\nhttp://pages.ebay.com/help/sell/cancel-transaction-process.html?rmvSB=true\n",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

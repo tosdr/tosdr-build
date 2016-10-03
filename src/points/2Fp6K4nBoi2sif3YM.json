@@ -1,0 +1,21 @@
+{
+  "_id": "2Fp6K4nBoi2sif3YM",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Good]  eBay can translate your content",
+  "topics": [
+    "user-info"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  eBay can translate your content and member-to-member communications into local languages, but the accuracy and availability of any translation are not guaranteed.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

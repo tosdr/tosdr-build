@@ -1,0 +1,19 @@
+{
+  "_id": "FAr52PAR6KLmCuifL",
+  "services": null,
+  "title": "[Bad] Tinder reserves the right to perform criminal background checks and other screenings",
+  "topics": [
+    "waiver"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "Tinder reserves the right to perform criminal background checks and other screenings on you at any time.\n",
+    "sources": [
+      "https://www.gotinder.com/terms"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

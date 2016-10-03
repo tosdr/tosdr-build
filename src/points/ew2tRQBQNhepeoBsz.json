@@ -1,0 +1,23 @@
+{
+  "_id": "ew2tRQBQNhepeoBsz",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Bad]  eBay can add third party info to your account such as credit check and information from credit bureaus.",
+  "topics": [
+    "track",
+    "personal-data",
+    "track"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  eBay can add third party info to your account such as credit check and information from credit bureaus.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/privacy-policy.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

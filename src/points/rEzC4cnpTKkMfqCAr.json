@@ -1,0 +1,21 @@
+{
+  "_id": "rEzC4cnpTKkMfqCAr",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Bad]  You use eBay at your own risk",
+  "topics": [
+    "law-enforcement"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  You use eBay at your own risk.  eBay is not liable for any damages or losses.  Liability limit is set at $100 or the amount of the item or fees you paid in 1 year’s time, whichever is greater.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

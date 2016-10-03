@@ -1,0 +1,22 @@
+{
+  "_id": "vnW86Fm9sGDKJG4ii",
+  "services": [
+    "linkedin"
+  ],
+  "title": "[Good]   LinkedIn will safeguard your personal information and share with third parties only with your consent.",
+  "topics": [
+    "third",
+    "user-info"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "",
+    "sources": [
+      "https://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

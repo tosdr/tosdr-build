@@ -1,0 +1,19 @@
+{
+  "_id": "fwKcGhRCx2FXqDhcz",
+  "services": null,
+  "title": "[Bad]  Uber may also remove User Content ",
+  "topics": [
+    "user-info"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  Uber may also remove User Content at their sole discretion at any time and for any reason, without notice to you.",
+    "sources": [
+      "https://www.uber.com/legal/terms/us/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

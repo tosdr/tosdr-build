@@ -1,0 +1,22 @@
+{
+  "_id": "gRfA7YaJcCRP3YSDs",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Good]  eBay’s previous version of Privacy Notice is available for viewing.",
+  "topics": [
+    "changes-notice",
+    "changes"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  eBay’s previous version of Privacy Notice is available for viewing.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/privacy-policy.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

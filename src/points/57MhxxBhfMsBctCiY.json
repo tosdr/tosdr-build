@@ -1,0 +1,20 @@
+{
+  "_id": "57MhxxBhfMsBctCiY",
+  "services": null,
+  "title": "Credit Karma - Terms may be changed any time at their discretion, without direct notice to the user",
+  "topics": [
+    "changes-involvement",
+    "changes-notice"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "Users automatically agree to changes in the terms by using the service, you only know about changes by looking at their terms page.",
+    "sources": [
+      "https://www.creditkarma.com/about/terms"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "TWDQHuda3SzDKzM4w",
+  "needModeration": true
+}

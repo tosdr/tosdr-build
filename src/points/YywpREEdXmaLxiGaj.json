@@ -1,0 +1,19 @@
+{
+  "_id": "YywpREEdXmaLxiGaj",
+  "services": null,
+  "title": "The user of this service can be banned unfairly",
+  "topics": [
+    "suspension"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "Wikia can delete your account for any or no reason with no notice.",
+    "sources": [
+      "http://www.wikia.com/Terms_of_Use"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "Bd6odqXHEegf8NzHy",
+  "needModeration": true
+}

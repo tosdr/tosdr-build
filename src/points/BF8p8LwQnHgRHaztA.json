@@ -1,0 +1,21 @@
+{
+  "_id": "BF8p8LwQnHgRHaztA",
+  "services": [
+    "goodreads"
+  ],
+  "title": "\"Goodreads will not rent or sell your personally identifiable information to others.\"",
+  "topics": [
+    "personal-data"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "Goodreads will not rent or sell your personally identifiable information to others. ",
+    "sources": [
+      "https://www.goodreads.com/about/privacy#updates"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
+  "needModeration": true
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "5iLc8FYZPGABtgfnW",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Neutral]  eBay can change seller fees ",
+  "topics": [
+    "changes-notice",
+    "changes"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "neutral",
+    "tldr": "[Neutral]  eBay can change seller fees by posting the changes on their site 14 days in advance, but with no advance notice required for temporary promotions or any changes that result in the reduction of fees.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

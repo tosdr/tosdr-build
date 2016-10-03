@@ -1,0 +1,20 @@
+{
+  "_id": "sW8MAFn9CSkScpPFk",
+  "services": null,
+  "title": "[Good] does not collect personal information to share with 3rd parties",
+  "topics": [
+    "track",
+    "track"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "\"Do Not Track. Keybase does not collect personally identifiable information from you to track you across third party websites. As a result, Keybase does not specifically respond to web browser Do Not Track signals.\"",
+    "sources": [
+      "https://keybase.io/docs/privacypolicy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "QCyKc5pRE5rjGJPhB",
+  "needModeration": true
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "nasPAfvdHvoPnHX2L",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Good]  eBay provides link for submitting notice of copyright infringement.",
+  "topics": [
+    "suspension"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  eBay provides link for submitting notice of copyright infringement.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

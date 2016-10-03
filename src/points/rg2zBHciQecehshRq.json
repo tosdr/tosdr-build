@@ -1,0 +1,23 @@
+{
+  "_id": "rg2zBHciQecehshRq",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Bad]  If you associate your social media account with eBay, you authorize them to collect, use and retain the information provided by the social media sites.",
+  "topics": [
+    "third",
+    "user-choice",
+    "user-info"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  If you associate your social media account with eBay, you authorize them to collect, use and retain the information provided by the social media sites.  If you provide access to any site with video content, you agree that they can share your video viewing with, or obtain information about your video viewing from, third-party social media sites for at least two years or until you withdraw consent.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/privacy-policy.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

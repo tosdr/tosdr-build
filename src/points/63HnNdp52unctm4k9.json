@@ -1,0 +1,21 @@
+{
+  "_id": "63HnNdp52unctm4k9",
+  "services": null,
+  "title": "Protonmail notifies users for terms and conditions changes",
+  "topics": [
+    "changes-involvement",
+    "changes-notice",
+    "changes"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "protonmail can change the terms and conditions regulary but will notify the users on beforehand\n",
+    "sources": [
+      "https://protonmail.com/terms-and-conditions"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "QCyKc5pRE5rjGJPhB",
+  "needModeration": true
+}

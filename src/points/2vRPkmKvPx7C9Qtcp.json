@@ -1,0 +1,17 @@
+{
+  "_id": "2vRPkmKvPx7C9Qtcp",
+  "services": null,
+  "title": "[Good]  Groupon outlines a Terms of Sale policy.",
+  "topics": null,
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "",
+    "sources": [
+      "https://www.groupon.com/pages/terms-of-sale"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

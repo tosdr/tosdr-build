@@ -1,0 +1,19 @@
+{
+  "_id": "kierbXc3kseL2wHyE",
+  "services": null,
+  "title": "[Neutral]  Uber disclaimer that their Services may be subject to malfunctions ",
+  "topics": [
+    "guarantee"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "neutral",
+    "tldr": "[Neutral]  Uber does not guarantee that their Services will work with any particular hardware or devices, and states the disclaimer that their Services may be subject to malfunctions and delays inherent with the use of the Internet and electronic communications.",
+    "sources": [
+      "https://www.uber.com/legal/terms/us/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "oJLNp5aWKD3uMBcQB",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Good]  eBay has a Global Shipping Program Seller Policy.",
+  "topics": null,
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  eBay has a Global Shipping Program Seller Policy.\nhttp://pages.ebay.com/sellerinformation/ship-smart/global-shipping-program/index.html\n",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

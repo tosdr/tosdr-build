@@ -1,0 +1,21 @@
+{
+  "_id": "GpNM46Hv5KurQf4zo",
+  "services": [
+    "goodreads"
+  ],
+  "title": "\"Goodreads will notify you if your personal information gets stolen\"",
+  "topics": [
+    "personal-data"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "In the event that personal information is compromised as a result of a breach of security, Goodreads will promptly notify those persons whose personal information has been compromised.",
+    "sources": [
+      "https://www.goodreads.com/about/privacy#updates"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
+  "needModeration": true
+}

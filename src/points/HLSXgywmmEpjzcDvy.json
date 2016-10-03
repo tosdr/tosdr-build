@@ -1,0 +1,20 @@
+{
+  "_id": "HLSXgywmmEpjzcDvy",
+  "services": null,
+  "title": "[Bad]  Groupon reserves absolute right to User Content.",
+  "topics": [
+    "third",
+    "user-info"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  Groupon reserves absolute right to User Content and to disclose the User Content to any third-party, at any time, and for any reason.",
+    "sources": [
+      "https://www.groupon.com/terms"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}
