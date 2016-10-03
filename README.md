@@ -59,8 +59,8 @@ Curate
 These scripts are what I (Michiel) currently use for curating points after import. The ideas is to integrate these into the web interface:
 
 * `node scripts/curator.js` - will run a curating webinterface on http://localhost:21337/ that lets you change the (local) files on disk
-* `node scripts/checkcases.js` - an interactive command-line tool that helps you assign cases to points that don't have one yet
-* `node scripts/checkclasses.js` - outputs recommendations for adding/updating the class of services, based on their data points
+* `cd dist; node ../scripts/checkcases.js` - an interactive command-line tool that helps you assign cases to points that don't have one yet
+* `cd dist; node ../scripts/checkclasses.js` - outputs recommendations for adding/updating the class of services, based on their data points
 -->
 
 
