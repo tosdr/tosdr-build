@@ -1,0 +1,22 @@
+{
+  "_id": "GkMgmSKAyK4Qk4Q4d",
+  "services": [
+    "steam"
+  ],
+  "title": "\"Valve collects and processes personally identifiable information\"",
+  "topics": [
+    "track",
+    "track"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "neutral",
+    "tldr": "By using Valve's online sites, products, and services, users agree that Valve collects and processes the personally identifiable information (as defined below) they provide by creating a Steam account, by purchasing or selling subscriptions, or during any exchange with Valve in connection with the use of their Steam account.",
+    "sources": [
+      "http://store.steampowered.com/privacy_agreement/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
+  "needModeration": true
+}

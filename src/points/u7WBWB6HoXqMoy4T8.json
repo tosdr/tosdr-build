@@ -1,0 +1,20 @@
+{
+  "_id": "u7WBWB6HoXqMoy4T8",
+  "services": null,
+  "title": "[Neutral]  Groupon modifications to Privacy Statement",
+  "topics": [
+    "changes-notice",
+    "changes"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "neutral",
+    "tldr": "[Neutral]  Groupon will notify you by email or by notice on the Site of any modifications to their Privacy Statement, and their last version of the Privacy Statement is available for viewing.",
+    "sources": [
+      "https://www.groupon.com/privacy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

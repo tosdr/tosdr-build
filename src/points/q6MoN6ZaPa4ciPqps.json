@@ -1,0 +1,20 @@
+{
+  "_id": "q6MoN6ZaPa4ciPqps",
+  "services": null,
+  "title": "[Good] Snapchat automatically deletes the content of your Snaps from their servers.",
+  "topics": [
+    "data-export",
+    "logs-length"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "Snapchat lets you capture what it’s like to live in the moment. That means they automatically delete the content of your Snaps (the photo and video messages that you send your friends) from their servers after that Snap has been opened or expired. But they remind you that there are various ways Snapchatters can save your content and also upload it to Snapchat (like as an attachment in Chat).",
+    "sources": [
+      "https://www.snapchat.com/privacy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

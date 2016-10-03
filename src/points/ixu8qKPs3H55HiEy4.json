@@ -1,0 +1,19 @@
+{
+  "_id": "ixu8qKPs3H55HiEy4",
+  "services": null,
+  "title": "[Good]  Groupon provides a list of Glossary of Terms in their Privacy Policy.",
+  "topics": [
+    "readability"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "",
+    "sources": [
+      " https://www.groupon.com/privacy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

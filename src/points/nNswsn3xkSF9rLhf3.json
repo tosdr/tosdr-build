@@ -1,0 +1,22 @@
+{
+  "_id": "nNswsn3xkSF9rLhf3",
+  "services": [
+    "pinterest"
+  ],
+  "title": "[Good] Pinterest Third-party analytics opt-out.",
+  "topics": [
+    "third",
+    "user-choice"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "Pinterest offers Third-party analytics opt-out.",
+    "sources": [
+      "https://help.pinterest.com/en/articles/third-party-analytics-or-advertising-providers-pinterest-uses-or-allows"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

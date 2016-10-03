@@ -1,0 +1,21 @@
+{
+  "_id": "XqZWijTzpRpmQKvaJ",
+  "services": [
+    "pinterest"
+  ],
+  "title": "[Good] Pinterest offers instructions on how to report bad posts.",
+  "topics": [
+    "suspension"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "",
+    "sources": [
+      "https://help.pinterest.com/en/articles/report-something-pinterest#Web"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

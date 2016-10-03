@@ -1,0 +1,23 @@
+{
+  "_id": "W2xSGkwaYuYJHNtFS",
+  "services": null,
+  "title": "[Bad] Snapchat does not currently respond to do-not-track signals that may be sent from your device.",
+  "topics": [
+    "track",
+    "cookies",
+    "third",
+    "track",
+    "user-choice"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "Snapchat does not currently respond to do-not-track signals that may be sent from your device, but offers link to learn about opting out of ads.",
+    "sources": [
+      "https://www.snapchat.com/privacy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

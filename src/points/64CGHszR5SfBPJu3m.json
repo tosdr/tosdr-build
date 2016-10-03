@@ -1,0 +1,22 @@
+{
+  "_id": "64CGHszR5SfBPJu3m",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Bad]  Once you make a public posting eBay, you may not be able to change or remove it.",
+  "topics": [
+    "user-choice",
+    "user-info"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  Once you make a public posting eBay, you may not be able to change or remove it.  But if you request to close your account, they will remove your personal information from view.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/privacy-policy.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

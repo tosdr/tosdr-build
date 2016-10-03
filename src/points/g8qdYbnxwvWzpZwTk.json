@@ -1,0 +1,21 @@
+{
+  "_id": "g8qdYbnxwvWzpZwTk",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Good]  If the value of the relief sought is $10,000 or less, at your request, eBay will pay all filing, administration, and arbitrator fees associated with the arbitration.",
+  "topics": [
+    "law-enforcement"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  If the value of the relief sought is $10,000 or less, at your request, eBay will pay all filing, administration, and arbitrator fees associated with the arbitration.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

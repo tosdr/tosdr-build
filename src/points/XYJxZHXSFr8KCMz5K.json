@@ -1,0 +1,20 @@
+{
+  "_id": "XYJxZHXSFr8KCMz5K",
+  "services": null,
+  "title": "[Good]  Uber does not share your personally identifiable information with third parties ",
+  "topics": [
+    "personal-data",
+    "third"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  Uber does not share your personally identifiable information with third parties for their direct marketing purposes unless you consent Uber to do so.",
+    "sources": [
+      "https://www.uber.com/legal/privacy/users/en/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

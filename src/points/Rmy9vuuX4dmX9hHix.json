@@ -1,0 +1,22 @@
+{
+  "_id": "Rmy9vuuX4dmX9hHix",
+  "services": [
+    "disqus"
+  ],
+  "title": "\"Disqus can keep possession of any messages you send\"",
+  "topics": [
+    "ownership",
+    "ownership"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "We may also retain any messages you send through the Service, and may collect information you provide in User Content you post to the Service",
+    "sources": [
+      "https://help.disqus.com/customer/en/portal/articles/466259-privacy-policy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
+  "needModeration": true
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "Xnqf6PKEu4x3KrePp",
+  "services": null,
+  "title": "[Bad] Snapchat can delete your content at any time and for any reason.",
+  "topics": [
+    "suspension"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "Snapchat can delete your content at any time and for any reason.  They may access, review, screen, and delete your content at any time and for any reason.",
+    "sources": [
+      "https://www.snapchat.com/terms"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

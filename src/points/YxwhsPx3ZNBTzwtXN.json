@@ -1,0 +1,19 @@
+{
+  "_id": "YxwhsPx3ZNBTzwtXN",
+  "services": null,
+  "title": "[Good] Snapchat has a Cookie Policy.",
+  "topics": [
+    "cookies"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "Snapchat openly explains their use of cookies and offers how to opt-out.",
+    "sources": [
+      "https://www.snapchat.com/cookie-policy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "5WX4ySg6omg7gMJKv",
+  "services": [
+    "linkedin"
+  ],
+  "title": "[Good]  LinkedIn advertising",
+  "topics": [
+    "track",
+    "track"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  LinkedIn contractually requires advertisers to obtain your explicit opt-in consent before they can associate your collected personal information with LinkedIn’s cookies and tracking technologies. ",
+    "sources": [
+      "https://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

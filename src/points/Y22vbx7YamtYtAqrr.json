@@ -1,0 +1,19 @@
+{
+  "_id": "Y22vbx7YamtYtAqrr",
+  "services": null,
+  "title": "[Bad]  Uber can transfer the TOS to affiliates and successors ",
+  "topics": [
+    "business-transfer"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  Uber can transfer the TOS to affiliates and successors without your consent.",
+    "sources": [
+      "https://www.uber.com/legal/terms/us/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

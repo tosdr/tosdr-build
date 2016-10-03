@@ -1,0 +1,21 @@
+{
+  "_id": "tJhopN9FSPzMHLbq4",
+  "services": [
+    "disqus"
+  ],
+  "title": "\"Disqus cookies can be removed by following your web browser’s directions.\"",
+  "topics": [
+    "cookies"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "Persistent cookies can be removed by following your web browser’s directions.",
+    "sources": [
+      "https://help.disqus.com/customer/en/portal/articles/466259-privacy-policy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
+  "needModeration": true
+}

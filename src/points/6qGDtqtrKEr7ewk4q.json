@@ -1,0 +1,21 @@
+{
+  "_id": "6qGDtqtrKEr7ewk4q",
+  "services": [
+    "ebay"
+  ],
+  "title": "[Good]  eBay provides link to Notice of Arbitration form for easy access",
+  "topics": [
+    "law-enforcement"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "[Good]  eBay provides link to Notice of Arbitration form for easy access.  If you and eBay are unable to resolve the claims described in the Notice within 30 days after the Notice is sent, you or eBay may initiate arbitration proceedings.",
+    "sources": [
+      "http://pages.ebay.com/help/policies/user-agreement.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

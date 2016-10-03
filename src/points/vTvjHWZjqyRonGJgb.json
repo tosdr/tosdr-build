@@ -1,0 +1,21 @@
+{
+  "_id": "vTvjHWZjqyRonGJgb",
+  "services": [
+    "linkedin"
+  ],
+  "title": "[Good]  LinkedIn provides a policy and process for complaints concerning content posted by Members as well as copyright infringement.",
+  "topics": [
+    "equality"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "",
+    "sources": [
+      "https://www.linkedin.com/legal/user-agreement?trk=uno-reg-guest-home-user-agreement"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

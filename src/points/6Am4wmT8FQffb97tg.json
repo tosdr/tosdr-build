@@ -1,0 +1,21 @@
+{
+  "_id": "6Am4wmT8FQffb97tg",
+  "services": null,
+  "title": "[Neutral]  Groupon doesn’t respond to Do Not Track signals for cookies, but does provide links to opt out in their privacy policy.",
+  "topics": [
+    "track",
+    "cookies",
+    "track"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "neutral",
+    "tldr": "[Neutral]  Currently, Groupon doesn’t respond to Do Not Track signals for cookie browser settings, but does provide links to opt out in their privacy policy.",
+    "sources": [
+      "https://www.groupon.com/privacy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

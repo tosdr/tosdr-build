@@ -1,0 +1,19 @@
+{
+  "_id": "ES6ZBc3fFXnXyBuWg",
+  "services": null,
+  "title": "[Bad]  Uber may transfer your information ",
+  "topics": [
+    "user-info"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "[Bad]  Uber may transfer your information and process/store it in the United States and other countries where there may be less protective data protection than the region in which you reside. But they say that they will take appropriate measures to protect your personal information.",
+    "sources": [
+      "https://www.uber.com/legal/privacy/users/en/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}

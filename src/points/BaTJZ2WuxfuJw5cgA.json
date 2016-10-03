@@ -1,0 +1,19 @@
+{
+  "_id": "BaTJZ2WuxfuJw5cgA",
+  "services": null,
+  "title": "[Good]  Groupon’s TOS outlines what activities are prohibited on the Site.",
+  "topics": [
+    "suspension"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "",
+    "sources": [
+      "https://www.groupon.com/terms"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "euuLXKG9G2vNLbLDK",
+  "needModeration": true
+}
