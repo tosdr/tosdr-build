@@ -34,7 +34,7 @@ To build:
 
 2. Run `npm install` in the root of this repository to make sure you have the required packages.
 3. Make the changes you wish to make to the source files in this repository.
-4. Run `grunt` in the root of this repository.
+4. Run `grunt` or `./node_modules/.bin/grunt` in the root of this repository.
 5. Check whether the output in the dist/ directory is looking as intended.
 6. Commit and push both repositories.
 7. To publish the new version of the website, assuming you have 5apps set up as a remote in the `dist/` folder, run `git push 5apps master`. But be careful: this updates the live site! Ask [@hugoroy] or [@michielbdejong] if you don't have permission
