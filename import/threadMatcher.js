@@ -3,7 +3,7 @@ var fs = require('fs'),
   newSubjects = JSON.parse(fs.readFileSync('./newThreadSubjects.json')),
   index = {},
   point, i, done, uniqueSubjects = {},
-  pointFiles = fs.readdirSync('../points/'),
+  pointFiles = fs.readdirSync('../src/points/'),
   rawPostFiles = fs.readdirSync('./rawPosts/'),
   MailParser = require("mailparser").MailParser, mailParser,
   prettyjson = require('../scripts/prettyjson');
@@ -26,52 +26,58 @@ for (i in subjects) {
     uniqueSubjects[subjects[i]] = false;
   }
 }
+
 for (i=0; i<pointFiles.length; i++) {
   if (pointFiles[i] === 'README.md') {
     continue;
   }
   point = {};
   try {
-    point = JSON.parse(fs.readFileSync('../points/'+pointFiles[i]));
+    point = JSON.parse(fs.readFileSync('../src/points/'+pointFiles[i]));
   } catch(e) {
   }
-  if (point.discussion && point.discussion.substring(0, 'https://groups.google.com/d/topic/tosdr/'.length) === 'https://groups.google.com/d/topic/tosdr/') {
-    parts = point.discussion.substring('https://groups.google.com/d/topic/tosdr/'.length).split('/');
-    if (index[parts[0]]) {
-      index[parts[0]].points.push(pointFiles[i]);
+
+  var prefixes = [
+    'https://groups.google.com/d/topic/tosdr/',
+    'https://groups.google.com/d/msg/tosdr/',
+    'https://groups.google.com/forum/#!topic/tosdr/',
+    'https://groups.google.com/forum#!topic/tosdr/',
+    'https://groups.google.com/forum/?fromgroups#!topic/tosdr/',
+  ];
+  
+  function tryPrefix(url, pointFile, prefix) {
+    if (url && url.substring(0, prefix.length) === prefix) {
+      parts = url.substring(prefix.length).split('/');
+      if (index[parts[0]]) {
+        index[parts[0]].points.push(pointFile);
+        console.log(parts[0]);
+        return true;
+      } else {
+        console.log('cannot find thread', parts[0], pointFile);
+        die();
+      }
     } else {
-      console.log('cannot find thread', parts[0], pointFiles[i]);
+      return false;
+    }
+  }
+  
+  if (typeof point.discussion === 'string') {
+    var found = false;
+    for (var j=0; j<prefixes.length; j++) {
+      if (tryPrefix(point.discussion, pointFiles[i], prefixes[j])) {
+        found = true;
+        break;
+      }
+    }
+    if (!found) {
+      console.log('cannot parse discussion link', point.discussion, pointFiles[i]);
+      console.log(point);
+      console.log(pointFiles[i]);
       die();
     }
-   } else if (point.discussion && point.discussion.substring(0, 'https://groups.google.com/d/msg/tosdr/'.length) === 'https://groups.google.com/d/msg/tosdr/') {
-    parts = point.discussion.substring('https://groups.google.com/d/msg/tosdr/'.length).split('/');
-    if (index[parts[0]]) {
-      index[parts[0]].points.push(pointFiles[i]);
-    } else {
-      console.log('cannot find thread', parts[0], pointFiles[i]);
-      die();
-    }
-  } else if (point.discussion && point.discussion.substring(0, 'https://groups.google.com/forum/#!topic/tosdr/'.length) === 'https://groups.google.com/forum/#!topic/tosdr/') {
-    parts = point.discussion.substring('https://groups.google.com/forum/#!topic/tosdr/'.length).split('/');
-    if (index[parts[0]]) {
-      index[parts[0]].points.push(pointFiles[i]);
-    } else {
-      console.log('cannot find thread', parts[0], pointFiles[i]);
-      die();
-    }
-  } else if (point.discussion && point.discussion.substring(0, 'https://groups.google.com/forum/?fromgroups#!topic/tosdr/'.length) === 'https://groups.google.com/forum/?fromgroups#!topic/tosdr/') {
-    parts = point.discussion.substring('https://groups.google.com/forum/?fromgroups#!topic/tosdr/'.length).split('/');
-    if (index[parts[0]]) {
-      index[parts[0]].points.push(pointFiles[i]);
-    } else {
-      console.log('cannot find thread', parts[0], pointFiles[i]);
-      die();
-    }
-  } else {
-    console.log('cannot parse discussion link', point.discussion, pointFiles[i]);
-    die();
   }
 }
+
 done = 0;
 function onEnd(mailObject) {
   var subjectParts = mailObject.subject.split('] ');
@@ -83,7 +89,7 @@ function onEnd(mailObject) {
     if (index[uniqueSubjects[mailObject.subject]].posts.indexOf(mailObject.messageId) === -1) {
       index[uniqueSubjects[mailObject.subject]].posts.push(mailObject.messageId);
     }
-    fs.writeFileSync('../posts/'+mailObject.messageId+'.json', prettyjson(mailObject));
+    fs.writeFileSync('../src/posts/'+mailObject.messageId.replace(/\//g, '___SLASH___')+'.json', prettyjson(mailObject));
   }
   done++;
   if (done === rawPostFiles.length) {
