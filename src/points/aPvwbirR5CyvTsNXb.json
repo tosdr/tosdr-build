@@ -1,17 +1,17 @@
 {
   "_id": "aPvwbirR5CyvTsNXb",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad] Tinder modification of service with or without notice.",
   "topics": [],
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "Tinder reserves the right at any time to modify or discontinue, temporarily or permanently, their Service with or without notice.",
     "sources": [
       "https://www.gotinder.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "Tinder reserves the right at any time to modify or discontinue, temporarily or permanently, their Service with or without notice."
+  }
 }

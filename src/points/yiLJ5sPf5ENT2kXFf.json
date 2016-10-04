@@ -1,8 +1,11 @@
 {
   "_id": "yiLJ5sPf5ENT2kXFf",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "linkedin"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  LinkedIn for Android apps",
   "topics": [
     "track",
@@ -11,12 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  For Android apps, LinkedIn will delete location and device tracking info if you choose not to become a Member.",
     "sources": [
       "https://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  For Android apps, LinkedIn will delete location and device tracking info if you choose not to become a Member."
+  }
 }

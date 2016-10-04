@@ -1,6 +1,9 @@
 {
   "_id": "8Z4w4TvpmfQDpZN2x",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  Groupon is certified and in compliance with the Safe Harbor privacy framework.",
   "topics": [
     "personal-data"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  Groupon is certified and in compliance with the Safe Harbor privacy framework for the transfer and “adequate protection” of Personal data from European Community business partners into the U.S. as required by the Directive of the European Economic Area.  ",
     "sources": [
       "https://www.groupon.com/privacy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  Groupon is certified and in compliance with the Safe Harbor privacy framework for the transfer and “adequate protection” of Personal data from European Community business partners into the U.S. as required by the Directive of the European Economic Area.  "
+  }
 }

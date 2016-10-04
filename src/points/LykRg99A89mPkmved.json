@@ -1,6 +1,9 @@
 {
   "_id": "LykRg99A89mPkmved",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  Groupon has copyright Infringement Reporting Procedure in accordance with the Digital Millennium Copyright Act (DMCA).",
   "topics": [
     "equality",
@@ -9,12 +12,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  Groupon has copyright Infringement Reporting Procedure in accordance with the Digital Millennium Copyright Act (DMCA).",
     "sources": [
       "https://www.groupon.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  Groupon has copyright Infringement Reporting Procedure in accordance with the Digital Millennium Copyright Act (DMCA)."
+  }
 }

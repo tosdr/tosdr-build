@@ -1,6 +1,9 @@
 {
   "_id": "yQ3zkrKzs6ygNXTXC",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad]  Groupon is not liable for anything.",
   "topics": [
     "law-enforcement"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "With regards to liability, Groupon will not pay for anything more than THE AMOUNT that you PAID FOR, and claims must be made within 1 year.  \n",
     "sources": [
       "https://www.groupon.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "With regards to liability, Groupon will not pay for anything more than THE AMOUNT that you PAID FOR, and claims must be made within 1 year.  \n"
+  }
 }

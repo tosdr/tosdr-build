@@ -1,6 +1,9 @@
 {
   "_id": "TX8Q2dXaHkYt7aHKu",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad]  To cancel your account, you have to email Uber",
   "topics": [
     "leave",
@@ -9,12 +12,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "[Bad]  To cancel your account, you have to email Uber, and in some cases they may retain certain information about you until they can resolve any issue before deleting your information.",
     "sources": [
       "https://www.uber.com/legal/privacy/users/en/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Bad]  To cancel your account, you have to email Uber, and in some cases they may retain certain information about you until they can resolve any issue before deleting your information."
+  }
 }

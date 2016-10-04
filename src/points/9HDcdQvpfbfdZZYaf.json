@@ -1,6 +1,9 @@
 {
   "_id": "9HDcdQvpfbfdZZYaf",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "FHspwPsTJxxED2Zo5",
   "title": "Committed to protecting your privacy",
   "topics": [
     "track",
@@ -11,12 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Players Crate is committed to protecting your privacy. Players Crate does not sell, trade or rent your personal information to other companies. Players Crate will not collect any personal information about you except when you specifically and knowingly provide such information.",
     "sources": [
       "https://www.pcrate.net/tos/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "FHspwPsTJxxED2Zo5",
-  "needModeration": true
+    ],
+    "tldr": "Players Crate is committed to protecting your privacy. Players Crate does not sell, trade or rent your personal information to other companies. Players Crate will not collect any personal information about you except when you specifically and knowingly provide such information."
+  }
 }

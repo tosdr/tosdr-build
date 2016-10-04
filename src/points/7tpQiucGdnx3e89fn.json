@@ -1,8 +1,11 @@
 {
   "_id": "7tpQiucGdnx3e89fn",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "disqus"
   ],
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
   "title": "\"Disqus does not moderate comments on the sites that use our service.\"",
   "topics": [
     "suspension"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Disqus does not moderate comments on the sites that use our service.",
     "sources": [
       "https://help.disqus.com/customer/en/portal/articles/466259-privacy-policy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "bW34fJJWxiqDJ4Kaq",
-  "needModeration": true
+    ],
+    "tldr": "Disqus does not moderate comments on the sites that use our service."
+  }
 }

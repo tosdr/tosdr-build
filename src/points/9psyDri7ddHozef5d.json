@@ -1,6 +1,9 @@
 {
   "_id": "9psyDri7ddHozef5d",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad] Snapchat modification of services without notice.",
   "topics": [
     "changes"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "Snapchat may suspend or stop their Services at any time, and may not provide you with any notice beforehand….  They may also terminate these Terms with you at any time, for any reason, and without advanced notice. That means that they may deactivate your account due to prolonged inactivity, and they may reclaim your username at any time for any reason.",
     "sources": [
       "https://www.snapchat.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "Snapchat may suspend or stop their Services at any time, and may not provide you with any notice beforehand….  They may also terminate these Terms with you at any time, for any reason, and without advanced notice. That means that they may deactivate your account due to prolonged inactivity, and they may reclaim your username at any time for any reason."
+  }
 }

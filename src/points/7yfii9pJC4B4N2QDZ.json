@@ -1,8 +1,11 @@
 {
   "_id": "7yfii9pJC4B4N2QDZ",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "pinterest"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good] Pinterest will notify you of material revisions to TOS.",
   "topics": [
     "changes-notice"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "If they're making a big change to the terms, they'll let you know.\nPinterest reserves the right to determine the form and means of providing notifications to you.",
     "sources": [
       "https://about.pinterest.com/en/terms-service"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "If they're making a big change to the terms, they'll let you know.\nPinterest reserves the right to determine the form and means of providing notifications to you."
+  }
 }

@@ -1,8 +1,11 @@
 {
   "_id": "7Br2WffoQbAQzXZRS",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "pebble"
   ],
+  "submittedBy": "BKsm3eieNTZoBmHig",
   "title": "Ownership of submitted apps is clear",
   "topics": [
     "ownership",
@@ -11,12 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "YOU RETAIN OWNERSHIP OF ANY COPYRIGHTS OR OTHER INTELLECTUAL PROPERTY RIGHTS APPLICABLE TO YOUR SUBMISSIONS.",
     "sources": [
       "https://pebble.com/legal/terms_of_use/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "BKsm3eieNTZoBmHig",
-  "needModeration": true
+    ],
+    "tldr": "YOU RETAIN OWNERSHIP OF ANY COPYRIGHTS OR OTHER INTELLECTUAL PROPERTY RIGHTS APPLICABLE TO YOUR SUBMISSIONS."
+  }
 }

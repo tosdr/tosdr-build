@@ -1,8 +1,11 @@
 {
   "_id": "vF2GXJETXstWNhkXT",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "pebble"
   ],
+  "submittedBy": "BKsm3eieNTZoBmHig",
   "title": "Pebble acknowledges that it does not obtain any ownership in your apps",
   "topics": [
     "ownership",
@@ -11,12 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Your Ownership.\nPebble acknowledges that Pebble does not obtain any ownership interest in any applications that you develop using the Pebble SDK and you acknowledge that Pebble retains ownership in any distributable components of the Pebble SDK that you embed in your applications.",
     "sources": [
       "https://developer.getpebble.com/legal/sdk-license/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "BKsm3eieNTZoBmHig",
-  "needModeration": true
+    ],
+    "tldr": "Your Ownership.\nPebble acknowledges that Pebble does not obtain any ownership interest in any applications that you develop using the Pebble SDK and you acknowledge that Pebble retains ownership in any distributable components of the Pebble SDK that you embed in your applications."
+  }
 }

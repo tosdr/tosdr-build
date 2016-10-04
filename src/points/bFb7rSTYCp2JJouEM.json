@@ -1,8 +1,11 @@
 {
   "_id": "bFb7rSTYCp2JJouEM",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "ebay"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  eBay outlines rules for listing items and selling practices.",
   "topics": [
     "readability"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  eBay outlines rules for listing items and selling practices, as well as rules for buyers.",
     "sources": [
       "http://pages.ebay.com/help/policies/user-agreement.html"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  eBay outlines rules for listing items and selling practices, as well as rules for buyers."
+  }
 }

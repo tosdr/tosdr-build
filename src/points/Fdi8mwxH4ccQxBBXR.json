@@ -1,6 +1,9 @@
 {
   "_id": "Fdi8mwxH4ccQxBBXR",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad]  Offerings and pricing on the Site may change at any time at Groupon’s sole discretion, and without notice.",
   "topics": [
     "guarantee"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "",
     "sources": [
       "https://www.groupon.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": ""
+  }
 }

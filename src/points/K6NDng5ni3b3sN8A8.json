@@ -1,6 +1,9 @@
 {
   "_id": "K6NDng5ni3b3sN8A8",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Neutral]  Groupon e-mails contain cookies that track whether you open the e-mails.",
   "topics": [
     "track",
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "[Neutral]  Groupon e-mails contain cookies that track whether you open the e-mails and whether you click any links within them. But they are unique to each e-mail and are not stored on your computer or mobile device.",
     "sources": [
       "https://www.groupon.com/cookie-policy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Neutral]  Groupon e-mails contain cookies that track whether you open the e-mails and whether you click any links within them. But they are unique to each e-mail and are not stored on your computer or mobile device."
+  }
 }

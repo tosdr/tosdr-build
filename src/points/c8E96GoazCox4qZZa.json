@@ -1,6 +1,9 @@
 {
   "_id": "c8E96GoazCox4qZZa",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  You may unsubscribe from Groupon at anytime.",
   "topics": [
     "leave"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "",
     "sources": [
       "https://www.groupon.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": ""
+  }
 }

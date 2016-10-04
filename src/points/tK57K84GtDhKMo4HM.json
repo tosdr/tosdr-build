@@ -1,8 +1,11 @@
 {
   "_id": "tK57K84GtDhKMo4HM",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "ebay"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Neutral]  eBay may process and retain your personal information on servers in the U.S. and elsewhere in the world ",
   "topics": [
     "personal-data"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "[Neutral]  eBay may process and retain your personal information on servers in the U.S. and elsewhere in the world where their data centers are located.  They provide link to their global privacy standards (http://www.ebayprivacycenter.com/privacy)",
     "sources": [
       "http://pages.ebay.com/help/policies/privacy-policy.html"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Neutral]  eBay may process and retain your personal information on servers in the U.S. and elsewhere in the world where their data centers are located.  They provide link to their global privacy standards (http://www.ebayprivacycenter.com/privacy)"
+  }
 }

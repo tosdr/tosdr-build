@@ -1,6 +1,9 @@
 {
   "_id": "WYojG4shpCT5kksob",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad] Tinder is not liable even if they know of the possibility of damages.",
   "topics": [
     "waiver"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "IN NO EVENT WILL Tinder BE LIABLE TO YOU FOR ANY  DAMAGES and SERVICE INTERRUPTIONS, EVEN IF THE COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
     "sources": [
       "https://www.gotinder.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "IN NO EVENT WILL Tinder BE LIABLE TO YOU FOR ANY  DAMAGES and SERVICE INTERRUPTIONS, EVEN IF THE COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+  }
 }

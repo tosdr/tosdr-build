@@ -1,6 +1,9 @@
 {
   "_id": "TnPTcCQgqrgQZ37QS",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad] Tinder will retain your info after you close your account…",
   "topics": [
     "user-info"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "If you close your account, Tinder will retain certain information associated with your account that they deem necessary.  If certain information has already been provided to third parties, retention of that information will be subject to those third parties' policies.",
     "sources": [
       "https://www.gotinder.com/privacy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "If you close your account, Tinder will retain certain information associated with your account that they deem necessary.  If certain information has already been provided to third parties, retention of that information will be subject to those third parties' policies."
+  }
 }

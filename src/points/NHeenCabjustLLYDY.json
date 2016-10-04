@@ -1,8 +1,11 @@
 {
   "_id": "NHeenCabjustLLYDY",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "ebay"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Neutral]  eBay does not guarantee that they will take action against all breaches of their User Agreement.",
   "topics": [
     "guarantee"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "[Neutral]  eBay does not guarantee that they will take action against all breaches of their User Agreement.  The failure to act against a breach does not waive their right to act with respect to subsequent or similar breaches.",
     "sources": [
       "http://pages.ebay.com/help/policies/user-agreement.html"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Neutral]  eBay does not guarantee that they will take action against all breaches of their User Agreement.  The failure to act against a breach does not waive their right to act with respect to subsequent or similar breaches."
+  }
 }

@@ -1,6 +1,9 @@
 {
   "_id": "qdLwxbTckpcqRR9fB",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "QCyKc5pRE5rjGJPhB",
   "title": "[Good] keybase notifies you when they change their TOS/Privacy policy",
   "topics": [
     "changes"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "when keybase updates either their Termes of Service or their privacy they will inform you either on their site or in an email ",
     "sources": [
       "https://keybase.io/docs/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "QCyKc5pRE5rjGJPhB",
-  "needModeration": true
+    ],
+    "tldr": "when keybase updates either their Termes of Service or their privacy they will inform you either on their site or in an email "
+  }
 }

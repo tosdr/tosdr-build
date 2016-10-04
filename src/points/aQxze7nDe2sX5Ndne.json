@@ -1,6 +1,9 @@
 {
   "_id": "aQxze7nDe2sX5Ndne",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad]  YOU AGREE TO USE UBER AT YOUR OWN RISK",
   "topics": [
     "law-enforcement",
@@ -9,12 +12,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "[Bad]  YOU AGREE TO USE UBER AT YOUR OWN RISK, and that Uber is not liable.  Their TOTAL LIABILITY TO YOU will not EXCEED FIVE HUNDRED U.S. DOLLARS (US $500).",
     "sources": [
       "https://www.uber.com/legal/terms/us/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Bad]  YOU AGREE TO USE UBER AT YOUR OWN RISK, and that Uber is not liable.  Their TOTAL LIABILITY TO YOU will not EXCEED FIVE HUNDRED U.S. DOLLARS (US $500)."
+  }
 }

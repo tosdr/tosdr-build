@@ -1,8 +1,11 @@
 {
   "_id": "Znu7sqd9q6qx6j34K",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "linkedin"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  You can remove your address book and any other synced information from LinkedIn at any time.",
   "topics": [
     "personal-data",
@@ -12,12 +15,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "",
     "sources": [
       "https://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": ""
+  }
 }

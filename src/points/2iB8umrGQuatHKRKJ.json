@@ -1,8 +1,11 @@
 {
   "_id": "2iB8umrGQuatHKRKJ",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "ebay"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  eBay provides list of what is not acceptable for using their services.",
   "topics": [
     "suspension"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  eBay provides list of what is not acceptable for using their services.",
     "sources": [
       "http://pages.ebay.com/help/policies/user-agreement.html"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  eBay provides list of what is not acceptable for using their services."
+  }
 }
