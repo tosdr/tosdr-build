@@ -6,11 +6,11 @@ var fs = require('fs'),
 for (i in threads) {
   if (threads[i].points.length === 0) {
     console.log(i);
-    if (fs.existsSync('points/'+i+'.json')) {
+    if (fs.existsSync('src/points/'+i+'.json')) {
       console.log('ERROR: points file exists but not listed in index/threads.json. Was it added manually?');
       die();
     }
-    fs.writeFileSync('points/'+i+'.json', prettyjson({
+    fs.writeFileSync('src/points/'+i+'.json', prettyjson({
       discussion: 'https://groups.google.com/forum#!topic/tosdr/'+i,
       id: i,
       title: threads[i].subject,
