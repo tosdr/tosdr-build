@@ -16,6 +16,10 @@ The data specification is available [on the wiki][wiki].
 
 [wiki]: https://github.com/tosdr/tosdr.org/wiki
 
+Personal information
+====================
+
+This repo might contain information that was not intended to be public. In that case, please open a PR here or send us an email at team at tosdr dot org.
 
 Clone this repository
 =====================
