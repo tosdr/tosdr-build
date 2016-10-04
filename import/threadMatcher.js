@@ -50,7 +50,6 @@ for (i=0; i<pointFiles.length; i++) {
       parts = url.substring(prefix.length).split('/');
       if (index[parts[0]]) {
         index[parts[0]].points.push(pointFile);
-        console.log(parts[0]);
         return true;
       } else {
         console.log('cannot find thread', parts[0], pointFile);
