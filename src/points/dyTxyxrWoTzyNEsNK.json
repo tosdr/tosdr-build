@@ -1,6 +1,6 @@
 {
   "_id": "dyTxyxrWoTzyNEsNK",
-  "services": null,
+  "services": [],
   "title": "[Bad]  Device Data may be collected when you interact with Groupon, even if you are not logged into the Site.",
   "topics": [
     "track",
