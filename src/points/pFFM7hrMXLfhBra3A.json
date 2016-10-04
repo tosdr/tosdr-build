@@ -1,6 +1,9 @@
 {
   "_id": "pFFM7hrMXLfhBra3A",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good] Pinterest’s TOS includes “More simply put” language.",
   "topics": [
     "readability"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Pinterest’s TOS includes side by side its legal terms and “More simply put” language for ease of understanding.",
     "sources": [
       "https://about.pinterest.com/en/terms-service"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "Pinterest’s TOS includes side by side its legal terms and “More simply put” language for ease of understanding."
+  }
 }

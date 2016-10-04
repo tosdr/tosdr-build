@@ -1,8 +1,11 @@
 {
   "_id": "wjqKc4m5n3zwaficx",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "ebay"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  eBay offers opt-out procedure to their arbitration agreement for new users. ",
   "topics": [
     "law-enforcement",
@@ -11,12 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  eBay offers opt-out procedure to their arbitration agreement for new users.  THE OPT-OUT NOTICE MUST BE POSTMARKED NO LATER THAN 30 DAYS AFTER THE DATE YOU ACCEPT THE USER AGREEMENT FOR THE FIRST TIME.",
     "sources": [
       "http://pages.ebay.com/help/policies/user-agreement.html"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  eBay offers opt-out procedure to their arbitration agreement for new users.  THE OPT-OUT NOTICE MUST BE POSTMARKED NO LATER THAN 30 DAYS AFTER THE DATE YOU ACCEPT THE USER AGREEMENT FOR THE FIRST TIME."
+  }
 }

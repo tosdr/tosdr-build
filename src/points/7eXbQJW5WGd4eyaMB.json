@@ -1,8 +1,11 @@
 {
   "_id": "7eXbQJW5WGd4eyaMB",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "ebay"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  eBay does not disclose your personal information to third parties for their marketing and advertising purposes without your explicit consent.",
   "topics": [
     "track",
@@ -13,12 +16,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  eBay does not disclose your personal information to third parties for their marketing and advertising purposes without your explicit consent.",
     "sources": [
       "http://pages.ebay.com/help/policies/privacy-policy.html"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  eBay does not disclose your personal information to third parties for their marketing and advertising purposes without your explicit consent."
+  }
 }

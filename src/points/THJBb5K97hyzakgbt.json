@@ -1,8 +1,11 @@
 {
   "_id": "THJBb5K97hyzakgbt",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "pinterest"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good] Pinterest will work with you to resolve any disputes.",
   "topics": [
     "law-enforcement"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Pinterest will first attempt to resolve disputes with you informally…\nif not…\nEach party will be responsible for paying any arbitration fees, except that Pinterest will pay for your filing and arbitrator fees if your claim for damages does not exceed $75,000 and is non-frivolous.",
     "sources": [
       "https://about.pinterest.com/en/terms-service"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "Pinterest will first attempt to resolve disputes with you informally…\nif not…\nEach party will be responsible for paying any arbitration fees, except that Pinterest will pay for your filing and arbitrator fees if your claim for damages does not exceed $75,000 and is non-frivolous."
+  }
 }

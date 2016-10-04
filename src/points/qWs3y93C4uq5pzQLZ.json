@@ -1,8 +1,11 @@
 {
   "_id": "qWs3y93C4uq5pzQLZ",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "ebay"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  eBay has communications preference where users can opt out of autodialed or prerecorded calls and text messages.",
   "topics": [
     "user-choice"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  eBay has communications preference where users can opt out of autodialed or prerecorded calls and text messages.",
     "sources": [
       "http://pages.ebay.com/help/policies/user-agreement.html"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  eBay has communications preference where users can opt out of autodialed or prerecorded calls and text messages."
+  }
 }

@@ -1,8 +1,11 @@
 {
   "_id": "GANGLM8aRGqsiZfqs",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "steam"
   ],
+  "submittedBy": "feqyF6XgGf3gyksX5",
   "title": "Has refund policy",
   "topics": [
     "user-choice"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Steam allows you to refund games as long as you have played under 4 hours and owned it for less than two weeks. Even if one of these criteria isn't met you can apply for one and you may or may not get your money back.",
     "sources": [
       "http://store.steampowered.com/steam_refunds/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "feqyF6XgGf3gyksX5",
-  "needModeration": true
+    ],
+    "tldr": "Steam allows you to refund games as long as you have played under 4 hours and owned it for less than two weeks. Even if one of these criteria isn't met you can apply for one and you may or may not get your money back."
+  }
 }

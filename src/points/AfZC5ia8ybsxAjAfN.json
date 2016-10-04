@@ -1,6 +1,9 @@
 {
   "_id": "AfZC5ia8ybsxAjAfN",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  Goupon does not share your Personal Information with Third-Parties.",
   "topics": [
     "cookies",
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  Goupon does not share your Personal Information with Third-Parties, but they are also not responsible for Cookies or clear gifs in third party ads.",
     "sources": [
       "https://www.groupon.com/privacy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  Goupon does not share your Personal Information with Third-Parties, but they are also not responsible for Cookies or clear gifs in third party ads."
+  }
 }

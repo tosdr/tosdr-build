@@ -1,8 +1,11 @@
 {
   "_id": "fwonCfHujPEcfKMop",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "disqus"
   ],
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
   "title": "\"Disqus can put a cookie on your hard drive that remains even after you close your browser\"",
   "topics": [
     "cookies"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "A persistent cookie remains on your hard drive after you close your browser. Persistent cookies may be used by your browser on subsequent visits to the site.",
     "sources": [
       "https://help.disqus.com/customer/en/portal/articles/466259-privacy-policy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "bW34fJJWxiqDJ4Kaq",
-  "needModeration": true
+    ],
+    "tldr": "A persistent cookie remains on your hard drive after you close your browser. Persistent cookies may be used by your browser on subsequent visits to the site."
+  }
 }

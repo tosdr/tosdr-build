@@ -1,6 +1,9 @@
 {
   "_id": "PjzegdKjx6TRHpXc3",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good]  Uber offers links to additional info about iOS and Android ",
   "topics": [
     "personal-data",
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "[Good]  Uber offers links to additional info about iOS and Android platform-level permissions for their app.",
     "sources": [
       "https://www.uber.com/legal/privacy/users/en/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Good]  Uber offers links to additional info about iOS and Android platform-level permissions for their app."
+  }
 }

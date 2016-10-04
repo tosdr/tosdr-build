@@ -1,8 +1,11 @@
 {
   "_id": "ymofQg4QAXqq9wjkc",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "disqus"
   ],
+  "submittedBy": "bW34fJJWxiqDJ4Kaq",
   "title": "\"Disqus may receive Personally Identifiable Information about you from third parties\"",
   "topics": [
     "personal-data"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "We may receive Personally Identifiable Information about you from third parties, including, for example, information about your transactions, purchase history, or relationships with various product and service providers, and your use of certain applications.",
     "sources": [
       "https://help.disqus.com/customer/en/portal/articles/466259-privacy-policy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "bW34fJJWxiqDJ4Kaq",
-  "needModeration": true
+    ],
+    "tldr": "We may receive Personally Identifiable Information about you from third parties, including, for example, information about your transactions, purchase history, or relationships with various product and service providers, and your use of certain applications."
+  }
 }

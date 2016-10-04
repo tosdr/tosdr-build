@@ -1,8 +1,11 @@
 {
   "_id": "WvEuQYxbEWFNy76WP",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "linkedin"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad]  LinkedIn is states that they are not obligated to publish any information or content on their Service and that they can remove your info at their sole discretion, with or without notice.",
   "topics": [
     "suspension"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "",
     "sources": [
       "https://www.linkedin.com/legal/user-agreement?trk=uno-reg-guest-home-user-agreement"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": ""
+  }
 }

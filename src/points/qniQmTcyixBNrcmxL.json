@@ -1,6 +1,9 @@
 {
   "_id": "qniQmTcyixBNrcmxL",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad] You grant Tinder the right and full license to all of your posted content.",
   "topics": [
     "copyright-scope"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "By posting Content, you automatically grant Tinder and its affiliates the right and full license to (i) use, copy, store, perform, display, reproduce, record, play, adapt, modify and distribute the Content, (ii) prepare derivative works of the Content or incorporate the Content into other works, and sublicense those works in any media form.",
     "sources": [
       "https://www.gotinder.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "By posting Content, you automatically grant Tinder and its affiliates the right and full license to (i) use, copy, store, perform, display, reproduce, record, play, adapt, modify and distribute the Content, (ii) prepare derivative works of the Content or incorporate the Content into other works, and sublicense those works in any media form."
+  }
 }

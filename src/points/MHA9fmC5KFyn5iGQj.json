@@ -1,6 +1,9 @@
 {
   "_id": "MHA9fmC5KFyn5iGQj",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad]  Groupon only will post notice of change of TOS, not email you.",
   "topics": [
     "changes-notice"
@@ -8,12 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "[Bad]  You agree to regularly visit Groupon’s Terms of Use to familiarize yourself with any updates.  You agree that their posting of the notice of change on the Terms of Use page is adequate notice to advise you of the changes.",
     "sources": [
       "https://www.groupon.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Bad]  You agree to regularly visit Groupon’s Terms of Use to familiarize yourself with any updates.  You agree that their posting of the notice of change on the Terms of Use page is adequate notice to advise you of the changes."
+  }
 }

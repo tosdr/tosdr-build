@@ -1,6 +1,9 @@
 {
   "_id": "SAgbG6G6ANFrWtL6p",
+  "approved": false,
+  "needModeration": true,
   "services": [],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Bad]  You grant Groupon the right to Personal Information in connection with your User Content.",
   "topics": [
     "business-transfer",
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "[Bad]  You grant Groupon the right to use, display and distribute any Personal Information in connection with your User Content, including the right to sell such rights to Personal Information.",
     "sources": [
       "https://www.groupon.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "[Bad]  You grant Groupon the right to use, display and distribute any Personal Information in connection with your User Content, including the right to sell such rights to Personal Information."
+  }
 }

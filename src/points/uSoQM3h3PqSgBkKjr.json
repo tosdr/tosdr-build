@@ -1,8 +1,11 @@
 {
   "_id": "uSoQM3h3PqSgBkKjr",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "pinterest"
   ],
+  "submittedBy": "euuLXKG9G2vNLbLDK",
   "title": "[Good] Pinterest explains its data collection with Pin It buttons and advertisers.",
   "topics": [
     "track",
@@ -13,12 +16,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Pinterest deletes Pin It button data after 30 days.",
     "sources": [
       "https://help.pinterest.com/en/articles/personalization-and-data"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "euuLXKG9G2vNLbLDK",
-  "needModeration": true
+    ],
+    "tldr": "Pinterest deletes Pin It button data after 30 days."
+  }
 }

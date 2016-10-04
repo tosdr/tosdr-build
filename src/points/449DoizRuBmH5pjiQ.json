@@ -1,8 +1,11 @@
 {
   "_id": "449DoizRuBmH5pjiQ",
+  "approved": false,
+  "needModeration": true,
   "services": [
     "seenthis"
   ],
+  "submittedBy": "8Y5gtxhzN2gkZmatd",
   "title": "HTTPS not available (not even for login)",
   "topics": [
     "personal-data"
@@ -10,12 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "blocker",
-    "tldr": "The site fails to implement HTTPS, not even for sending sensitive information like user login credentials.",
     "sources": [
       "http://seenthis.net/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "8Y5gtxhzN2gkZmatd",
-  "needModeration": true
+    ],
+    "tldr": "The site fails to implement HTTPS, not even for sending sensitive information like user login credentials."
+  }
 }
