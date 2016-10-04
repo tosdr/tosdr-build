@@ -48,6 +48,7 @@ Import
 To import new and/or updated threads from the Google Group:
 
 * Open [import/bookmarklet.html](https://tosdr.org/import/bookmarklet.html) with Firefox, and follow instructions there; save result to `./import/newThreadSubjects.json` in your checked out local git repo
+* Run `node ./import/prettifyNewThreadSubjects.js`
 * create `./import/imapCredentials.js` from `./import/imapCredentials.js.sample`
 * (from the repo root:) `git pull; npm install ; cd import ; mkdir rawPosts ; cd rawPosts ; node ../searcher.js` (you may have to set 'allow less secure apps' if the imap account is a gmail account).
 * `cd .. ; node threadMatcher.js > ../index/threads.json`
