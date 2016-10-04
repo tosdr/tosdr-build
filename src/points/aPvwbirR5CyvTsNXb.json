@@ -1,8 +1,8 @@
 {
   "_id": "aPvwbirR5CyvTsNXb",
-  "services": null,
+  "services": [],
   "title": "[Bad] Tinder modification of service with or without notice.",
-  "topics": null,
+  "topics": [],
   "tosdr": {
     "binding": true,
     "point": "bad",

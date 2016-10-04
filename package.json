@@ -14,7 +14,8 @@
     "mustache": "*",
     "node-static": "*",
     "imap": "*",
-    "mailparser": "*"
+    "mailparser": "*",
+    "mongodb": "*"
   },
   "devDependencies": {
     "grunt": "*",

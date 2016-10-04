@@ -1,8 +1,8 @@
 {
   "_id": "ynLjZJT36v4fYiLv5",
-  "services": null,
+  "services": [],
   "title": "",
-  "topics": null,
+  "topics": [],
   "tosdr": {
     "binding": true,
     "point": "bad",
