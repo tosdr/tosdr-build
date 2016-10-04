@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/YdJMODRLyZI",
   "id": "YdJMODRLyZI",
   "title": "Airbnb TOS",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

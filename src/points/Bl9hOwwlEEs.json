@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/Bl9hOwwlEEs",
   "id": "Bl9hOwwlEEs",
   "title": "[Bad] Tinder Mobile Device ID tracking",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

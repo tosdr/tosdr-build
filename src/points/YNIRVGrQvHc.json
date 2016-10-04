@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/YNIRVGrQvHc",
   "id": "YNIRVGrQvHc",
   "title": "[Good] Snapchat offers Community Guidelines for use of services.",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

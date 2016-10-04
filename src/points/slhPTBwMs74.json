@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/slhPTBwMs74",
   "id": "slhPTBwMs74",
   "title": "Plenti from Macy's",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/5G3AKaaz8Ns",
   "id": "5G3AKaaz8Ns",
   "title": "Privacy terms of weibo.com",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

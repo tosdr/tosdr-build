@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/rctqVvVux0k",
   "id": "rctqVvVux0k",
   "title": "NPR.org TOU",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/W-xi_mI8KxY",
   "id": "W-xi_mI8KxY",
   "title": "ToSBack: Policy Changes",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

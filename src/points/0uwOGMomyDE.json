@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/0uwOGMomyDE",
   "id": "0uwOGMomyDE",
   "title": "Help with LinkedIn TOS and Privacy Policy",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

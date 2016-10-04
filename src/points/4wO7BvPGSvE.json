@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/4wO7BvPGSvE",
   "id": "4wO7BvPGSvE",
   "title": "Yahoo! TOS",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

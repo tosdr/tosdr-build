@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/MKS6nYfOs3I",
   "id": "MKS6nYfOs3I",
   "title": "Rating Openmailbox",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

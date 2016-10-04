@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/dBsQxVSeW3I",
   "id": "dBsQxVSeW3I",
   "title": "Feedly",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

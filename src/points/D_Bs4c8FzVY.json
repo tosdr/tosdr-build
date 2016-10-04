@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/D_Bs4c8FzVY",
   "id": "D_Bs4c8FzVY",
   "title": "Kindly rate tos of \"The World At Your Fingertips\" website at http://pgoh13.com",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

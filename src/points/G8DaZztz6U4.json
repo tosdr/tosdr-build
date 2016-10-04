@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/G8DaZztz6U4",
   "id": "G8DaZztz6U4",
   "title": "shanda massoni",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

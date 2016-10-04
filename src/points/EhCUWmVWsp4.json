@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/EhCUWmVWsp4",
   "id": "EhCUWmVWsp4",
   "title": "CATALOGUE",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

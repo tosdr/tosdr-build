@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/3XFowwGrBuk",
   "id": "3XFowwGrBuk",
   "title": "LibraryThing PII",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

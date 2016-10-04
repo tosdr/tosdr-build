@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/y5_kb0hUJBQ",
   "id": "y5_kb0hUJBQ",
   "title": "DropBox Terms of Service",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

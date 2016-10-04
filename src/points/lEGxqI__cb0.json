@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/lEGxqI__cb0",
   "id": "lEGxqI__cb0",
   "title": "Covered California",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

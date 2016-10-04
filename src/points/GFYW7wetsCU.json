@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/GFYW7wetsCU",
   "id": "GFYW7wetsCU",
   "title": "[Bad] Tinder modification of service with or without notice.",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }
