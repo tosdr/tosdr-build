@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/bMRvslUz8Yk",
   "id": "bMRvslUz8Yk",
   "title": "1fichier.com",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

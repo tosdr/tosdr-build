@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/1Njvni1QwPs",
   "id": "1Njvni1QwPs",
   "title": "Slack",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

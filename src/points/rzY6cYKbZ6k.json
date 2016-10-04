@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/rzY6cYKbZ6k",
   "id": "rzY6cYKbZ6k",
   "title": "Let's Encrypt subscriber agreement (draft)",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/EFw-wcA838U",
   "id": "EFw-wcA838U",
   "title": "Pure Privacy Policy",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

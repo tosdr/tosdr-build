@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/TuBJCuhkEL0",
   "id": "TuBJCuhkEL0",
   "title": "Springfield Registry",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

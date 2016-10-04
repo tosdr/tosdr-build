@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/rTUeK8w7EHU",
   "id": "rTUeK8w7EHU",
   "title": "Ask.FM and your content",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

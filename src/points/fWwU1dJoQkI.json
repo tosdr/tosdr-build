@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/fWwU1dJoQkI",
   "id": "fWwU1dJoQkI",
   "title": "yourepeat.com TOS",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

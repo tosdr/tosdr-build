@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/wC9wnsFwtqI",
   "id": "wC9wnsFwtqI",
   "title": "tos not yet read for typeform.com",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

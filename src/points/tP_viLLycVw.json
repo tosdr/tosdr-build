@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/tP_viLLycVw",
   "id": "tP_viLLycVw",
   "title": "Re: [tosdr:3408] Re: [Terms of Service] [Fixed]",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/K_54h1GDFPk",
   "id": "K_54h1GDFPk",
   "title": "steampowered.com",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

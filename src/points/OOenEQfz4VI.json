@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/OOenEQfz4VI",
   "id": "OOenEQfz4VI",
   "title": "Fruux Calendar",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

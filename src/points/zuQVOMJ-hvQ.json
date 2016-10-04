@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/zuQVOMJ-hvQ",
   "id": "zuQVOMJ-hvQ",
   "title": "[Good] Snapchat has a Cookie Policy.",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

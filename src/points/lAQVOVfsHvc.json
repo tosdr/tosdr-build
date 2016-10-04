@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/lAQVOVfsHvc",
   "id": "lAQVOVfsHvc",
   "title": "Pagebin.com Terms of Service",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

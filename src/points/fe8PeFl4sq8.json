@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/fe8PeFl4sq8",
   "id": "fe8PeFl4sq8",
   "title": "sharetube",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

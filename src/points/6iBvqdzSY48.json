@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/6iBvqdzSY48",
   "id": "6iBvqdzSY48",
   "title": "Twitch",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

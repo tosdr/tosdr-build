@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/F3Ch_KyRAww",
   "id": "F3Ch_KyRAww",
   "title": "Activity",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

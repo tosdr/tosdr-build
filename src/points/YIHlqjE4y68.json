@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/YIHlqjE4y68",
   "id": "YIHlqjE4y68",
   "title": "Please add Mozilla (1/2)",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

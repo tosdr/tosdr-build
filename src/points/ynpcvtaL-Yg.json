@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/ynpcvtaL-Yg",
   "id": "ynpcvtaL-Yg",
   "title": "Bold Type Tickets TOS",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

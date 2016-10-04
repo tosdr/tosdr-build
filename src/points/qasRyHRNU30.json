@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/qasRyHRNU30",
   "id": "qasRyHRNU30",
   "title": "Hulu",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

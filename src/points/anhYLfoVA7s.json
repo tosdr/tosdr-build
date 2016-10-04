@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/anhYLfoVA7s",
   "id": "anhYLfoVA7s",
   "title": "Remote and local work opportunities in tech companies",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

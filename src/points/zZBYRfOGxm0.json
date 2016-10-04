@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/zZBYRfOGxm0",
   "id": "zZBYRfOGxm0",
   "title": "TOS for Protonmail",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

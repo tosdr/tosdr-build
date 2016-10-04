@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/Clv56xVfdPU",
   "id": "Clv56xVfdPU",
   "title": "Terms | MakeUseOf Deals",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

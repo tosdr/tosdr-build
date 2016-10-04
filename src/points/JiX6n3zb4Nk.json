@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/JiX6n3zb4Nk",
   "id": "JiX6n3zb4Nk",
   "title": "Wix Website Terms of Use",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

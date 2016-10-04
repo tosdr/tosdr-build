@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/gJHFFiy_WnU",
   "id": "gJHFFiy_WnU",
   "title": "Papaly needs to be added!",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

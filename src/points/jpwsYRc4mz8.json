@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/jpwsYRc4mz8",
   "id": "jpwsYRc4mz8",
   "title": "Symantec Privacy",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

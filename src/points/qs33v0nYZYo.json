@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/qs33v0nYZYo",
   "id": "qs33v0nYZYo",
   "title": "Library Thing",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

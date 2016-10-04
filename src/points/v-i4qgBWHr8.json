@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/v-i4qgBWHr8",
   "id": "v-i4qgBWHr8",
   "title": "koding.com",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }

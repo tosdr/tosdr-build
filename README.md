@@ -56,7 +56,8 @@ To import new and/or updated threads from the Google Group:
 * create `./import/imapCredentials.js` from `./import/imapCredentials.js.sample`
 * (from the repo root:) `git pull; npm install ; cd import ; mkdir rawPosts ; cd rawPosts ; node ../searcher.js` (you may have to set 'allow less secure apps' if the imap account is a gmail account).
 * `cd .. ; node threadMatcher.js > ../index/threads.json`
-* `cd .. ; node scripts/newPointsForNewThreads.js ; sh build.sh`
+* `cd .. ; node scripts/newPointsForNewThreads.js`
+* `./node_modules/.bin/grunt`
 * `git status ; git add . ; git commit -am"import from Google Groups"; git push; git push 5apps master`
 
 Curate

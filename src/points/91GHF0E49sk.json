@@ -2,5 +2,7 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/91GHF0E49sk",
   "id": "91GHF0E49sk",
   "title": "[PIC] shocking images exposed",
-  "tosdr": {}
+  "tosdr": {
+    "binding": true
+  }
 }
