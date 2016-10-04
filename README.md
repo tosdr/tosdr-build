@@ -57,7 +57,7 @@ To import new and/or updated threads from the Google Group:
 * (from the repo root:) `git pull; npm install ; cd import ; mkdir rawPosts ; cd rawPosts ; node ../searcher.js` (you may have to set 'allow less secure apps' if the imap account is a gmail account).
 * `cd .. ; node threadMatcher.js > ../index/threads.json`
 * `cd .. ; node scripts/newPointsForNewThreads.js ; sh build.sh`
-* `git add import/rawPosts ; git commit -am"import from Google Groups"; git push; git push 5apps master`
+* `git status ; git add . ; git commit -am"import from Google Groups"; git push; git push 5apps master`
 
 Curate
 ======
