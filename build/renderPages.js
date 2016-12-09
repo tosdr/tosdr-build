@@ -2,12 +2,13 @@
 
 //this nodejs script will read the data points from the points/ directory, and 
 //generate the index.html and get-involved.html files from that.
-
+var rendered = {};
 var elements = {};
 var prettyjson = require('../scripts/prettyjson');
 
 function renderDataPoint(grunt, service, dataPoint, forPopup) {
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/' + dataPoint + '.json');
+  rendered[dataPoint] = true;
   var badge, icon, sign, score;
   if(!obj.tosdr) {
     obj.tosdr = {};
@@ -289,5 +290,10 @@ module.exports = function(grunt) {
       grunt.file.read('get-involved-template.html').
         replace('<!-- ##github-service-content## -->', '<div id="services-list" class="row">\n' + twitterService + '</div>\n')
     );
+    var renderedArr = [];
+    for (var p in rendered) {
+      renderedArr.push(p);
+    }
+    grunt.file.write(grunt.config.get('conf').dist + '/index/points-rendered.txt', renderedArr.join('\n'));
   });
 };

@@ -81,16 +81,14 @@ function displayPoints(res) {
   var perService = {};
   loadPoints();
   res.write(fs.readFileSync('src/curator-prefix.html'));
+  var pointsOnWebsite = fs.readFileSync('dist/index/points-rendered.txt').toString().split('\n');
   for(var i in points) {
-    // the conditions we want to satisfy (unless the curator dismisses the point as disputed, irrelevant, or not binding)
-    // are those which make ../build/buildIndexes.js decide whether to show a data point on the website or not, namely:
-    //  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined'
-    //                  || typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined'
-    //                  || typeof(obj.tosdr.tldr)=='undefined' ) {
-    //    return;
-    //  }
-    // (see https://github.com/tosdr/tosdr-build/blob/8c6c908fa33d52388cae067a2babf60f7fb63e5e/build/buildIndexes.js#L63-L67 )
+    if (pointsOnWebsite.indexOf(i) !== -1) {
+      //point is already on the website
+      continue;
+    }
 
+    // start repairs:
     if (!points[i].topic && points[i].tosdr && points[i].tosdr.topic) {
       points[i].topic = points[i].tosdr.topic;
       savePoint(i);
@@ -103,16 +101,15 @@ function displayPoints(res) {
       points[i].discussion='https://groups.google.com/forum/#!topic/tosdr/'+points[i].id;
       savePoint(i);
     }
-    if (typeof(points[i].tosdr)=='undefined') {
-      displayPoint(res, i, 'no tosdr object', points[i]);
-    } else if (!points[i].id) {
-      displayPoint(res, i, 'no id', points[i]);
-    } else if (!points[i].title) {
-      displayPoint(res, i, 'no title', points[i]);
-      console.log('no title!', points[i]);
-    } else if (!points[i].tosdr.irrelevant && !points[i].services) {
+    // end repairs
+
+    if (points[i].tosdr.irrelevant) {
+      // should not be on the website
+      continue;
+    }
+    if (!points[i].services || points[i].services.length === 0) {
       displayPoint(res, i, 'no services', points[i]);
-    } else if (!points[i].tosdr.irrelevant && !points[i].topics) {
+    } else {
       console.log('perService', i, points[i].services);
       for (var j=0; j<points[i].services.length; j++) {
          if (!perService[points[i].services[j]]) {
@@ -123,21 +120,8 @@ function displayPoints(res) {
            obj: points[i]
         });
       }
-    } else if (!points[i].tosdr.disputed && !points[i].tosdr.irrelevant && points[i].tosdr.binding) {
-      // point has services and topics, so try to get this on the site:
-      if (typeof (points[i].tosdr.score)=='undefined') {
-          console.log('no score:', i);
-//        displayPoint(res, i, 'almost displayable but no score', points[i]);
-      } else if (typeof (points[i].tosdr.point)=='undefined') {
-          console.log('score, but no point:', i);
-//        displayPoint(res, i, 'almost displayable but no point', points[i]);
-      } else if (typeof (points[i].tosdr.tldr)=='undefined') {
-        console.log('score and point, but no tldr:', i);
-        displayPoint(res, i, 'almost displayable but no tldr', points[i]);
-      }
     }
   }
-  console.log('no topics', perService);
   for (var i in perService) {
     displayServiceHeader(res, i);
     for (var j=0; j<perService[i].length; j++) {
