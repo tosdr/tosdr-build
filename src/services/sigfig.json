@@ -3,15 +3,15 @@
   "freesoftware": false,
   "fulltos": {
     "terms": {
-      "name": "Terms & Conditions",
-      "url": "https://www.jacplus.com.au/jsp/general-nav/terms/terms.jsp"
+      "name": "Terms of Service",
+      "url": "https://www.sigfig.com/site/#/tos"
     }
   },
-  "id": "jacplus",
+  "id": "sigfig",
   "meta": {
     "spec-version": "1.1"
   },
-  "name": "jacplus",
+  "name": "sigfig",
   "tosdr": {
     "keywords": [],
     "rated": false,
@@ -19,6 +19,6 @@
   },
   "type": "service",
   "urls": [
-    "https://www.jacplus.com.au"
+    "https://www.sigfig.com"
   ]
 }
