@@ -109,6 +109,7 @@ function displayPoints(res) {
       displayPoint(res, i, 'no id', points[i]);
     } else if (!points[i].title) {
       displayPoint(res, i, 'no title', points[i]);
+      console.log('no title!', points[i]);
     } else if (!points[i].tosdr.irrelevant && !points[i].services) {
       displayPoint(res, i, 'no services', points[i]);
     } else if (!points[i].tosdr.irrelevant && !points[i].topics) {
@@ -145,6 +146,7 @@ function displayPoints(res) {
   }
   res.write(fs.readFileSync('src/curator-postfix.html'));
   //console.log(points);
+  console.log(perService);
 }
 function processPost(req, callback) {
   var str='';
