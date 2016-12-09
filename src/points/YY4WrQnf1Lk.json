@@ -3,6 +3,7 @@
   "id": "YY4WrQnf1Lk",
   "title": "ToSBack: Policy Changes",
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "irrelevant": "dismissed+by+the+curator"
   }
 }
