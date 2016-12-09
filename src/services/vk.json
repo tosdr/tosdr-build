@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {
-    "terms": {
-      "name": "Terms of Service",
-      "url": "https://vk.com/terms"
-    },
     "privacy": {
       "name": "Privacy Policy",
       "url": "https://vk.com/privacy"
+    },
+    "terms": {
+      "name": "Terms of Service",
+      "url": "https://vk.com/terms"
     }
   },
   "id": "vk",
