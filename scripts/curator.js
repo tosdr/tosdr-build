@@ -91,6 +91,10 @@ function displayPoints(res) {
       points[i].topic = points[i].tosdr.topic;
       savePoint(i);
     }
+    if (!Array.isArray(points[i].services)) {
+      points[i].services = [];
+      savePoint(i);
+    }
     if (!points[i].discussion && points[i].id) {
       points[i].discussion='https://groups.google.com/forum/#!topic/tosdr/'+points[i].id;
       savePoint(i);
