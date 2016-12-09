@@ -8,6 +8,9 @@ var fs = require('fs'),
 function addFile(filename) {
   try {
     points[filename] = JSON.parse(fs.readFileSync('src/points/' + filename));
+    // if (points[filename].title !== 'ToSBack: Policy Changes') {
+    //   delete points[filename];
+    // }
   } catch(e) {
     console.log(e, filename);
   }
