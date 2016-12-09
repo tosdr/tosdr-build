@@ -8,6 +8,10 @@ var fs = require('fs'),
 function addFile(filename) {
   try {
     points[filename] = JSON.parse(fs.readFileSync('src/points/' + filename));
+    if (typeof points[filename].discussion === 'undefined') {
+      // point was submitted through edit.tosdr.org, postpone curating
+      delete points[filename];
+    }
     // if (points[filename].title !== 'ToSBack: Policy Changes') {
     //   delete points[filename];
     // }
@@ -27,7 +31,7 @@ function displayServiceHeader(res, service) {
 function displayPoint(res, filename, reason, data) {
   res.write('<li> <!-- <a href="#upvote" class="arrow-upvote btn btn-small"><img src="https://tosdr.org/img/grayarrow.gif" alt="" /></a> -->'
     + '<a href="?' + filename + '" class="btn btn-small">Make a point</a>  <a target="_blank" href="'
-    + data.discussion + '">' + data.title + '</a> <a onclick="dismiss(\'' + filename
+    + data.discussion + '">' + (data.title.length ? data.title : '(no title)') + '</a> <a onclick="dismiss(\'' + filename
     + '\');" class="pull-right" style="color:gray;">Dismiss</a></li>');
   console.log(filename);
 }
