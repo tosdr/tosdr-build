@@ -1,9 +1,18 @@
 {
   "discussion": "https://groups.google.com/forum#!topic/tosdr/3XFowwGrBuk",
   "id": "3XFowwGrBuk",
-  "services": [],
-  "title": "LibraryThing PII",
+  "services": [
+    "librarything"
+  ],
+  "title": "Will not sell your data",
+  "topics": [
+    "personal-data"
+  ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "personal data is not sold",
+    "point": "good",
+    "score": 25,
+    "tldr": "LibraryThing will not sell or give personally-identifiable information to any third party."
   }
 }
