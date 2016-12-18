@@ -1,7 +1,9 @@
 {
   "discussion": "https://groups.google.com/forum#!topic/tosdr/TrtgblFZhDs",
   "id": "TrtgblFZhDs",
-  "services": ["paypal"],
+  "services": [
+    "paypal"
+  ],
   "title": "Paypal TOS",
   "tosdr": {
     "binding": true
