@@ -294,6 +294,6 @@ module.exports = function(grunt) {
     for (var p in rendered) {
       renderedArr.push(p);
     }
-    grunt.file.write(grunt.config.get('conf').dist + '/index/points-rendered.txt', renderedArr.join('\n'));
+    grunt.file.write(grunt.config.get('conf').dist + '/index/points-rendered.txt', renderedArr.sort().join('\n'));
   });
 };
