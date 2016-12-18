@@ -5,14 +5,11 @@
     "librarything"
   ],
   "title": "Will not sell your data",
-  "topics": [
-    "personal-data"
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "personal data is not sold",
     "point": "good",
-    "score": 25,
     "tldr": "LibraryThing will not sell or give personally-identifiable information to any third party."
   }
 }
