@@ -78,13 +78,18 @@ function displayForm(res, filename) {
 }
 
 function displayPoints(res) {
+  var numOnSite = 0;
+  var numIrrelevant = 0;
+  var numInBacklog = 0;
   var perService = {};
   loadPoints();
   res.write(fs.readFileSync('src/curator-prefix.html'));
   var pointsOnWebsite = fs.readFileSync('dist/index/points-rendered.txt').toString().split('\n');
   for(var i in points) {
-    if (pointsOnWebsite.indexOf(i) !== -1) {
+    // console.log(pointsOnWebsite[0], i.substr(0, i.length-'.json'.length)); exit();
+    if (pointsOnWebsite.indexOf(i.substr(0, i.length-'.json'.length)) !== -1) {
       //point is already on the website
+      numOnSite++;
       continue;
     }
 
@@ -105,7 +110,10 @@ function displayPoints(res) {
 
     if (points[i].tosdr.irrelevant) {
       // should not be on the website
+      numIrrelevant++;
       continue;
+    } else {
+      numInBacklog++;
     }
     if (!points[i].services || points[i].services.length === 0) {
       displayPoint(res, i, 'no services', points[i]);
@@ -131,6 +139,7 @@ function displayPoints(res) {
   res.write(fs.readFileSync('src/curator-postfix.html'));
   //console.log(points);
   console.log(perService);
+  console.log({ numOnSite, numIrrelevant, numInBacklog });
 }
 function processPost(req, callback) {
   var str='';
