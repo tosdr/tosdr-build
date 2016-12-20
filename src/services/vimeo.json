@@ -4,19 +4,21 @@
   "fulltos": {
     "terms": {
       "name": "Terms of Service",
-      "url": "https://www.airbnb.com/terms"
+      "url": "https://vimeo.com/terms"
     }
   },
-  "id": "airbnb",
+  "id": "vimeo",
   "meta": {
     "spec-version": "1.1"
   },
-  "name": "airbnb",
+  "name": "vimeo",
   "tosdr": {
     "keywords": [],
     "rated": false,
     "related": []
   },
   "type": "service",
-  "urls": []
+  "urls": [
+    "https://vimeo.com"
+  ]
 }
