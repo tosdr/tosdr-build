@@ -4,19 +4,21 @@
   "fulltos": {
     "terms": {
       "name": "Terms of Service",
-      "url": "https://www.airbnb.com/terms"
+      "url": "http://www.yummly.com/terms"
     }
   },
-  "id": "airbnb",
+  "id": "yummly",
   "meta": {
     "spec-version": "1.1"
   },
-  "name": "airbnb",
+  "name": "yummly",
   "tosdr": {
     "keywords": [],
     "rated": false,
     "related": []
   },
   "type": "service",
-  "urls": []
+  "urls": [
+    "https://yummly.com"
+  ]
 }

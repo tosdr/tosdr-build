@@ -4,19 +4,21 @@
   "fulltos": {
     "terms": {
       "name": "Terms of Service",
-      "url": "https://www.airbnb.com/terms"
+      "url": "http://creditnerds.com/terms.php"
     }
   },
-  "id": "airbnb",
+  "id": "creditnerds",
   "meta": {
     "spec-version": "1.1"
   },
-  "name": "airbnb",
+  "name": "creditnerds",
   "tosdr": {
     "keywords": [],
     "rated": false,
     "related": []
   },
   "type": "service",
-  "urls": []
+  "urls": [
+    "https://creditnerds.com"
+  ]
 }

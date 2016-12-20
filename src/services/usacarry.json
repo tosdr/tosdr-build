@@ -3,20 +3,22 @@
   "freesoftware": false,
   "fulltos": {
     "terms": {
-      "name": "Terms of Service",
-      "url": "https://www.airbnb.com/terms"
+      "name": "Terms & Conditions",
+      "url": "http://www.usacarry.com/terms-conditions.html"
     }
   },
-  "id": "airbnb",
+  "id": "usacarry",
   "meta": {
     "spec-version": "1.1"
   },
-  "name": "airbnb",
+  "name": "usacarry",
   "tosdr": {
     "keywords": [],
     "rated": false,
     "related": []
   },
   "type": "service",
-  "urls": []
+  "urls": [
+    "https://usacarry.com"
+  ]
 }

@@ -4,19 +4,21 @@
   "fulltos": {
     "terms": {
       "name": "Terms of Service",
-      "url": "https://www.airbnb.com/terms"
+      "url": "http://www.greenbusinessonly.com/terms-of-service-green-is-better/"
     }
   },
-  "id": "airbnb",
+  "id": "greenisbetter",
   "meta": {
     "spec-version": "1.1"
   },
-  "name": "airbnb",
+  "name": "greenisbetter",
   "tosdr": {
     "keywords": [],
     "rated": false,
     "related": []
   },
   "type": "service",
-  "urls": []
+  "urls": [
+    "https://greenisbetter.com"
+  ]
 }
