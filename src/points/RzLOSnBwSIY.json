@@ -1,7 +1,9 @@
 {
   "discussion": "https://groups.google.com/forum#!topic/tosdr/RzLOSnBwSIY",
   "id": "RzLOSnBwSIY",
-  "services": ["storify"],
+  "services": [
+    "storify"
+  ],
   "title": "storify",
   "tosdr": {
     "binding": true
