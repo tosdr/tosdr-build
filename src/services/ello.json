@@ -1,0 +1,24 @@
+{
+  "alexa": 1000000,
+  "freesoftware": false,
+  "id": "ello",
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Use",
+      "url": "https://ello.co/wtf/policies/terms-of-use/"
+    }
+  },
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "ello",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "https://ello.co"
+  ]
+}
