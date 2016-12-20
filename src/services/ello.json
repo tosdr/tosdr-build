@@ -1,13 +1,13 @@
 {
   "alexa": 1000000,
   "freesoftware": false,
-  "id": "ello",
   "fulltos": {
     "terms": {
       "name": "Terms of Use",
       "url": "https://ello.co/wtf/policies/terms-of-use/"
     }
   },
+  "id": "ello",
   "meta": {
     "spec-version": "1.1"
   },
