@@ -8,10 +8,10 @@ var fs = require('fs'),
 function addFile(filename) {
   try {
     points[filename] = JSON.parse(fs.readFileSync('src/points/' + filename));
-    if (typeof points[filename].discussion === 'undefined') {
-      // point was submitted through edit.tosdr.org, postpone curating
-      delete points[filename];
-    }
+    // if (typeof points[filename].discussion === 'undefined') {
+    //   // point was submitted through edit.tosdr.org, postpone curating
+    //   delete points[filename];
+    // }
     // if (points[filename].title !== 'ToSBack: Policy Changes') {
     //   delete points[filename];
     // }
@@ -98,14 +98,16 @@ function displayPoints(res) {
       points[i].topic = points[i].tosdr.topic;
       savePoint(i);
     }
-    if (!Array.isArray(points[i].services)) {
-      points[i].services = [];
+    if (!Array.isArray(points[i].services) /* || points[i].services.length === 0 */) {
+      points[i].services = [/* 'no-service-yet' */];
       savePoint(i);
     }
-    if (!points[i].discussion && points[i].id) {
-      points[i].discussion='https://groups.google.com/forum/#!topic/tosdr/'+points[i].id;
+    if (typeof points[i].id === 'undefined') {
+      points[i].id=points[i]._id;
+      delete points[i]._id;
       savePoint(i);
     }
+
     // end repairs
 
     if (points[i].tosdr.irrelevant) {
