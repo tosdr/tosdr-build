@@ -89,6 +89,10 @@ function displayPoints(res) {
     // console.log(pointsOnWebsite[0], i.substr(0, i.length-'.json'.length)); exit();
     if (pointsOnWebsite.indexOf(i.substr(0, i.length-'.json'.length)) !== -1) {
       //point is already on the website
+      if (points[i].needModeration !== false) {
+        points[i].needModeration = false;
+        savePoint(i);
+      }
       numOnSite++;
       continue;
     }
@@ -112,9 +116,17 @@ function displayPoints(res) {
 
     if (points[i].tosdr.irrelevant) {
       // should not be on the website
+      if (points[i].needModeration !== false) {
+        points[i].needModeration = false;
+        savePoint(i);
+      }
       numIrrelevant++;
       continue;
     } else {
+      if (points[i].needModeration !== true) {
+        points[i].needModeration = true;
+        savePoint(i);
+      }
       numInBacklog++;
     }
     if (!points[i].services || points[i].services.length === 0) {
