@@ -43,6 +43,9 @@ function displayField(res, point, field, hidden, existingValue, options) {
   if (typeof(point[field]) === 'string') {
     point[field]=point[field].split('"').join('&quot;');
   }
+  if (typeof existingValue === 'undefined' || existingValue === 'undefined') {
+    existingValue = '';
+  }
   if (Array.isArray(options)) {
     res.write('<input type="text" value="' + existingValue + '" name="' + field + '" list="services"><datalist id="services">');
     for (var i=0; i<options.length; i++) {

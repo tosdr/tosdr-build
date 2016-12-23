@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/eEWWeKHYyRY",
   "id": "eEWWeKHYyRY",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "wikia"
+  ],
   "title": "[Bad] Wikia",
   "tosdr": {
     "binding": true

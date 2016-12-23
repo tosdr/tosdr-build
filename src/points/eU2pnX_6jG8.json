@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/eU2pnX_6jG8",
   "id": "eU2pnX_6jG8",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "quora"
+  ],
   "title": "Quora: You retain ownership of your content",
   "tosdr": {
     "binding": true

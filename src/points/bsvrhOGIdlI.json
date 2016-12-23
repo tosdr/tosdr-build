@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/bsvrhOGIdlI",
   "id": "bsvrhOGIdlI",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "restream"
+  ],
   "title": "Add site to directory",
   "tosdr": {
     "binding": true

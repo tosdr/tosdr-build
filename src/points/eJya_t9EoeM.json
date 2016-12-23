@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/eJya_t9EoeM",
   "id": "eJya_t9EoeM",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "pinterest"
+  ],
   "title": "Fwd: Research on privacy of digital photos",
   "tosdr": {
     "binding": true
