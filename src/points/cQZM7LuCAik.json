@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/cQZM7LuCAik",
   "id": "cQZM7LuCAik",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "xfinity"
+  ],
   "title": "Xfinity Terms of Use",
   "tosdr": {
     "binding": true
