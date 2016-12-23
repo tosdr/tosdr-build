@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/edMYJXaPrEA",
   "id": "edMYJXaPrEA",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "pinterest"
+  ],
   "title": "ToS",
   "tosdr": {
     "binding": true

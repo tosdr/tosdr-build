@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/fARz6wQNpWI",
   "id": "fARz6wQNpWI",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "centurylink"
+  ],
   "title": "CenturyLink Online Account TOS",
   "tosdr": {
     "binding": true

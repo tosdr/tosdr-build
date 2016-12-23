@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/wC9wnsFwtqI",
   "id": "wC9wnsFwtqI",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "typeform"
+  ],
   "title": "tos not yet read for typeform.com",
   "tosdr": {
     "binding": true

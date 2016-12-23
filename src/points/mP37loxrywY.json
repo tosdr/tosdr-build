@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/mP37loxrywY",
   "id": "mP37loxrywY",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "deviantart"
+  ],
   "title": "DeviantART.com ToS",
   "tosdr": {
     "binding": true

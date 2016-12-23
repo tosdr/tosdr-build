@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/rctqVvVux0k",
   "id": "rctqVvVux0k",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "npr"
+  ],
   "title": "NPR.org TOU",
   "tosdr": {
     "binding": true

@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/fWwU1dJoQkI",
   "id": "fWwU1dJoQkI",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "yourepeat"
+  ],
   "title": "yourepeat.com TOS",
   "tosdr": {
     "binding": true

@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/jykXzYVuNl4",
   "id": "jykXzYVuNl4",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "mimobaby"
+  ],
   "title": "Mimo Baby Monitor | Rating proposals",
   "tosdr": {
     "binding": true

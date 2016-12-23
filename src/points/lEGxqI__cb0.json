@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/lEGxqI__cb0",
   "id": "lEGxqI__cb0",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "coveredca"
+  ],
   "title": "Covered California",
   "tosdr": {
     "binding": true

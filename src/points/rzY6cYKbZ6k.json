@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/rzY6cYKbZ6k",
   "id": "rzY6cYKbZ6k",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "letsencrypt"
+  ],
   "title": "Let's Encrypt subscriber agreement (draft)",
   "tosdr": {
     "binding": true

@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/nPOaj9QGTR8",
   "id": "nPOaj9QGTR8",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "creditkarma"
+  ],
   "title": "Please read",
   "tosdr": {
     "binding": true

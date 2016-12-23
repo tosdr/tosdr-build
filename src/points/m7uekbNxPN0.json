@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/m7uekbNxPN0",
   "id": "m7uekbNxPN0",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "proboards"
+  ],
   "title": "Terms of service ProBoards",
   "tosdr": {
     "binding": true
