@@ -9,12 +9,9 @@ var lastFilenameAdded = null;
 function addFile(filename) {
   try {
     points[filename] = JSON.parse(fs.readFileSync('src/points/' + filename));
-    if (typeof points[filename].services.length >= 1) {
+    if (points[filename].services.length >= 1) {
       // point already has services assigned
       delete points[filename];
-    } else {
-      nextFor[lastFilenameAdded] = filename;
-      lastFilenameAdded = filename;
     }
     // if (points[filename].title !== 'ToSBack: Policy Changes') {
     //   delete points[filename];
@@ -61,7 +58,7 @@ function displayForm(res, filename, nextFilename) {
   res.write('<pre>' + prettyjson(point) + '</pre>');
   res.write(`<form method="POST" action="/?${nextFilename}">`);
   displayField(res, {filename: filename}, 'filename', true);
-  displayField(res, point, 'service', false, point.services.join(' '));
+  displayField(res, point, 'service', false, '');
   res.write('<input type="submit" value="Set service" name="set"> ');
   res.write('<a href="/">index</a> ');
   res.write('<a href="'+point.discussion+'" target="blank">discussion</a>');
@@ -133,6 +130,8 @@ function displayPoints(res) {
     }
     if (!points[i].services || points[i].services.length === 0) {
       displayPoint(res, i, 'no services', points[i]);
+      nextFor[lastFilenameAdded] = points[i];
+      lastFilenameAdded = points[i];
     } else {
       console.log('perService', i, points[i].services);
       for (var j=0; j<points[i].services.length; j++) {
@@ -201,10 +200,6 @@ function loadPoints() {
   for(var i=0; i<files.length; i++) {
     if(files[i]!='README.md') {
       addFile(files[i]);
-      if (i >= 1) {
-        nextFor[files[i-1]] = files[i];
-console.log('nextFor', files[i-1], files[i]);
-      }
     }
   }
 }
