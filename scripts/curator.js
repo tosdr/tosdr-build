@@ -80,7 +80,9 @@ function displayForm(res, filename) {
 function displayPoints(res) {
   var numOnSite = 0;
   var numIrrelevant = 0;
-  var numInBacklog = 0;
+  var numNoServices = 0;
+  var numInBacklog = {};
+
   var perService = {};
   loadPoints();
   res.write(fs.readFileSync('src/curator-prefix.html'));
@@ -127,7 +129,17 @@ function displayPoints(res) {
         points[i].needModeration = true;
         savePoint(i);
       }
-      numInBacklog++;
+      var servicesStr = points[i].services.map(s => {
+        if (typeof services[s] === 'undefined') {
+          return `${s} (0)`;
+        }
+        return `${s} (${services[s].points.length})`;
+      }).join(',');
+ 
+      if (typeof numInBacklog[servicesStr] === 'undefined') {
+        numInBacklog[servicesStr] = 0;
+      }
+      numInBacklog[servicesStr]++;
     }
     if (!points[i].services || points[i].services.length === 0) {
       displayPoint(res, i, 'no services', points[i]);
@@ -153,7 +165,19 @@ function displayPoints(res) {
   res.write(fs.readFileSync('src/curator-postfix.html'));
   //console.log(points);
   console.log(perService);
-  console.log({ numOnSite, numIrrelevant, numInBacklog });
+  var numInBacklogInverted = {};
+  for (var i=200; i>0; i--) {
+    numInBacklogInverted[i] = [];
+  }
+  for (var s in numInBacklog) {
+    numInBacklogInverted[numInBacklog[s]].push(s);
+  }
+  for (var i=200; i>0; i--) {
+    if (numInBacklogInverted[i].length === 0) {
+      delete numInBacklogInverted[i];
+    }
+  }
+  console.log({ numOnSite, numIrrelevant, numInBacklogInverted });
 }
 function processPost(req, callback) {
   var str='';
