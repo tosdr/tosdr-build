@@ -2,18 +2,14 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "fetster",
-  "meta": {
-    "spec-version": "1.1"
-  },
-  "name": "fetster",
+  "id": "snapchat",
+  "name": "snapchat",
+  "submittedBy": "RpdnZrLojKeCr4zJQ",
   "tosdr": {
     "keywords": [],
     "rated": false,
     "related": []
   },
   "type": "service",
-  "urls": [
-    "https://fetster.com"
-  ]
+  "urls": []
 }
