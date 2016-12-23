@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/yozeRxFjbh8",
   "id": "yozeRxFjbh8",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "microsoft"
+  ],
   "title": "Changes to Microsoft Services Agreement",
   "tosdr": {
     "binding": true

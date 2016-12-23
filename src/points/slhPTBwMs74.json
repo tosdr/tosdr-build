@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/slhPTBwMs74",
   "id": "slhPTBwMs74",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "plenti"
+  ],
   "title": "Plenti from Macy's",
   "tosdr": {
     "binding": true

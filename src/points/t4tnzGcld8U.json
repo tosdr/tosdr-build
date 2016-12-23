@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/t4tnzGcld8U",
   "id": "t4tnzGcld8U",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "zenfolio"
+  ],
   "title": "zenfolio",
   "tosdr": {
     "binding": true

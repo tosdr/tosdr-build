@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/epBmjK8e3XM",
   "id": "epBmjK8e3XM",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "kixeye"
+  ],
   "title": "Unrated: Kixeye.com",
   "tosdr": {
     "binding": true

@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/ynpcvtaL-Yg",
   "id": "ynpcvtaL-Yg",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "strangertickets"
+  ],
   "title": "Bold Type Tickets TOS",
   "tosdr": {
     "binding": true

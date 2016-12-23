@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/rTUeK8w7EHU",
   "id": "rTUeK8w7EHU",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "ask"
+  ],
   "title": "Ask.FM and your content",
   "tosdr": {
     "binding": true

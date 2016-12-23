@@ -2,7 +2,9 @@
   "discussion": "https://groups.google.com/forum#!topic/tosdr/kkKqcqsIoeI",
   "id": "kkKqcqsIoeI",
   "needModeration": true,
-  "services": [],
+  "services": [
+    "startpage"
+  ],
   "title": "Startpage",
   "tosdr": {
     "binding": true
