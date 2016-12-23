@@ -130,8 +130,9 @@ function displayPoints(res) {
     }
     if (!points[i].services || points[i].services.length === 0) {
       displayPoint(res, i, 'no services', points[i]);
-      nextFor[lastFilenameAdded] = points[i];
-      lastFilenameAdded = points[i];
+      nextFor[lastFilenameAdded] = i;
+      console.log('nextFor', lastFilenameAdded, i);
+      lastFilenameAdded = i;
     } else {
       console.log('perService', i, points[i].services);
       for (var j=0; j<points[i].services.length; j++) {
