@@ -6,8 +6,14 @@
     "lastpass"
   ],
   "title": "Information is shared in compliance with law enforcement",
+  "topics": [
+    "law-gov"
+  ],
   "tosdr": {
     "binding": true,
-    "tldr": "They don’t share your personal information with anyone except to comply with the law, develop their products, or protect theirr rights"
+    "case": "no third-party access without a warrant",
+    "point": "good",
+    "score": 50,
+    "tldr": "They don’t share your personal information with anyone except to comply with the law, develop their products, or protect their rights"
   }
 }

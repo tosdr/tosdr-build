@@ -6,8 +6,14 @@
     "lastpass"
   ],
   "title": "Their legal documents are published under a Creative Commons license",
+  "topics": [
+    "user-info"
+  ],
   "tosdr": {
-    "tldr":"This means that other services can reuse phrases from these documents if they want to.",
-    "binding": true
+    "binding": true,
+    "case": "legal documents published under reusable license",
+    "point": "good",
+    "score": 20,
+    "tldr": "This means that other services can reuse phrases from these documents if they want to."
   }
 }
