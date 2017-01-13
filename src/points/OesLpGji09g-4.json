@@ -1,12 +1,13 @@
 {
   "discussion": "https://groups.google.com/forum#!topic/tosdr/OesLpGji09g",
-  "id": "OesLpGji09g",
+  "id": "OesLpGji09g-4",
   "needModeration": true,
   "services": [
     "lastpass"
   ],
-  "title": "Terms of Service - LastPass - Summary of terms and privacy statement",
+  "title": "LastPass uses cookies, but you can block them.",
   "tosdr": {
+    "tldr":"Visitors who don't want cookies to be stored can refuse them.",
     "binding": true
   }
 }

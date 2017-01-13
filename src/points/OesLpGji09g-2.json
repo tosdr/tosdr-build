@@ -1,0 +1,13 @@
+{
+  "discussion": "https://groups.google.com/forum#!topic/tosdr/OesLpGji09g",
+  "id": "OesLpGji09g-2",
+  "needModeration": true,
+  "services": [
+    "lastpass"
+  ],
+  "title": "Personal information only stored when needed for a service",
+  "tosdr": {
+    "tldr": "They don’t store personal information on their servers unless required for the on-going operation of one of their services. For example, if you choose to store login history, they keep login history, if you choose not to, they don’t.",
+    "binding": true
+  }
+}
