@@ -11,6 +11,10 @@
     "jurisdiction-law"
   ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "court of law is in location X",
+    "point": "neutral",
+    "score": 0,
+    "tldr": "undefined"
   }
 }

@@ -8,9 +8,13 @@
   "set": "set+service+and+topic",
   "title": "LastPass never has clear-text versions of your critical data, including passwords or master password",
   "topics": [
-    "personal-data"
+    "user-info"
   ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "info given about security practices",
+    "point": "good",
+    "score": 15,
+    "tldr": "undefined"
   }
 }

@@ -8,9 +8,13 @@
   "set": "set+service+and+topic",
   "title": "LastPass.com: You are solely responsible for the security of your account",
   "topics": [
-    "governance"
+    "user-info"
   ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "info given about security practices",
+    "point": "good",
+    "score": 15,
+    "tldr": "undefined"
   }
 }

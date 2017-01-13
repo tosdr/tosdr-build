@@ -11,6 +11,10 @@
     "governance"
   ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "responsible and indemnify",
+    "point": "bad",
+    "score": 40,
+    "tldr": "undefined"
   }
 }

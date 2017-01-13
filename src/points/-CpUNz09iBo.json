@@ -8,10 +8,13 @@
   "set": "set+service+and+topic",
   "title": "LastPass.com is not liable for data loss or other damages",
   "topics": [
-    "governance",
     "guarantee"
   ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "no quality guarantee",
+    "point": "bad",
+    "score": 20,
+    "tldr": "undefined"
   }
 }

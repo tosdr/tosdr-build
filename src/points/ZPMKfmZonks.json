@@ -11,6 +11,10 @@
     "suspension"
   ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "they can delete your account without prior notice and without a reason",
+    "point": "bad",
+    "score": 50,
+    "tldr": "undefined"
   }
 }
