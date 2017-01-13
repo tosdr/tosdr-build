@@ -11,6 +11,10 @@
     "track"
   ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "pseudonyms allowed",
+    "point": "good",
+    "score": 20,
+    "tldr": "undefined"
   }
 }

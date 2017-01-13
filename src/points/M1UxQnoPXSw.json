@@ -6,7 +6,14 @@
     "lastpass"
   ],
   "title": "Lastpass [bad] No Liability / Disclaims all Warrenties",
+  "topics": [
+    "guarantee"
+  ],
   "tosdr": {
-    "binding": true
+    "binding": true,
+    "case": "no refund policy",
+    "point": "neutral",
+    "score": 50,
+    "tldr": "undefined"
   }
 }
