@@ -6,7 +6,7 @@
     "lastpass"
   ],
   "set": "set+service+and+topic",
-  "title": "Lastpass.com choice of court is Fairfax, VA",
+  "title": "Choice of court is Fairfax, VA",
   "topics": [
     "jurisdiction-law"
   ],
@@ -15,6 +15,6 @@
     "case": "court of law is in location X",
     "point": "neutral",
     "score": 0,
-    "tldr": "undefined"
+    "tldr": ""
   }
 }
