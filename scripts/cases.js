@@ -145,6 +145,7 @@ module.exports = {
   'user-choice': [
     { name: 'you can choose the copyright license', point: 'good', score: 10 },
     { name: 'promotional communications are opt-out', point: 'neutral', score: 10 },
+    { name: 'promotional communications are not opt-out', point: 'bad', score: 30 },
     { name: 'you can choose with whom you share content', point: 'good', score: 0 },
   ],
   'user-info': [

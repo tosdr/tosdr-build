@@ -6,7 +6,7 @@
     "lastpass"
   ],
   "set": "set+service+and+topic",
-  "title": "LastPass.com requires minimal information to create an account",
+  "title": "Requires minimal information to create an account",
   "topics": [
     "track"
   ],
@@ -15,6 +15,6 @@
     "case": "pseudonyms allowed",
     "point": "good",
     "score": 20,
-    "tldr": "undefined"
+    "tldr": "The only personal data required to create an account is a valid email address, all other data is optional."
   }
 }
