@@ -6,12 +6,20 @@
     "whatsapp"
   ],
   "set": "set+service+and+topic",
-  "title": "[Bad] WhatsApp may use your phone number for non-marketing or administrative purposes",
+  "title": "WhatsApp may use your phone number for non-marketing or administrative purposes",
   "topics": [
     "personal-data"
   ],
   "tosdr": {
+    "score": "10",
+    "case": "pseudonym not allowed (user-to-user trust is relevant for service)",
     "binding": true,
-    "tldr": "[Bad] WhatsApp may use your phone number for non-marketing or administrative purposes"
+    "disputed": false,
+    "irrelevant": false,
+    "point": "neutral",
+    "tldr": "WhatsApp may  use your mobile phone number (or email address, if provided) without further consent for non-marketing or administrative purposes (such as notifying you of major WhatsApp Site or WhatsApp Service changes or for customer service purposes).",
+    "sources": [
+      ""
+    ]
   }
 }
