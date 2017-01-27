@@ -11,6 +11,7 @@ module.exports = {
      { name: 'user needs to check tosback.org', point: 'bad', score: 70 },
      { name: 'user is notified on the day', point: 'neutral', score: 0 },
      { name: 'user is notified a week or more in advance', point: 'good', score: 30 },
+     { name: 'user is notified as appropriate', point: 'good', score: 30 },
      { name: 'user is notified a month or more in advance', point: 'good', score: 40 },
   ],
   'cookies': [
@@ -109,6 +110,7 @@ module.exports = {
     { name: 'they do not index or open files', point: 'good', score: 40 },
     { name: 'you can request access and deletion of personal data', point: 'good', score: 50 },
     { name: 'your personal data is used for limited purposes', point: 'good', score: 60 },
+    { name: 'a minimal amount of personal data is collected', point: 'good', score: 60 },
   ],
   'readability': [
     { name: 'archives provided', point: 'good', score: 50 },
