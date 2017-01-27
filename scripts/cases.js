@@ -104,6 +104,7 @@ module.exports = {
     { name: 'your private content may be accessed by staff', point: 'neutral', score: 30 },
     { name: 'personal data is aggregated into statistics', point: 'neutral', score: 10 },
     { name: 'only aggregate data is given to third parties', point: 'neutral', score: 10 },
+    { name: 'IP addresses of website visitors are not tracked', point: 'neutral', score: 30 },
     { name: 'personal data is not sold', point: 'good', score: 25 },
     { name: 'they do not index or open files', point: 'good', score: 40 },
     { name: 'you can request access and deletion of personal data', point: 'good', score: 50 },
@@ -145,6 +146,7 @@ module.exports = {
   'user-choice': [
     { name: 'you can choose the copyright license', point: 'good', score: 10 },
     { name: 'promotional communications are opt-out', point: 'neutral', score: 10 },
+    { name: 'promotional communications are not opt-out', point: 'bad', score: 30 },
     { name: 'you can choose with whom you share content', point: 'good', score: 0 },
   ],
   'user-info': [
