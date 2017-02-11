@@ -11,15 +11,15 @@
     "leave"
   ],
   "tosdr": {
-    "score": "",
-    "case": "",
     "binding": false,
+    "case": "",
     "disputed": false,
     "irrelevant": true,
     "point": "neutral",
-    "tldr": "  ",
+    "score": "",
     "sources": [
       ""
-    ]
+    ],
+    "tldr": "  "
   }
 }
