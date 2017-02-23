@@ -11,8 +11,7 @@
   },
   "needModeration": false,
   "services": [
-    "yahoo",
-    "github"
+    "yahoo"
   ],
   "title": "You must provide your legal name upon registration",
   "topics": [
