@@ -1,7 +1,5 @@
 var fs = require('fs'),
-  prettyjson = require('./prettyjson'),
-  cases = require('./cases'),
-  found = false;
+  prettyjson = require('./prettyjson');
 
 //...
 var numFilesOK = 0;
@@ -29,37 +27,21 @@ function doFile(fileName) {
       console.log(e, fileName);
       process.exit(1);
     }
-    if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined'
-                    || typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined'
-                    || typeof(obj.tosdr.tldr)=='undefined' ) {
+    if(obj.tosdr.point || obj.tosdr.score) {
+      if (!obj.tosdr.case) {
+        obj.tosdr.case = `${obj.title}-${obj.tosdr.point}-${obj.tosdr.score}`
+        fs.writeFileSync('points/' + fileName, prettyjson(obj))
+      }
+      const caseFileNameBase = obj.tosdr.case.replace(/[^a-z0-9]/gi, '_').toLowerCase()
+      fs.writeFileSync(`cases/${caseFileNameBase}.json`, prettyjson({
+        name: obj.tosdr.case,
+        point: obj.tosdr.point,
+        score: obj.tosdr.score
+      }))
+      console.log('Wrote', caseFileNameBase)
       numFilesOK++;
       return;
     }
-    if(found || !cases[obj.topics[0]] || obj.tosdr.case) {
-      numFilesOK++;
-      return;
-    }
-    var topic = obj.topics[0];
-    found = true;
-    console.log(obj);
-    console.log('please assign a case:');
-    for(var i=0; i<cases[topic].length; i++) {
-      console.log(i, cases[topic][i]);
-    }
-    var stdin = process.openStdin();
-    stdin.on('data', function(chunk) {
-      chunk = chunk.toString();
-      chunk = chunk.substring(0, chunk.length-1);
-      //console.log("Got chunk: " + chunk);
-      //console.log(typeof(chunk), chunk.length, cases[topic]);
-      obj.tosdr.case = cases[topic][parseInt(chunk)].name;
-      obj.tosdr.point = cases[topic][parseInt(chunk)].point;
-      obj.tosdr.score = cases[topic][parseInt(chunk)].score;
-      fs.writeFileSync('points/'+fileName, prettyjson(obj));
-      process.exit();
-    });
-    console.log('please choose a case!');
-    
   } catch(e) {
     console.log(e, fileName);
     process.exit(1);
