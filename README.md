@@ -25,6 +25,7 @@ Clone this repository
 =====================
 
 There are git submodules in this repository. To automatically have them all, clone this repository with the `git clone --recursive` option.
+Alternatively, run `git submodule init` and `git submodule update` to pull in the submodules.
 
 Build
 =====
@@ -32,7 +33,7 @@ Most of the website's source files are located in the `src/` directory (although
 
 To build:
 
-1. Make sure you have the git [submodule](http://www.git-scm.com/book/en/Git-Tools-Submodules) in the `dist/` folder and that it is up-to-date (i.e. by running `git submodule add https://github.com/tosdr/tosdr.org.git dist` and `cd dist && git pull`).
+1. Make sure you have the git [submodule](http://www.git-scm.com/book/en/Git-Tools-Submodules) in the `dist/` folder and that it is up-to-date (see above).
 
     The source files are used to generate the content of the [tosdr.org repository](https://github.com/tosdr/tosdr.org), generated in the `dist/` folder. 
 
