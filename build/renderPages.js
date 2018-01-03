@@ -104,15 +104,15 @@ function renderDetails(grunt, name, points, toslinks, obj) {
   grunt.log.writeln(toslinks);
   grunt.log.writeln(obj);
   //this renders one service (for instance 'Facebook' or 'Google') on our main index.html page:
-  var header = '<h3><img src="logo/' + name + '.png" class="favlogo"><a class="modal-link" data-service-name="' + name + '" href="#' + name + '">' + obj.name + '</a>';
+  var header = '<h3><img src="logo/' + name + '.png" class="favlogo"><a class="modal-link" data-service-name="' + name + '" href="#' + name + '">' + obj.name + '</a>\n';
   var rating;
   if (!obj.tosdr) {
     obj.tosdr = {rated:false};
   }
   if (obj.tosdr.rated) {
-    rating = '<div id="' + name + '-rating" class="service-rating"><a title="Learn more about our classification" href="classification.html"><span class="label ' + obj.tosdr.rated + '">Class ' + obj.tosdr.rated + '</span></a></div></h3>';
+    rating = '<div id="' + name + '-rating" class="service-rating"><a title="Learn more about our classification" href="classification.html"><span class="label ' + obj.tosdr.rated + '">Class ' + obj.tosdr.rated + '</span></a></div></h3>\n';
   } else {
-    rating = '<div id="' + name + '-rating" class="service-rating"><a title="Learn more about our classification" href="classification.html"><span class="label ' + obj.tosdr.rated + '">No Class Yet</span></a></div></h3>';
+    rating = '<div id="' + name + '-rating" class="service-rating"><a title="Learn more about our classification" href="classification.html"><span class="label ' + obj.tosdr.rated + '">No Class Yet</span></a></div></h3>\n';
   }
   //we collect the data points into an array first, so that we can sort them by score (the score is the impact/importance of a data point):
   var renderables = [], i;
