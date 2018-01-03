@@ -61,14 +61,14 @@ function renderDataPoint(grunt, service, dataPoint, forPopup) {
       score:obj.tosdr.score,
       text:'<div class="' + obj.tosdr.point + '"><h5><span class="badge ' + badge +
 				'" title="' + obj.tosdr.point + '"><i class="icon-' + icon + ' icon-white">' + sign + '</i></span> ' + obj.title + ' <a href="' + obj.discussion + '" target="_blank" class="label context">Discussion</a></h5><p>' +
-				obj.tosdr.tldr + '</p></div>'
+				obj.tosdr.tldr + '</p></div>\n'
     };
   } else {
     return {
       id:dataPoint,
       score:obj.tosdr.score,
       text:'<span class="badge ' + badge + '" title="' + obj.tosdr.score + '">' +
-				'<i class="icon-' + icon + ' icon-white">' + sign + '</i></span>&nbsp;' + obj.title
+				'<i class="icon-' + icon + ' icon-white">' + sign + '</i></span>&nbsp;' + obj.title + '\n'
     };
   }
 }
@@ -133,7 +133,7 @@ function renderDetails(grunt, name, points, toslinks, obj) {
   for (i = 0; i < renderables.length; i++) {
     issues += '<li id="point-' + name + '-' + renderables[i].id + '">' +
 			renderables[i].text +
-			'</li>';
+			'</li>\n';
   }
   //add link to have more details at the bottom:
   issues += '</ul>' +
