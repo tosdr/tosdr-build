@@ -12,6 +12,7 @@
   ],
   "tosdr": {
     "binding": true,
+    "case": "https is used by default-good-5",
     "disputed": true,
     "point": "good",
     "score": 5,
