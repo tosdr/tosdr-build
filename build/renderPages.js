@@ -68,7 +68,7 @@ function renderDataPoint(grunt, service, dataPoint, forPopup) {
       id:dataPoint,
       score:obj.tosdr.score,
       text:'<span class="badge ' + badge + '" title="' + obj.tosdr.score + '">' +
-				'<i class="icon-' + icon + ' icon-white">' + sign + '</i></span>&nbsp;' + obj.title + '\n'
+				'<i class="icon-' + icon + ' icon-white">' + sign + '</i></span>&nbsp;' + obj.title
     };
   }
 }
