@@ -108,7 +108,7 @@ function renderDetails(grunt, name, points, toslinks, obj) {
   for (i = 0; i < renderables.length; i++) {
     issues += '<li id="point-' + name + '-' + renderables[i].id + '">' +
 			renderables[i].text +
-			'</li>';
+			'</li>\n';
   }
   //add link to have more details at the bottom:
   issues += '</ul>' +
