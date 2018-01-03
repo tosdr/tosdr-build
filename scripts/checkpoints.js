@@ -31,14 +31,17 @@ function doFile(fileName) {
                         || typeof(obj.tosdr.tldr)=='undefined' ) {
           return;
         }
-        if(typeof(obj.tosdr.point) != 'string' || typeof(obj.tosdr.score) != 'number' || typeof(obj.tosdr.tldr) != 'string') {
-          console.log('types wrong', fileName);
+        if (obj.tosdr.point) {
+          delete obj.tosdr.point
+          changed = true
         }
-        if(obj.tosdr.point != 'good' && obj.tosdr.point != 'neutral' && obj.tosdr.point != 'bad' && obj.tosdr.point != 'blocker') {
-          console.log('point wrong', obj.tosdr.point, fileName);
+        if (obj.tosdr.score) {
+          delete obj.tosdr.score
+          changed = true
         }
-        if(obj.tosdr.score != Math.floor(obj.tosdr.score) || obj.tosdr.score < 0 || obj.tosdr.score > 100) {
-          console.log('score wrong', obj.tosdr.score, fileName);
+        if (changed) {
+          fs.writeFileSync('points/' + fileName, prettyjson(obj))
+          console.log('CHANGED!', fileName)
         }
       }
     } catch(e) {

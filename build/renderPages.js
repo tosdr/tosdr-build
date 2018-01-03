@@ -1,13 +1,32 @@
 'use strict';
 
-//this nodejs script will read the data points from the points/ directory, and 
+//this nodejs script will read the data points from the points/ directory, and
 //generate the index.html and get-involved.html files from that.
 var rendered = {};
 var elements = {};
 var prettyjson = require('../scripts/prettyjson');
+var caseObj = {}
 
 function renderDataPoint(grunt, service, dataPoint, forPopup) {
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/' + dataPoint + '.json');
+  if (obj.tosdr['case']) {
+    const caseFileNameBase = obj.tosdr.case.replace(/[^a-z0-9]/gi, '_').toLowerCase()
+    if (caseObj[caseFileNameBase]) {
+      obj.tosdr.point = caseObj[caseFileNameBase].point
+      obj.tosdr.score = caseObj[caseFileNameBase].score
+      if (typeof obj.tosdr.point === 'undefined') {
+        console.log('CASE HAS NO POINT!', caseFileNameBase)
+        return
+      }
+      if (typeof obj.tosdr.score === 'undefined') {
+        console.log('CASE HAS NO SCORE!', caseFileNameBase)
+        return
+      }
+    } else {
+      console.log('MISSING CASE!', caseFileNameBase)
+      return
+    }
+  }
   rendered[dataPoint] = true;
   var badge, icon, sign, score;
   if(!obj.tosdr) {
@@ -78,6 +97,8 @@ function getRatingText(className) {
 }
 
 function renderDetails(grunt, name, points, toslinks, obj) {
+  console.log('done reading?')
+
   grunt.log.writeln('renderDetails ' + name);
   grunt.log.writeln(points);
   grunt.log.writeln(toslinks);
@@ -96,7 +117,11 @@ function renderDetails(grunt, name, points, toslinks, obj) {
   //we collect the data points into an array first, so that we can sort them by score (the score is the impact/importance of a data point):
   var renderables = [], i;
   for (i in points) {
-    renderables.push(renderDataPoint(grunt, name, points[i], false));
+    const renderedPoint = renderDataPoint(grunt, name, points[i], false)
+    console.log('rendered point', renderedPoint)
+    if (typeof renderedPoint !== 'undefined') {
+      renderables.push(renderedPoint);
+    }
   }
   renderables.sort(function (a, b) {
     return (Math.abs(b.score) - Math.abs(a.score));
@@ -191,7 +216,10 @@ function renderPopup(grunt, name, obj, points, links) {
   var renderables = [];
   //sort the data points by importance:
   for (var i in points) {
-    renderables.push(renderDataPoint(grunt, name, points[i], true));
+    const renderedDataPoint = renderDataPoint(grunt, name, points[i], true)
+    if (typeof renderedDataPoint !== 'undefined') {
+      renderables.push(renderedDataPoint);
+    }
   }
   renderables.sort(function (a, b) {
     return (Math.abs(b.score) - Math.abs(a.score));
@@ -216,6 +244,14 @@ function renderPopup(grunt, name, obj, points, links) {
 
 module.exports = function(grunt) {
   grunt.task.registerTask('renderPages', 'Render the website', function(){
+    console.log('start reading!')
+    grunt.file.recurse(grunt.config.get('conf').src + '/cases/', function(abspath, rootdir, subdir, filename) {
+      if (filename === 'README.md') {
+        return
+      }
+      caseObj[filename.substring(0, filename.length - '.json'.length)] = grunt.file.readJSON(abspath);
+      console.log('read', filename.substring(0, filename.length - '.json'.length))
+    })
     var services = grunt.file.readJSON('index/services.json');
     var popups = {};
     var servicesList = '';
@@ -256,7 +292,7 @@ module.exports = function(grunt) {
     var twitterService = null, serviceName;
     for (i = 0; i < serviceNames.length; i++) {
       serviceName = serviceNames[i];
-  
+
       var obj = getServiceObject(grunt, serviceName);
       //if(obj.alexa >= 1000000) {
       //  continue;
