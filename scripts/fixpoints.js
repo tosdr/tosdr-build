@@ -99,6 +99,23 @@ function doFile(fileName) {
               console.log('fixed '+fileName);
             }
           });
+        } else if (obj.services.length > 1) {
+          // split into one point about each service
+          // do this only if the point as a whole didn't change in this run
+          const fileNameBase = fileName.substr(0, fileName.length - '.json'.length)
+          for (let i=0; i<obj.services.length; i++) {
+            const thisObj = Object.assign({}, obj)
+            thisObj.services = [ obj.services[i] ]
+            fs.writeFile(`points/${fileNameBase}-${obj.services[i]}.json`, prettyjson(thisObj), function(err) {
+              if(err) {
+                console.log(e, filename);
+                process.exit(1);
+              } else {
+                console.log('fixed '+fileName);
+              }
+            });
+          }
+          fs.unlink(`points/${fileNameBase}.json`, function(err) { console.error('could not delete', fileNameBase, err) })
         }
       }
     } catch(e) {
