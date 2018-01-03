@@ -6,7 +6,7 @@
 // index/ directory
 
 var prettyjson = require('../scripts/prettyjson');
-var service = {}, topic = {};
+var service = {}, topic = {}, caseObj = {};
 function writeOut(grunt) {
   grunt.file.write('index/services.json', prettyjson(service));
   grunt.log.writeln('wrote index/services.json');
@@ -60,10 +60,28 @@ function parsePointFile(id, grunt) {
   //repo to get a better feeling for what this function does
 
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/'+id+'.json');
-  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined' ||
-		 typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined' ||
+  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined' || obj.needModeration ||
+		 typeof(obj.tosdr['case'])=='undefined' ||
 		 typeof(obj.tosdr.tldr)=='undefined' ) {
     return;
+  }
+  if (obj.tosdr['case']) {
+    const caseFileNameBase = obj.tosdr['case'].replace(/[^a-z0-9]/gi, '_').toLowerCase()
+    if (caseObj[caseFileNameBase]) {
+      obj.tosdr.point = caseObj[caseFileNameBase].point
+      obj.tosdr.score = caseObj[caseFileNameBase].score
+      if (typeof obj.tosdr.point === 'undefined') {
+        console.log('CASE HAS NO POINT!', caseFileNameBase)
+        return
+      }
+      if (typeof obj.tosdr.score === 'undefined') {
+        console.log('CASE HAS NO SCORE!', caseFileNameBase)
+        return
+      }
+    } else {
+      console.log('MISSING CASE!', caseFileNameBase)
+      return
+    }
   }
   addToServices(obj.services, id);
   addToTopics(obj.topics, id);
@@ -93,6 +111,15 @@ function parseServiceFile(id, grunt) {
 //whenever mentioned.
 module.exports = function(grunt){
   grunt.task.registerTask('buildIndexes', 'Create indexes of all the points', function(){
+    console.log('start reading!')
+    grunt.file.recurse(grunt.config.get('conf').src + '/cases/', function(abspath, rootdir, subdir, filename) {
+      if (filename === 'README.md') {
+        return
+      }
+      caseObj[filename.substring(0, filename.length - '.json'.length)] = grunt.file.readJSON(abspath);
+      console.log('read', filename.substring(0, filename.length - '.json'.length))
+    })
+    console.log('done reading cases')
     grunt.file.recurse(grunt.config.get('conf').src + '/points/', function(abspath, rootdir, subdir, filename){
         if(filename.substring(filename.length-5) == '.json') {
           parsePointFile(filename.substring(0, filename.length-5), grunt);
