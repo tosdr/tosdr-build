@@ -19,6 +19,7 @@
   },
   "type": "service",
   "urls": [
+    "firefox.com",
     "accounts.firefox.com"
   ]
 }
