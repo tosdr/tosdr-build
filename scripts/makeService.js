@@ -16,5 +16,6 @@ require('fs').writeFileSync(`src/services/${service}.json`, JSON.stringify({
   },
   "type": "service",
   "urls": [
+    service
   ]
 }, null, 2))

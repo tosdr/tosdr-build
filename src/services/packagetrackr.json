@@ -1,0 +1,19 @@
+{
+  "alexa": 16913,
+  "freesoftware": false,
+  "fulltos": {},
+  "id": "packagetrackr",
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "packagetrackr",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "packagetrackr.com"
+  ]
+}
