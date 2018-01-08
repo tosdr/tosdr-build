@@ -1,5 +1,5 @@
 {
-  "alexa": 1000000,
+  "alexa": 5080,
   "freesoftware": false,
   "fulltos": {},
   "id": "zoosk",
@@ -14,6 +14,6 @@
   },
   "type": "service",
   "urls": [
-    "Zoosk.com"
+    "zoosk.com"
   ]
 }

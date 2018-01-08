@@ -1,5 +1,5 @@
 {
-  "alexa": 1000000,
+  "alexa": 709045,
   "freesoftware": false,
   "fulltos": {},
   "id": "xfire",
@@ -14,6 +14,6 @@
   },
   "type": "service",
   "urls": [
-    "Xfire.com"
+    "xfire.com"
   ]
 }

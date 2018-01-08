@@ -120,6 +120,19 @@ function doFile(filepath, filename, grunt) {
     obj.urls = [ obj.name + '.com' ]
     changed = true
   }
+  if (obj.urls[0].startsWith('http')) {
+    obj.urls[0] = obj.urls[0].split('/')[2]
+    changed = true
+  }
+  if (obj.urls[0].startsWith('www.')) {
+    obj.urls[0] = obj.urls[0].substring('www.'.length)
+    changed = true
+  }
+  
+  if (obj.urls[0] !== obj.urls[0].toLowerCase()) {
+    obj.urls[0] = obj.urls[0].toLowerCase()
+    changed = true
+  }
   const mainUrl = obj.urls[0]
   if (alexa[mainUrl] !== obj.alexa) {
     obj.alexa = alexa[mainUrl] || 1000000

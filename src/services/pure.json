@@ -19,6 +19,6 @@
   },
   "type": "service",
   "urls": [
-    "https://getpure.org"
+    "getpure.org"
   ]
 }
