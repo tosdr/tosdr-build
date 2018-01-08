@@ -93,12 +93,12 @@ function parseServiceFile(id, grunt) {
 
   //console.log('SERVICE '+id);
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/'+id+'.json');
-  console.log(id);
+  // console.log(id);
   if(typeof(obj.tosback2)=='object') {
     for(var i in obj.tosback2) { 
       if(obj.tosback2[i].url) {
         service[id].links[i]=obj.tosback2[i];
-        console.log(id+' '+i+': '+obj.tosback2[i]);
+        // console.log(id+' '+i+': '+obj.tosback2[i]);
       }
     }
   }
@@ -111,15 +111,15 @@ function parseServiceFile(id, grunt) {
 //whenever mentioned.
 module.exports = function(grunt){
   grunt.task.registerTask('buildIndexes', 'Create indexes of all the points', function(){
-    console.log('start reading!')
+    // console.log('start reading!')
     grunt.file.recurse(grunt.config.get('conf').src + '/cases/', function(abspath, rootdir, subdir, filename) {
       if (filename === 'README.md') {
         return
       }
       caseObj[filename.substring(0, filename.length - '.json'.length)] = grunt.file.readJSON(abspath);
-      console.log('read', filename.substring(0, filename.length - '.json'.length))
+      // console.log('read', filename.substring(0, filename.length - '.json'.length))
     })
-    console.log('done reading cases')
+    // console.log('done reading cases')
     grunt.file.recurse(grunt.config.get('conf').src + '/points/', function(abspath, rootdir, subdir, filename){
         if(filename.substring(filename.length-5) == '.json') {
           parsePointFile(filename.substring(0, filename.length-5), grunt);

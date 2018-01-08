@@ -97,7 +97,7 @@ function getRatingText(className) {
 }
 
 function renderDetails(grunt, name, points, toslinks, obj) {
-  console.log('done reading?')
+  // console.log('done reading?')
 
   grunt.log.writeln('renderDetails ' + name);
   grunt.log.writeln(points);
@@ -118,7 +118,7 @@ function renderDetails(grunt, name, points, toslinks, obj) {
   var renderables = [], i;
   for (i in points) {
     const renderedPoint = renderDataPoint(grunt, name, points[i], false)
-    console.log('rendered point', renderedPoint)
+    // console.log('rendered point', renderedPoint)
     if (typeof renderedPoint !== 'undefined') {
       renderables.push(renderedPoint);
     }
@@ -244,13 +244,13 @@ function renderPopup(grunt, name, obj, points, links) {
 
 module.exports = function(grunt) {
   grunt.task.registerTask('renderPages', 'Render the website', function(){
-    console.log('start reading!')
+    // console.log('start reading!')
     grunt.file.recurse(grunt.config.get('conf').src + '/cases/', function(abspath, rootdir, subdir, filename) {
       if (filename === 'README.md') {
         return
       }
       caseObj[filename.substring(0, filename.length - '.json'.length)] = grunt.file.readJSON(abspath);
-      console.log('read', filename.substring(0, filename.length - '.json'.length))
+      // console.log('read', filename.substring(0, filename.length - '.json'.length))
     })
     var services = grunt.file.readJSON('index/services.json');
     var popups = {};
