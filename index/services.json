@@ -204,7 +204,7 @@
     ]
   },
   "coursera": {
-    "alexa": 1000000,
+    "alexa": 698,
     "class": false,
     "links": {},
     "points": [
@@ -338,14 +338,6 @@
       "kizrN7qb1Ck",
       "no-pseudos-allowed-facebook",
       "s98UR0Jx6Z4"
-    ]
-  },
-  "faranow": {
-    "alexa": 1000000,
-    "class": false,
-    "links": {},
-    "points": [
-      "any-time-without-notice-faranow"
     ]
   },
   "flattr": {
@@ -618,7 +610,7 @@
     ]
   },
   "microsoft-store": {
-    "alexa": 1000000,
+    "alexa": 47,
     "class": false,
     "links": {},
     "points": [
@@ -643,7 +635,7 @@
     ]
   },
   "netflix": {
-    "alexa": 1000000,
+    "alexa": 30,
     "class": false,
     "links": {},
     "points": [
@@ -685,6 +677,14 @@
       "QzpPtRmNxks",
       "any-time-without-notice-owncube",
       "naPvRf-l3VM"
+    ]
+  },
+  "packagetrackr": {
+    "alexa": 16913,
+    "class": false,
+    "links": {},
+    "points": [
+      "any-time-without-notice-packagetrackr"
     ]
   },
   "phpbb": {
