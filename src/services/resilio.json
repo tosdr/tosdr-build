@@ -1,0 +1,19 @@
+{
+  "alexa": 58070,
+  "freesoftware": false,
+  "fulltos": {},
+  "id": "resilio",
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "resilio",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "resilio.com"
+  ]
+}

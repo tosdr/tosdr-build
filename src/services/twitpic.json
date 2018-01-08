@@ -1,5 +1,5 @@
 {
-  "alexa": 453,
+  "alexa": 59948,
   "freesoftware": false,
   "fulltos": {},
   "id": "twitpic",
@@ -33,8 +33,9 @@
   },
   "tosdr": {
     "keywords": [],
-    "rated": "E",
-    "related": []
+    "rated": false,
+    "related": [],
+    "wasRated": "was rated as E, but service is now read-only"
   },
   "twitter": "@TwitPic",
   "type": "service",
