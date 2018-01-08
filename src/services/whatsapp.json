@@ -1,5 +1,5 @@
 {
-  "alexa": 1000000,
+  "alexa": 67,
   "freesoftware": false,
   "fulltos": {},
   "id": "whatsapp",
@@ -14,6 +14,6 @@
   },
   "type": "service",
   "urls": [
-    "WhatsApp.com"
+    "whatsapp.com"
   ]
 }

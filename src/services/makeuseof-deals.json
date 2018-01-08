@@ -19,6 +19,6 @@
   },
   "type": "service",
   "urls": [
-    "https://deals.makeuseof.com"
+    "deals.makeuseof.com"
   ]
 }

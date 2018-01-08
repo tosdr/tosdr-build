@@ -19,6 +19,6 @@
   },
   "type": "service",
   "urls": [
-    "https://accounts.firefox.com"
+    "accounts.firefox.com"
   ]
 }

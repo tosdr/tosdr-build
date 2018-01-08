@@ -19,6 +19,6 @@
   },
   "type": "service",
   "urls": [
-    "https://openmailbox.com"
+    "openmailbox.com"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "alexa": 1000000,
+  "alexa": 154315,
   "freesoftware": false,
   "fulltos": {},
   "id": "informe",
@@ -14,6 +14,6 @@
   },
   "type": "service",
   "urls": [
-    "Informe.com"
+    "informe.com"
   ]
 }

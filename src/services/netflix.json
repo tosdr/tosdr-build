@@ -19,6 +19,6 @@
   "type": "service",
   "url": "https://signup.netflix.com/",
   "urls": [
-    "https://signup.netflix.com/"
+    "signup.netflix.com"
   ]
 }
