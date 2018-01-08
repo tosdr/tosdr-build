@@ -1,9 +1,15 @@
 'use strict';
 
 var prettyjson = require('../scripts/prettyjson');
+let alexa = {}
 
 module.exports = function(grunt){
   grunt.task.registerTask('fixservices', 'Make services consistent', function(){
+    grunt.file.read(grunt.config.get('conf').src + '/alexa-top-1m.csv', { encoding: 'utf-8' }).split('\n').map(line => {
+      const fields = line.trim().split(',')
+      alexa[fields[1]] = parseInt(fields[0])
+    })
+
     grunt.file.recurse(grunt.config.get('conf').src + '/services/', function(abspath, rootdir, subdir, filename){
       if(filename==='README.md'){
         return;
@@ -109,13 +115,17 @@ function doFile(filepath, filename, grunt) {
       changed = true;
     }
   }
-  if(typeof(obj.alexa) != 'number') {
-    grunt.log.error('wrong obj.alexa (' + filename + ')');
-    if(!obj.alexa) {
-      obj.alexa = 1000000;
-      changed = true;
-    }
+
+  if (obj.urls.length === 0) {
+    obj.urls = [ obj.name + '.com' ]
+    changed = true
   }
+  const mainUrl = obj.urls[0]
+  if (alexa[mainUrl] !== obj.alexa) {
+    obj.alexa = alexa[mainUrl] || 1000000
+    changed = true
+  }
+
   if(typeof(obj.freesoftware) != 'boolean') {
     grunt.log.error('wrong obj.freesoftware (' + filename + ')');
     obj.freesoftware = false;
@@ -127,7 +137,7 @@ function doFile(filepath, filename, grunt) {
     changed = true;
   }
   if(changed) {
-    grunt.file.write('services/'+filename, prettyjson(obj));
+    grunt.file.write(grunt.config.get('conf').src + '/services/'+filename, prettyjson(obj));
     grunt.log.writeln('fixed '+filename);
   }
 }
