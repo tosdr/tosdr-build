@@ -273,12 +273,12 @@ module.exports = function(grunt) {
       }
       return services[a].alexa - services[b].alexa;
     });
-    //now sort services by whether or not they have a class (ones that do first, 'no class yet' ones at the bottom)
+    //now sort services by whether or not they have a class (ones that do and that have traffic first, 'no class yet' ones at the bottom)
     grunt.log.writeln('by Alexa', serviceNames);
     var serviceNamesRated = [],
       serviceNamesNotRated = [];
     for(i=0; i<serviceNames.length; i++) {
-      if(typeof(services[serviceNames[i]].class)=='string') {
+      if(typeof(services[serviceNames[i]].class)=='string' && services[serviceNames[i]].alexa < 250000) {
         grunt.log.writeln(serviceNames[i], 'yes');
         serviceNamesRated.push(serviceNames[i]);
       } else {
