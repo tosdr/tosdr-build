@@ -15,6 +15,7 @@ module.exports = function(grunt){
         const caseObj = grunt.file.readJSON(grunt.config.get('conf').src + '/cases/'+caseFileNameBase+'.json');
         obj.pointsData[obj.points[j]].tosdr.point = caseObj.point
         obj.pointsData[obj.points[j]].tosdr.score = caseObj.score
+        obj.pointsData[obj.points[j]].tosdr.privacyRelated = caseObj.privacyRelated
       }
       grunt.file.write(grunt.config.get('conf').dist + '/api/1/service/'+i+'.json', prettyjson.stringify(obj));
     }
