@@ -1,7 +1,11 @@
 {
+  "approved": false,
+  "id": "cFxKqRr7kCfrds8Ns",
+  "needModeration": true,
   "services": [
     "reddit"
   ],
+  "submittedBy": "d77BaHTE86zWbnNoN",
   "title": "You are responisble for your content",
   "topics": [
     "ownership",
@@ -10,13 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "[Reddit] take[s] no responsibility for, [reddit] do[es] not expressly or implicitly endorse, and [reddit] do[es] not assume any liability for any user content submitted by you to reddit.",
     "sources": [
       "https://www.reddit.com/help/useragreement"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "d77BaHTE86zWbnNoN",
-  "needModeration": true,
-  "id": "cFxKqRr7kCfrds8Ns"
+    ],
+    "tldr": "[Reddit] take[s] no responsibility for, [reddit] do[es] not expressly or implicitly endorse, and [reddit] do[es] not assume any liability for any user content submitted by you to reddit."
+  }
 }

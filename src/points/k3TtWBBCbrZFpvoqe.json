@@ -1,4 +1,7 @@
 {
+  "approved": false,
+  "id": "k3TtWBBCbrZFpvoqe",
+  "needModeration": true,
   "services": [
     "google",
     "facebook",
@@ -6,6 +9,7 @@
     "instagram",
     "twitter"
   ],
+  "submittedBy": "JuCGjRQ4sfo6gwF43",
   "title": "This service collects information about you",
   "topics": [
     "track",
@@ -19,13 +23,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "Basically, information is collected from \"third party websites\", \"technology\", use of \"personal data\", and the data/demographics you choose to provide. The website says they do this in order to make the website more personalized and \"useful\" to you, but they track you in all ways possible, which is something of concern if personal online privacy is important to you. Further, although they say that they also use information you provide, even if you provide the bare minimum like your name and your age, they use that to find more info on you as well (at least that is my interpretation of their clause). ",
     "sources": [
       "http://www.thingiverse.com/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "JuCGjRQ4sfo6gwF43",
-  "needModeration": true,
-  "id": "k3TtWBBCbrZFpvoqe"
+    ],
+    "tldr": "Basically, information is collected from \"third party websites\", \"technology\", use of \"personal data\", and the data/demographics you choose to provide. The website says they do this in order to make the website more personalized and \"useful\" to you, but they track you in all ways possible, which is something of concern if personal online privacy is important to you. Further, although they say that they also use information you provide, even if you provide the bare minimum like your name and your age, they use that to find more info on you as well (at least that is my interpretation of their clause). "
+  }
 }

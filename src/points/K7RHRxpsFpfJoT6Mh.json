@@ -1,5 +1,9 @@
 {
-  "services": null,
+  "approved": false,
+  "id": "K7RHRxpsFpfJoT6Mh",
+  "needModeration": true,
+  "services": [],
+  "submittedBy": "x5KEfmtqY5icxQAbv",
   "title": "Bayt.com",
   "topics": [
     "track",
@@ -10,13 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "Credit Card Information: The details collected do not include credit card details of customers. All credit card information will not be stored, sold, shared, rented or leased to any third parties.\n",
     "sources": [
       "http://www.bayt.com"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "x5KEfmtqY5icxQAbv",
-  "needModeration": true,
-  "id": "K7RHRxpsFpfJoT6Mh"
+    ],
+    "tldr": "Credit Card Information: The details collected do not include credit card details of customers. All credit card information will not be stored, sold, shared, rented or leased to any third parties.\n"
+  }
 }

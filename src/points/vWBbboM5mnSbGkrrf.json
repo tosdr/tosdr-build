@@ -1,5 +1,9 @@
 {
-  "services": null,
+  "approved": false,
+  "id": "vWBbboM5mnSbGkrrf",
+  "needModeration": true,
+  "services": [],
+  "submittedBy": "hPZ2EW3E7wpZYNxpW",
   "title": "Uber",
   "topics": [
     "readability"
@@ -7,13 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "Mandatory Binding Arbitration\nUber can cancel your account for any reason, anytime",
     "sources": [
       "https://www.uber.com/legal/terms/us/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "hPZ2EW3E7wpZYNxpW",
-  "needModeration": true,
-  "id": "vWBbboM5mnSbGkrrf"
+    ],
+    "tldr": "Mandatory Binding Arbitration\nUber can cancel your account for any reason, anytime"
+  }
 }

@@ -46,6 +46,12 @@ function process(dir, grunt){
   grunt.file.recurse(files, function(abspath, rootdir, subdir, filename){
     if(filename.match(/\.json$/)){
       item = grunt.file.readJSON(abspath);
+      if (item.services === null) {
+        item.services = []
+      }
+      if (item.topics === null) {
+        item.topics = []
+      }
       grunt.file.write(abspath, JSON.stringify(sortObject(item, true), null, 2));
     }
   });
@@ -55,6 +61,7 @@ function process(dir, grunt){
 module.exports = function(grunt){
   grunt.task.registerTask('prettify', 'Make the JSON files consistent', function(){
     ['points', 'topics', 'services', 'index', 'cases', 'posts'].forEach(function(folder){
+      console.log('prettifying', folder)
       process(folder, grunt);
     });
   });

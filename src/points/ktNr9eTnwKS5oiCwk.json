@@ -1,7 +1,12 @@
 {
+  "approved": false,
+  "id": "ktNr9eTnwKS5oiCwk",
+  "needModeration": true,
   "services": [
     "last.fm"
   ],
+  "subbmittedTimestamp": 1501145821183,
+  "submittedBy": "hsbjkrPCM6WWGsszq",
   "title": "Uses Cookies",
   "topics": [
     "cookies"
@@ -9,14 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "Kee user loged in, track browse history and other personnal settings.",
     "sources": [
       "https://www.last.fm/legal/cookies"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "hsbjkrPCM6WWGsszq",
-  "subbmittedTimestamp": 1501145821183,
-  "needModeration": true,
-  "id": "ktNr9eTnwKS5oiCwk"
+    ],
+    "tldr": "Kee user loged in, track browse history and other personnal settings."
+  }
 }

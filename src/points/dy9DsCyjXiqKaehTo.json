@@ -1,7 +1,12 @@
 {
+  "approved": false,
+  "id": "dy9DsCyjXiqKaehTo",
+  "needModeration": true,
   "services": [
     "spotify"
   ],
+  "subbmittedTimestamp": 1514928293104,
+  "submittedBy": "Dnatj5p274EhYCKbX",
   "title": "Grant the providing of advertising",
   "topics": [
     "third"
@@ -9,14 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "As a user, you grant Spotify the right to provide advertisements to you and you allow their partners to do the same",
     "sources": [
       "https://www.spotify.com/cy/legal/end-user-agreement/#s2"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "Dnatj5p274EhYCKbX",
-  "subbmittedTimestamp": 1514928293104,
-  "needModeration": true,
-  "id": "dy9DsCyjXiqKaehTo"
+    ],
+    "tldr": "As a user, you grant Spotify the right to provide advertisements to you and you allow their partners to do the same"
+  }
 }

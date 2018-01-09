@@ -1,7 +1,11 @@
 {
+  "approved": false,
+  "id": "XxKFP4xABYzgSkTnr",
+  "needModeration": true,
   "services": [
     "whatsapp"
   ],
+  "submittedBy": "8AnXB92inA3PDv5hh",
   "title": "This service uses cookies",
   "topics": [
     "cookies"
@@ -9,13 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "neutral",
-    "tldr": "It uses cookies primary to enhance user experience. They can be partly deactivated.",
     "sources": [
       "https://www.whatsapp.com/legal/#cookies"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "8AnXB92inA3PDv5hh",
-  "needModeration": true,
-  "id": "XxKFP4xABYzgSkTnr"
+    ],
+    "tldr": "It uses cookies primary to enhance user experience. They can be partly deactivated."
+  }
 }
