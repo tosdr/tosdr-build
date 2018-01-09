@@ -1,8 +1,13 @@
 {
+  "approved": false,
+  "id": "MsfxatD9NFDgNxuK4",
+  "needModeration": true,
   "services": [
     "google",
     "google"
   ],
+  "subbmittedTimestamp": 1514735692717,
+  "submittedBy": "ivrCwvwphbHBPyfCK",
   "title": "They can destory my account anytime, by anything",
   "topics": [
     "equality"
@@ -10,14 +15,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "\"Subject to Section 7.2, Google may discontinue any Services or any portion or feature for any reason at any time without liability to Customer.\"\n\n",
     "sources": [
       "https://cloud.google.com/terms/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "ivrCwvwphbHBPyfCK",
-  "subbmittedTimestamp": 1514735692717,
-  "needModeration": true,
-  "id": "MsfxatD9NFDgNxuK4"
+    ],
+    "tldr": "\"Subject to Section 7.2, Google may discontinue any Services or any portion or feature for any reason at any time without liability to Customer.\"\n\n"
+  }
 }

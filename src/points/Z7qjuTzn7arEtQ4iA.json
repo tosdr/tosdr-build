@@ -1,7 +1,11 @@
 {
+  "approved": false,
+  "id": "Z7qjuTzn7arEtQ4iA",
+  "needModeration": true,
   "services": [
     "reddit"
   ],
+  "submittedBy": "d77BaHTE86zWbnNoN",
   "title": "[Good] Reddit keeps old versions of the ToS, and informs users of signifigant changes",
   "topics": [
     "changes-involvement",
@@ -11,13 +15,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "If [reddit makes] changes to [the ToS] that materially affect your rights, [reddit] will provide advance notice and keep [the old verions] available as an archive on the reddit website.",
     "sources": [
       "https://www.reddit.com/help/useragreement#section_changes_to_this_user_agreement"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "d77BaHTE86zWbnNoN",
-  "needModeration": true,
-  "id": "Z7qjuTzn7arEtQ4iA"
+    ],
+    "tldr": "If [reddit makes] changes to [the ToS] that materially affect your rights, [reddit] will provide advance notice and keep [the old verions] available as an archive on the reddit website."
+  }
 }

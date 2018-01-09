@@ -1,5 +1,9 @@
 {
-  "services": null,
+  "approved": false,
+  "id": "LJ3NcAjSyvyjAh2L8",
+  "needModeration": true,
+  "services": [],
+  "submittedBy": "zKH4BARHBQPWY9H7w",
   "title": "Arnaque sur abonnement 1€ 15j puis 53€ tous les mois reconductible tacitement Juritravail.com",
   "topics": [
     "business-transfer"
@@ -7,13 +11,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "Sur le site de juritravaill.com : Arnaque sur abonnement 1€ 15j puis 53€ tous les mois reconductible tacitement \n\nfraud on subscription, firstly 1€ for 15 day then without notice 53€ each mounth with a tacit renewal.",
     "sources": [
       "http://www.juritravail.com/conditions-generales.php"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "zKH4BARHBQPWY9H7w",
-  "needModeration": true,
-  "id": "LJ3NcAjSyvyjAh2L8"
+    ],
+    "tldr": "Sur le site de juritravaill.com : Arnaque sur abonnement 1€ 15j puis 53€ tous les mois reconductible tacitement \n\nfraud on subscription, firstly 1€ for 15 day then without notice 53€ each mounth with a tacit renewal."
+  }
 }

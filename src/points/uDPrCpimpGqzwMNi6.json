@@ -1,10 +1,15 @@
 {
+  "approved": false,
+  "id": "uDPrCpimpGqzwMNi6",
+  "needModeration": true,
   "services": [
     "google",
     "google",
     "pinterest",
     "twitter"
   ],
+  "subbmittedTimestamp": 1513089627701,
+  "submittedBy": "HLZT9NWLBC7xEjMHD",
   "title": "SantsTV",
   "topics": [
     "cookies"
@@ -12,14 +17,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "It uses 3rd Part Cookies",
     "sources": [
       "http://sants.tv"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "HLZT9NWLBC7xEjMHD",
-  "subbmittedTimestamp": 1513089627701,
-  "needModeration": true,
-  "id": "uDPrCpimpGqzwMNi6"
+    ],
+    "tldr": "It uses 3rd Part Cookies"
+  }
 }

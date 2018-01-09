@@ -1,5 +1,10 @@
 {
-  "services": null,
+  "approved": false,
+  "id": "YH2PWtBeAmW7e4zBe",
+  "needModeration": true,
+  "services": [],
+  "subbmittedTimestamp": 1510023964741,
+  "submittedBy": "5PQLdA9LTENLXN8xH",
   "title": "This service's educational materials are under Creative Commons licence",
   "topics": [
     "copyright-scope"
@@ -7,14 +12,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Any tools this site provides are all under Creative Commons license. This means that you can use them for any non-commercial purpose. You must, however, use them \"with attribution\".",
     "sources": [
       "https://ywp.nanowrimo.org/pages/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "5PQLdA9LTENLXN8xH",
-  "subbmittedTimestamp": 1510023964741,
-  "needModeration": true,
-  "id": "YH2PWtBeAmW7e4zBe"
+    ],
+    "tldr": "Any tools this site provides are all under Creative Commons license. This means that you can use them for any non-commercial purpose. You must, however, use them \"with attribution\"."
+  }
 }

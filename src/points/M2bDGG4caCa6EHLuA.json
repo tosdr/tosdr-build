@@ -1,7 +1,11 @@
 {
+  "approved": false,
+  "id": "M2bDGG4caCa6EHLuA",
+  "needModeration": true,
   "services": [
     "whatsapp"
   ],
+  "submittedBy": "8AnXB92inA3PDv5hh",
   "title": "This service allows you to delete your account at any time",
   "topics": [
     "leave",
@@ -11,13 +15,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "It will remove information about you that is not required for maintaining the offered services.",
     "sources": [
       ""
-    ]
-  },
-  "approved": false,
-  "submittedBy": "8AnXB92inA3PDv5hh",
-  "needModeration": true,
-  "id": "M2bDGG4caCa6EHLuA"
+    ],
+    "tldr": "It will remove information about you that is not required for maintaining the offered services."
+  }
 }

@@ -1,5 +1,9 @@
 {
-  "services": null,
+  "approved": false,
+  "id": "JAhPTHzPRgm3sTzY4",
+  "needModeration": true,
+  "services": [],
+  "submittedBy": "ELDAbHLCWaLpyQqz3",
   "title": "Creditkarma doesn't respect DNT",
   "topics": [
     "track",
@@ -10,13 +14,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "\"At this time, we do not respond to automated signals regarding tracking mechanisms, including “do not track” instructions from your browser.\"\n\nAt the same time, they say they're using third-party ad providers and Google Analytics across the website. This sounds like a pretty bad combination.",
     "sources": [
       "https://www.creditkarma.com/about/privacy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "ELDAbHLCWaLpyQqz3",
-  "needModeration": true,
-  "id": "JAhPTHzPRgm3sTzY4"
+    ],
+    "tldr": "\"At this time, we do not respond to automated signals regarding tracking mechanisms, including “do not track” instructions from your browser.\"\n\nAt the same time, they say they're using third-party ad providers and Google Analytics across the website. This sounds like a pretty bad combination."
+  }
 }

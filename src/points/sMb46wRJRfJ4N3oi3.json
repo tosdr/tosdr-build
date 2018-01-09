@@ -1,18 +1,18 @@
 {
-  "services": null,
+  "approved": false,
+  "id": "sMb46wRJRfJ4N3oi3",
+  "needModeration": true,
+  "services": [],
+  "subbmittedTimestamp": 1510471965399,
+  "submittedBy": "p5oHJvAYh6f8y25K2",
   "title": "Article",
-  "topics": null,
+  "topics": [],
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "Indians have mindset like foreign players ",
     "sources": [
       ""
-    ]
-  },
-  "approved": false,
-  "submittedBy": "p5oHJvAYh6f8y25K2",
-  "subbmittedTimestamp": 1510471965399,
-  "needModeration": true,
-  "id": "sMb46wRJRfJ4N3oi3"
+    ],
+    "tldr": "Indians have mindset like foreign players "
+  }
 }

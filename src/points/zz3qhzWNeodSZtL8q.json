@@ -1,7 +1,11 @@
 {
+  "approved": false,
+  "id": "zz3qhzWNeodSZtL8q",
+  "needModeration": true,
   "services": [
     "evernote"
   ],
+  "submittedBy": "WzRfY5RG4cFFgJRdL",
   "title": "Account creation only requires an email address",
   "topics": [
     "user-choice"
@@ -9,13 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "good",
-    "tldr": "\"You create an account by providing us with an email address and creating a password. (Some older accounts also required a username.)\"",
     "sources": [
       "https://evernote.com/legal/tos.php/"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "WzRfY5RG4cFFgJRdL",
-  "needModeration": true,
-  "id": "zz3qhzWNeodSZtL8q"
+    ],
+    "tldr": "\"You create an account by providing us with an email address and creating a password. (Some older accounts also required a username.)\""
+  }
 }

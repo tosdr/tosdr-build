@@ -1,7 +1,12 @@
 {
+  "approved": false,
+  "id": "g9LD9BpiLFfjodv5X",
+  "needModeration": true,
   "services": [
     "reddit"
   ],
+  "subbmittedTimestamp": 1503860251953,
+  "submittedBy": "CFwisswk99as6qjnE",
   "title": "Tracks outbound links",
   "topics": [
     "track",
@@ -10,14 +15,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "When you click on an outbound link, you will be redirected through out.reddit.com for the purpose of tracking.",
     "sources": [
       "https://www.reddit.com/help/privacypolicy"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "CFwisswk99as6qjnE",
-  "subbmittedTimestamp": 1503860251953,
-  "needModeration": true,
-  "id": "g9LD9BpiLFfjodv5X"
+    ],
+    "tldr": "When you click on an outbound link, you will be redirected through out.reddit.com for the purpose of tracking."
+  }
 }

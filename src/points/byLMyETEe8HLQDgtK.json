@@ -1,7 +1,11 @@
 {
+  "approved": false,
+  "id": "byLMyETEe8HLQDgtK",
+  "needModeration": true,
   "services": [
     "facebook"
   ],
+  "submittedBy": "AfGD367cz6GZvk3Mp",
   "title": "targeted adverising",
   "topics": [
     "user-info"
@@ -9,13 +13,9 @@
   "tosdr": {
     "binding": true,
     "point": "bad",
-    "tldr": "using personal information for targeted advertising",
     "sources": [
       "https://www.facebook.com/terms"
-    ]
-  },
-  "approved": false,
-  "submittedBy": "AfGD367cz6GZvk3Mp",
-  "needModeration": true,
-  "id": "byLMyETEe8HLQDgtK"
+    ],
+    "tldr": "using personal information for targeted advertising"
+  }
 }
