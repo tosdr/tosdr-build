@@ -1,0 +1,23 @@
+{
+  "services": [
+    "reddit"
+  ],
+  "title": "Tracks outbound links",
+  "topics": [
+    "track",
+    "track"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "When you click on an outbound link, you will be redirected through out.reddit.com for the purpose of tracking.",
+    "sources": [
+      "https://www.reddit.com/help/privacypolicy"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "CFwisswk99as6qjnE",
+  "subbmittedTimestamp": 1503860251953,
+  "needModeration": true,
+  "id": "g9LD9BpiLFfjodv5X"
+}

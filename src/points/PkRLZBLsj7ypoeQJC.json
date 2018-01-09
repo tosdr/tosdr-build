@@ -1,0 +1,19 @@
+{
+  "services": null,
+  "title": "UBER Repair and Cleaning Fees",
+  "topics": [
+    "user-choice"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "neutral",
+    "tldr": "You shall be responsible for the cost of repair for damage to, or necessary cleaning of, vehicles and property resulting from use of the Services under your Account in excess of normal \"wear and tear\" damages and necessary cleaning (\"Repair or Cleaning\").",
+    "sources": [
+      "https://www.uber.com/es-MX/legal/terms/us/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "ZFhwoxw2ysb5p9Lb2",
+  "needModeration": true,
+  "id": "PkRLZBLsj7ypoeQJC"
+}

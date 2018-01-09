@@ -1,0 +1,22 @@
+{
+  "services": [
+    "dropbox"
+  ],
+  "title": "unspecified third parties have access to your data",
+  "topics": [
+    "third"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "blocker",
+    "tldr": "\"These and other features may require our systems to access, store and scan Your Stuff. You give us permission to do those things, and this permission extends to our affiliates and trusted third parties we work with.\"",
+    "sources": [
+      "https://www.dropbox.com/terms"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "YzXyGdyCicZ6xQS2N",
+  "subbmittedTimestamp": 1498249914419,
+  "needModeration": true,
+  "id": "rxs6xP753Ra8bYEhp"
+}

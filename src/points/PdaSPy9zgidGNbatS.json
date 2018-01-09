@@ -1,0 +1,22 @@
+{
+  "services": [
+    "dropbox"
+  ],
+  "title": "Terms are easy to read and understand.",
+  "topics": [
+    "readability"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "The terms of service are written in a combination of plain English and legalese that is fairly easy to read.",
+    "sources": [
+      "https://www.dropbox.com/privacy#terms"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "xrnLRYTdDYtuNB2kX",
+  "subbmittedTimestamp": 1512512623231,
+  "needModeration": true,
+  "id": "PdaSPy9zgidGNbatS"
+}
