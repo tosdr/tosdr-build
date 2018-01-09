@@ -1,0 +1,22 @@
+{
+  "services": [
+    "gravatar"
+  ],
+  "title": " You cannot delete your account",
+  "topics": [
+    "leave"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "blocker",
+    "tldr": "It is impossible to delete your account from this service (Gravatar account depends on Wordpress account).",
+    "sources": [
+      "https://en.support.wordpress.com/deleting-accounts/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "7CTANznXm7sEfwEtk",
+  "subbmittedTimestamp": 1511876879088,
+  "needModeration": true,
+  "id": "cE5Ngg9xYf9jrEA4f"
+}

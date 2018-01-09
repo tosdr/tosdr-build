@@ -1,0 +1,13 @@
+{
+  "discussion": "https://groups.google.com/forum#!topic/tosdr/SzMpw0nFSUk",
+  "id": "SzMpw0nFSUk",
+  "services": [
+    "tes-connect",
+    "sharemylesson"
+  ],
+  "title": "sites to review",
+  "tosdr": {
+    "binding": true
+  },
+  "needModeration": true
+}

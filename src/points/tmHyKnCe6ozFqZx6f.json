@@ -1,0 +1,21 @@
+{
+  "services": [
+    "evernote"
+  ],
+  "title": "Changes to Terms of Service will be communicated, if possible",
+  "topics": [
+    "changes-notice"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "neutral",
+    "tldr": "\"If we make a change, we’ll do our best to provide you with advance notice, although in some situations, such as where a change is required to satisfy applicable legal requirements, an update to these Terms may need to be effective immediately.\"",
+    "sources": [
+      "https://evernote.com/legal/tos.php/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "WzRfY5RG4cFFgJRdL",
+  "needModeration": true,
+  "id": "tmHyKnCe6ozFqZx6f"
+}

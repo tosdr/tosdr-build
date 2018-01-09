@@ -1,0 +1,20 @@
+{
+  "services": null,
+  "title": "This blog does not track you, does not have any odd copyrights",
+  "topics": [
+    "readability"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "good",
+    "tldr": "The site is a blog. It does not even have any comments section to take on readers' content. It does not have any \"If you read it, you agree to it TOC\".",
+    "sources": [
+      "https://blog.vorona.ca/"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "zFYHmmmwu4it3moNp",
+  "subbmittedTimestamp": 1510792304210,
+  "needModeration": true,
+  "id": "sqMAhGzkkmfWBqm2o"
+}

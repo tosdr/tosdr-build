@@ -1,0 +1,23 @@
+{
+  "services": [
+    "google",
+    "google"
+  ],
+  "title": "This service restricts the use you can make of it",
+  "topics": [
+    "user-choice"
+  ],
+  "tosdr": {
+    "binding": true,
+    "point": "bad",
+    "tldr": "EN (quote) : > Do not use our Services improperly.\nFR (quote) : > N’utilisez pas nos Services de façon impropre.",
+    "sources": [
+      "https://www.google.fr/intl/fr/policies/terms/regional.html"
+    ]
+  },
+  "approved": false,
+  "submittedBy": "HrjT3a9Ju9akHCTHM",
+  "subbmittedTimestamp": 1511808077341,
+  "needModeration": true,
+  "id": "pHbRGkdn9tofe9fLQ"
+}
