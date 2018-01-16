@@ -105,6 +105,7 @@ function parseServiceFile(id, grunt) {
   service[id].alexa=obj.alexa;
   service[id].twitter=obj.twitter;
   service[id].class=(obj.tosdr?obj.tosdr.rated:false);
+  service[id].urls=obj.urls;
 }
 
 //read all the points, and trigger the service files to be read
