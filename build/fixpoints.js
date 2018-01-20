@@ -67,6 +67,9 @@ function doFile(filepath, grunt) {
         obj.topics = [obj.tosdr.topic];
       }
       changed = true;
+    } else {
+      obj.topics = [];
+      changed = true;
     }
   }
   if(typeof(obj.tosdr.score)=='string') {
