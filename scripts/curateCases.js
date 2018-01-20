@@ -1,5 +1,5 @@
 var fs = require('fs'),
-  prettyjson = require('../build/prettyjson'),
+  prettyjson = require('./prettyjson'),
   cases = require('./cases'),
   found = false;
 

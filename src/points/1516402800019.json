@@ -1,11 +1,12 @@
 {
   "id": "1516402800019",
-  "title": "BBC may collect your device fingerprint.",
-  "tosdr": {
-    "tldr": "\"We collect some data automatically - Like [...] what browser and device you’re using.\"",
-    "tmp_rating": 1
-  },
   "services": [
     "bbc"
-  ]
+  ],
+  "title": "BBC may collect your device fingerprint.",
+  "tosdr": {
+    "binding": true,
+    "tldr": "\"We collect some data automatically - Like [...] what browser and device you’re using.\"",
+    "tmp_rating": 1
+  }
 }
