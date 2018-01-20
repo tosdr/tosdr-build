@@ -1,6 +1,6 @@
 'use strict';
 
-var prettyjson = require('../scripts/prettyjson');
+var prettyjson = require('./prettyjson');
 let alexa = {}
 
 module.exports = function(grunt){

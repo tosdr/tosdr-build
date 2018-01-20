@@ -5,7 +5,7 @@
 // those data points, and writes that information out to two files in the
 // index/ directory
 
-var prettyjson = require('../scripts/prettyjson');
+var prettyjson = require('./prettyjson');
 var service = {}, topic = {}, caseObj = {};
 function writeOut(grunt) {
   grunt.file.write('index/services.json', prettyjson(service));
