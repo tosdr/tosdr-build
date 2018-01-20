@@ -1,7 +1,7 @@
 'use strict';
 
 var fs = require('fs'),
-  prettyjson = require('./prettyjson');
+  prettyjson = require('../scripts/prettyjson');
 
 module.exports = function(grunt){
   grunt.task.registerTask('generateApiFiles', 'Generate API files', function(){

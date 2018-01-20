@@ -4,7 +4,7 @@
 //generate the index.html and get-involved.html files from that.
 var rendered = {};
 var elements = {};
-var prettyjson = require('./prettyjson');
+var prettyjson = require('../scripts/prettyjson');
 var caseObj = {}
 
 function renderDataPoint(grunt, service, dataPoint, forPopup) {

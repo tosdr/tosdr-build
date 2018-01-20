@@ -1,6 +1,6 @@
 var fs = require('fs'),
   i, threads = JSON.parse(fs.readFileSync('index/threads.json')),
-  prettyjson = require('../build/prettyjson');
+  prettyjson = require('./prettyjson');
 
 //...
 for (i in threads) {
