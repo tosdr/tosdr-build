@@ -1,0 +1,11 @@
+{
+  "id": "1516402800020",
+  "title": "Etsy may collect your device fingerprint.",
+  "tosdr": {
+    "tldr": "\"We may also collect information about your use of the Services [...], including your IP address, browser information (including referrers), device information (such as [...])\"",
+    "tmp_rating": 1
+  },
+  "services": [
+    "etsy"
+  ]
+}
