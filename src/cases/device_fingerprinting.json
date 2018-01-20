@@ -1,6 +1,6 @@
 {
   "name": "Device fingerprinting",
   "point": "bad",
-  "score": "50",
-  "privacyRelated": true
+  "privacyRelated": true,
+  "score": "50"
 }

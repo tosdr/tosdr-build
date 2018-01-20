@@ -23,6 +23,9 @@ function writeOut(grunt) {
 function addToServices(services, point) {
   //console.log('adding point "'+point+'" to services:');
   //console.log(services);
+  if (!Array.isArray(services)) {
+    console.error('no services array!', point)
+  }
   for(var i=0; i<services.length; i++) {
     if(!service[services[i]]) {
       //points will be a list of data points about this service.
@@ -46,6 +49,9 @@ function addToTopics(topics, point) {
 
   //console.log('adding point "'+point+'" to topics:');
   //console.log(topics);
+  if (!Array.isArray(topics)) {
+    console.error('no topics array!', point)
+  }
   for(var i=0; i<topics.length; i++) {
     if(!topic[topics[i]]) {
       topic[topics[i]] = [];
@@ -117,6 +123,7 @@ module.exports = function(grunt){
       if (filename === 'README.md') {
         return
       }
+
       caseObj[filename.substring(0, filename.length - '.json'.length)] = grunt.file.readJSON(abspath);
       // console.log('read', filename.substring(0, filename.length - '.json'.length))
     })
