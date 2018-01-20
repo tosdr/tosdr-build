@@ -1,5 +1,5 @@
 var fs = require('fs'),
-  prettyjson = require('./prettyjson');
+  prettyjson = require('../build/prettyjson');
 fs.readdir('points/', function(err, files) {
   if(err) {
     console.log(err, 'readdir');

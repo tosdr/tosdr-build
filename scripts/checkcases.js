@@ -1,5 +1,5 @@
 var fs = require('fs'),
-  prettyjson = require('./prettyjson');
+  prettyjson = require('../build/prettyjson');
 
 //...
 var numFilesOK = 0;

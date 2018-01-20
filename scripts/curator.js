@@ -3,7 +3,7 @@ var fs = require('fs'),
   cases = require('./cases'),
   services = JSON.parse(fs.readFileSync('index/services.json')),
   points = {},
-  prettyjson = require('./prettyjson');
+  prettyjson = require('../build/prettyjson');
 
 function addFile(filename) {
   try {
