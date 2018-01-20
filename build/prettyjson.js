@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.stringify = (function() {
+module.exports = (function() {
   function sortObject(obj, strict) {
     if(obj instanceof Array) {
       var ary;

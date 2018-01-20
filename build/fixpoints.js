@@ -1,6 +1,6 @@
 'use strict';
 
-var prettyjson = require('../scripts/prettyjson');
+var prettyjson = require('./prettyjson');
 
 module.exports = function(grunt){
   grunt.task.registerTask('fixpoints', 'Make data points consistent', function(){
