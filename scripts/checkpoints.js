@@ -13,6 +13,7 @@ fs.readdir('points/', function(err, files) {
   }
 });
 function doFile(fileName) {
+  console.log(fileName);
   fs.readFile('points/'+fileName, function(err, data) {
     try {
       if(err) {
@@ -22,9 +23,11 @@ function doFile(fileName) {
         var obj, changed = false;
         try {
           obj = JSON.parse(data);
+//          console.log(obj.services)
+          fs.readFile('services/'+obj.services[0]+'.json')
         } catch(e) {
           console.log(e, fileName);
-          process.exit(1);
+//          process.exit(1);
         }
         if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined'
                         || typeof(obj.tosdr.point)=='undefined' || typeof(obj.tosdr.score)=='undefined'
