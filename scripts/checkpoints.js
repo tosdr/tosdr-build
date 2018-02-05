@@ -22,6 +22,8 @@ function doFile(fileName) {
         var obj, changed = false;
         try {
           obj = JSON.parse(data);
+          console.log(obj.services)
+          fs.readFile('services/'+obj.services[0]+'.json') // make sure that file exists
         } catch(e) {
           console.log(e, fileName);
           process.exit(1);
