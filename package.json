@@ -6,16 +6,18 @@
     "www.tosdr.org"
   ],
   "scripts": {
-    "start": "server.js"
+    "start": "server.js",
+    "postinstall": "opencollective postinstall"
   },
   "version": "0.0.0-18",
   "repository": "git@github.com:tosdr/tosdr.org.git",
   "dependencies": {
-    "mustache": "*",
-    "node-static": "*",
     "imap": "*",
     "mailparser": "*",
-    "mongodb": "*"
+    "mongodb": "*",
+    "mustache": "*",
+    "node-static": "*",
+    "opencollective": "^1.0.3"
   },
   "devDependencies": {
     "grunt": "*",
@@ -28,5 +30,10 @@
     "grunt-svgmin": "*",
     "load-grunt-tasks": "*",
     "matchdep": "*"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/tosdr",
+    "logo": "https://opencollective.com/opencollective/logo.txt"
   }
 }

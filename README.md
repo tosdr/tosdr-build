@@ -1,6 +1,13 @@
 This is the source code for www.tosdr.org. You should
 find more information about the project itself on the website.
 
+[![OpenCollective Backers][backer-badge]][backer-url] [![OpenCollective Sponsors][sponsor-badge]][sponsor-url]
+
+[backer-url]: #backers
+[backer-badge]: https://opencollective.com/tosdr/backers/badge.svg
+[sponsor-url]: #sponsors
+[sponsor-badge]: https://opencollective.com/tosdr/badge.svg
+
 <!--Overview
 ========
 
@@ -77,6 +84,36 @@ Develop other applications
 API: http://www.tosdr.org/api.html 
 
 Also have a look at other apps, like the browser extensions: https://github.com/tosdr
+
+
+Contributors
+==========
+
+This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
+<a href="graphs/contributors"><img src="https://opencollective.com/tosdr/contributors.svg?width=890" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/tosdr#backer)]
+
+<a href="https://opencollective.com/tosdr#backers" target="_blank"><img src="https://opencollective.com/tosdr/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/tosdr#sponsor)]
+
+<a href="https://opencollective.com/tosdr/sponsor/0/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/1/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/2/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/3/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/4/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/5/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/6/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/7/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/8/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/tosdr/sponsor/9/website" target="_blank"><img src="https://opencollective.com/tosdr/sponsor/9/avatar.svg"></a>
 
 
 License
