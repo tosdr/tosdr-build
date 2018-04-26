@@ -78,6 +78,24 @@ API: http://www.tosdr.org/api.html
 
 Also have a look at other apps, like the browser extensions: https://github.com/tosdr
 
+## Core developpers 
+* [Chris](https://github.com/piks3l)
+* [Michiel](https://github.com/michielbdejong)
+
+### Hosting
+People who have access to the hosting:
+* [Chris](https://github.com/piks3l)
+* [Ggrin](https://github.com/Ggrin)
+* [Hugo](https://github.com/hugoroy)
+* [Jan](https://github.com/jancborchardt)
+* [Jimm](https://github.com/JimmStout)
+* [Michiel](https://github.com/michielbdejong)
+* [Pierre](https://github.com/pierreozoux)
+* [Vinnl](https://github.com/Vinnl)
+
+
+
+
 
 License
 ======
