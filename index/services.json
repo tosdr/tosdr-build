@@ -96,10 +96,35 @@
       "890",
       "906",
       "949",
+      "976",
       "993"
     ],
     "urls": [
       "app.net"
+    ]
+  },
+  "apple": {
+    "alexa": 61,
+    "class": false,
+    "links": {
+      "legal-notice": {
+        "name": "Website Terms of Service",
+        "url": "http://www.apple.com/legal/terms/site.html"
+      },
+      "privacy": {
+        "name": "Privacy Policy",
+        "url": "http://www.apple.com/privacy/"
+      },
+      "terms": {
+        "name": "iTunes Terms of Service",
+        "url": "http://www.apple.com/legal/itunes/us/terms.html"
+      }
+    },
+    "points": [
+      "933"
+    ],
+    "urls": [
+      "apple.com"
     ]
   },
   "apple-icloud": {
@@ -870,6 +895,17 @@
       "imgur.com"
     ]
   },
+  "informe": {
+    "alexa": 154315,
+    "class": false,
+    "links": {},
+    "points": [
+      "935"
+    ],
+    "urls": [
+      "informe.com"
+    ]
+  },
   "instagram": {
     "alexa": 16,
     "class": false,
@@ -972,6 +1008,17 @@
       "microsoft.com"
     ]
   },
+  "microsoft-store": {
+    "alexa": 47,
+    "class": false,
+    "links": {},
+    "points": [
+      "940"
+    ],
+    "urls": [
+      "microsoft.com"
+    ]
+  },
   "mint.com": {
     "alexa": 2765,
     "class": false,
@@ -1036,6 +1083,17 @@
     ],
     "urls": [
       "owncube.com"
+    ]
+  },
+  "packagetrackr": {
+    "alexa": 16913,
+    "class": false,
+    "links": {},
+    "points": [
+      "943"
+    ],
+    "urls": [
+      "packagetrackr.com"
     ]
   },
   "phpbb": {
@@ -1479,7 +1537,8 @@
     "links": {},
     "points": [
       "1516402800022",
-      "640"
+      "640",
+      "944"
     ],
     "urls": [
       "wordpress.com"
@@ -1537,6 +1596,8 @@
       "1008",
       "1516402800014",
       "774",
+      "882",
+      "945",
       "952"
     ],
     "urls": [
