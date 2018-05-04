@@ -174,7 +174,7 @@ module.exports = function (grunt) {
   grunt.registerTask('render', ['concurrent:fix', 'buildIndexes', 'prettify', 'copy:data', 'copy:assets', 'generateApiFiles', 'renderPages']);
     
   grunt.registerTask('build', [
-		'clean:dist',
+	//	'clean:dist',
     'render',
     'concurrent:minify'
   ]);
