@@ -4,9 +4,7 @@
     "mega"
   ],
   "title": "This website keeps your files encrypted.",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "tldr": "Unless someone has your password, they can't find your files. Also, your password is encrypted so if Mega is hacked, you are still safe."

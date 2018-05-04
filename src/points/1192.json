@@ -4,9 +4,7 @@
     "duckduckgo"
   ],
   "title": "HTTPS is always enabled",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "tldr": "Going to http://www.duckduckgo.com redirects to https://www.duckduckgo.com."

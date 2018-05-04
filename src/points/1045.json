@@ -6,9 +6,7 @@
     "facebook"
   ],
   "title": "Facebook",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

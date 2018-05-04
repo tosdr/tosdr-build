@@ -7,9 +7,7 @@
   ],
   "set": "set+service",
   "title": "Google Transparency Report",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,
