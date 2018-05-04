@@ -169,6 +169,17 @@
       "bearshare.com"
     ]
   },
+  "bit-ly": {
+    "alexa": 982,
+    "class": false,
+    "links": {},
+    "points": [
+      "1072"
+    ],
+    "urls": [
+      "bitly.com"
+    ]
+  },
   "blogspot": {
     "alexa": 70,
     "class": false,
@@ -833,6 +844,7 @@
     "class": false,
     "links": {},
     "points": [
+      "1068",
       "564",
       "820"
     ],
@@ -1061,6 +1073,17 @@
     ],
     "urls": [
       "netflix.com"
+    ]
+  },
+  "olx": {
+    "alexa": 57736,
+    "class": false,
+    "links": {},
+    "points": [
+      "1074"
+    ],
+    "urls": [
+      "olx.com"
     ]
   },
   "owncube": {
@@ -1486,6 +1509,17 @@
       "vbulletin.com"
     ]
   },
+  "videobb": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "1075"
+    ],
+    "urls": [
+      "videobb.com"
+    ]
+  },
   "whatsapp": {
     "alexa": 67,
     "class": false,
@@ -1536,6 +1570,7 @@
     "class": false,
     "links": {},
     "points": [
+      "1076",
       "1516402800022",
       "640",
       "944"
@@ -1553,6 +1588,17 @@
     ],
     "urls": [
       "worldofwarcraft.com"
+    ]
+  },
+  "xfire": {
+    "alexa": 709045,
+    "class": false,
+    "links": {},
+    "points": [
+      "1078"
+    ],
+    "urls": [
+      "xfire.com"
     ]
   },
   "xing": {
