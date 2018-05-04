@@ -1,19 +1,20 @@
 {
-  "tosdr": {
-    "rated": "A"
-  },
+  "freesoftware": false,
+  "fulltos": {},
+  "id": "EteSync",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
-  "id": null,
   "name": "EteSync",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
+  "related": [],
+  "tosdr": {
+    "keywords": [],
+    "rated": "A",
+    "related": []
+  },
+  "type": "service",
   "urls": [
-    "https://www.etesync.com/"
+    "etesync.com"
   ]
 }

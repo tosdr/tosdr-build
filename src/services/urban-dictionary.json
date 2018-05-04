@@ -1,18 +1,20 @@
 {
-  "tosdr": {
-    "rated": "N/A"
-  },
+  "alexa": 567,
+  "freesoftware": false,
+  "fulltos": {},
+  "id": "urban-dictionary",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
-  "id": "urban-dictionary",
   "name": "Urban Dictionary",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
+  "related": [],
+  "tosdr": {
+    "keywords": [],
+    "rated": "N/A",
+    "related": []
+  },
+  "type": "service",
   "urls": [
     "urbandictionary.com"
   ]
