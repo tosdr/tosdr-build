@@ -1,0 +1,19 @@
+{
+  "tosdr": {
+    "rated": "A"
+  },
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "id": null,
+  "name": "EteSync",
+  "keywords": [
+
+  ],
+  "related": [
+
+  ],
+  "urls": [
+    "https://www.etesync.com/"
+  ]
+}
