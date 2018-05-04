@@ -1,0 +1,10 @@
+{
+  "tosdr": {
+    "tldr": "When you visit the website over http, you are not redirected to https."
+  },
+  "id": "G4iR5KH7WVw-2",
+  "title": "https is not used by default",
+  "services": [
+    "yahoo"
+  ]
+}

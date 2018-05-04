@@ -4,7 +4,9 @@
     "paypal"
   ],
   "title": "Dinero",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "tldr": "Dinero"

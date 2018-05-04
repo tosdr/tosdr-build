@@ -4,7 +4,9 @@
     null
   ],
   "title": "Short and easy to read terms",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "tldr": "Only a few sections, not a lot of text, and in plain language."

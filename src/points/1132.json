@@ -4,7 +4,9 @@
     "yahoo"
   ],
   "title": "Yahoo! may collect your device fingerprint.",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "tldr": "\"We may [...] set and access device identifiers which could include [...] user agent information (browser version, OS type and version)\""
