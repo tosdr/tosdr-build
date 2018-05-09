@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "bodybuilding",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "bodybuilding",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

@@ -3,12 +3,12 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "snapchat",
+  "keywords": [],
   "name": "snapchat",
+  "related": [],
   "submittedBy": "RpdnZrLojKeCr4zJQ",
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

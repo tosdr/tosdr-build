@@ -8,14 +8,14 @@
     }
   },
   "id": "wetransfer",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "wetransfer",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

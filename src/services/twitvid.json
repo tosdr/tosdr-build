@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "twitvid",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "twitvid",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

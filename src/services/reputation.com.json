@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "reputation.com",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "reputation.com",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

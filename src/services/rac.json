@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "rac",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "rac",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

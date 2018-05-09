@@ -3,15 +3,15 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "microsoft-store",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Microsoft Store",
+  "related": [],
   "tosdr": {
     "alexa": 1000000,
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

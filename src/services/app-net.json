@@ -28,12 +28,9 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "app.net",
   "urls": [
     "app.net"
   ]

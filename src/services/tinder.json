@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "tinder",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "tinder",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

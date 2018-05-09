@@ -26,12 +26,9 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "xing.com",
   "urls": [
     "xing.com"
   ]

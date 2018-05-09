@@ -8,14 +8,14 @@
     }
   },
   "id": "storify",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "storify",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

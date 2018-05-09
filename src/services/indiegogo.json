@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "indiegogo",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "indiegogo",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

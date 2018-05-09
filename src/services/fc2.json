@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "fc2",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "fc2",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

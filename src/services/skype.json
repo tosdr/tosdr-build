@@ -3,10 +3,12 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "skype",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Skype",
+  "related": [],
   "tosback2": {
     "business": {
       "name": "Terms of Service - Business",
@@ -67,12 +69,9 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "skype.com",
   "urls": [
     "skype.com"
   ]

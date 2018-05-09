@@ -3,6 +3,7 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "twitpic",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
@@ -32,14 +33,11 @@
     }
   },
   "tosdr": {
-    "keywords": [],
     "rated": false,
-    "related": [],
     "wasRated": "was rated as E, but service is now read-only"
   },
   "twitter": "@TwitPic",
   "type": "service",
-  "url": "twitpic.com",
   "urls": [
     "twitpic.com"
   ]

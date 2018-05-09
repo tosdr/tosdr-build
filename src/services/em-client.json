@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "em-client",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "em-client",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

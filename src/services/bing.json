@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "bing",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "bing",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

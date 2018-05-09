@@ -17,10 +17,12 @@
     }
   },
   "id": "delicious",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Delicious",
+  "related": [],
   "tosback2": {
     "last-archive": {
       "time": "",
@@ -41,13 +43,10 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": "D",
-    "related": []
+    "rated": "D"
   },
   "twitter": "@Delicious",
   "type": "service",
-  "url": "delicious.com",
   "urls": [
     "delicious.com",
     "delicious.com.au"

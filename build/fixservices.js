@@ -54,6 +54,10 @@ function doFile(filepath, filename, grunt) {
       changed=true;
     }
   }
+  if (obj.url) {
+    delete obj.url
+    changed = true
+  }
   if(typeof(obj.fulltos) != 'object' || Array.isArray(obj.fulltos)) {
     grunt.log.error('fulltos wrong (' + filename + ')');
     if(!obj.fulltos) {
@@ -101,19 +105,21 @@ function doFile(filepath, filename, grunt) {
       changed = true;
     }
   }
-  if(!Array.isArray(obj.tosdr.keywords)) {
+  if(obj.tosdr.keywords) {
     grunt.log.error('wrong obj.tosdr.keywords (' + filename + ')');
-    if(!obj.tosdr.keywords) {
-      obj.tosdr.keywords = [];
-      changed = true;
+    if(!obj.keywords) {
+      obj.keywords = obj.tosdr.keywords;
     }
+    delete obj.tosdr.keywords;
+    changed = true;
   }
-  if(!Array.isArray(obj.tosdr.related)) {
+  if(obj.tosdr.related) {
     grunt.log.error('wrong obj.tosdr.related (' + filename + ')');
-    if(!obj.tosdr.related) {
-      obj.tosdr.related = [];
-      changed = true;
+    if(!obj.related) {
+      obj.related = obj.tosdr.related;
     }
+    delete obj.tosdr.related;
+    changed = true;
   }
 
   if (obj.urls.length === 0) {

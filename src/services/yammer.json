@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "yammer",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "yammer",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

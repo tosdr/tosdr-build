@@ -30,12 +30,9 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "yahoo.com",
   "urls": [
     "yahoo.com"
   ]

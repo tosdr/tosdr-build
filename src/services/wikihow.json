@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "wikihow",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "wikihow",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

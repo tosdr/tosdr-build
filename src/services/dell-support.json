@@ -8,14 +8,14 @@
     }
   },
   "id": "dell-support",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "dell-support",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

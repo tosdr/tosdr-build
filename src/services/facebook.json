@@ -33,12 +33,9 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "facebook.com",
   "urls": [
     "facebook.com"
   ]

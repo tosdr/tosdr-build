@@ -4,6 +4,7 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "status-net",
+  "keywords": [],
   "license": "agpl-3+",
   "meta": {
     "spec-version": "1.1"
@@ -15,12 +16,9 @@
   ],
   "tosdr": {
     "alexa": 1000000,
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "software",
-  "url": "//status.net",
   "urls": [
     "status.net"
   ]

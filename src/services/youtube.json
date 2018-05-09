@@ -30,13 +30,10 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": "D",
-    "related": []
+    "rated": "D"
   },
   "twitter": "@YouTube",
   "type": "service",
-  "url": "youtube.com",
   "urls": [
     "youtube.com"
   ]

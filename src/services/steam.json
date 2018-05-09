@@ -3,10 +3,12 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "steam",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Steam",
+  "related": [],
   "tosback2": {
     "privacy": {
       "last-archive": {
@@ -27,12 +29,9 @@
     }
   },
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "store.steampowered.com",
   "urls": [
     "steampowered.com",
     "store.steampowered.com"

@@ -52,6 +52,9 @@ function process(dir, grunt){
       if (item.topics === null) {
         item.topics = []
       }
+      if (item.id === null) {
+        item.id = item.name
+      }
       grunt.file.write(abspath, JSON.stringify(sortObject(item, true), null, 2));
     }
   });

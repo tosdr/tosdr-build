@@ -3,12 +3,12 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "groupon",
+  "keywords": [],
   "name": "groupon",
+  "related": [],
   "submittedBy": "RpdnZrLojKeCr4zJQ",
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

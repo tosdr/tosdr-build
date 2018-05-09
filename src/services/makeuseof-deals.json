@@ -8,14 +8,14 @@
     }
   },
   "id": "makeuseof-deals",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "makeuseof-deals",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

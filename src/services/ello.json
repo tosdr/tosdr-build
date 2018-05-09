@@ -8,14 +8,14 @@
     }
   },
   "id": "ello",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "ello",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

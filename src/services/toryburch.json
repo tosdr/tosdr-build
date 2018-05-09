@@ -8,14 +8,14 @@
     }
   },
   "id": "toryburch",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "toryburch",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

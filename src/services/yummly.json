@@ -8,14 +8,14 @@
     }
   },
   "id": "yummly",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "yummly",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

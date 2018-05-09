@@ -8,14 +8,14 @@
     }
   },
   "id": "firefox-accounts",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "firefox-accounts",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

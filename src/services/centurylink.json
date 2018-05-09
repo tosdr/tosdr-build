@@ -3,14 +3,14 @@
   "freesoftware": false,
   "fulltos": {},
   "id": "centurylink",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "centurylink",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

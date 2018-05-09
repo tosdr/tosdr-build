@@ -8,14 +8,14 @@
     }
   },
   "id": "pgoh13",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "pgoh13",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

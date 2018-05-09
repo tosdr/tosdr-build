@@ -8,14 +8,14 @@
     }
   },
   "id": "twitch",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "twitch",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
   "urls": [

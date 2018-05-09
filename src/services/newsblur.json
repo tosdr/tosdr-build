@@ -7,17 +7,16 @@
     }
   },
   "id": "newsblur",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Newsblur",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "newsblur.com",
   "urls": [
     "newsblur.com"
   ]

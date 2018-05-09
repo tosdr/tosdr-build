@@ -7,17 +7,16 @@
     }
   },
   "id": "minecraft",
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Minecraft",
+  "related": [],
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "https://minecraft.net/",
   "urls": [
     "minecraft.net"
   ]

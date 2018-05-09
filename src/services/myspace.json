@@ -18,6 +18,7 @@
     }
   },
   "id": "myspace",
+  "keywords": [],
   "last-diff": "",
   "meta": {
     "spec-version": "1.1"
@@ -25,12 +26,9 @@
   "name": "myspace",
   "related": {},
   "tosdr": {
-    "keywords": [],
-    "rated": false,
-    "related": []
+    "rated": false
   },
   "type": "service",
-  "url": "myspace.com",
   "urls": [
     "myspace.com"
   ]
