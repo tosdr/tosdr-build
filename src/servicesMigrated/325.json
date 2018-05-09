@@ -1,0 +1,25 @@
+{
+  "alexa": 46,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Imgur",
+  "related": [
+
+  ],
+  "slug": "imgur",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "imgur.com"
+  ],
+  "id": 325
+}

@@ -1,0 +1,25 @@
+{
+  "alexa": 158,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "salesforce",
+  "related": [
+
+  ],
+  "slug": "salesforce",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "salesforce.com"
+  ],
+  "id": 216
+}

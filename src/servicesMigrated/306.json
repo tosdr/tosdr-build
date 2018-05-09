@@ -1,0 +1,25 @@
+{
+  "alexa": 118262,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Mega File Storage",
+  "related": [
+
+  ],
+  "slug": "mega",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "mega.com"
+  ],
+  "id": 306
+}

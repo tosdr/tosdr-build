@@ -1,0 +1,25 @@
+{
+  "alexa": 120549,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "fightforthefuture.org",
+  "related": [
+
+  ],
+  "slug": "fightforthefuture.org",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "fightforthefuture.org"
+  ],
+  "id": 178
+}
