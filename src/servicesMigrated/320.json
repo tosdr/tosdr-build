@@ -1,19 +1,25 @@
 {
-  "tosdr": {
-  },
-  "meta": {
-    "spec-version": "1.1"
+  "alexa": 523,
+  "freesoftware": false,
+  "fulltos": {
   },
   "id": 320,
-  "name": "Dictionary.com",
   "keywords": [
 
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Dictionary.com",
   "related": [
 
   ],
+  "slug": "dictionary-com",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
   "urls": [
     "dictionary.com"
-  ],
-  "slug": "dictionary-com"
+  ]
 }

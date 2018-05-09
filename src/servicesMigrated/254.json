@@ -6,6 +6,7 @@
       "url": "www.bearshare.com/eula.shtml"
     }
   },
+  "id": 254,
   "keywords": [
 
   ],
@@ -23,6 +24,5 @@
   "type": "service",
   "urls": [
     "bearshare.com"
-  ],
-  "id": 254
+  ]
 }

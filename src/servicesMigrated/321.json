@@ -1,19 +1,25 @@
 {
-  "tosdr": {
-  },
-  "meta": {
-    "spec-version": "1.1"
+  "alexa": 15,
+  "freesoftware": false,
+  "fulltos": {
   },
   "id": 321,
-  "name": "Windows Live",
   "keywords": [
 
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Windows Live",
   "related": [
 
   ],
+  "slug": "windows-live",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
   "urls": [
     "live.com"
-  ],
-  "slug": "windows-live"
+  ]
 }

@@ -9,6 +9,7 @@
       "url": "http://www.ebuddy.com/terms.html"
     }
   },
+  "id": 305,
   "keywords": [
 
   ],
@@ -26,6 +27,5 @@
   "type": "service",
   "urls": [
     "ebuddy.com"
-  ],
-  "id": 305
+  ]
 }

@@ -7,6 +7,7 @@
       "url": "https://slack.com/terms-of-service"
     }
   },
+  "id": 206,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "slack.com"
-  ],
-  "id": 206
+  ]
 }

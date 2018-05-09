@@ -7,6 +7,7 @@
       "url": "https://deals.makeuseof.com/terms"
     }
   },
+  "id": 295,
   "keywords": [
 
   ],
@@ -25,6 +26,5 @@
   "urls": [
     "makeuseof.com",
     "deals.makeuseof.com"
-  ],
-  "id": 295
+  ]
 }

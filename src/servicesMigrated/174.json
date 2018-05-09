@@ -10,6 +10,7 @@
       "url": "https://identi.ca/doc/tos"
     }
   },
+  "id": 174,
   "keywords": [
 
   ],
@@ -28,6 +29,5 @@
   "type": "service",
   "urls": [
     "identi.ca"
-  ],
-  "id": 174
+  ]
 }

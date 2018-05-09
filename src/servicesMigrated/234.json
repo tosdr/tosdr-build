@@ -7,6 +7,7 @@
       "url": "http://creditnerds.com/terms.php"
     }
   },
+  "id": 234,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "creditnerds.com"
-  ],
-  "id": 234
+  ]
 }

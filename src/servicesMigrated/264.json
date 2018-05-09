@@ -11,6 +11,7 @@
       "url": "https://vk.com/terms"
     }
   },
+  "id": 264,
   "keywords": [
 
   ],
@@ -28,6 +29,5 @@
   "type": "service",
   "urls": [
     "vk.com"
-  ],
-  "id": 264
+  ]
 }

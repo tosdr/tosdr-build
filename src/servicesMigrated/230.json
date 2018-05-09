@@ -9,6 +9,7 @@
       "url": "https://www.paypal.com/us/webapps/mpp/ua/useragreement-full"
     }
   },
+  "id": 230,
   "keywords": [
 
   ],
@@ -27,6 +28,5 @@
   "type": "service",
   "urls": [
     "paypal.com"
-  ],
-  "id": 230
+  ]
 }

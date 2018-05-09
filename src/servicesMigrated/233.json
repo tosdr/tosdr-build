@@ -7,6 +7,7 @@
       "url": "https://www.toryburch.com/content-privacy/content-privacy.html"
     }
   },
+  "id": 233,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "toryburch.com"
-  ],
-  "id": 233
+  ]
 }

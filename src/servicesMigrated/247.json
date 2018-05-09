@@ -7,6 +7,7 @@
       "url": "https://www.librarything.com/privacy"
     }
   },
+  "id": 247,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "librarything.com"
-  ],
-  "id": 247
+  ]
 }

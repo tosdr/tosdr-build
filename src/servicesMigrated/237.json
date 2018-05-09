@@ -7,6 +7,7 @@
       "url": "http://mimobaby.com/legal/#PrivacyPolicy"
     }
   },
+  "id": 237,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "mimobaby.com"
-  ],
-  "id": 237
+  ]
 }

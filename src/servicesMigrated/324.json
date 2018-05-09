@@ -1,19 +1,25 @@
 {
-  "tosdr": {
-  },
-  "meta": {
-    "spec-version": "1.1"
+  "alexa": 567,
+  "freesoftware": false,
+  "fulltos": {
   },
   "id": 324,
-  "name": "Urban Dictionary",
   "keywords": [
 
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Urban Dictionary",
   "related": [
 
   ],
+  "slug": "urban-dictionary",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
   "urls": [
     "urbandictionary.com"
-  ],
-  "slug": "urban-dictionary"
+  ]
 }

@@ -3,6 +3,7 @@
   "freesoftware": true,
   "fulltos": {
   },
+  "id": 246,
   "keywords": [
     "email",
     "groupware",
@@ -26,6 +27,5 @@
   "urls": [
     "kolabnow.com",
     "kolab.org"
-  ],
-  "id": 246
+  ]
 }
