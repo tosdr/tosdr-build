@@ -7,6 +7,7 @@
       "url": "https://www.daybreakgames.com/terms-of-service?locale=en_US"
     }
   },
+  "id": 242,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "daybreakgames.com"
-  ],
-  "id": 242
+  ]
 }

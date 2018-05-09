@@ -1,19 +1,24 @@
 {
-  "tosdr": {
-  },
-  "meta": {
-    "spec-version": "1.1"
+  "freesoftware": false,
+  "fulltos": {
   },
   "id": 176,
-  "name": "allrecipe",
   "keywords": [
 
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "allrecipe",
   "related": [
 
   ],
+  "slug": "allrecipe",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
   "urls": [
     "url"
-  ],
-  "slug": "allrecipe"
+  ]
 }

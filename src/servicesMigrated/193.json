@@ -9,6 +9,7 @@
       "url": "http://www.linkedin.com/static?key=user_agreement"
     }
   },
+  "id": 193,
   "keywords": [
     "professional",
     "jobs"
@@ -27,6 +28,5 @@
   "type": "service",
   "urls": [
     "linkedin.com"
-  ],
-  "id": 193
+  ]
 }

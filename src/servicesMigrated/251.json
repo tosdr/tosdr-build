@@ -19,6 +19,7 @@
       "url": "https://foursquare.com/legal/terms"
     }
   },
+  "id": 251,
   "keywords": [
 
   ],
@@ -38,6 +39,5 @@
   "type": "service",
   "urls": [
     "foursquare.com"
-  ],
-  "id": 251
+  ]
 }

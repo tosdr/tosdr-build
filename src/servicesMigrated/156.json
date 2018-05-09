@@ -9,6 +9,7 @@
       "url": "http://gravatar.com/site/terms-of-service"
     }
   },
+  "id": 156,
   "keywords": [
 
   ],
@@ -26,6 +27,5 @@
   "type": "service",
   "urls": [
     "gravatar.com"
-  ],
-  "id": 156
+  ]
 }

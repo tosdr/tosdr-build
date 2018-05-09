@@ -7,6 +7,7 @@
       "url": "https://www.uber.com/legal/terms/us/"
     }
   },
+  "id": 252,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "uber.com"
-  ],
-  "id": 252
+  ]
 }

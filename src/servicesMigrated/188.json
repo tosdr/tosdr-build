@@ -7,6 +7,7 @@
       "url": "https://accounts.firefox.com/legal/terms"
     }
   },
+  "id": 188,
   "keywords": [
 
   ],
@@ -25,6 +26,5 @@
   "urls": [
     "firefox.com",
     "accounts.firefox.com"
-  ],
-  "id": 188
+  ]
 }

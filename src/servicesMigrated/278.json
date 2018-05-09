@@ -9,6 +9,7 @@
       "url": "https://flattr.com/terms"
     }
   },
+  "id": 278,
   "keywords": [
 
   ],
@@ -26,6 +27,5 @@
   "type": "service",
   "urls": [
     "flattr.com"
-  ],
-  "id": 278
+  ]
 }

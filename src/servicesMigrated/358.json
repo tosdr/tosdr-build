@@ -3,6 +3,7 @@
   "freesoftware": false,
   "fulltos": {
   },
+  "id": 358,
   "keywords": [
 
   ],
@@ -20,6 +21,5 @@
   "type": "service",
   "urls": [
     "kik-messenger"
-  ],
-  "id": 358
+  ]
 }

@@ -7,6 +7,7 @@
       "url": "http://www.twitch.tv/user/legal?page=terms_of_service"
     }
   },
+  "id": 200,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "twitch.tv"
-  ],
-  "id": 200
+  ]
 }

@@ -7,6 +7,7 @@
       "url": "https://help.sumome.com/hc/en-us/articles/218958727-Privacy-Policy"
     }
   },
+  "id": 273,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "sumome.com"
-  ],
-  "id": 273
+  ]
 }

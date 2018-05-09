@@ -7,6 +7,7 @@
       "url": "https://www.pushbullet.com/tos"
     }
   },
+  "id": 303,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "pushbullet.com"
-  ],
-  "id": 303
+  ]
 }

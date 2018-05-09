@@ -6,6 +6,7 @@
       "url": "https://minecraft.net/terms"
     }
   },
+  "id": 275,
   "keywords": [
 
   ],
@@ -23,6 +24,5 @@
   "type": "service",
   "urls": [
     "minecraft.net"
-  ],
-  "id": 275
+  ]
 }

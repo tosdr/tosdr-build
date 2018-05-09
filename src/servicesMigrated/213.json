@@ -7,6 +7,7 @@
       "url": "https://www.sigfig.com/site/#/tos"
     }
   },
+  "id": 213,
   "keywords": [
 
   ],
@@ -24,6 +25,5 @@
   "type": "service",
   "urls": [
     "sigfig.com"
-  ],
-  "id": 213
+  ]
 }
