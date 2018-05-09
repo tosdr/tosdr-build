@@ -1,0 +1,25 @@
+{
+  "alexa": 3367,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "protonmail",
+  "related": [
+
+  ],
+  "slug": "protonmail",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "protonmail.com"
+  ],
+  "id": 491
+}

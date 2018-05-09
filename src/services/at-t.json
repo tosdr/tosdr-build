@@ -13,13 +13,14 @@
       "url": "http://www.att.com/gen/general?pid=11561"
     }
   },
+  "id": 181,
   "keywords": [],
   "last-diff": "",
   "meta": {
     "spec-version": "1.1"
   },
   "name": "AT&T",
-  "related": {},
+  "related": [],
   "slug": "at-t",
   "tosdr": {
     "rated": false

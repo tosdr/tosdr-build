@@ -1,0 +1,25 @@
+{
+  "alexa": 171417,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "heavenhr",
+  "related": [
+
+  ],
+  "slug": "heavenhr",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "heavenhr.com"
+  ],
+  "id": 444
+}

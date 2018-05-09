@@ -1,0 +1,25 @@
+{
+  "alexa": 1000000,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "sprint",
+  "related": [
+
+  ],
+  "slug": "sprint",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "sprint"
+  ],
+  "id": 446
+}

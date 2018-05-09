@@ -1,0 +1,25 @@
+{
+  "alexa": 10451,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "waze",
+  "related": [
+
+  ],
+  "slug": "waze",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "waze.com"
+  ],
+  "id": 221
+}

@@ -1,0 +1,25 @@
+{
+  "alexa": 13641,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Jagex",
+  "related": [
+
+  ],
+  "slug": "jagex",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "jagex.com"
+  ],
+  "id": 332
+}
