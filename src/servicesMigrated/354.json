@@ -1,0 +1,25 @@
+{
+  "alexa": 109,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "nytimes",
+  "related": [
+
+  ],
+  "slug": "nytimes",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "nytimes.com"
+  ],
+  "id": 354
+}

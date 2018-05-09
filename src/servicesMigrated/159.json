@@ -1,0 +1,25 @@
+{
+  "alexa": 105,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "craigslist",
+  "related": [
+
+  ],
+  "slug": "craigslist",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "craigslist.org"
+  ],
+  "id": 159
+}

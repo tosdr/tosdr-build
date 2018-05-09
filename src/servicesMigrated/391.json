@@ -1,0 +1,25 @@
+{
+  "alexa": 154743,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "toggle",
+  "related": [
+
+  ],
+  "slug": "toggle",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "toggle.com"
+  ],
+  "id": 391
+}

@@ -1,0 +1,28 @@
+{
+  "alexa": 3749,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "url": "https://ifttt.com/terms"
+    }
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "IFTTT",
+  "related": [
+
+  ],
+  "slug": "ifttt",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "ifttt.com"
+  ],
+  "id": 236
+}

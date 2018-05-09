@@ -1,0 +1,25 @@
+{
+  "alexa": 9439,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "travelzoo",
+  "related": [
+
+  ],
+  "slug": "travelzoo",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "travelzoo.com"
+  ],
+  "id": 425
+}

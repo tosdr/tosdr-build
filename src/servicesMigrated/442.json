@@ -1,0 +1,25 @@
+{
+  "alexa": 1000000,
+  "freesoftware": false,
+  "fulltos": {
+  },
+  "keywords": [
+
+  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "nxpay",
+  "related": [
+
+  ],
+  "slug": "nxpay",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "nxpay"
+  ],
+  "id": 442
+}
