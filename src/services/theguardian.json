@@ -2,13 +2,13 @@
   "alexa": 147,
   "freesoftware": false,
   "fulltos": {},
-  "id": "theguardian",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "theguardian",
   "related": [],
+  "slug": "theguardian",
   "tosdr": {
     "rated": false
   },

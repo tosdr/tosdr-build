@@ -6,13 +6,13 @@
       "url": "https://ifttt.com/terms"
     }
   },
-  "id": "ifttt",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "IFTTT",
   "related": [],
+  "slug": "ifttt",
   "tosdr": {
     "rated": false
   },

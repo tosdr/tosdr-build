@@ -9,7 +9,6 @@
   },
   "freesoftware": false,
   "fulltos": {},
-  "id": "apple",
   "keywords": [],
   "last-diff": "http://www.tosback.org/policy.php?pid=43",
   "meta": {
@@ -17,6 +16,7 @@
   },
   "name": "Apple",
   "related": {},
+  "slug": "apple",
   "tosback2": {
     "legal-notice": {
       "name": "Website Terms of Service",

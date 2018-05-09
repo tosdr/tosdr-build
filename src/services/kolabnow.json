@@ -2,7 +2,6 @@
   "alexa": 504997,
   "freesoftware": true,
   "fulltos": {},
-  "id": "kolabnow",
   "keywords": [
     "email",
     "groupware",
@@ -17,6 +16,7 @@
   "related": [
     "google"
   ],
+  "slug": "kolabnow",
   "tosdr": {
     "rated": "A"
   },

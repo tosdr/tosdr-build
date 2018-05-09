@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "feedly",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "feedly",
   "related": [],
+  "slug": "feedly",
   "tosdr": {
     "rated": false
   },

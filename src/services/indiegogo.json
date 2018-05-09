@@ -2,13 +2,13 @@
   "alexa": 2104,
   "freesoftware": false,
   "fulltos": {},
-  "id": "indiegogo",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "indiegogo",
   "related": [],
+  "slug": "indiegogo",
   "tosdr": {
     "rated": false
   },

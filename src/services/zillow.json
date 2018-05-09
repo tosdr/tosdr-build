@@ -2,13 +2,13 @@
   "alexa": 305,
   "freesoftware": false,
   "fulltos": {},
-  "id": "zillow",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "zillow",
   "related": [],
+  "slug": "zillow",
   "tosdr": {
     "rated": false
   },

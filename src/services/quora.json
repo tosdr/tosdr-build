@@ -2,13 +2,13 @@
   "alexa": 141,
   "freesoftware": false,
   "fulltos": {},
-  "id": "quora",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "quora",
   "related": [],
+  "slug": "quora",
   "tosdr": {
     "rated": false
   },

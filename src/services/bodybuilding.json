@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "bodybuilding",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "bodybuilding",
   "related": [],
+  "slug": "bodybuilding",
   "tosdr": {
     "rated": false
   },

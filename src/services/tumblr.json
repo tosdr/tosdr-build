@@ -2,7 +2,6 @@
   "alexa": 53,
   "freesoftware": false,
   "fulltos": {},
-  "id": "tumblr",
   "keywords": [
     "blog"
   ],
@@ -15,6 +14,7 @@
     "facebook",
     "twitter"
   ],
+  "slug": "tumblr",
   "tosback2": {
     "privacy": {
       "name": "Privacy Policy",

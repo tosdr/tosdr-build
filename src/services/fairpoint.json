@@ -2,13 +2,13 @@
   "alexa": 234057,
   "freesoftware": false,
   "fulltos": {},
-  "id": "fairpoint",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "fairpoint",
   "related": [],
+  "slug": "fairpoint",
   "tosdr": {
     "alexa": 1000000,
     "rated": false

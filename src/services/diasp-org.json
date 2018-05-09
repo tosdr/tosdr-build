@@ -8,7 +8,6 @@
       "url": ""
     }
   },
-  "id": "diasp-org",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -17,6 +16,7 @@
   "name": "Diasporg",
   "parent": "diaspora",
   "related": [],
+  "slug": "diasp-org",
   "tosdr": {
     "rated": false
   },

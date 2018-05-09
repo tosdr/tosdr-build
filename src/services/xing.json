@@ -2,7 +2,6 @@
   "alexa": 1811,
   "freesoftware": false,
   "fulltos": {},
-  "id": "xing",
   "keywords": [
     "professional",
     "jobs"
@@ -14,6 +13,7 @@
   "related": [
     "linkedin"
   ],
+  "slug": "xing",
   "tosback2": {
     "privacy": {
       "name": "Privacy Policy",

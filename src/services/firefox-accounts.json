@@ -7,13 +7,13 @@
       "url": "https://accounts.firefox.com/legal/terms"
     }
   },
-  "id": "firefox-accounts",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "firefox-accounts",
   "related": [],
+  "slug": "firefox-accounts",
   "tosdr": {
     "rated": false
   },

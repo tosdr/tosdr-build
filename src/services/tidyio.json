@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "tidyio",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "tidyio",
   "related": [],
+  "slug": "tidyio",
   "tosdr": {
     "rated": false
   },

@@ -2,7 +2,6 @@
   "alexa": 7,
   "freesoftware": false,
   "fulltos": {},
-  "id": "yahoo",
   "keywords": [
     "search",
     "groups"
@@ -14,6 +13,7 @@
   "related": [
     "google"
   ],
+  "slug": "yahoo",
   "tosback2": {
     "guidelines": {
       "name": "Community Guidelines",

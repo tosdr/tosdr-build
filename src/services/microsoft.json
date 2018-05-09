@@ -19,7 +19,6 @@
       "url": "http://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
     }
   },
-  "id": "microsoft",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -28,6 +27,7 @@
   "name": "Microsoft Services",
   "note": "this is 'your Microsoft account', not the www.microsoft.com website or the Microsoft Store",
   "related": {},
+  "slug": "microsoft",
   "tosdr": {
     "rated": false
   },

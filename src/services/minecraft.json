@@ -6,13 +6,13 @@
       "url": "https://minecraft.net/terms"
     }
   },
-  "id": "minecraft",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Minecraft",
   "related": [],
+  "slug": "minecraft",
   "tosdr": {
     "rated": false
   },

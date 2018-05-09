@@ -19,7 +19,6 @@
       "url": "https://foursquare.com/legal/terms"
     }
   },
-  "id": "foursquare",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -27,6 +26,7 @@
   },
   "name": "Foursquare",
   "related": {},
+  "slug": "foursquare",
   "tosback": "",
   "tosdr": {
     "rated": false

@@ -2,13 +2,13 @@
   "alexa": 149923,
   "freesoftware": false,
   "fulltos": {},
-  "id": "zooniverse",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "zooniverse",
   "related": [],
+  "slug": "zooniverse",
   "tosdr": {
     "rated": false
   },

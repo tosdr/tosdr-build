@@ -2,7 +2,6 @@
   "alexa": 331,
   "freesoftware": false,
   "fulltos": {},
-  "id": "duckduckgo",
   "keywords": [
     "search",
     "search engine"
@@ -14,6 +13,7 @@
   "related": [
     "google"
   ],
+  "slug": "duckduckgo",
   "tosback2": {
     "privacy": {
       "name": "Privacy Policy",

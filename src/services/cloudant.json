@@ -2,7 +2,6 @@
   "alexa": 353676,
   "freesoftware": false,
   "fulltos": {},
-  "id": "cloudant",
   "keywords": [
     "cloud",
     "developing",
@@ -14,6 +13,7 @@
   },
   "name": "Cloudant",
   "related": [],
+  "slug": "cloudant",
   "tosback2": {
     "privacy": {
       "name": "Privacy",

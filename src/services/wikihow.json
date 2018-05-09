@@ -2,13 +2,13 @@
   "alexa": 200,
   "freesoftware": false,
   "fulltos": {},
-  "id": "wikihow",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "wikihow",
   "related": [],
+  "slug": "wikihow",
   "tosdr": {
     "rated": false
   },

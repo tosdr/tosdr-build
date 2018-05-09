@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "bushel",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "bushel",
   "related": [],
+  "slug": "bushel",
   "tosdr": {
     "rated": false
   },

@@ -7,13 +7,13 @@
       "url": "https://www.uber.com/legal/terms/us/"
     }
   },
-  "id": "uber",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "uber",
   "related": [],
+  "slug": "uber",
   "tosdr": {
     "rated": false
   },

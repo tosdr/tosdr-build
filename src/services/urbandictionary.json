@@ -2,13 +2,13 @@
   "alexa": 567,
   "freesoftware": false,
   "fulltos": {},
-  "id": "urbandictionary",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "urbandictionary",
   "related": [],
+  "slug": "urbandictionary",
   "tosdr": {
     "rated": false
   },

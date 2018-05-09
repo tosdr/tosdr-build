@@ -2,7 +2,6 @@
   "alexa": 2,
   "freesoftware": false,
   "fulltos": {},
-  "id": "youtube",
   "keywords": [
     "video",
     "videos"
@@ -18,6 +17,7 @@
     "dailymotion",
     "vimeo"
   ],
+  "slug": "youtube",
   "tosback2": {
     "privacy": {
       "name": "Google Privacy Policy",

@@ -7,13 +7,13 @@
       "url": "https://tutanota.com/terms"
     }
   },
-  "id": "tutanota",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "tutanota",
   "related": [],
+  "slug": "tutanota",
   "tosdr": {
     "rated": false
   },

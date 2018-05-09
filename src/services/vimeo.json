@@ -7,13 +7,13 @@
       "url": "https://vimeo.com/terms"
     }
   },
-  "id": "vimeo",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "vimeo",
   "related": [],
+  "slug": "vimeo",
   "tosdr": {
     "rated": false
   },

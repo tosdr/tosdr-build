@@ -145,6 +145,12 @@ function doFile(filepath, filename, grunt) {
     changed = true
   }
 
+  if (!obj.slug) {
+    obj.slug = obj.id
+    delete obj.id
+    changed = true
+  }
+
   if(typeof(obj.freesoftware) != 'boolean') {
     grunt.log.error('wrong obj.freesoftware (' + filename + ')');
     obj.freesoftware = false;

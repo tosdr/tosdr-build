@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "em-client",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "em-client",
   "related": [],
+  "slug": "em-client",
   "tosdr": {
     "rated": false
   },

@@ -17,7 +17,6 @@
       "url": "https://new.myspace.com/pages/terms"
     }
   },
-  "id": "myspace",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -25,6 +24,7 @@
   },
   "name": "myspace",
   "related": {},
+  "slug": "myspace",
   "tosdr": {
     "rated": false
   },

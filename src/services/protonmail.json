@@ -2,13 +2,13 @@
   "alexa": 3367,
   "freesoftware": false,
   "fulltos": {},
-  "id": "protonmail",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "protonmail",
   "related": [],
+  "slug": "protonmail",
   "tosdr": {
     "rated": false
   },

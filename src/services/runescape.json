@@ -2,13 +2,13 @@
   "alexa": 1647,
   "freesoftware": false,
   "fulltos": {},
-  "id": "runescape",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "RuneScape",
   "related": [],
+  "slug": "runescape",
   "tosdr": {
     "rated": false
   },

@@ -2,13 +2,13 @@
   "alexa": 4839,
   "freesoftware": false,
   "fulltos": {},
-  "id": "symbaloo",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "symbaloo",
   "related": [],
+  "slug": "symbaloo",
   "tosdr": {
     "rated": false
   },

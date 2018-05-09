@@ -2,7 +2,6 @@
   "alexa": 373,
   "freesoftware": false,
   "fulltos": {},
-  "id": "apple-icloud",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
@@ -12,6 +11,7 @@
     "dropbox",
     "apple"
   ],
+  "slug": "apple-icloud",
   "tosback2": {
     "privacy": {
       "name": "Privacy Policy",

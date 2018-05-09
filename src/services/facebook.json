@@ -2,7 +2,6 @@
   "alexa": 3,
   "freesoftware": false,
   "fulltos": {},
-  "id": "facebook",
   "keywords": [
     "social network"
   ],
@@ -13,6 +12,7 @@
   "related": [
     "diaspora"
   ],
+  "slug": "facebook",
   "tosback2": {
     "cookies": {
       "name": "Cookie Policy",

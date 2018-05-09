@@ -2,13 +2,13 @@
   "alexa": 15,
   "freesoftware": false,
   "fulltos": {},
-  "id": "live",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "live",
   "related": [],
+  "slug": "live",
   "tosdr": {
     "rated": false
   },

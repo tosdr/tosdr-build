@@ -7,13 +7,13 @@
       "url": "http://mimobaby.com/legal/#PrivacyPolicy"
     }
   },
-  "id": "mimobaby",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "mimobaby",
   "related": [],
+  "slug": "mimobaby",
   "tosdr": {
     "rated": false
   },

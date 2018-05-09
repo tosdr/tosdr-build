@@ -7,13 +7,13 @@
       "url": "http://www.wix.com/about/terms-of-use"
     }
   },
-  "id": "wix",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "wix",
   "related": [],
+  "slug": "wix",
   "tosdr": {
     "rated": false
   },

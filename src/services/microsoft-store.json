@@ -2,13 +2,13 @@
   "alexa": 47,
   "freesoftware": false,
   "fulltos": {},
-  "id": "microsoft-store",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Microsoft Store",
   "related": [],
+  "slug": "microsoft-store",
   "tosdr": {
     "alexa": 1000000,
     "rated": false

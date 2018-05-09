@@ -9,13 +9,13 @@
       "url": "http://instagr.am/legal/terms/"
     }
   },
-  "id": "instagram",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Instagram",
   "related": [],
+  "slug": "instagram",
   "tosdr": {
     "rated": false
   },

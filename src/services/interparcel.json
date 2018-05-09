@@ -2,13 +2,13 @@
   "alexa": 101475,
   "freesoftware": false,
   "fulltos": {},
-  "id": "interparcel",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "interparcel",
   "related": [],
+  "slug": "interparcel",
   "tosdr": {
     "rated": false
   },

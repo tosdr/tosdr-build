@@ -7,13 +7,13 @@
       "url": "http://www.yummly.com/terms"
     }
   },
-  "id": "yummly",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "yummly",
   "related": [],
+  "slug": "yummly",
   "tosdr": {
     "rated": false
   },

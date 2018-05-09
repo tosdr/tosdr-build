@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "mitfahrgelegenheit",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "mitfahrgelegenheit",
   "related": [],
+  "slug": "mitfahrgelegenheit",
   "tosdr": {
     "rated": false
   },

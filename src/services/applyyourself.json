@@ -2,13 +2,13 @@
   "alexa": 4884,
   "freesoftware": false,
   "fulltos": {},
-  "id": "applyyourself",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "applyyourself",
   "related": [],
+  "slug": "applyyourself",
   "tosdr": {
     "alexa": 1000000,
     "rated": false

@@ -16,7 +16,6 @@
       "url": "https://www.dropbox.com/terms"
     }
   },
-  "id": "dropbox",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -26,6 +25,7 @@
   "related": [
     "spideroak"
   ],
+  "slug": "dropbox",
   "tosdr": {
     "rated": false
   },

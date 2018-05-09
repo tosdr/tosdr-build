@@ -7,13 +7,13 @@
       "url": "https://ringplus.net/legal/members/"
     }
   },
-  "id": "ringplus",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "ringplus",
   "related": [],
+  "slug": "ringplus",
   "tosdr": {
     "rated": false
   },

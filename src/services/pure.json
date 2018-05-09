@@ -7,13 +7,13 @@
       "url": "https://www.getpure.org/privacy/"
     }
   },
-  "id": "pure",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "pure",
   "related": [],
+  "slug": "pure",
   "tosdr": {
     "rated": false
   },

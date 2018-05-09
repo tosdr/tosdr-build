@@ -9,7 +9,6 @@
       "url": "http://www.linkedin.com/static?key=user_agreement"
     }
   },
-  "id": "linkedin",
   "keywords": [
     "professional",
     "jobs"
@@ -21,6 +20,7 @@
   "related": [
     "xing"
   ],
+  "slug": "linkedin",
   "tosdr": {
     "rated": false
   },

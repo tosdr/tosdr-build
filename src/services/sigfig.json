@@ -7,13 +7,13 @@
       "url": "https://www.sigfig.com/site/#/tos"
     }
   },
-  "id": "sigfig",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "sigfig",
   "related": [],
+  "slug": "sigfig",
   "tosdr": {
     "rated": false
   },

@@ -2,13 +2,13 @@
   "alexa": 523,
   "freesoftware": false,
   "fulltos": {},
-  "id": "dictionary",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "dictionary",
   "related": [],
+  "slug": "dictionary",
   "tosdr": {
     "rated": false
   },

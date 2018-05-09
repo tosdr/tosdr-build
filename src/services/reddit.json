@@ -2,13 +2,13 @@
   "alexa": 6,
   "freesoftware": false,
   "fulltos": {},
-  "id": "reddit",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "reddit",
   "related": [],
+  "slug": "reddit",
   "tosdr": {
     "rated": false
   },

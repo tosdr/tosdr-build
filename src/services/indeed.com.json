@@ -2,13 +2,13 @@
   "alexa": 199,
   "freesoftware": false,
   "fulltos": {},
-  "id": "indeed.com",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "indeed.com",
   "related": [],
+  "slug": "indeed.com",
   "tosdr": {
     "rated": false
   },

@@ -3,7 +3,6 @@
   "dataexport": false,
   "freesoftware": false,
   "fulltos": {},
-  "id": "twitter",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
@@ -13,6 +12,7 @@
     "identi-ca",
     "seenthis"
   ],
+  "slug": "twitter",
   "tosback2": {
     "privacy": {
       "last-archive": {

@@ -2,7 +2,6 @@
   "alexa": 1,
   "freesoftware": false,
   "fulltos": {},
-  "id": "google",
   "keywords": [
     "search",
     "groups"
@@ -20,6 +19,7 @@
     "yahoo",
     "duckduckgo"
   ],
+  "slug": "google",
   "tosback2": {
     "definitions": {
       "name": "Key terms",

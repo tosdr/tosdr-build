@@ -2,13 +2,13 @@
   "alexa": 154743,
   "freesoftware": false,
   "fulltos": {},
-  "id": "toggle",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "toggle",
   "related": [],
+  "slug": "toggle",
   "tosdr": {
     "rated": false
   },

@@ -2,7 +2,6 @@
   "alexa": 10,
   "freesoftware": false,
   "fulltos": {},
-  "id": "amazon",
   "keywords": [
     "commerce",
     "shop"
@@ -12,6 +11,7 @@
   },
   "name": "Amazon",
   "related": [],
+  "slug": "amazon",
   "tosback2": {
     "ads": {
       "name": "Interest Based Ads",

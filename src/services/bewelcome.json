@@ -2,13 +2,13 @@
   "alexa": 349156,
   "freesoftware": false,
   "fulltos": {},
-  "id": "bewelcome",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "bewelcome",
   "related": [],
+  "slug": "bewelcome",
   "tosdr": {
     "alexa": 1000000,
     "rated": false

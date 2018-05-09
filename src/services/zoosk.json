@@ -2,13 +2,13 @@
   "alexa": 5080,
   "freesoftware": false,
   "fulltos": {},
-  "id": "zoosk",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Zoosk",
   "related": [],
+  "slug": "zoosk",
   "tosdr": {
     "rated": false
   },

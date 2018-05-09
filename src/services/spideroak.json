@@ -14,7 +14,6 @@
       "url": ""
     }
   },
-  "id": "spideroak",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -24,6 +23,7 @@
   "related": [
     "dropbox"
   ],
+  "slug": "spideroak",
   "tosdr": {
     "rated": false
   },

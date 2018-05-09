@@ -14,7 +14,6 @@
       "url": "http://www.comcast.com/corporate/legal/visitorAgreement.html"
     }
   },
-  "id": "comcast",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -22,6 +21,7 @@
   },
   "name": "Comcast",
   "related": {},
+  "slug": "comcast",
   "tosdr": {
     "rated": false
   },

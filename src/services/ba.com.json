@@ -2,13 +2,13 @@
   "alexa": 25322,
   "freesoftware": false,
   "fulltos": {},
-  "id": "ba.com",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "ba.com",
   "related": [],
+  "slug": "ba.com",
   "tosdr": {
     "rated": false
   },

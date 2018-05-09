@@ -2,13 +2,13 @@
   "alexa": 22616,
   "freesoftware": false,
   "fulltos": {},
-  "id": "toodledo",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "toodledo",
   "related": [],
+  "slug": "toodledo",
   "tosdr": {
     "rated": false
   },

@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "burning-man",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "burning-man",
   "related": [],
+  "slug": "burning-man",
   "tosdr": {
     "rated": false
   },

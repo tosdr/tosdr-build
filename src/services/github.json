@@ -3,7 +3,6 @@
   "dataexport": true,
   "freesoftware": false,
   "fulltos": {},
-  "id": "github",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
@@ -12,6 +11,7 @@
   "related": [
     "gitorious"
   ],
+  "slug": "github",
   "tosback2": {
     "privacy": {
       "last-archive": {

@@ -8,7 +8,6 @@
       "url": ""
     }
   },
-  "id": "joindiaspora-com",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -17,6 +16,7 @@
   "name": "JoinDiaspora.com",
   "parent": "diaspora",
   "related": [],
+  "slug": "joindiaspora-com",
   "tosdr": {
     "rated": false
   },

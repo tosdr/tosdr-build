@@ -7,13 +7,13 @@
       "url": "https://www.justpark.com/overlay/terms-and-conditions/"
     }
   },
-  "id": "justpark",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "justpark",
   "related": [],
+  "slug": "justpark",
   "tosdr": {
     "rated": false
   },

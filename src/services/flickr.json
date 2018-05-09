@@ -2,7 +2,6 @@
   "alexa": 365,
   "freesoftware": false,
   "fulltos": {},
-  "id": "flickr",
   "keywords": [
     "photos",
     "pictures"
@@ -18,6 +17,7 @@
     "twitpic",
     "500px"
   ],
+  "slug": "flickr",
   "tosback2": {
     "privacy": {
       "name": "Privacy Policy",

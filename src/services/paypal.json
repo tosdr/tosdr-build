@@ -9,7 +9,6 @@
       "url": "https://www.paypal.com/us/webapps/mpp/ua/useragreement-full"
     }
   },
-  "id": "paypal",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -17,6 +16,7 @@
   },
   "name": "PayPal",
   "related": [],
+  "slug": "paypal",
   "tosdr": {
     "rated": false
   },

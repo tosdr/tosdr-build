@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "billionsinchange",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "billionsinchange",
   "related": [],
+  "slug": "billionsinchange",
   "tosdr": {
     "rated": false
   },

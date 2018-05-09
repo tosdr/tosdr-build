@@ -8,7 +8,6 @@
       "url": ""
     }
   },
-  "id": "openstreetmap",
   "keywords": [],
   "last-diff": "",
   "meta": {
@@ -16,6 +15,7 @@
   },
   "name": "OpenStreetMap",
   "related": [],
+  "slug": "openstreetmap",
   "tosdr": {
     "rated": false
   },

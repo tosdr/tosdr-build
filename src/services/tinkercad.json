@@ -2,13 +2,13 @@
   "alexa": 1000000,
   "freesoftware": false,
   "fulltos": {},
-  "id": "tinkercad",
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "tinkercad",
   "related": [],
+  "slug": "tinkercad",
   "tosdr": {
     "rated": false
   },
