@@ -4,7 +4,9 @@
     "imgur"
   ],
   "title": "Imgur may collect your device fingerprint.",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "tldr": "\"Our servers log information about each computer connecting with our site such as IP address, dates and times of each login, device characteristics, operating system, browser type, type of connection, page and image viewing statistics, and incoming and outgoing links.\""

@@ -4,7 +4,9 @@
     "dictionary-com"
   ],
   "title": "Dictionary.com may collect your device fingerprint.",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "tldr": "\"When you use the Services, we automatically collect and store [...] Technical information about your computer or mobile device (such as type of device, web browser or operating system)\""
