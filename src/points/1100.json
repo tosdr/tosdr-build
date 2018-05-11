@@ -11,7 +11,7 @@
   },
   "needModeration": false,
   "services": [
-    "cloudant"
+    "272"
   ],
   "source": {
     "terms": "https://cloudant.com/terms/"

@@ -1,19 +1,14 @@
 {
   "alexa": 639,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 187,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "allrecipes",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "allrecipes",
   "tosdr": {
     "rated": false

@@ -11,7 +11,7 @@
   },
   "needModeration": false,
   "services": [
-    "twitpic"
+    "301"
   ],
   "source": {
     "terms": "http://www.twitpic.com/terms.do"

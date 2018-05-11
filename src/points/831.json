@@ -3,12 +3,10 @@
   "id": "RrYDFJq-le8",
   "needModeration": false,
   "services": [
-    "dropbox"
+    "270"
   ],
   "title": "[Bad] Dropbox uses cookies to track users",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

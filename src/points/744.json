@@ -3,12 +3,10 @@
   "id": "DStaXmwBzmM",
   "needModeration": false,
   "services": [
-    "twitpic"
+    "301"
   ],
   "title": "Twitpic privacy policy",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

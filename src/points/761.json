@@ -3,12 +3,10 @@
   "id": "nmmjwmPNrPU",
   "needModeration": false,
   "services": [
-    "facebook"
+    "182"
   ],
   "title": "[Bad] Facebook UI induces oversharing",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

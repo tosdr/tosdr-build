@@ -1,19 +1,14 @@
 {
   "alexa": 1965,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 336,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Fitbit",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "fitbit",
   "tosdr": {
     "rated": false

@@ -1,19 +1,14 @@
 {
   "alexa": 2046,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 163,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "softpedia",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "softpedia",
   "tosdr": {
     "rated": false

@@ -1,19 +1,14 @@
 {
   "alexa": 15,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 379,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "live",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "live",
   "tosdr": {
     "rated": false

@@ -1,19 +1,14 @@
 {
   "alexa": 818,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 277,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Grammarly",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "grammarly",
   "tosback2": {
     "privacy": {

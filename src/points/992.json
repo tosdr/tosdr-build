@@ -12,7 +12,7 @@
   "needModeration": false,
   "reason": "This has been judged irrelevant because the requirement of being old enough to sign a legally binding contract goes without saying.",
   "services": [
-    "cloudant"
+    "272"
   ],
   "source": {
     "terms": "https://cloudant.com/terms/"

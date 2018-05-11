@@ -3,12 +3,10 @@
   "id": "Ek79wuv5IA0",
   "needModeration": false,
   "services": [
-    "paypal"
+    "230"
   ],
   "title": "paypal",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

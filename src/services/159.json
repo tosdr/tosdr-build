@@ -1,19 +1,14 @@
 {
   "alexa": 105,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 159,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "craigslist",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "craigslist",
   "tosdr": {
     "rated": false

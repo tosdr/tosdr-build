@@ -1,19 +1,14 @@
 {
   "alexa": 168,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 192,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "deviantart",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "deviantart",
   "tosdr": {
     "rated": false

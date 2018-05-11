@@ -3,7 +3,7 @@
   "id": "JTNqHTQXosA",
   "needModeration": true,
   "services": [
-    "ifttt"
+    "236"
   ],
   "set": "set+service+and+topic",
   "title": "IFTTT doesn't allow users to terminate their accounts, only discontinue usage",

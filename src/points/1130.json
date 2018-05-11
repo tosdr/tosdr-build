@@ -1,12 +1,10 @@
 {
   "id": "1130",
   "services": [
-    "cnet"
+    "316"
   ],
   "title": "CNet may collect your device fingerprint.",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "tldr": "\"CBS Interactive Services may collect [...] Your device type and settings, software used and browser type and operating system\""

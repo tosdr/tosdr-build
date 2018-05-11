@@ -3,7 +3,7 @@
   "id": "uksdEftHwsU",
   "needModeration": true,
   "services": [
-    "indeed.com"
+    "302"
   ],
   "set": "set+service+and+topic",
   "title": "Cannot delete data from the servers",

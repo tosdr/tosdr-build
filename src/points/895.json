@@ -3,12 +3,10 @@
   "id": "-_YbeJaZ3JI",
   "needModeration": true,
   "services": [
-    "pinterest"
+    "175"
   ],
   "title": "Third-party analytics opt-out.",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "tldr": "A link to Google Analytics opt-out instructions is provided."

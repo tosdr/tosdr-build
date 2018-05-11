@@ -12,7 +12,7 @@
   },
   "needModeration": false,
   "services": [
-    "steam"
+    "180"
   ],
   "source": {
     "privacy": "http://store.steampowered.com/privacy_agreement/"

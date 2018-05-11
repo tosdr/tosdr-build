@@ -3,12 +3,10 @@
   "id": "isCEdxL_sjg",
   "needModeration": false,
   "services": [
-    "facebook"
+    "182"
   ],
   "title": "Article: What Facebook knows (data mining, etc;)",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

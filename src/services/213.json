@@ -8,16 +8,12 @@
     }
   },
   "id": 213,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "sigfig",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "sigfig",
   "tosdr": {
     "rated": false

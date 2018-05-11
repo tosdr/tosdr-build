@@ -3,7 +3,7 @@
   "id": "td68YSswb-w",
   "needModeration": false,
   "services": [
-    "dropbox"
+    "270"
   ],
   "set": "set+service+and+topic",
   "title": "Dropbox will notify of changes on the terms",

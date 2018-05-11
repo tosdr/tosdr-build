@@ -3,12 +3,10 @@
   "id": "KetdsIL9xWc",
   "needModeration": false,
   "services": [
-    "joindiaspora-com"
+    "231"
   ],
   "title": "Diaspora Pod Ratings",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

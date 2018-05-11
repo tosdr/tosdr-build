@@ -3,13 +3,11 @@
   "id": "FakxzTpRp6M",
   "needModeration": false,
   "services": [
-    "fotocommunity"
+    "344"
   ],
   "set": "set+service",
   "title": "Fotocommunity rating",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

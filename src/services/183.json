@@ -7,16 +7,12 @@
     }
   },
   "id": 183,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "couchsurfing",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "couchsurfing",
   "tosdr": {
     "rated": false

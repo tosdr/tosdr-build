@@ -3,7 +3,7 @@
   "id": "A_hPjYdk0bg",
   "needModeration": false,
   "services": [
-    "lastpass"
+    "161"
   ],
   "set": "set+service+and+topic",
   "title": "LastPass never has clear-text versions of your critical data, including passwords or master password",

@@ -12,7 +12,7 @@
   },
   "needModeration": false,
   "services": [
-    "steam"
+    "180"
   ],
   "source": {
     "subscriber agreement": "http://store.steampowered.com/subscriber_agreement/"

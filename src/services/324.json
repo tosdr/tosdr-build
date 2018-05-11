@@ -1,19 +1,14 @@
 {
   "alexa": 567,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 324,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Urban Dictionary",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "urban-dictionary",
   "tosdr": {
     "rated": false

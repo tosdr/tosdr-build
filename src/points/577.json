@@ -3,7 +3,7 @@
   "id": "AwjQ5INfd9Y",
   "needModeration": true,
   "services": [
-    "ifttt"
+    "236"
   ],
   "set": "set+service+and+topic",
   "title": "IFTTT Doesn't ask for a real name",

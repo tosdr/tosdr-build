@@ -7,7 +7,7 @@
   },
   "needModeration": false,
   "services": [
-    "app-net"
+    "337"
   ],
   "source": {
     "terms": "http://app.net/terms/"

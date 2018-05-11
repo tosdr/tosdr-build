@@ -3,12 +3,10 @@
   "id": "584c8rK1v28",
   "needModeration": false,
   "services": [
-    "facebook"
+    "182"
   ],
   "title": "Unofficial ToS;DR Facebook Page",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

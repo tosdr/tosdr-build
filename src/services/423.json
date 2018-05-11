@@ -1,19 +1,14 @@
 {
   "alexa": 4884,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 423,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "applyyourself",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "applyyourself",
   "tosdr": {
     "alexa": 1000000,

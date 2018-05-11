@@ -3,12 +3,10 @@
   "id": "JDVlEn1qJrs",
   "needModeration": false,
   "services": [
-    "twitter"
+    "195"
   ],
   "title": "Regarding Twitter",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

@@ -3,12 +3,10 @@
   "id": "M-bbe4dSIbI",
   "needModeration": false,
   "services": [
-    "steam"
+    "180"
   ],
   "title": "Steam - users defend and indemnify Valve",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

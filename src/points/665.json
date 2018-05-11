@@ -3,12 +3,10 @@
   "id": "ujduaQEpWFk",
   "needModeration": false,
   "services": [
-    "steam"
+    "180"
   ],
   "title": "Multiple software licenses are bundled",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

@@ -3,12 +3,10 @@
   "id": "rpzaNpbW3AE",
   "needModeration": false,
   "services": [
-    "delicious"
+    "307"
   ],
   "title": "Delicious class D",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

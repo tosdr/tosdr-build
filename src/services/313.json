@@ -1,19 +1,14 @@
 {
   "alexa": 49,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 313,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "IMDb",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "imdb",
   "tosdr": {
     "rated": false

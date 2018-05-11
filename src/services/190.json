@@ -1,8 +1,7 @@
 {
   "alexa": 10,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 190,
   "keywords": [
     "commerce",
@@ -12,9 +11,7 @@
     "spec-version": "1.1"
   },
   "name": "Amazon",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "amazon",
   "tosback2": {
     "ads": {

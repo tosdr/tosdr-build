@@ -17,7 +17,7 @@ module.exports = function(grunt){
         obj.pointsData[obj.points[j]].tosdr.score = caseObj.score
         obj.pointsData[obj.points[j]].tosdr.privacyRelated = caseObj.privacyRelated
       }
-      grunt.file.write(grunt.config.get('conf').dist + '/api/1/service/'+i+'.json', prettyjson(obj));
+      grunt.file.write(grunt.config.get('conf').dist + '/api/1/service/'+obj.slug+'.json', prettyjson(obj));
     }
   });
 };

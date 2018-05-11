@@ -1,19 +1,14 @@
 {
   "alexa": 108,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 318,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "CNN",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "cnn",
   "tosdr": {
     "rated": false

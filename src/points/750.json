@@ -3,12 +3,10 @@
   "id": "7swJjL_IoAk",
   "needModeration": false,
   "services": [
-    "amazon"
+    "190"
   ],
   "title": "Amazon's \"Conditions of Use\"",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

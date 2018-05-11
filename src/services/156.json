@@ -10,16 +10,12 @@
     }
   },
   "id": 156,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Gravatar",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "gravatar",
   "tosdr": {
     "rated": false

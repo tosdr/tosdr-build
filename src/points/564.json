@@ -12,7 +12,7 @@
   },
   "needModeration": false,
   "services": [
-    "gravatar"
+    "156"
   ],
   "source": {
     "terms": "http://en.gravatar.com/site/terms-of-service"

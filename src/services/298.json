@@ -1,19 +1,14 @@
 {
   "alexa": 78924,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 298,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "experteer",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "experteer",
   "tosdr": {
     "rated": false

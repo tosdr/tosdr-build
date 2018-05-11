@@ -11,7 +11,7 @@
   },
   "needModeration": false,
   "services": [
-    "github"
+    "297"
   ],
   "source": {
     "faq": "https://help.github.com/security"

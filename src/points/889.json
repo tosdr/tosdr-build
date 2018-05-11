@@ -3,7 +3,7 @@
   "id": "Eyn3dSmhjRQ",
   "needModeration": true,
   "services": [
-    "reddit"
+    "194"
   ],
   "set": "set+service+and+topic",
   "title": "Reddit doesn't notify of ToS updates and assumes acceptance",

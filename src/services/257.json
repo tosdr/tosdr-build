@@ -1,19 +1,14 @@
 {
   "alexa": 1334,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 257,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "worldofwarcraft",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "worldofwarcraft",
   "tosdr": {
     "rated": false

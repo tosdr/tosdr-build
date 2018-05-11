@@ -1,9 +1,13 @@
 'use strict';
 
 var prettyjson = require('../scripts/prettyjson');
-
+var mapping
 module.exports = function(grunt){
   grunt.task.registerTask('fixpoints', 'Make data points consistent', function(){
+    mapping = grunt.file.readJSON(grunt.config.get('conf').src + '/mapping.json')
+    for (let i in mapping) {
+      mapping[mapping[i]] = mapping[i]
+    }
     grunt.file.recurse(grunt.config.get('conf').src + '/points/', function(abspath, rootdir, subdir, filename){
       if(filename==='README.md'){
         return;
@@ -51,6 +55,10 @@ function doFile(filepath, grunt) {
       }
       changed = true;
     }
+  }
+  if ('' + parseInt(obj.services[0]) !== obj.services[0]) {
+    obj.services[0] = mapping[obj.services[0]]
+    changed = true
   }
   if(!obj.topics) {
     if(obj.topic) {

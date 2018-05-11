@@ -1,12 +1,10 @@
 {
   "id": "1174",
   "services": [
-    "facebook"
+    "182"
   ],
   "title": "Facebook illegally tracks non-users",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "tldr": "https://techcrunch.com/2018/02/19/facebooks-tracking-of-non-users-ruled-illegal-again/"

@@ -3,12 +3,10 @@
   "id": "1_dC3dRLKNQ",
   "needModeration": false,
   "services": [
-    "delicious"
+    "307"
   ],
   "title": "Delicious previous terms",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

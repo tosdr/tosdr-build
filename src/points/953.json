@@ -3,13 +3,11 @@
   "id": "Wem2OtUVKIA",
   "needModeration": false,
   "services": [
-    "chromewebstore"
+    "385"
   ],
   "set": "set+service",
   "title": "Re: [cws-apps] My Popular App Was Removed without Warning :( How to Appeal?",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

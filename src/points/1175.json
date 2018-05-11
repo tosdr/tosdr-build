@@ -1,12 +1,10 @@
 {
   "id": "1175",
   "services": [
-    "paypal"
+    "230"
   ],
   "title": "Dinero",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "tldr": "Dinero"

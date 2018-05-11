@@ -3,13 +3,11 @@
   "id": "1H-tGSXIt1Q",
   "needModeration": false,
   "services": [
-    "google"
+    "217"
   ],
   "set": "set+service",
   "title": "Google Transparency Report",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

@@ -8,16 +8,12 @@
     }
   },
   "id": 208,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "pure",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "pure",
   "tosdr": {
     "rated": false

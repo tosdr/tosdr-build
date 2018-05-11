@@ -15,17 +15,13 @@
     }
   },
   "id": 162,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "last-diff": "",
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Comcast",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "comcast",
   "tosdr": {
     "rated": false

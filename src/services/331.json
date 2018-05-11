@@ -1,19 +1,14 @@
 {
   "alexa": 44,
   "freesoftware": false,
-  "fulltos": {
-  },
+  "fulltos": {},
   "id": 331,
-  "keywords": [
-
-  ],
+  "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
   "name": "Bing",
-  "related": [
-
-  ],
+  "related": [],
   "slug": "bing",
   "tosdr": {
     "rated": false

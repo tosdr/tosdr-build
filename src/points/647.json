@@ -3,12 +3,10 @@
   "id": "8T2ToZJJhYI",
   "needModeration": false,
   "services": [
-    "seenthis"
+    "330"
   ],
   "title": "SeenThis: class A ?",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "irrelevant": true,
