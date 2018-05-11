@@ -94,9 +94,12 @@ function parsePointFile(id, grunt) {
 }
 
 function parseServiceFile(id, grunt) {
+  console.log('parsing', id)
+  if (!id || id === 'undefined') { 
+    return
+  }
   //have a look at the files in the services/ directory of this
   //repo to get a better feeling for what this function does
-
   //console.log('SERVICE '+id);
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/'+id+'.json');
   // console.log(id);
@@ -112,6 +115,7 @@ function parseServiceFile(id, grunt) {
   service[id].twitter=obj.twitter;
   service[id].class=(obj.tosdr?obj.tosdr.rated:false);
   service[id].urls=obj.urls;
+  service[id].slug=obj.slug;
 }
 
 //read all the points, and trigger the service files to be read

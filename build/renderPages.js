@@ -72,14 +72,14 @@ function renderDataPoint(grunt, service, dataPoint, forPopup) {
     };
   }
 }
-function getServiceObject(grunt, name) {
+function getServiceObject(grunt, id) {
   //each service (website) has its own generic description data, that is stored in the services/ directory
   //of this repo. this function loads in such a file:
-  var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/' + name + '.json');
+  var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/' + id + '.json');
   if (obj) {
     return obj;
   } else {
-    grunt.log.error('no obj in services/' + name + '.json');
+    grunt.log.error('no obj in services/' + id + '.json');
 		process.exit();
   }
 }
@@ -96,9 +96,9 @@ function getRatingText(className) {
   return ratingText[className];
 }
 
-function renderDetails(grunt, name, points, toslinks, obj) {
+function renderDetails(grunt, id, points, toslinks, obj) {
   // console.log('done reading?')
-
+  const name = obj.slug
   grunt.log.writeln('renderDetails ' + name);
   grunt.log.writeln(points);
   grunt.log.writeln(toslinks);
@@ -117,7 +117,7 @@ function renderDetails(grunt, name, points, toslinks, obj) {
   //we collect the data points into an array first, so that we can sort them by score (the score is the impact/importance of a data point):
   var renderables = [], i;
   for (i in points) {
-    const renderedPoint = renderDataPoint(grunt, name, points[i], false)
+    const renderedPoint = renderDataPoint(grunt, id, points[i], false)
     // console.log('rendered point', renderedPoint)
     if (typeof renderedPoint !== 'undefined') {
       renderables.push(renderedPoint);
@@ -174,7 +174,8 @@ function isEmpty(map) {
   }
   return true;
 }
-function getTweetLink(obj, name) {
+function getTweetLink(obj, id) {
+  const name = obj.slug
   var text, action;
   if (!obj.twitter || !obj.tosdr || !obj.tosdr.rated) {
     return '';
@@ -190,7 +191,8 @@ function getTweetLink(obj, name) {
 		'">'+action+obj.twitter+'</a>';
 }
 
-function renderPopup(grunt, name, obj, points, links) {
+function renderPopup(grunt, id, obj, points, links) {
+  const name = obj.slug
   //the popup is actually a popin, it is what you see when you click 'expand' for one of the services on index.html.
   //this is how we generate the html for them:
   grunt.log.writeln('Rendering popup for ' + name);
@@ -216,7 +218,7 @@ function renderPopup(grunt, name, obj, points, links) {
   var renderables = [];
   //sort the data points by importance:
   for (var i in points) {
-    const renderedDataPoint = renderDataPoint(grunt, name, points[i], true)
+    const renderedDataPoint = renderDataPoint(grunt, id, points[i], true)
     if (typeof renderedDataPoint !== 'undefined') {
       renderables.push(renderedDataPoint);
     }
@@ -258,13 +260,13 @@ module.exports = function(grunt) {
     //get a list of services we will want to display on index.html:
     grunt.log.writeln(services);
     var last, lastObj;
-    var serviceNames = [];
+    var serviceIds = [];
     for (var i in services) {
-      serviceNames.push(i);
+      serviceIds.push(i);
     }
-    grunt.log.writeln(serviceNames);
+    grunt.log.writeln(serviceIds);
     //sort services by their Alexa rank ('big' websites first, 'small' ones at the bottom)
-    serviceNames.sort(function (a, b) {
+    serviceIds.sort(function (a, b) {
       if (typeof(services[a].alexa) == 'undefined') {
         services[a].alexa = 1000000;
       }
@@ -274,46 +276,46 @@ module.exports = function(grunt) {
       return services[a].alexa - services[b].alexa;
     });
     //now sort services by whether or not they have a class (ones that do and that have traffic first, 'no class yet' ones at the bottom)
-    grunt.log.writeln('by Alexa', serviceNames);
-    var serviceNamesRated = [],
-      serviceNamesNotRated = [];
-    for(i=0; i<serviceNames.length; i++) {
-      if(typeof(services[serviceNames[i]].class)=='string' && services[serviceNames[i]].alexa < 250000) {
-        grunt.log.writeln(serviceNames[i], 'yes');
-        serviceNamesRated.push(serviceNames[i]);
+    grunt.log.writeln('by Alexa', serviceIds);
+    var serviceIdsRated = [],
+      serviceIdsNotRated = [];
+    for(i=0; i<serviceIds.length; i++) {
+      if(typeof(services[serviceIds[i]].class)=='string' && services[serviceIds[i]].alexa < 250000) {
+        grunt.log.writeln(serviceIds[i], 'yes');
+        serviceIdsRated.push(serviceIds[i]);
       } else {
-        grunt.log.writeln(serviceNames[i], 'no');
-        serviceNamesNotRated.push(serviceNames[i]);
+        grunt.log.writeln(serviceIds[i], 'no');
+        serviceIdsNotRated.push(serviceIds[i]);
       }
     }
-    serviceNames = serviceNamesRated.concat(serviceNamesNotRated);
-    grunt.log.writeln('by rated', serviceNames);
+    serviceIds = serviceIdsRated.concat(serviceIdsNotRated);
+    grunt.log.writeln('by rated', serviceIds);
     //twitter is used as an example on /get-involved.html, so we store its html in a variable to render it there:
-    var twitterService = null, serviceName;
-    for (i = 0; i < serviceNames.length; i++) {
-      serviceName = serviceNames[i];
+    var twitterService = null, serviceId;
+    for (i = 0; i < serviceIds.length; i++) {
+      serviceId = serviceIds[i];
 
-      var obj = getServiceObject(grunt, serviceName);
+      var obj = getServiceObject(grunt, serviceId);
       //if(obj.alexa >= 1000000) {
       //  continue;
       //}
-      if(serviceName == 'twitter') {
-        twitterService = renderDetails(grunt, serviceName, services[serviceName].points, services[serviceName].links, obj);
+      if(serviceId == 'twitter') {
+        twitterService = renderDetails(grunt, serviceId, services[serviceId].points, services[serviceId].links, obj);
       }
       if (last) {
         servicesList +=
           renderDetails(grunt, last, services[last].points, services[last].links, lastObj) +
-					renderDetails(grunt, serviceName, services[serviceName].points, services[serviceName].links, obj);
+					renderDetails(grunt, serviceId, services[serviceId].points, services[serviceId].links, obj);
         last = undefined;
       } else {
-        last = serviceName;
+        last = serviceId;
         lastObj = obj;
       }
-      popups[serviceName] = renderPopup(grunt, serviceName, obj, services[serviceName].points, services[serviceName].links);
+      popups[obj.slug] = renderPopup(grunt, serviceId, obj, services[serviceId].points, services[serviceId].links);
     }
     if (last) {
       servicesList += '\t<div class="row-fluid">\n\t' +
-				renderDetails(grunt, last, services[serviceName].points, services[serviceName].links, lastObj) +
+				renderDetails(grunt, last, services[serviceId].points, services[serviceId].links, lastObj) +
 				'\t</div>\n';
     }
 		
