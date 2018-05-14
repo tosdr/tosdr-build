@@ -13,6 +13,7 @@
   "services": [
     "cloudant"
   ],
+  "slug": "E751EkJqons",
   "source": {
     "terms": "https://cloudant.com/privacy/"
   },

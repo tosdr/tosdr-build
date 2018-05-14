@@ -13,6 +13,7 @@
   "services": [
     "cloudant"
   ],
+  "slug": "7R6vOpRySNo",
   "source": {
     "terms": "https://cloudant.com/terms/"
   },

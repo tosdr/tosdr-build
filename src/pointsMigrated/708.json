@@ -13,6 +13,7 @@
   "services": [
     "xing"
   ],
+  "slug": "no-pseudos-allowed-xing",
   "title": "No pseudonym allowed",
   "topics": [
     "track"

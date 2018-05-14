@@ -2,8 +2,12 @@
 
 var prettyjson = require('../scripts/prettyjson');
 
+var pointsMapping
+
 module.exports = function(grunt){
   grunt.task.registerTask('fixpoints', 'Make data points consistent', function(){
+    pointsMapping = grunt.file.readJSON(grunt.config.get('conf').src + '/pointsMapping.json')
+    console.log(pointsMapping.toId)
     grunt.file.recurse(grunt.config.get('conf').src + '/points/', function(abspath, rootdir, subdir, filename){
       if(filename==='README.md'){
         return;
@@ -21,11 +25,17 @@ function doFile(filepath, grunt) {
     obj.tosdr = {};
     changed = true;
   }
-  if (grunt.config.get('conf').src + '/points/' + obj.id + '.json' !== filepath) {
+  if (grunt.config.get('conf').src + '/points/' + obj.slug + '.json' !== filepath) {
     const offset = (grunt.config.get('conf').src + '/points/').length
     const finish = filepath.length - ('.json').length
     console.log(filepath.length, offset, finish)
-    obj.id = filepath.substring(offset, finish)
+    obj.slug = filepath.substring(offset, finish)
+    changed = true
+  }
+//  console.log(obj.id, obj.slug, pointsMapping.toId[obj.slug], pointsMapping.toSlug[obj.id])
+  if (obj.id !== (pointsMapping.toId[obj.slug] || obj.slug)) {
+    console.log(obj.slug, pointsMapping.toId[obj.slug])
+    obj.id = (pointsMapping.toId[obj.slug] || obj.slug)
     changed = true
   }
   if(typeof(obj.tosdr.binding)!='boolean') {

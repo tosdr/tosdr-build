@@ -13,6 +13,7 @@
   "services": [
     "soundcloud"
   ],
+  "slug": "pseudos-allowed-soundcloud",
   "title": "Pseudonyms allowed",
   "topics": [
     "track"

@@ -13,6 +13,7 @@
   "services": [
     "app-net"
   ],
+  "slug": "pseudos-allowed-app-net",
   "title": "Pseudonyms allowed",
   "topics": [
     "track"

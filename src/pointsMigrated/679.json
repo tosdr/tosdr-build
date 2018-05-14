@@ -13,6 +13,7 @@
   "services": [
     "dropbox"
   ],
+  "slug": "any-time-with-notice-dropbox",
   "title": "Terms may be changed at any time, but you will be notified.",
   "topics": [
     "changes-notice"

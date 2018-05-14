@@ -13,6 +13,7 @@
   "services": [
     "steam"
   ],
+  "slug": "pseudos-allowed-steam",
   "title": "Pseudonyms allowed",
   "topics": [
     "track"
