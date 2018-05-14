@@ -1,0 +1,10 @@
+{
+  "tosdr": {
+    "tldr": "Twitch may provides third parties contents and Twitch doesn't control them. Twitch does not control or endorse any Third-Party Content and makes no representation or warranties of any kind regarding the Third-Party Content, including without limitation regarding its accuracy or completeness."
+  },
+  "id": "1245",
+  "title": "Third Party Contents",
+  "services": [
+    "twitch"
+  ]
+}
