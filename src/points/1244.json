@@ -4,7 +4,9 @@
     "youtube"
   ],
   "title": "They can terminate your account",
+  "topics": [],
   "tosdr": {
+    "binding": true,
     "tldr": "Youtube can terminate an account without any warning and can ruin some good channels."
   }
 }
