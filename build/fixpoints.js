@@ -21,6 +21,13 @@ function doFile(filepath, grunt) {
     obj.tosdr = {};
     changed = true;
   }
+  if (grunt.config.get('conf').src + '/points/' + obj.id + '.json' !== filepath) {
+    const offset = (grunt.config.get('conf').src + '/points/').length
+    const finish = filepath.length - ('.json').length
+    console.log(filepath.length, offset, finish)
+    obj.id = filepath.substring(offset, finish)
+    changed = true
+  }
   if(typeof(obj.tosdr.binding)!='boolean') {
     obj.tosdr.binding = !(obj.additional);
     changed = true;
