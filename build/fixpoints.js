@@ -7,7 +7,18 @@ var pointsMapping
 module.exports = function(grunt){
   grunt.task.registerTask('fixpoints', 'Make data points consistent', function(){
     pointsMapping = grunt.file.readJSON(grunt.config.get('conf').src + '/pointsMapping.json')
-    console.log(pointsMapping.toId)
+    for (let slug in pointsMapping.toId) {
+      if (pointsMapping.toSlug[pointsMapping.toId[slug]] !== slug) {
+        console.log(`from slug ${slug} you go to id ${pointsMapping.toId[slug]} but then back to ${pointsMapping.toSlug[pointsMapping.toId[slug]]}`)
+        panic()
+      }
+    }
+    for (let id in pointsMapping.toSlug) {
+      if (pointsMapping.toId[pointsMapping.toSlug[id]] !== id) {
+        console.log(`from id ${id} you go to id ${pointsMapping.toSlug[id]} but then back to ${pointsMapping.toId[pointsMapping.toSlug[id]]}`)
+        panic()
+      }
+    }
     grunt.file.recurse(grunt.config.get('conf').src + '/points/', function(abspath, rootdir, subdir, filename){
       if(filename==='README.md'){
         return;
