@@ -6,6 +6,7 @@
   "services": [
     "paypal"
   ],
+  "slug": "G4iR5KH7WVw-paypal",
   "title": "https is used by default",
   "topics": [
     "security"

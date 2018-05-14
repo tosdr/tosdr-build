@@ -13,6 +13,7 @@
   "services": [
     "yahoo"
   ],
+  "slug": "legal-name-registration-yahoo",
   "title": "You must provide your legal name upon registration",
   "topics": [
     "track"

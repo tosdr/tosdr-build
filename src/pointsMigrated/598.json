@@ -6,6 +6,7 @@
   "services": [
     "sonic-net"
   ],
+  "slug": "G4iR5KH7WVw-2-sonic-net",
   "title": "https is not used by default",
   "topics": [
     "security"

@@ -13,6 +13,7 @@
   "services": [
     "cloudant"
   ],
+  "slug": "any-time-without-notice-cloudant",
   "title": "Terms may be changed any time at their discretion, without notice to the user",
   "topics": [
     "changes-notice"
