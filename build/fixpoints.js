@@ -31,7 +31,14 @@ module.exports = function(grunt){
 function doFile(filepath, grunt) {
   var obj = grunt.file.readJSON(filepath),
       changed = false;
-  
+
+  if (obj.title.length < 5) {
+    console.log('SHORT!', filepath)
+  }
+
+  if (obj.title.length > 140) {
+    console.log('LONG!', filepath)
+  }
   if(typeof(obj.tosdr)!='object' || Array.isArray(obj.tosdr)) {
     obj.tosdr = {};
     changed = true;
@@ -44,10 +51,13 @@ function doFile(filepath, grunt) {
     changed = true
   }
 //  console.log(obj.id, obj.slug, pointsMapping.toId[obj.slug], pointsMapping.toSlug[obj.id])
-  if (obj.id !== (pointsMapping.toId[obj.slug] || obj.slug)) {
-    console.log(obj.slug, pointsMapping.toId[obj.slug])
-    obj.id = (pointsMapping.toId[obj.slug] || obj.slug)
-    changed = true
+  if (obj.id !== pointsMapping.toId[obj.slug]) {
+    if (pointsMapping.toId[obj.slug]) {
+      obj.id = pointsMapping.toId[obj.slug]
+      changed = true
+    } else {
+      grunt.file.write(grunt.config.get('conf').src + '/pointsMissing/' + obj.slug + '.json', prettyjson(obj));
+    }
   }
   if(typeof(obj.tosdr.binding)!='boolean') {
     obj.tosdr.binding = !(obj.additional);
