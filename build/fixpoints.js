@@ -43,11 +43,11 @@ function doFile(filepath, grunt) {
     obj.tosdr = {};
     changed = true;
   }
-  if (grunt.config.get('conf').src + '/points/' + obj.slug + '.json' !== filepath) {
+  if (grunt.config.get('conf').src + '/points/' + obj.id + '.json' !== filepath) {
     const offset = (grunt.config.get('conf').src + '/points/').length
     const finish = filepath.length - ('.json').length
     console.log(filepath.length, offset, finish)
-    obj.slug = filepath.substring(offset, finish)
+    obj.id = parseInt(filepath.substring(offset, finish))
     changed = true
   }
 //  console.log(obj.id, obj.slug, pointsMapping.toId[obj.slug], pointsMapping.toSlug[obj.id])
