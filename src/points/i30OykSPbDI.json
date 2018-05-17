@@ -1,6 +1,6 @@
 {
   "discussion": "https://groups.google.com/forum#!topic/tosdr/i30OykSPbDI",
-  "id": "i30OykSPbDI",
+  "id": "2537",
   "needModeration": false,
   "services": [],
   "slug": "i30OykSPbDI",
@@ -8,6 +8,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
-    "irrelevant": "dismissed+by+the+curator"
+    "irrelevant": "dismissed+by+the+curator",
+    "tldr": "RE: ..."
   }
 }

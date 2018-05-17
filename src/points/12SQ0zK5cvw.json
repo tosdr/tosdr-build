@@ -1,6 +1,6 @@
 {
   "discussion": "https://groups.google.com/forum#!topic/tosdr/12SQ0zK5cvw",
-  "id": "12SQ0zK5cvw",
+  "id": "2425",
   "needModeration": false,
   "services": [],
   "slug": "12SQ0zK5cvw",
@@ -8,6 +8,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
-    "irrelevant": "dismissed+by+the+curator"
+    "irrelevant": "dismissed+by+the+curator",
+    "tldr": "Re: ..."
   }
 }

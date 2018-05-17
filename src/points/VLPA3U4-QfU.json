@@ -1,6 +1,6 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/VLPA3U4-QfU/discussion",
-  "id": "VLPA3U4-QfU",
+  "id": "2598",
   "needModeration": false,
   "services": [],
   "slug": "VLPA3U4-QfU",
@@ -9,6 +9,7 @@
   "tosdr": {
     "binding": true,
     "irrelevant": true,
-    "reason": "dismissed+by+the+curator"
+    "reason": "dismissed+by+the+curator",
+    "tldr": "Trying to find terms. Google Maps for iPhone collects 'anonymous location data' - but is it really?"
   }
 }
