@@ -50,13 +50,13 @@ function doFile(filepath, grunt) {
     obj.id = parseInt(filepath.substring(offset, finish))
     changed = true
   }
-  if (obj.id !== pointsMapping.toId[obj.slug]) {
-    console.log(obj.id, obj.slug, pointsMapping.toId[obj.slug], pointsMapping.toSlug[obj.id])
-    grunt.file.delete(filepath)
-    obj.id = pointsMapping.toId[obj.slug]
-    filepath = grunt.config.get('conf').src + '/points/' + obj.id + '.json'
-    changed = true
-  }
+  // if (obj.id !== pointsMapping.toId[obj.slug]) {
+  //   console.log(obj.id, obj.slug, pointsMapping.toId[obj.slug], pointsMapping.toSlug[obj.id])
+  //   grunt.file.delete(filepath)
+  //   obj.id = pointsMapping.toId[obj.slug]
+  //   filepath = grunt.config.get('conf').src + '/points/' + obj.id + '.json'
+  //   changed = true
+  // }
   //   if (pointsMapping.toId[obj.slug]) {
   //     obj.id = pointsMapping.toId[obj.slug]
   //     changed = true
@@ -128,8 +128,8 @@ function doFile(filepath, grunt) {
     changed = true;
   }
 
-  delete obj.id
-  changed = true
+  // delete obj.id
+  // changed = true
 
   if(changed) {
     grunt.file.write(filepath, prettyjson(obj));
