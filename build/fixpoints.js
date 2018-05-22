@@ -46,19 +46,24 @@ function doFile(filepath, grunt) {
   if (grunt.config.get('conf').src + '/points/' + obj.id + '.json' !== filepath) {
     const offset = (grunt.config.get('conf').src + '/points/').length
     const finish = filepath.length - ('.json').length
-    console.log(filepath.length, offset, finish)
+    console.log(filepath.length, offset, finish, parseInt(filepath.substring(offset, finish)), obj.id)
     obj.id = parseInt(filepath.substring(offset, finish))
     changed = true
   }
-//  console.log(obj.id, obj.slug, pointsMapping.toId[obj.slug], pointsMapping.toSlug[obj.id])
   if (obj.id !== pointsMapping.toId[obj.slug]) {
-    if (pointsMapping.toId[obj.slug]) {
-      obj.id = pointsMapping.toId[obj.slug]
-      changed = true
-    } else {
-      grunt.file.write(grunt.config.get('conf').src + '/pointsMissing/' + obj.slug + '.json', prettyjson(obj));
-    }
+    console.log(obj.id, obj.slug, pointsMapping.toId[obj.slug], pointsMapping.toSlug[obj.id])
+    grunt.file.delete(filepath)
+    obj.id = pointsMapping.toId[obj.slug]
+    filepath = grunt.config.get('conf').src + '/points/' + obj.id + '.json'
+    changed = true
   }
+  //   if (pointsMapping.toId[obj.slug]) {
+  //     obj.id = pointsMapping.toId[obj.slug]
+  //     changed = true
+  //   } else {
+  //     grunt.file.write(grunt.config.get('conf').src + '/pointsMissing/' + obj.slug + '.json', prettyjson(obj));
+  //   }
+  // }
   if(typeof(obj.tosdr.binding)!='boolean') {
     obj.tosdr.binding = !(obj.additional);
     changed = true;
@@ -122,8 +127,12 @@ function doFile(filepath, grunt) {
     delete obj.name;
     changed = true;
   }
+
+  delete obj.id
+  changed = true
+
   if(changed) {
     grunt.file.write(filepath, prettyjson(obj));
-    console.log('fixed '+filepath);
+    console.log('fixed '+filepath, obj);
   }
 }
