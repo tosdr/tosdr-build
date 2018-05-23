@@ -22,7 +22,7 @@ module.exports = function(grunt){
 function doFile(filepath, filename, grunt) {
   var obj = grunt.file.readJSON(filepath),
       changed = false;
-  
+
   if(typeof(obj.id) != 'string') {
     grunt.log.error('id wrong (' + filename + ')');
     if(!obj.id) {
@@ -56,6 +56,24 @@ function doFile(filepath, filename, grunt) {
   }
   if (obj.url) {
     delete obj.url
+    changed = true
+  }
+  let crawls = []
+  if (!Array.isArray(obj.crawls)) {
+    obj.crawls = []
+    changed = true
+  }
+  for (let i=0; i< obj.urls.length; i++) {
+    const crawlsPath = grunt.config.get('conf').crawls + obj.urls[i]
+    console.log(filepath, crawlsPath)
+    if (grunt.file.exists(crawlsPath)) {
+      grunt.file.recurse(crawlsPath, (absPath, rootDir, subDir, filename) => {
+        obj.crawls.push(subDir + filename)
+      })
+    }
+  }
+  if (JSON.stringify(obj.crawls) != JSON.stringify(crawls)) {
+    obj.crawls = crawls
     changed = true
   }
   if(typeof(obj.fulltos) != 'object' || Array.isArray(obj.fulltos)) {
