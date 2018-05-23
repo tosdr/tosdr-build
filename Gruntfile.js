@@ -14,7 +14,8 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     src: 'src', // TODO When implementing bower, change to: require('./bower.json').srcPath || 'src'
-    dist: 'dist'
+    dist: 'dist',
+    crawls: '../tosback2/crawl/'
   };
   
   grunt.initConfig({
