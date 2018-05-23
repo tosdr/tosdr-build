@@ -11,11 +11,12 @@
   "version": "0.0.0-18",
   "repository": "git@github.com:tosdr/tosdr.org.git",
   "dependencies": {
-    "mustache": "*",
-    "node-static": "*",
     "imap": "*",
     "mailparser": "*",
-    "mongodb": "*"
+    "mongodb": "*",
+    "mustache": "*",
+    "node-static": "*",
+    "xml-js": "^1.6.3"
   },
   "devDependencies": {
     "grunt": "*",

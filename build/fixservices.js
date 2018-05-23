@@ -1,5 +1,6 @@
 'use strict';
 
+const convert = require('xml-js');
 var prettyjson = require('../scripts/prettyjson');
 let alexa = {}
 
@@ -63,6 +64,7 @@ function doFile(filepath, filename, grunt) {
   }
   for (let i=0; i< obj.urls.length; i++) {
     const crawlsPath = grunt.config.get('conf').crawls + obj.urls[i]
+    const rulesPath = grunt.config.get('conf').rules + obj.urls[i] + '.xml'
     console.log(filepath, obj.urls[i], crawlsPath)
     if (grunt.file.exists(crawlsPath)) {
       grunt.file.recurse(crawlsPath, (absPath, rootDir, subDir, filename) => {
@@ -72,6 +74,38 @@ function doFile(filepath, filename, grunt) {
           changed = true
         }
       })
+    }
+    if (grunt.file.exists(rulesPath)) {
+      const xml = grunt.file.read(rulesPath)
+      const rules = convert.xml2js(xml, { compact: true })
+      if (rules && rules.sitename) {
+        let docs = rules.sitename.docname
+        if (docs) {
+          if (!Array.isArray(docs)) {
+            docs = [ docs ]
+          }
+          if (!obj.tosback2) {
+            obj.tosback2 = {}
+          }
+          for (let i=0; i<docs.length; i++) {
+            console.log(docs[i])
+            const name = docs[i]._attributes.name
+            const url = docs[i].url._attributes.name
+            for (let k in obj.tosback2) {
+                console.log('deleting?', k)
+              if (obj.tosback2[k].name == name) {
+                console.log('deleting', k)
+                delete obj.tosback2[k]
+              }
+              changed = true
+            }
+            if (!obj.tosback2[name]) {
+              obj.tosback2[name] = { name, url }
+              changed = true
+            }
+          }
+        }
+      }
     }
   }
 
