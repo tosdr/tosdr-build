@@ -1,6 +1,9 @@
 {
   "alexa": 33,
-  "crawls": [],
+  "crawls": [
+    "linkedin.com/Privacy Policy.txt",
+    "linkedin.com/Terms of Service.txt"
+  ],
   "freesoftware": false,
   "fulltos": {
     "privacy": {

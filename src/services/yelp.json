@@ -1,6 +1,9 @@
 {
   "alexa": 221,
-  "crawls": [],
+  "crawls": [
+    "yelp.com/Privacy Policy.txt",
+    "yelp.com/Terms of Service.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 461,

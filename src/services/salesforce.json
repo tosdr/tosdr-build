@@ -1,6 +1,8 @@
 {
   "alexa": 158,
-  "crawls": [],
+  "crawls": [
+    "salesforce.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 216,

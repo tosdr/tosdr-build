@@ -1,6 +1,8 @@
 {
   "alexa": 155653,
-  "crawls": [],
+  "crawls": [
+    "fitocracy.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 189,

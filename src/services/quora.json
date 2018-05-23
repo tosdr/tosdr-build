@@ -1,6 +1,8 @@
 {
   "alexa": 141,
-  "crawls": [],
+  "crawls": [
+    "quora.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 314,

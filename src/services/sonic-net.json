@@ -1,7 +1,9 @@
 {
   "alexa": 83111,
   "class": "",
-  "crawls": [],
+  "crawls": [
+    "sonic.net/All Policies.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 286,

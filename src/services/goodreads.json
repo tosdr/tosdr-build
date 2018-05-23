@@ -1,6 +1,8 @@
 {
   "alexa": 310,
-  "crawls": [],
+  "crawls": [
+    "goodreads.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 165,

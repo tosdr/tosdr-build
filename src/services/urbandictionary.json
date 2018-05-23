@@ -1,6 +1,8 @@
 {
   "alexa": 567,
-  "crawls": [],
+  "crawls": [
+    "urbandictionary.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 398,

@@ -1,6 +1,8 @@
 {
   "alexa": 33975,
-  "crawls": [],
+  "crawls": [
+    "habbo.com/Terms of Service.txt"
+  ],
   "freesoftware": false,
   "fulltos": {
     "privacy": {

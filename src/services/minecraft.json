@@ -1,6 +1,8 @@
 {
   "alexa": 1451,
-  "crawls": [],
+  "crawls": [
+    "minecraft.net/Terms and Conditions.txt"
+  ],
   "freesoftware": false,
   "fulltos": {
     "terms": {

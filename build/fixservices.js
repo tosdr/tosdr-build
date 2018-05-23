@@ -23,12 +23,10 @@ function doFile(filepath, filename, grunt) {
   var obj = grunt.file.readJSON(filepath),
       changed = false;
 
-  if(typeof(obj.id) != 'string') {
-    grunt.log.error('id wrong (' + filename + ')');
-    if(!obj.id) {
-      obj.id = filename.substring(0, filename.length-5);
-      changed = true;
-   }
+  if(typeof(obj.slug) != 'string') {
+    grunt.log.error('slug wrong (' + filename + ')');
+    obj.slug = filename.substring(0, filename.length-5);
+    changed = true;
   }
   if(typeof(obj.name) != 'string') {
     grunt.log.error('name wrong (' + filename + ')');
@@ -58,24 +56,25 @@ function doFile(filepath, filename, grunt) {
     delete obj.url
     changed = true
   }
-  let crawls = []
+
   if (!Array.isArray(obj.crawls)) {
     obj.crawls = []
     changed = true
   }
   for (let i=0; i< obj.urls.length; i++) {
     const crawlsPath = grunt.config.get('conf').crawls + obj.urls[i]
-    console.log(filepath, crawlsPath)
+    console.log(filepath, obj.urls[i], crawlsPath)
     if (grunt.file.exists(crawlsPath)) {
       grunt.file.recurse(crawlsPath, (absPath, rootDir, subDir, filename) => {
-        obj.crawls.push(subDir + filename)
+        const thisPath = obj.urls[i] /* Referring to loop iterator, but this callback function has lexical scope! */ + '/' + filename
+        if (obj.crawls.indexOf(thisPath) === -1) {
+          obj.crawls.push(thisPath)
+          changed = true
+        }
       })
     }
   }
-  if (JSON.stringify(obj.crawls) != JSON.stringify(crawls)) {
-    obj.crawls = crawls
-    changed = true
-  }
+
   if(typeof(obj.fulltos) != 'object' || Array.isArray(obj.fulltos)) {
     grunt.log.error('fulltos wrong (' + filename + ')');
     if(!obj.fulltos) {

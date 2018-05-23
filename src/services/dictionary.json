@@ -1,6 +1,8 @@
 {
   "alexa": 523,
-  "crawls": [],
+  "crawls": [
+    "dictionary.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 492,

@@ -1,6 +1,8 @@
 {
   "alexa": 108,
-  "crawls": [],
+  "crawls": [
+    "cnn.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 318,

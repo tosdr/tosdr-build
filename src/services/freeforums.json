@@ -1,6 +1,8 @@
 {
   "alexa": 787377,
-  "crawls": [],
+  "crawls": [
+    "freeforums.org/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {
     "privacy": {

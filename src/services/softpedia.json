@@ -1,6 +1,8 @@
 {
   "alexa": 2046,
-  "crawls": [],
+  "crawls": [
+    "softpedia.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 163,

@@ -1,6 +1,8 @@
 {
   "alexa": 234057,
-  "crawls": [],
+  "crawls": [
+    "fairpoint.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 223,

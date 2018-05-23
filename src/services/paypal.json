@@ -1,7 +1,9 @@
 {
   "alexa": 66,
   "class": "",
-  "crawls": [],
+  "crawls": [
+    "paypal.com/Privacy Policy.txt"
+  ],
   "date": "",
   "freesoftware": false,
   "fulltos": {

@@ -1,6 +1,8 @@
 {
   "alexa": 169,
-  "crawls": [],
+  "crawls": [
+    "etsy.com/Privacy Policy.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 243,

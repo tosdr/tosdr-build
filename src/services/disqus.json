@@ -1,6 +1,9 @@
 {
   "alexa": 759,
-  "crawls": [],
+  "crawls": [
+    "disqus.com/Privacy Policy.txt",
+    "disqus.com/Terms of Service.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 239,
