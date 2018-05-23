@@ -92,12 +92,16 @@ function doFile(filepath, filename, grunt) {
             const name = docs[i]._attributes.name
             const url = docs[i].url._attributes.name
             for (let k in obj.tosback2) {
-                console.log('deleting?', k)
+              console.log('deleting?', k)
               if (obj.tosback2[k].name == name) {
-                console.log('deleting', k)
+                console.log('deleting (name)', k)
                 delete obj.tosback2[k]
+                changed = true
+              // } else if (obj.tosback2[k].url == url) {
+              //   console.log('deleting (url)', k)
+              //   delete obj.tosback2[k]
+              //   changed = true
               }
-              changed = true
             }
             if (!obj.tosback2[name]) {
               obj.tosback2[name] = { name, url }
