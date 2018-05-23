@@ -97,10 +97,10 @@ function doFile(filepath, filename, grunt) {
                 console.log('deleting (name)', k)
                 delete obj.tosback2[k]
                 changed = true
-              // } else if (obj.tosback2[k].url == url) {
-              //   console.log('deleting (url)', k)
-              //   delete obj.tosback2[k]
-              //   changed = true
+              } else if (obj.tosback2[k].url == url) {
+                console.log('deleting (url)', k)
+                delete obj.tosback2[k]
+                changed = true
               }
             }
             if (!obj.tosback2[name]) {
