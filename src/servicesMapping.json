@@ -56,7 +56,6 @@
     "coveredca": "402",
     "applyyourself": "423",
     "em-client": "432",
-    "abc-australia": "436",
     "travelzoo": "425",
     "easynews": "451",
     "meetup": "411",
@@ -237,7 +236,6 @@
     "toggle": "391",
     "vero": "334",
     "xfire": "343",
-    "xing": "241",
     "identica": "367",
     "taco": "376",
     "centurylink": "389",
@@ -307,8 +305,8 @@
     "stumble-upon": "498",
     "burning-man": "476",
     "albine": "486",
-    "whatsapp": "198",
     "github": "297",
+    "whatsapp": "198",
     "google": "217",
     "accuweather": "456",
     "huffingtonpost": "490",
@@ -343,7 +341,9 @@
     "bushel": "480",
     "fivesquid": "459",
     "tutanota": "157",
-    "kolabnow": "246"
+    "kolabnow": "246",
+    "abc-australia": "436",
+    "xing": "241"
   },
   "toSlug": {
     "331": "bing",
@@ -402,7 +402,6 @@
     "402": "coveredca",
     "423": "applyyourself",
     "432": "em-client",
-    "436": "abc-australia",
     "425": "travelzoo",
     "451": "easynews",
     "411": "meetup",
@@ -583,7 +582,6 @@
     "391": "toggle",
     "334": "vero",
     "343": "xfire",
-    "241": "xing",
     "367": "identica",
     "376": "taco",
     "389": "centurylink",
@@ -653,8 +651,8 @@
     "498": "stumble-upon",
     "476": "burning-man",
     "486": "albine",
-    "198": "whatsapp",
     "297": "github",
+    "198": "whatsapp",
     "217": "google",
     "456": "accuweather",
     "490": "huffingtonpost",
@@ -689,6 +687,8 @@
     "480": "bushel",
     "459": "fivesquid",
     "157": "tutanota",
-    "246": "kolabnow"
+    "246": "kolabnow",
+    "436": "abc-australia",
+    "241": "xing"
   }
 }
