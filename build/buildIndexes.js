@@ -66,9 +66,18 @@ function parsePointFile(id, grunt) {
   //repo to get a better feeling for what this function does
 
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/'+id+'.json');
-  if(obj.tosdr.disputed || obj.tosdr.irrelevant || !obj.tosdr.binding || typeof(obj.tosdr)=='undefined' || obj.needModeration ||
+  if(obj.tosdr.disputed) {
+    console.log(`disputed ${id} ${obj.reason}`)
+    return;
+  }
+  if(obj.tosdr.irrelevant || !obj.tosdr.binding) {
+    console.log(`declined ${id} ${obj.reason}`)
+    return;
+  }
+  if(typeof(obj.tosdr)=='undefined' || obj.needModeration ||
 		 typeof(obj.tosdr['case'])=='undefined' ||
 		 typeof(obj.tosdr.tldr)=='undefined' ) {
+    console.log(`pending ${id} ${obj.reason}`)
     return;
   }
   if (obj.tosdr['case']) {
@@ -78,17 +87,21 @@ function parsePointFile(id, grunt) {
       obj.tosdr.score = caseObj[caseFileNameBase].score
       if (typeof obj.tosdr.point === 'undefined') {
         console.log('CASE HAS NO POINT!', caseFileNameBase)
+        console.log(`pending ${id} ${obj.reason}`)
         return
       }
       if (typeof obj.tosdr.score === 'undefined') {
         console.log('CASE HAS NO SCORE!', caseFileNameBase)
+        console.log(`pending ${id} ${obj.reason}`)
         return
       }
     } else {
       console.log('MISSING CASE!', caseFileNameBase)
+      console.log(`pending ${id} ${obj.reason}`)
       return
     }
   }
+  console.log(`approved ${id} ${obj.reason}`)
   addToServices(obj.services, id);
   addToTopics(obj.topics, id);
 }
