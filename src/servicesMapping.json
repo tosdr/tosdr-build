@@ -343,7 +343,12 @@
     "tutanota": "157",
     "kolabnow": "246",
     "abc-australia": "436",
-    "xing": "241"
+    "xing": "241",
+    "visible": "503",
+    "pizza-online-fi": "504",
+    "canva": "505",
+    "youneedabudget": "506",
+    "academia-edu": "508"
   },
   "toSlug": {
     "331": "bing",
@@ -689,6 +694,11 @@
     "157": "tutanota",
     "246": "kolabnow",
     "436": "abc-australia",
-    "241": "xing"
+    "241": "xing",
+    "503": "visible",
+    "504": "pizza-online-fi",
+    "505": "canva",
+    "506": "youneedabudget",
+    "508": "academia-edu"
   }
 }
