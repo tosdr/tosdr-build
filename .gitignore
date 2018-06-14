@@ -2,3 +2,4 @@
 node_modules
 import/imapCredentials.js
 dist/
+src/posts
