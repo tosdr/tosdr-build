@@ -14,7 +14,7 @@ function renderDataPoint(grunt, service, dataPoint, forPopup) {
     if (caseObj[caseFileNameBase]) {
       obj.tosdr.point = caseObj[caseFileNameBase].point
       obj.tosdr.score = caseObj[caseFileNameBase].score
-      obj.title = caseObj[caseFileNameBase].title
+      obj.title = caseObj[caseFileNameBase].name
       if (typeof obj.tosdr.point === 'undefined') {
         console.log('CASE HAS NO POINT!', caseFileNameBase)
         return

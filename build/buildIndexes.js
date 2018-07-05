@@ -85,9 +85,11 @@ function parsePointFile(id, grunt) {
   }
   if (obj.tosdr['case']) {
     const caseFileNameBase = obj.tosdr['case'].replace(/[^a-z0-9]/gi, '_').toLowerCase()
+    console.log(caseFileNameBase)
     if (caseObj[caseFileNameBase]) {
       obj.tosdr.point = caseObj[caseFileNameBase].point
       obj.tosdr.score = caseObj[caseFileNameBase].score
+      obj.title = caseObj[caseFileNameBase].name
       if (typeof obj.tosdr.point === 'undefined') {
         console.log('CASE HAS NO POINT!', caseFileNameBase)
         console.log(`pending ${id} ${obj.reason}`)
