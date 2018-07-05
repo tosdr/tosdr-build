@@ -1,0 +1,21 @@
+{
+  "alexa": 1935,
+  "crawls": [],
+  "freesoftware": false,
+  "fulltos": {},
+  "id": 578,
+  "keywords": [],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Ubuntu",
+  "related": [],
+  "slug": "ubuntu",
+  "tosdr": {
+    "rated": "A"
+  },
+  "type": "service",
+  "urls": [
+    "ubuntu.com"
+  ]
+}
