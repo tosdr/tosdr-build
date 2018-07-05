@@ -1,6 +1,8 @@
 {
   "alexa": 1935,
-  "crawls": [],
+  "crawls": [
+    "ubuntu.com/Terms of Service.txt"
+  ],
   "freesoftware": false,
   "fulltos": {},
   "id": 578,
@@ -11,6 +13,12 @@
   "name": "Ubuntu",
   "related": [],
   "slug": "ubuntu",
+  "tosback2": {
+    "Terms of Service": {
+      "name": "Terms of Service",
+      "url": "http://www.ubuntu.com/legal"
+    }
+  },
   "tosdr": {
     "rated": "A"
   },

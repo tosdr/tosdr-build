@@ -11,6 +11,24 @@
   "name": "Trello",
   "related": [],
   "slug": "trello",
+  "tosback2": {
+    "DMCA": {
+      "name": "DMCA",
+      "url": "https://trello.com/legal/dmca"
+    },
+    "Operations and Security": {
+      "name": "Operations and Security",
+      "url": "https://trello.com/legal/security"
+    },
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "https://trello.com/privacy"
+    },
+    "Terms of Service": {
+      "name": "Terms of Service",
+      "url": "https://trello.com/legal"
+    }
+  },
   "tosdr": {
     "rated": "B"
   },
