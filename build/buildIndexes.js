@@ -66,6 +66,9 @@ function parsePointFile(id, grunt) {
   //repo to get a better feeling for what this function does
 
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/'+id+'.json');
+  if (!obj.quoteText || !obj.quoteText.length) {
+    return
+  }
   if(obj.tosdr.disputed) {
     console.log(`disputed ${id} ${obj.reason}`)
     return;
