@@ -398,7 +398,9 @@
     "researchgate": "380",
     "kerbalspaceprogram": "588",
     "fwg1240": "589",
-    "slither-io": "590"
+    "slither-io": "590",
+    "ecosia": "591",
+    "campusinnovationskultur": "592"
   },
   "toSlug": {
     "331": "bing",
@@ -799,6 +801,8 @@
     "380": "researchgate",
     "588": "kerbalspaceprogram",
     "589": "fwg1240",
-    "590": "slither-io"
+    "590": "slither-io",
+    "591": "ecosia",
+    "592": "campusinnovationskultur"
   }
 }
