@@ -60,7 +60,7 @@ function renderDataPoint(grunt, service, dataPoint, forPopup) {
       id:dataPoint,
       score:obj.tosdr.score,
       text:'<div class="' + obj.tosdr.point + '"><h5><span class="badge ' + badge +
-				'" title="' + obj.tosdr.point + '"><i class="icon-' + icon + ' icon-white">' + sign + '</i></span> ' + obj.title + ' <a href="' + obj.discussion + '" target="_blank" class="label context">Discussion</a></h5><p>' +
+				'" title="' + obj.tosdr.point + '"><i class="icon-' + icon + ' icon-white">' + sign + '</i></span> ' + obj.title + ' <a href="https://edit.tosdr.org/points/' + obj.id + '" target="_blank" class="label context">Discussion</a></h5><p>' +
 				obj.tosdr.tldr + '</p></div>\n'
     };
   } else {
