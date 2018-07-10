@@ -400,7 +400,14 @@
     "fwg1240": "589",
     "slither-io": "590",
     "ecosia": "591",
-    "campusinnovationskultur": "592"
+    "campusinnovationskultur": "592",
+    "kraken": "593",
+    "threemaweb": "594",
+    "tos;dr": "596",
+    "lacentrale": "597",
+    "bitstamp": "598",
+    "netflix-duplicateofservice185": "595",
+    "survivaloftheunfittest": "599"
   },
   "toSlug": {
     "331": "bing",
@@ -803,6 +810,13 @@
     "589": "fwg1240",
     "590": "slither-io",
     "591": "ecosia",
-    "592": "campusinnovationskultur"
+    "592": "campusinnovationskultur",
+    "593": "kraken",
+    "594": "threemaweb",
+    "596": "tos;dr",
+    "597": "lacentrale",
+    "598": "bitstamp",
+    "595": "netflix-duplicateofservice185",
+    "599": "survivaloftheunfittest"
   }
 }
