@@ -67,17 +67,17 @@ function parsePointFile(id, grunt) {
 
   var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/points/'+id+'.json');
   if(obj.tosdr.disputed) {
-    console.log(`disputed ${id} ${obj.reason}`)
+    // console.log(`disputed ${id} ${obj.reason}`)
     return;
   }
   if(obj.tosdr.irrelevant || !obj.tosdr.binding) {
-    console.log(`declined ${id} ${obj.reason}`)
+    // console.log(`declined ${id} ${obj.reason}`)
     return;
   }
   if(typeof(obj.tosdr)=='undefined' || obj.needModeration ||
 		 typeof(obj.tosdr['case'])=='undefined' ||
 		 typeof(obj.tosdr.tldr)=='undefined' ) {
-    console.log(`pending ${id} ${obj.reason}`)
+    // console.log(`pending ${id} ${obj.reason}`)
     return;
   }
   if (obj.tosdr['case']) {

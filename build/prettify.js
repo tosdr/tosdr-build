@@ -11,7 +11,7 @@ function sortObject(obj, strict)
     else ary = obj;
     return ary;
   }
-  if(typeof obj === 'object') {
+  if(typeof obj === 'object' && JSON.stringify(obj) != 'null') {
     //var fixed;
     //if(fixed = fixArrays(obj))
     //  return fixed;
