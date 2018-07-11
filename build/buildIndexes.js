@@ -81,7 +81,7 @@ function parsePointFile(id, grunt) {
     return;
   }
   if (obj.tosdr['case']) {
-    const caseFileNameBase = obj.tosdr['case'].replace(/[^a-z0-9]/gi, '_').toLowerCase()
+    const caseFileNameBase = obj.tosdr['case'].toLowerCase().replace(/[^a-z0-9]/g, '_')
     if (caseObj[caseFileNameBase]) {
       obj.tosdr.point = caseObj[caseFileNameBase].point
       obj.tosdr.score = caseObj[caseFileNameBase].score
