@@ -1,7 +1,7 @@
 {
   "id": "4301",
   "services": [
-    null
+    "gitlab"
   ],
   "title": "free software; you can run your own instance",
   "topics": [],

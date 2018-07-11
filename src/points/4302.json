@@ -1,7 +1,7 @@
 {
   "id": "4302",
   "services": [
-    null
+    "gitlab"
   ],
   "title": "critical changes without user involvement",
   "topics": [],

@@ -2,7 +2,7 @@
   "id": "4289",
   "needModeration": true,
   "services": [
-    null
+    "searchencrypt"
   ],
   "title": "no transparency",
   "topics": [],
