@@ -11,7 +11,7 @@ module.exports = (function() {
       }
       return ary;
     }
-    if(typeof obj === 'object') {
+    if(typeof obj === 'object' && obj !== null) {
       var tObj = {};
       Object.keys(obj).sort().forEach(function(key) {
         tObj[key] = sortObject(obj[key]);
