@@ -8,6 +8,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
+    "case": "Third parties may be involved in operating the service",
     "tldr": "third parties may be involved in operating the service"
   }
 }

@@ -10,6 +10,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
+    "case": "User feedback is invited regarding changes to the terms.",
     "tldr": "user feedback is invited"
   }
 }

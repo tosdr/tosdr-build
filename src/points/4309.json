@@ -8,6 +8,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
+    "case": "defend, indemnify, hold harmless; survives termination",
     "tldr": "defend, indemnify, hold harmless; survives termination"
   }
 }

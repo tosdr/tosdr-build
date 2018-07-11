@@ -7,6 +7,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
+    "case": "This service employs third-party cookies, but with opt-out instructions",
     "tldr": "third-party cookies, but with opt-out instructions"
   }
 }

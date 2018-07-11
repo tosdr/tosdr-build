@@ -10,6 +10,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
+    "case": "This service employs separate policies for different parts of the service",
     "tldr": "separate policies for some parts of the service"
   }
 }

@@ -8,6 +8,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
+    "case": "no transparency",
     "tldr": "no transparency"
   }
 }

@@ -7,6 +7,7 @@
   "topics": [],
   "tosdr": {
     "binding": true,
+    "case": "The service makes critical changes to its terms without user involvement",
     "tldr": "The privacy can be revised, but there is nothing about notifying users about changes."
   }
 }
