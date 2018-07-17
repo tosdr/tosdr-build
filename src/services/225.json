@@ -47,6 +47,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "spotify.com",
   "urls": [
     "spotify.com"
   ]

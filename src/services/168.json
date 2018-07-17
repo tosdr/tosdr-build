@@ -32,6 +32,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "airbnb.com",
   "urls": [
     "airbnb.com"
   ]

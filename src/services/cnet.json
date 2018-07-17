@@ -27,6 +27,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "cnet.com",
   "urls": [
     "cnet.com"
   ]

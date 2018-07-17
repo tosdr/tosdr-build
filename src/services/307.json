@@ -52,6 +52,7 @@
   },
   "twitter": "@Delicious",
   "type": "service",
+  "url": "delicious.com",
   "urls": [
     "delicious.com",
     "delicious.com.au"

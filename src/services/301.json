@@ -35,6 +35,7 @@
   },
   "twitter": "@TwitPic",
   "type": "service",
+  "url": "twitpic.com",
   "urls": [
     "twitpic.com"
   ]

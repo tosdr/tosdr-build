@@ -51,6 +51,7 @@
   },
   "twitter": "@YouTube",
   "type": "service",
+  "url": "youtube.com",
   "urls": [
     "youtube.com"
   ]

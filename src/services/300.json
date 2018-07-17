@@ -43,6 +43,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "stackexchange.com",
   "urls": [
     "stackexchange.com"
   ]

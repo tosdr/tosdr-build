@@ -55,6 +55,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "flickr.com",
   "urls": [
     "flickr.com"
   ]

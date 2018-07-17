@@ -20,6 +20,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "storify.com",
   "urls": [
     "storify.com"
   ]

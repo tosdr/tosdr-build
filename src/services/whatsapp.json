@@ -25,6 +25,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "whatsapp.com",
   "urls": [
     "whatsapp.com"
   ]

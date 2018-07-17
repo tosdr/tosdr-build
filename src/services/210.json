@@ -20,6 +20,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "quickbooks.intuit.com",
   "urls": [
     "quickbooks.intuit.com"
   ]

@@ -23,6 +23,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "theguardian.com",
   "urls": [
     "theguardian.com"
   ]

@@ -20,6 +20,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "pushbullet.com",
   "urls": [
     "pushbullet.com"
   ]

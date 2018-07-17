@@ -53,10 +53,11 @@ function doFile(filepath, filename, grunt) {
       changed=true;
     }
   }
-  if (obj.url) {
-    delete obj.url
-    changed = true
-  }
+  // commented this out, to work around https://github.com/tosdr/tosdr-firefox/issues/53:
+  // if (obj.url) {
+  //   delete obj.url
+  //   changed = true
+  // }
 
   if (!Array.isArray(obj.crawls)) {
     obj.crawls = []

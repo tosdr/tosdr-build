@@ -25,6 +25,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "bbc.com",
   "urls": [
     "bbc.com"
   ]

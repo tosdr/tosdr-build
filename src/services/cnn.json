@@ -31,6 +31,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "cnn.com",
   "urls": [
     "cnn.com"
   ]

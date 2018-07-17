@@ -28,6 +28,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "live.com",
   "urls": [
     "live.com"
   ]

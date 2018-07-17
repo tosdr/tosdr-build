@@ -36,6 +36,7 @@
     "rated": false
   },
   "type": "service",
+  "url": "foxnews.com",
   "urls": [
     "foxnews.com"
   ]
