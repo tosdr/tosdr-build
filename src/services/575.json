@@ -1,0 +1,20 @@
+{
+  "crawls": [],
+  "freesoftware": false,
+  "fulltos": {},
+  "id": 575,
+  "keywords": [],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Razer",
+  "related": [],
+  "slug": "razer",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "razer.com"
+  ]
+}

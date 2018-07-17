@@ -1,0 +1,34 @@
+{
+  "alexa": 6187,
+  "crawls": [],
+  "freesoftware": false,
+  "fulltos": {
+    "privacy": {
+      "url": "http://automattic.com/privacy/"
+    },
+    "terms": {
+      "url": "http://gravatar.com/site/terms-of-service"
+    }
+  },
+  "id": 156,
+  "keywords": [],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Gravatar",
+  "related": [],
+  "slug": "gravatar",
+  "tosback2": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "http://automattic.com/privacy/"
+    }
+  },
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "gravatar.com"
+  ]
+}

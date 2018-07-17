@@ -1,0 +1,20 @@
+{
+  "crawls": [],
+  "freesoftware": false,
+  "fulltos": {},
+  "id": 612,
+  "keywords": [],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Hostelworld",
+  "related": [],
+  "slug": "hostelworld",
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "hostelworld.com/"
+  ]
+}

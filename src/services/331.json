@@ -1,0 +1,29 @@
+{
+  "alexa": 44,
+  "crawls": [
+    "bing.com/Privacy Policy.txt"
+  ],
+  "freesoftware": false,
+  "fulltos": {},
+  "id": 331,
+  "keywords": [],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Bing",
+  "related": [],
+  "slug": "bing",
+  "tosback2": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "http://www.microsoft.com/privacystatement/en-us/bing/default.aspx"
+    }
+  },
+  "tosdr": {
+    "rated": false
+  },
+  "type": "service",
+  "urls": [
+    "bing.com"
+  ]
+}
