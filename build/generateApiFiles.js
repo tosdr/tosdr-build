@@ -11,7 +11,7 @@ module.exports = function(grunt){
   grunt.task.registerTask('generateApiFiles', 'Generate API files', function(){
     var i, j, obj, pointsArr, services = grunt.file.readJSON('index/services.json');
     var all = {
-      'tosdr/api/version': 2,
+      'tosdr/api/version': 1,
       'tosdr/data/version': new Date().getTime()
     };
     for (i in services) {
@@ -26,10 +26,10 @@ module.exports = function(grunt){
         obj.pointsData[obj.points[j]].tosdr.score = caseObj.score
         obj.pointsData[obj.points[j]].tosdr.privacyRelated = caseObj.privacyRelated
         pointsArr.push({
-          'short': obj.points[j].title,
-          'long': obj.points[j].description,
+          title: obj.points[j].title,
+          description: obj.points[j].description,
           discussion: POINTS_PATH + obj.points[j],
-          icon: caseObj.point,
+          point: caseObj.point,
           score: caseObj.score,
           privacyRelated: caseObj.privacyRelated
         })
@@ -53,6 +53,6 @@ module.exports = function(grunt){
         all['tosdr/review/' + services[i].urls[k]] = { see: services[i].urls[0] }
       }
     }
-    grunt.file.write(grunt.config.get('conf').dist + '/api/2/all.json', prettyjson(all));
+    grunt.file.write(grunt.config.get('conf').dist + '/api/1/all.json', prettyjson(all));
   });
 };
