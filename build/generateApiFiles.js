@@ -40,8 +40,9 @@ module.exports = function(grunt){
         documentsArr.push(services[i].links[k])
       }
       // console.log(i, services[i].urls)
+      var serviceObj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/'+i+'.json');
       all['tosdr/review/' + services[i].urls[0]] = {
-        name: obj.name,
+        name: serviceObj.name,
         logo: LOGO_PATH + i + LOGO_EXTENSION,
         rated: services[i]['class'],
         points: pointsArr,
