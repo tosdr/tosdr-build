@@ -26,8 +26,9 @@ module.exports = function(grunt){
         obj.pointsData[obj.points[j]].tosdr.score = caseObj.score
         obj.pointsData[obj.points[j]].tosdr.privacyRelated = caseObj.privacyRelated
         pointsArr.push({
-          title: obj.points[j].title,
-          description: obj.points[j].description,
+          id: obj.points[j],
+          title: obj.pointsData[obj.points[j]].title,
+          description: obj.pointsData[obj.points[j]].tosdr.tldr,
           discussion: POINTS_PATH + obj.points[j],
           point: caseObj.point,
           score: caseObj.score,
