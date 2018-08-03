@@ -35,6 +35,7 @@ module.exports = function(grunt){
           privacyRelated: caseObj.privacyRelated
         })
       }
+      pointsArr.sort((a, b) => b.score - a.score);
       grunt.file.write(grunt.config.get('conf').dist + '/api/1/service/'+i+'.json', prettyjson(obj));
       var documentsArr = [];
       for (var k in services[i].links) {
