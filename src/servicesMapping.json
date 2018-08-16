@@ -456,6 +456,7 @@
     "tunnelbear": "679",
     "rodrigoprestes": "680",
     "goodreadsduplicate": "674",
+    "xvideo": "681",
     "protonmailduplicate": "637"
   },
   "toSlug": {
@@ -915,6 +916,7 @@
     "679": "tunnelbear",
     "680": "rodrigoprestes",
     "674": "goodreadsduplicate",
+    "681": "xvideo",
     "637": "protonmailduplicate"
   }
 }
