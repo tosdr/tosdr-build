@@ -452,12 +452,12 @@
     "historielærer-dk": "675",
     "tweakers": "676",
     "coach4career": "677",
-    "designcrowd": "678",
     "tunnelbear": "679",
     "rodrigoprestes": "680",
     "goodreadsduplicate": "674",
     "xvideo": "681",
-    "protonmailduplicate": "637"
+    "protonmailduplicate": "637",
+    "designcrowd": "678"
   },
   "toSlug": {
     "331": "bing",
@@ -912,11 +912,11 @@
     "675": "historielærer-dk",
     "676": "tweakers",
     "677": "coach4career",
-    "678": "designcrowd",
     "679": "tunnelbear",
     "680": "rodrigoprestes",
     "674": "goodreadsduplicate",
     "681": "xvideo",
-    "637": "protonmailduplicate"
+    "637": "protonmailduplicate",
+    "678": "designcrowd"
   }
 }
