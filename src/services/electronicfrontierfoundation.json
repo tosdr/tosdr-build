@@ -1,21 +1,22 @@
 {
+  "alexa": 15140,
   "crawls": [],
   "freesoftware": false,
   "fulltos": {},
-  "id": 592,
+  "id": 682,
   "keywords": [],
   "meta": {
     "spec-version": "1.1"
   },
-  "name": "Campus Innovations Kultur ",
+  "name": "Electronic Frontier Foundation",
   "related": [],
-  "slug": "campusinnovationskultur",
+  "slug": "electronicfrontierfoundation",
   "tosdr": {
-    "rated": "A"
+    "rated": false
   },
   "type": "service",
-  "url": "cik.cool",
+  "url": "https://www.eff.org/",
   "urls": [
-    "cik.cool"
+    "eff.org"
   ]
 }

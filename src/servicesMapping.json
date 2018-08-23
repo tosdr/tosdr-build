@@ -457,7 +457,8 @@
     "goodreadsduplicate": "674",
     "xvideo": "681",
     "protonmailduplicate": "637",
-    "designcrowd": "678"
+    "designcrowd": "678",
+    "electronicfrontierfoundation": "682"
   },
   "toSlug": {
     "331": "bing",
@@ -917,6 +918,7 @@
     "674": "goodreadsduplicate",
     "681": "xvideo",
     "637": "protonmailduplicate",
-    "678": "designcrowd"
+    "678": "designcrowd",
+    "682": "electronicfrontierfoundation"
   }
 }
