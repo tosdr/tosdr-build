@@ -421,7 +421,6 @@
     "eventim": "611",
     "hostelworld": "612",
     "doodle": "613",
-    "amnestyinternational": "614",
     "emp": "615",
     "pornhub": "616",
     "transferwise": "617",
@@ -458,7 +457,8 @@
     "xvideo": "681",
     "protonmailduplicate": "637",
     "designcrowd": "678",
-    "electronicfrontierfoundation": "682"
+    "electronicfrontierfoundation": "682",
+    "amnestyinternationallimited(uk)": "614"
   },
   "toSlug": {
     "331": "bing",
@@ -882,7 +882,6 @@
     "611": "eventim",
     "612": "hostelworld",
     "613": "doodle",
-    "614": "amnestyinternational",
     "615": "emp",
     "616": "pornhub",
     "617": "transferwise",
@@ -919,6 +918,7 @@
     "681": "xvideo",
     "637": "protonmailduplicate",
     "678": "designcrowd",
-    "682": "electronicfrontierfoundation"
+    "682": "electronicfrontierfoundation",
+    "614": "amnestyinternationallimited(uk)"
   }
 }
