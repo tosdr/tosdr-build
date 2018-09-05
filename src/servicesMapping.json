@@ -463,7 +463,12 @@
     "github": "297",
     "fastmail": "687",
     "discogs": "603",
-    "eventim": "611"
+    "eventim": "611",
+    "nrc": "688",
+    "npchan": "689",
+    "santstv": "690",
+    "arcai": "691",
+    "ankiweb": "692"
   },
   "toSlug": {
     "331": "bing",
@@ -929,6 +934,11 @@
     "297": "github",
     "687": "fastmail",
     "603": "discogs",
-    "611": "eventim"
+    "611": "eventim",
+    "688": "nrc",
+    "689": "npchan",
+    "690": "santstv",
+    "691": "arcai",
+    "692": "ankiweb"
   }
 }
