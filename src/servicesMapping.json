@@ -468,7 +468,12 @@
     "npchan": "689",
     "santstv": "690",
     "arcai": "691",
-    "ankiweb": "692"
+    "ankiweb": "692",
+    "viagogo": "693",
+    "pluspeter": "694",
+    "billpay": "695",
+    "dudle": "696",
+    "nordvpn": "697"
   },
   "toSlug": {
     "331": "bing",
@@ -939,6 +944,11 @@
     "689": "npchan",
     "690": "santstv",
     "691": "arcai",
-    "692": "ankiweb"
+    "692": "ankiweb",
+    "693": "viagogo",
+    "694": "pluspeter",
+    "695": "billpay",
+    "696": "dudle",
+    "697": "nordvpn"
   }
 }
