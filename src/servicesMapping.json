@@ -473,7 +473,14 @@
     "pluspeter": "694",
     "billpay": "695",
     "dudle": "696",
-    "nordvpn": "697"
+    "nordvpn": "697",
+    "sync": "698",
+    "euclillebælt": "699",
+    "steemit": "700",
+    "alza": "701",
+    "rationalwiki": "702",
+    "verond": "703",
+    "zeptoabsuk": "704"
   },
   "toSlug": {
     "331": "bing",
@@ -949,6 +956,13 @@
     "694": "pluspeter",
     "695": "billpay",
     "696": "dudle",
-    "697": "nordvpn"
+    "697": "nordvpn",
+    "698": "sync",
+    "699": "euclillebælt",
+    "700": "steemit",
+    "701": "alza",
+    "702": "rationalwiki",
+    "703": "verond",
+    "704": "zeptoabsuk"
   }
 }
