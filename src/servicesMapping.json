@@ -299,13 +299,13 @@
     "furrymate": "463",
     "stumble-upon": "498",
     "burning-man": "476",
-    "albine": "486",
     "godaddy": "347",
     "whatsapp": "198",
     "google": "217",
     "accuweather": "456",
     "huffingtonpost": "490",
     "dictionary": "492",
+    "albine": "486",
     "bodybuilding": "471",
     "nanowrimo": "467",
     "runtastic": "499",
@@ -480,7 +480,8 @@
     "alza": "701",
     "rationalwiki": "702",
     "verond": "703",
-    "zeptoabsuk": "704"
+    "zeptoabsuk": "704",
+    "nvidia": "705"
   },
   "toSlug": {
     "331": "bing",
@@ -782,13 +783,13 @@
     "463": "furrymate",
     "498": "stumble-upon",
     "476": "burning-man",
-    "486": "albine",
     "347": "godaddy",
     "198": "whatsapp",
     "217": "google",
     "456": "accuweather",
     "490": "huffingtonpost",
     "492": "dictionary",
+    "486": "albine",
     "471": "bodybuilding",
     "467": "nanowrimo",
     "499": "runtastic",
@@ -963,6 +964,7 @@
     "701": "alza",
     "702": "rationalwiki",
     "703": "verond",
-    "704": "zeptoabsuk"
+    "704": "zeptoabsuk",
+    "705": "nvidia"
   }
 }
