@@ -321,7 +321,6 @@
     "fifa-com": "475",
     "xfinity": "489",
     "keybase": "404",
-    "sony": "457",
     "whatpulse": "493",
     "canary": "454",
     "world-of-warcraft": "397",
@@ -353,6 +352,7 @@
     "uswarrantservice": "533",
     "truecaller": "537",
     "protonmail": "491",
+    "sony": "457",
     "reswitcheddiscord": "585",
     "researchgate": "380",
     "ecosia": "591",
@@ -481,7 +481,11 @@
     "rationalwiki": "702",
     "verond": "703",
     "zeptoabsuk": "704",
-    "nvidia": "705"
+    "nvidia": "705",
+    "tidelift": "706",
+    "nextcloud": "707",
+    "icepop": "708",
+    "tartle": "709"
   },
   "toSlug": {
     "331": "bing",
@@ -805,7 +809,6 @@
     "475": "fifa-com",
     "489": "xfinity",
     "404": "keybase",
-    "457": "sony",
     "493": "whatpulse",
     "454": "canary",
     "397": "world-of-warcraft",
@@ -837,6 +840,7 @@
     "533": "uswarrantservice",
     "537": "truecaller",
     "491": "protonmail",
+    "457": "sony",
     "585": "reswitcheddiscord",
     "380": "researchgate",
     "591": "ecosia",
@@ -965,6 +969,10 @@
     "702": "rationalwiki",
     "703": "verond",
     "704": "zeptoabsuk",
-    "705": "nvidia"
+    "705": "nvidia",
+    "706": "tidelift",
+    "707": "nextcloud",
+    "708": "icepop",
+    "709": "tartle"
   }
 }
