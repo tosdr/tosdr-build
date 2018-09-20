@@ -329,7 +329,6 @@
     "yelp": "461",
     "tinder": "462",
     "ixquick": "483",
-    "scrubly": "466",
     "bushel": "480",
     "fivesquid": "459",
     "tutanota": "157",
@@ -353,6 +352,7 @@
     "truecaller": "537",
     "protonmail": "491",
     "sony": "457",
+    "scrubly": "466",
     "reswitcheddiscord": "585",
     "researchgate": "380",
     "ecosia": "591",
@@ -485,7 +485,10 @@
     "tidelift": "706",
     "nextcloud": "707",
     "icepop": "708",
-    "tartle": "709"
+    "tartle": "709",
+    "noonsite": "710",
+    "honeypot": "711",
+    "chevereto": "712"
   },
   "toSlug": {
     "331": "bing",
@@ -817,7 +820,6 @@
     "461": "yelp",
     "462": "tinder",
     "483": "ixquick",
-    "466": "scrubly",
     "480": "bushel",
     "459": "fivesquid",
     "157": "tutanota",
@@ -841,6 +843,7 @@
     "537": "truecaller",
     "491": "protonmail",
     "457": "sony",
+    "466": "scrubly",
     "585": "reswitcheddiscord",
     "380": "researchgate",
     "591": "ecosia",
@@ -973,6 +976,9 @@
     "706": "tidelift",
     "707": "nextcloud",
     "708": "icepop",
-    "709": "tartle"
+    "709": "tartle",
+    "710": "noonsite",
+    "711": "honeypot",
+    "712": "chevereto"
   }
 }
