@@ -257,8 +257,6 @@
     "nokia": "308",
     "lfichier": "360",
     "npr": "359",
-    "ask": "370",
-    "pocket": "384",
     "live": "379",
     "arc-games": "349",
     "tripadvisor": "382",
@@ -306,6 +304,7 @@
     "huffingtonpost": "490",
     "dictionary": "492",
     "albine": "486",
+    "ask": "370",
     "bodybuilding": "471",
     "nanowrimo": "467",
     "runtastic": "499",
@@ -488,7 +487,13 @@
     "tartle": "709",
     "noonsite": "710",
     "honeypot": "711",
-    "chevereto": "712"
+    "chevereto": "712",
+    "openbookpublishers": "713",
+    "pocket": "384",
+    "wg-gesucht": "714",
+    "blablacar": "715",
+    "stylish": "716",
+    "factorio": "717"
   },
   "toSlug": {
     "331": "bing",
@@ -748,8 +753,6 @@
     "308": "nokia",
     "360": "lfichier",
     "359": "npr",
-    "370": "ask",
-    "384": "pocket",
     "379": "live",
     "349": "arc-games",
     "382": "tripadvisor",
@@ -797,6 +800,7 @@
     "490": "huffingtonpost",
     "492": "dictionary",
     "486": "albine",
+    "370": "ask",
     "471": "bodybuilding",
     "467": "nanowrimo",
     "499": "runtastic",
@@ -979,6 +983,12 @@
     "709": "tartle",
     "710": "noonsite",
     "711": "honeypot",
-    "712": "chevereto"
+    "712": "chevereto",
+    "713": "openbookpublishers",
+    "384": "pocket",
+    "714": "wg-gesucht",
+    "715": "blablacar",
+    "716": "stylish",
+    "717": "factorio"
   }
 }
