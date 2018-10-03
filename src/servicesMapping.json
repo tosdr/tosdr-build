@@ -505,7 +505,12 @@
     "newyorktimes": "727",
     "arc-games": "349",
     "pixiv": "728",
-    "royalsocietyofchemistrypublications": "729"
+    "royalsocietyofchemistrypublications": "729",
+    "tosdr": "730",
+    "mailchimp": "731",
+    "brentjanderson-com": "732",
+    "xvideos": "733",
+    "arstechnica": "734"
   },
   "toSlug": {
     "331": "bing",
@@ -1013,6 +1018,11 @@
     "727": "newyorktimes",
     "349": "arc-games",
     "728": "pixiv",
-    "729": "royalsocietyofchemistrypublications"
+    "729": "royalsocietyofchemistrypublications",
+    "730": "tosdr",
+    "731": "mailchimp",
+    "732": "brentjanderson-com",
+    "733": "xvideos",
+    "734": "arstechnica"
   }
 }
