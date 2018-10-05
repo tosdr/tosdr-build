@@ -510,7 +510,9 @@
     "mailchimp": "731",
     "brentjanderson-com": "732",
     "xvideos": "733",
-    "arstechnica": "734"
+    "arstechnica": "734",
+    "chequeredinkltd": "735",
+    "musicbrainz": "736"
   },
   "toSlug": {
     "331": "bing",
@@ -1023,6 +1025,8 @@
     "731": "mailchimp",
     "732": "brentjanderson-com",
     "733": "xvideos",
-    "734": "arstechnica"
+    "734": "arstechnica",
+    "735": "chequeredinkltd",
+    "736": "musicbrainz"
   }
 }
