@@ -424,7 +424,6 @@
     "zedge": "625",
     "da532": "626",
     "werk32-net": "627",
-    "spigotmc": "628",
     "pcilookup": "629",
     "researchchemaialswitzerland": "630",
     "geekculture": "631",
@@ -457,6 +456,7 @@
     "amnestyinternational(de)": "685",
     "emp": "615",
     "anchel-nl": "620",
+    "spigotmc": "628",
     "hélènesepromène": "686",
     "github": "297",
     "fastmail": "687",
@@ -512,7 +512,13 @@
     "xvideos": "733",
     "arstechnica": "734",
     "chequeredinkltd": "735",
-    "musicbrainz": "736"
+    "musicbrainz": "736",
+    "videodeckforyoutube": "737",
+    "longtimethinking": "738",
+    "kevquirk'sblog": "739",
+    "jetbrains": "740",
+    "centerlessimagery": "741",
+    "onlineplayer-kubeah": "742"
   },
   "toSlug": {
     "331": "bing",
@@ -939,7 +945,6 @@
     "625": "zedge",
     "626": "da532",
     "627": "werk32-net",
-    "628": "spigotmc",
     "629": "pcilookup",
     "630": "researchchemaialswitzerland",
     "631": "geekculture",
@@ -972,6 +977,7 @@
     "685": "amnestyinternational(de)",
     "615": "emp",
     "620": "anchel-nl",
+    "628": "spigotmc",
     "686": "hélènesepromène",
     "297": "github",
     "687": "fastmail",
@@ -1027,6 +1033,12 @@
     "733": "xvideos",
     "734": "arstechnica",
     "735": "chequeredinkltd",
-    "736": "musicbrainz"
+    "736": "musicbrainz",
+    "737": "videodeckforyoutube",
+    "738": "longtimethinking",
+    "739": "kevquirk'sblog",
+    "740": "jetbrains",
+    "741": "centerlessimagery",
+    "742": "onlineplayer-kubeah"
   }
 }
