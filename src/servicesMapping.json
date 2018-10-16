@@ -414,7 +414,6 @@
     "chip": "610",
     "hostelworld": "612",
     "doodle": "613",
-    "pornhub": "616",
     "transferwise": "617",
     "genius": "618",
     "payworks": "619",
@@ -457,6 +456,7 @@
     "emp": "615",
     "anchel-nl": "620",
     "spigotmc": "628",
+    "pornhub": "616",
     "hélènesepromène": "686",
     "github": "297",
     "fastmail": "687",
@@ -518,7 +518,14 @@
     "kevquirk'sblog": "739",
     "jetbrains": "740",
     "centerlessimagery": "741",
-    "onlineplayer-kubeah": "742"
+    "onlineplayer-kubeah": "742",
+    "kink-com": "743",
+    "duolingo": "744",
+    "cabinetsolutions,inc": "745",
+    "aaronjs": "746",
+    "finobe": "747",
+    "jstor": "748",
+    "alternativeto": "749"
   },
   "toSlug": {
     "331": "bing",
@@ -935,7 +942,6 @@
     "610": "chip",
     "612": "hostelworld",
     "613": "doodle",
-    "616": "pornhub",
     "617": "transferwise",
     "618": "genius",
     "619": "payworks",
@@ -978,6 +984,7 @@
     "615": "emp",
     "620": "anchel-nl",
     "628": "spigotmc",
+    "616": "pornhub",
     "686": "hélènesepromène",
     "297": "github",
     "687": "fastmail",
@@ -1039,6 +1046,13 @@
     "739": "kevquirk'sblog",
     "740": "jetbrains",
     "741": "centerlessimagery",
-    "742": "onlineplayer-kubeah"
+    "742": "onlineplayer-kubeah",
+    "743": "kink-com",
+    "744": "duolingo",
+    "745": "cabinetsolutions,inc",
+    "746": "aaronjs",
+    "747": "finobe",
+    "748": "jstor",
+    "749": "alternativeto"
   }
 }
