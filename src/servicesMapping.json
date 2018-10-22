@@ -525,7 +525,19 @@
     "aaronjs": "746",
     "finobe": "747",
     "jstor": "748",
-    "alternativeto": "749"
+    "alternativeto": "749",
+    "bennetthardwick": "750",
+    "w88": "751",
+    "empowerhealthservices": "752",
+    "chrischonabrugg": "753",
+    "kalóriabázis": "754",
+    "dominionenergy": "755",
+    "privateinternetaccess": "756",
+    "applemediaservices": "757",
+    "alireza’sweblog": "758",
+    "gtrs": "791",
+    "jfsbuild": "792",
+    "treslumen": "793"
   },
   "toSlug": {
     "331": "bing",
@@ -1053,6 +1065,18 @@
     "746": "aaronjs",
     "747": "finobe",
     "748": "jstor",
-    "749": "alternativeto"
+    "749": "alternativeto",
+    "750": "bennetthardwick",
+    "751": "w88",
+    "752": "empowerhealthservices",
+    "753": "chrischonabrugg",
+    "754": "kalóriabázis",
+    "755": "dominionenergy",
+    "756": "privateinternetaccess",
+    "757": "applemediaservices",
+    "758": "alireza’sweblog",
+    "791": "gtrs",
+    "792": "jfsbuild",
+    "793": "treslumen"
   }
 }
