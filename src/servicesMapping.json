@@ -537,7 +537,9 @@
     "alireza’sweblog": "758",
     "gtrs": "791",
     "jfsbuild": "792",
-    "treslumen": "793"
+    "treslumen": "793",
+    "heroku": "794",
+    "speakermatch": "795"
   },
   "toSlug": {
     "331": "bing",
@@ -1077,6 +1079,8 @@
     "758": "alireza’sweblog",
     "791": "gtrs",
     "792": "jfsbuild",
-    "793": "treslumen"
+    "793": "treslumen",
+    "794": "heroku",
+    "795": "speakermatch"
   }
 }
