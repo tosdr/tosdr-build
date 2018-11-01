@@ -539,7 +539,20 @@
     "jfsbuild": "792",
     "treslumen": "793",
     "heroku": "794",
-    "speakermatch": "795"
+    "speakermatch": "795",
+    "ironhorsegames": "796",
+    "blendswap": "797",
+    "patook": "798",
+    "bisek-photography": "799",
+    "expobeds": "800",
+    "jornalrecord": "801",
+    "stiwebmail": "802",
+    "cityofreading": "803",
+    "prospermarketplace": "804",
+    "xda-developers": "805",
+    "lichess": "806",
+    "világnégyzet": "807",
+    "u-s-c-k-i-incognito": "808"
   },
   "toSlug": {
     "331": "bing",
@@ -1081,6 +1094,19 @@
     "792": "jfsbuild",
     "793": "treslumen",
     "794": "heroku",
-    "795": "speakermatch"
+    "795": "speakermatch",
+    "796": "ironhorsegames",
+    "797": "blendswap",
+    "798": "patook",
+    "799": "bisek-photography",
+    "800": "expobeds",
+    "801": "jornalrecord",
+    "802": "stiwebmail",
+    "803": "cityofreading",
+    "804": "prospermarketplace",
+    "805": "xda-developers",
+    "806": "lichess",
+    "807": "világnégyzet",
+    "808": "u-s-c-k-i-incognito"
   }
 }
