@@ -564,7 +564,9 @@
     "bettycrocker": "817",
     "sinemia": "818",
     "ryanerickson": "819",
-    "web&seodesigners": "820"
+    "web&seodesigners": "820",
+    "wanikani": "821",
+    "oclc": "822"
   },
   "toSlug": {
     "331": "bing",
@@ -1131,6 +1133,8 @@
     "817": "bettycrocker",
     "818": "sinemia",
     "819": "ryanerickson",
-    "820": "web&seodesigners"
+    "820": "web&seodesigners",
+    "821": "wanikani",
+    "822": "oclc"
   }
 }
