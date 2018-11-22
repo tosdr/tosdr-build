@@ -566,7 +566,20 @@
     "ryanerickson": "819",
     "web&seodesigners": "820",
     "wanikani": "821",
-    "oclc": "822"
+    "oclc": "822",
+    "whishlist": "823",
+    "furk": "824",
+    "samsung": "825",
+    "filefactory": "826",
+    "annemiekdebruin": "827",
+    "xbltracker": "828",
+    "avaaz": "829",
+    "famileo": "830",
+    "clockify": "831",
+    "qorg-xyz": "832",
+    "frontendmasters": "833",
+    "vocalise": "834",
+    "authorea": "835"
   },
   "toSlug": {
     "331": "bing",
@@ -1135,6 +1148,19 @@
     "819": "ryanerickson",
     "820": "web&seodesigners",
     "821": "wanikani",
-    "822": "oclc"
+    "822": "oclc",
+    "823": "whishlist",
+    "824": "furk",
+    "825": "samsung",
+    "826": "filefactory",
+    "827": "annemiekdebruin",
+    "828": "xbltracker",
+    "829": "avaaz",
+    "830": "famileo",
+    "831": "clockify",
+    "832": "qorg-xyz",
+    "833": "frontendmasters",
+    "834": "vocalise",
+    "835": "authorea"
   }
 }
