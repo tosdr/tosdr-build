@@ -1,6 +1,6 @@
 {
   "id": "5455",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 7781,
   "quoteStart": 7516,
@@ -9,7 +9,9 @@
     "ryver"
   ],
   "title": "This service uses third-party cookies for statistics",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service uses third-party cookies for statistics",

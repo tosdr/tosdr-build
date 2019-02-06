@@ -17,7 +17,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "personal data is given to third parties",
+    "case": "Your personal data is given to third parties",
     "tldr": "Facebook give personal details to 3rd Party by default"
   }
 }

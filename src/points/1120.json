@@ -1,12 +1,14 @@
 {
   "id": "1120",
-  "needModeration": true,
+  "needModeration": false,
   "services": [
     "facebook"
   ],
   "slug": "1120",
   "title": "The service uses your personal data for advertising",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service uses your personal data for advertising",

@@ -17,7 +17,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "no refund policy",
+    "case": "The service has a no refund policy",
     "tldr": "Mandatory automatic subscription renewal without reminders "
   }
 }

@@ -1,0 +1,18 @@
+{
+  "id": "5655",
+  "needModeration": true,
+  "quoteDoc": "Privacy Policy",
+  "quoteEnd": 6719,
+  "quoteStart": 6701,
+  "quoteText": "enter a promotion,",
+  "services": [
+    "indiegogo"
+  ],
+  "title": "The service may collect extra data about you through promotions",
+  "topics": [],
+  "tosdr": {
+    "binding": true,
+    "case": "The service may collect extra data about you through promotions",
+    "tldr": "Generated through the annotate view"
+  }
+}

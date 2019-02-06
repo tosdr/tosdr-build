@@ -9,7 +9,9 @@
     "coursehero"
   ],
   "title": "This service allows tracking via third-party cookies for purposes including targeted advertising.",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service allows tracking via third-party cookies for purposes including targeted advertising.",

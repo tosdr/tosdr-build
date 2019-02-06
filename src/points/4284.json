@@ -6,7 +6,9 @@
     "qwant"
   ],
   "title": "Users are subject to the Quant privacy policy",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "Users are subject to the policies and guidelines of the service.",

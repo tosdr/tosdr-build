@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/d/topic/tosdr/t2TchvjqHLg/discussion",
   "id": "1582",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Amazon Privacy Notice",
   "quoteEnd": 7634,
   "quoteStart": 7023,
@@ -17,7 +17,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "personal data is given to third parties",
+    "case": "Your personal data is given to third parties",
     "tldr": "Amazon may release your data when they believe it appropriate"
   }
 }

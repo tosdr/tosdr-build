@@ -1,0 +1,18 @@
+{
+  "id": "5652",
+  "needModeration": true,
+  "quoteDoc": "Privacy Policy",
+  "quoteEnd": 9364,
+  "quoteStart": 9276,
+  "quoteText": "pixels, tags, software development kits, application program interfaces, and Web beacons",
+  "services": [
+    "indiegogo"
+  ],
+  "title": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+  "topics": [],
+  "tosdr": {
+    "binding": true,
+    "case": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+    "tldr": "Generated through the annotate view"
+  }
+}

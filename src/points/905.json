@@ -27,7 +27,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "no refund policy",
+    "case": "The service has a no refund policy",
     "tldr": "Spotify does not offer refunds upon termination of their services, either by you or Spotify."
   }
 }

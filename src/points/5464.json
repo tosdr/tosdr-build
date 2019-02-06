@@ -1,15 +1,17 @@
 {
   "id": "5464",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms of Service",
-  "quoteEnd": 12999,
-  "quoteStart": 12860,
+  "quoteEnd": 13009,
+  "quoteStart": 12870,
   "quoteText": "We also reserve the right to access, read, preserve, and disclose any information (public or private) as we reasonably believe is necessary",
   "services": [
     "ryver"
   ],
   "title": "Your private content may be accessed by people working for the service",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "Your private content may be accessed by people working for the service",

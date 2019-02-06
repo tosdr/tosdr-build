@@ -11,10 +11,12 @@
   ],
   "slug": "IU0hPgqKlcA",
   "title": "no refund policy",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "no refund policy",
+    "case": "The service has a no refund policy",
     "tldr": "arc games"
   }
 }

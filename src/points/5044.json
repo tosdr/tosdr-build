@@ -1,6 +1,6 @@
 {
   "id": "5044",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms of Service (EU)",
   "quoteEnd": 18446,
   "quoteStart": 17812,
@@ -9,7 +9,9 @@
     "apple-icloud"
   ],
   "title": "The service provides two factor authentification for your account",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service provides two factor authentification for your account",

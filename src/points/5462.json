@@ -1,6 +1,6 @@
 {
   "id": "5462",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 12905,
   "quoteStart": 12520,
@@ -9,7 +9,9 @@
     "ryver"
   ],
   "title": "This service is only available to users of a certain age",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service is only available to users of a certain age",
