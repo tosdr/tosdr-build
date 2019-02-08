@@ -1,6 +1,6 @@
 {
   "id": "5653",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms of Use",
   "quoteEnd": 9838,
   "quoteStart": 9767,
@@ -9,7 +9,9 @@
     "indiegogo"
   ],
   "title": "no spidering or crawling",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "no spidering or crawling",

@@ -21,13 +21,13 @@
   "source": {
     "terms": "https://www.spotify.com/us/legal/end-user-agreement/"
   },
-  "title": "Spotify may change its terms at any time",
+  "title": "Users should revisit the terms periodically, although in case of material changes, the service will notify",
   "topics": [
     "changes-notice"
   ],
   "tosdr": {
     "binding": true,
-    "case": "The service may change its terms at any time, but the user will receive notification of the changes.",
+    "case": "Users should revisit the terms periodically, although in case of material changes, the service will notify",
     "score": 0,
     "tldr": ""
   }

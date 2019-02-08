@@ -1,6 +1,6 @@
 {
   "id": "5660",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Cookie Policy",
   "quoteEnd": 7165,
   "quoteStart": 6947,
@@ -9,7 +9,9 @@
     "indiegogo"
   ],
   "title": "This service uses third-party cookies for statistics",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service uses third-party cookies for statistics",
