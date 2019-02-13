@@ -19,7 +19,7 @@
   "tosdr": {
     "binding": true,
     "case": "This service only uses temporary session cookies",
-    "tldr": "Wikipedia sets a temporary session cookie for not-logged-in users, which is deleted at the end of the browser's session.",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Wikipedia sets a temporary session cookie for not-logged-in users, which is deleted at the end of the browser's session."
   }
 }

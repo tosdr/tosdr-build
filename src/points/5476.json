@@ -9,13 +9,11 @@
     "ryver"
   ],
   "title": "The service provides details about what kinds of personal information they collect",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "The service provides details about what kinds of personal information they collect",
-    "tldr": "In the Privacy Policy, there is detail about the types of personal information that Ryver collects.",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "In the Privacy Policy, there is detail about the types of personal information that Ryver collects."
   }
 }
