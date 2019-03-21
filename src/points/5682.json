@@ -1,6 +1,6 @@
 {
   "id": "5682",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms & Conditions",
   "quoteEnd": 13712,
   "quoteStart": 13583,
@@ -9,7 +9,9 @@
     "presearch"
   ],
   "title": "The court of law governing the terms is in location X",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The court of law governing the terms is in location X",

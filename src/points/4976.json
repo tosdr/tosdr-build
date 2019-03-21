@@ -1,6 +1,6 @@
 {
   "id": "4976",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 16530,
   "quoteStart": 16405,
@@ -9,10 +9,13 @@
     "duolingo"
   ],
   "title": "You have the right to leave this service at any time",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "You have the right to leave this service at any time",
-    "tldr": "Generated through the annotate view"
+    "tldr": "Generated through the annotate view",
+    "irrelevant": true
   }
 }

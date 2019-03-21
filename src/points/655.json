@@ -20,7 +20,7 @@
   "tosdr": {
     "binding": true,
     "case": "Your personal data is given to third parties",
-    "irrelevant": false,
+    "irrelevant": true,
     "point": "bad",
     "reason": true,
     "score": 90,

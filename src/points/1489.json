@@ -17,7 +17,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "no spidering or crawling",
+    "case": "Spidering or crawling is not allowed",
     "tldr": "Not copying basically includes no crawling."
   }
 }

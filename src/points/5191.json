@@ -1,6 +1,6 @@
 {
   "id": "5191",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 6182,
   "quoteStart": 5768,
@@ -9,7 +9,9 @@
     "imgur"
   ],
   "title": "The service can read your private messages",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service can read your private messages",

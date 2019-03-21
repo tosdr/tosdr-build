@@ -9,10 +9,12 @@
     "toptree-cc"
   ],
   "title": "you publish under a free license, not a bilateral one",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "you publish under a free license, not a bilateral one",
+    "case": "Content is published under a free license instead of a bilateral one",
     "tldr": "\"You agree to license your contents according to Creative Commons by default, unless otherwise specified.\"  - Terms of Service"
   }
 }

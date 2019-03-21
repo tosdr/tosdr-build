@@ -7,10 +7,12 @@
   ],
   "slug": "tdN3413X9fk",
   "title": "Facebook",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "irrelevant": true,
     "reason": "dismissed+by+the+curator",
     "tldr": "Facebook"

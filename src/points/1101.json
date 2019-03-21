@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/forum/#!topic/tosdr/g5PsP0TDoWE",
   "id": "1101",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Amazon Privacy Notice",
   "quoteEnd": 4521,
   "quoteStart": 4179,
@@ -18,6 +18,7 @@
   "tosdr": {
     "binding": true,
     "case": "Blocking cookies may limit your ability to use the service",
-    "tldr": "If a user were to block Amazon's cookies, it would impair even the most basic user functions on Amazon."
+    "tldr": "If a user were to block Amazon's cookies, it would impair even the most basic user functions on Amazon.",
+    "irrelevant": true
   }
 }

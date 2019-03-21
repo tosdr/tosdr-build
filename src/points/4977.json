@@ -1,6 +1,6 @@
 {
   "id": "4977",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 16238,
   "quoteStart": 16165,
@@ -9,10 +9,13 @@
     "duolingo"
   ],
   "title": "You can delete your content from this service",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "You can delete your content from this service",
-    "tldr": "Generated through the annotate view"
+    "tldr": "Generated through the annotate view",
+    "irrelevant": true
   }
 }

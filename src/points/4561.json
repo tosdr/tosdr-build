@@ -1,6 +1,6 @@
 {
   "id": "4561",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 10312,
   "quoteStart": 10124,
@@ -9,7 +9,9 @@
     "amnestyinternationallimited(uk)"
   ],
   "title": "The service will resist legal requests for user information where reasonably possible",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service will resist legal requests for user information where reasonably possible",

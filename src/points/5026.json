@@ -1,6 +1,6 @@
 {
   "id": "5026",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 12096,
   "quoteStart": 10501,
@@ -9,7 +9,9 @@
     "wikia"
   ],
   "title": "You can opt out of targeted advertising",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "You can opt out of targeted advertising",

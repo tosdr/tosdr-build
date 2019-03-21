@@ -1,6 +1,6 @@
 {
   "id": "5497",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms (Version 1.0; Dec 1, 2016) [Pastebin mirror]",
   "quoteEnd": 2526,
   "quoteStart": 2204,
@@ -9,7 +9,9 @@
     "kitsu"
   ],
   "title": "This service forces users into binding arbitration in the case of disputes",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service forces users into binding arbitration in the case of disputes",

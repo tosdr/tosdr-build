@@ -15,7 +15,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "disputed": true,
     "point": "bad",
     "score": 5,

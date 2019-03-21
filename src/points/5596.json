@@ -1,6 +1,6 @@
 {
   "id": "5596",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms of Use",
   "quoteEnd": 9897,
   "quoteStart": 9783,
@@ -9,7 +9,9 @@
     "wikia"
   ],
   "title": "This service is only available for use individually and non-commercially.",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service is only available for use individually and non-commercially.",

@@ -13,7 +13,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "tldr": "[Good] WhatsApp doesn't collect personal information besides the phone number"
   }
 }

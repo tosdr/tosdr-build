@@ -1,6 +1,6 @@
 {
   "id": "4605",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms of Use",
   "quoteEnd": 2580,
   "quoteStart": 2470,
@@ -9,7 +9,9 @@
     "setlisting"
   ],
   "title": "The service can delete specific content without prior notice and without a reason",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service can delete specific content without prior notice and without a reason",

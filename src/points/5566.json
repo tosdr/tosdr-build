@@ -8,10 +8,12 @@
     "wattpad"
   ],
   "title": "no spidering or crawling",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "no spidering or crawling",
+    "case": "Spidering or crawling is not allowed",
     "tldr": "Generated through the annotate view"
   }
 }

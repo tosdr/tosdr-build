@@ -7,8 +7,8 @@
   },
   "needModeration": false,
   "quoteDoc": "Terms of Service",
-  "quoteEnd": 10650,
-  "quoteStart": 9913,
+  "quoteEnd": 10655,
+  "quoteStart": 9918,
   "quoteText": "you hereby grant YouTube a worldwide, non-exclusive, royalty-free, sublicenseable and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the Content in connection with the Service and YouTube's (and its successors' and affiliates') business, including without limitation for promoting and redistributing part or all of the Service (and derivative works thereof) in any media formats and through any media channels.\nYou also hereby grant each user of the Service a non-exclusive license to access your Content through the Service, and to use, reproduce, distribute, display and perform such Content as permitted through the functionality of the Service and under these Terms of Service.\n",
   "services": [
     "youtube"

@@ -1,6 +1,6 @@
 {
   "id": "5594",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms of Use",
   "quoteEnd": 5679,
   "quoteStart": 5407,
@@ -9,7 +9,9 @@
     "wikia"
   ],
   "title": "The service can delete your account without prior notice and without a reason",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service can delete your account without prior notice and without a reason",

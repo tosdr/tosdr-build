@@ -1,11 +1,13 @@
 {
   "id": "4847",
-  "needModeration": true,
+  "needModeration": false,
   "services": [
     "virgin"
   ],
   "title": "The service uses your personal data to employ targeted third-party advertising",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service uses your personal data to employ targeted third-party advertising",

@@ -9,10 +9,12 @@
     "toptree-cc"
   ],
   "title": "info given about security practices",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "tldr": "Generated through the annotate view"
   }
 }

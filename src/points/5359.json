@@ -1,6 +1,6 @@
 {
   "id": "5359",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 901,
   "quoteStart": 812,
@@ -9,10 +9,13 @@
     "istudiez"
   ],
   "title": "The service reviews its privacy policy on a regular basis",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service reviews its privacy policy on a regular basis",
-    "tldr": "Generated through the annotate view"
+    "tldr": "Generated through the annotate view",
+    "irrelevant": true
   }
 }

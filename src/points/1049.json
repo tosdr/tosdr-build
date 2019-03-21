@@ -7,10 +7,12 @@
   ],
   "slug": "TfBDgEhgQEY",
   "title": "flattr terms updated 29 aug",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "irrelevant": true,
     "reason": "dismissed+by+the+curator",
     "tldr": "flattr terms updated 29 aug"

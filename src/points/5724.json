@@ -1,15 +1,17 @@
 {
   "id": "5724",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
-  "quoteEnd": 797,
-  "quoteStart": 764,
+  "quoteEnd": 839,
+  "quoteStart": 806,
   "quoteText": "you agree to abide by Swedish law",
   "services": [
     "spinonline"
   ],
   "title": "Users agree to comply with the law of the service's country",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "Users agree to comply with the law of the service's country",

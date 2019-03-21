@@ -1,6 +1,6 @@
 {
   "id": "5202",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Cookies & Tracking Notice",
   "quoteEnd": 1776,
   "quoteStart": 1364,
@@ -9,7 +9,9 @@
     "bitbucket"
   ],
   "title": "This service uses third-party cookies for statistics",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service uses third-party cookies for statistics",

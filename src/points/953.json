@@ -8,10 +8,12 @@
   "set": "set+service",
   "slug": "Wem2OtUVKIA",
   "title": "Re: [cws-apps] My Popular App Was Removed without Warning :( How to Appeal?",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "irrelevant": true,
     "reason": "dismissed+by+the+curator",
     "tldr": "Re: [cws-apps] My Popular App Was Removed without Warning :( How to Appeal?"

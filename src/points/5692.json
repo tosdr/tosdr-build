@@ -1,6 +1,6 @@
 {
   "id": "5692",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms & Conditions",
   "quoteEnd": 743,
   "quoteStart": 465,
@@ -9,7 +9,9 @@
     "presearch"
   ],
   "title": "This service is only available to users of a certain age",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service is only available to users of a certain age",

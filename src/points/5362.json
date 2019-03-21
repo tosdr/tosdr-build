@@ -1,6 +1,6 @@
 {
   "id": "5362",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 5443,
   "quoteStart": 5194,
@@ -9,7 +9,9 @@
     "istudiez"
   ],
   "title": "You maintain ownership of your data",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "You maintain ownership of your data",

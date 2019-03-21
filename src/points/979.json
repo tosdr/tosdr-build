@@ -7,10 +7,12 @@
   ],
   "slug": "584c8rK1v28",
   "title": "Unofficial ToS;DR Facebook Page",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "irrelevant": true,
     "reason": "dismissed+by+the+curator",
     "tldr": "Unofficial ToS;DR Facebook Page"

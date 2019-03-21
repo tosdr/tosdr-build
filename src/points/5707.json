@@ -1,6 +1,6 @@
 {
   "id": "5707",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms & Conditions",
   "quoteEnd": 10217,
   "quoteStart": 10166,
@@ -9,7 +9,9 @@
     "presearch"
   ],
   "title": "This services gives no guarantee regarding quality",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This services gives no guarantee regarding quality",

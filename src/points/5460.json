@@ -1,6 +1,6 @@
 {
   "id": "5460",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 12125,
   "quoteStart": 12022,
@@ -8,11 +8,13 @@
   "services": [
     "ryver"
   ],
-  "title": "This service can share your personal information to third parties ",
-  "topics": [],
+  "title": "The service will not allow third parties to access your personal information without a legal basis",
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "This service can share your personal information to third parties ",
-    "tldr": "Generated through the annotate view"
+    "case": "The service will not allow third parties to access your personal information without a legal basis",
+    "tldr": ""
   }
 }

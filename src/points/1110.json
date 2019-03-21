@@ -17,7 +17,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "tldr": "[Bad] WhatsApp may use your phone number for non-marketing or administrative purposes"
   }
 }

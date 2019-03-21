@@ -1,18 +1,21 @@
 {
   "id": "4914",
-  "needModeration": true,
-  "quoteDoc": "Terms of Service",
-  "quoteEnd": 1612,
-  "quoteStart": 1509,
-  "quoteText": "We reserve the right to monitor reddit, and your use of the Service means you agree to such monitoring.",
+  "needModeration": false,
+  "quoteDoc": "Reddit User Agreement",
+  "quoteEnd": 16399,
+  "quoteStart": 15863,
+  "quoteText": " WILL THE REDDIT ENTITIES BE LIABLE TO YOU FOR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, OR LOST PROFITS ARISING FROM OR RELATING TO THESE TERMS OR THE SERVICES, INCLUDING THOSE ARISING FROM OR RELATING TO CONTENT MADE AVAILABLE ON THE SERVICES THAT IS ALLEGED TO BE DEFAMATORY, OFFENSIVE, OR ILLEGAL.\nACCESS TO, AND USE OF, THE SERVICES IS AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR DEVICE OR COMPUTER SYSTEM, OR LOSS OF DATA RESULTING THEREFROM.\n",
   "services": [
     "reddit"
   ],
-  "title": "Users agree not to use the service for illegal purposes",
-  "topics": [],
+  "title": "Users agree not to submit illegal content",
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "Users agree not to use the service for illegal purposes",
-    "tldr": "Generated through the annotate view"
+    "case": "Users agree not to submit illegal content",
+    "tldr": "Generated through the annotate view",
+    "irrelevant": true
   }
 }

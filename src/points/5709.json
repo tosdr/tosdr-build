@@ -1,6 +1,6 @@
 {
   "id": "5709",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms & Conditions",
   "quoteEnd": 10399,
   "quoteStart": 10296,
@@ -9,7 +9,9 @@
     "presearch"
   ],
   "title": "The service does not guarantee accuracy or reliability of the information provided",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service does not guarantee accuracy or reliability of the information provided",

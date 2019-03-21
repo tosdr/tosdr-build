@@ -1,6 +1,6 @@
 {
   "id": "5304",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 9525,
   "quoteStart": 9064,
@@ -9,7 +9,9 @@
     "nexon"
   ],
   "title": "This service can share your personal information to third parties ",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service can share your personal information to third parties ",

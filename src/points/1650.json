@@ -1,7 +1,7 @@
 {
   "discussion": "https://groups.google.com/forum#!topic/tosdr/4VImnx0mmEE",
   "id": "1650",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Privacy Center",
   "quoteEnd": 3194,
   "quoteStart": 3076,
@@ -11,7 +11,9 @@
   ],
   "slug": "4VImnx0mmEE",
   "title": "This service holds onto content that you've deleted",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "This service holds onto content that you've deleted",

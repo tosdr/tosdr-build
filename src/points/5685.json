@@ -1,6 +1,6 @@
 {
   "id": "5685",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Terms & Conditions",
   "quoteEnd": 14774,
   "quoteStart": 14568,
@@ -9,7 +9,9 @@
     "presearch"
   ],
   "title": "The service can delete your account without prior notice and without a reason",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service can delete your account without prior notice and without a reason",

@@ -1,6 +1,6 @@
 {
   "id": "5210",
-  "needModeration": true,
+  "needModeration": false,
   "quoteDoc": "Cookies & Tracking Notice",
   "quoteEnd": 2512,
   "quoteStart": 2139,
@@ -9,7 +9,9 @@
     "bitbucket"
   ],
   "title": "The service uses third party tracking pixels to track social media conversion",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "case": "The service uses third party tracking pixels to track social media conversion",

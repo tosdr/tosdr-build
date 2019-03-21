@@ -7,10 +7,12 @@
   ],
   "slug": "_md0FjQvON8",
   "title": "[Good] Dropbox can cancel your account without notice but they'll try to avoid it",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
-    "case": "info given about security practices",
+    "case": "The user is informed about security practices",
     "irrelevant": true,
     "reason": "dismissed+by+the+curator",
     "tldr": "[Good] Dropbox can cancel your account without notice but they'll try to avoid it"
