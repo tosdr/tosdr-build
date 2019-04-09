@@ -9,13 +9,11 @@
     "spinonline"
   ],
   "title": "The cookies used by this service do not contain information that would personally identify you",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "The cookies used by this service do not contain information that would personally identify you",
-    "tldr": "Generated through the annotate view",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Generated through the annotate view"
   }
 }

@@ -25,7 +25,7 @@
   "tosdr": {
     "binding": true,
     "case": "defend, indemnify, hold harmless; survives termination",
-    "tldr": "You agree to defend, indemnify and hold harmless Valve, its licensors, and its and their affiliates from all liabilities, claims and expenses, including attorneys' fees, that arise from or in connection with breach of this Agreement or the use of Steam or any Subscription, ...",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "You agree to defend, indemnify and hold harmless Valve, its licensors, and its and their affiliates from all liabilities, claims and expenses, including attorneys' fees, that arise from or in connection with breach of this Agreement or the use of Steam or any Subscription, ..."
   }
 }

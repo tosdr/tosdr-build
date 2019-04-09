@@ -9,13 +9,11 @@
     "duolingo"
   ],
   "title": "You can delete your content from this service",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "You can delete your content from this service",
-    "tldr": "Generated through the annotate view",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Generated through the annotate view"
   }
 }

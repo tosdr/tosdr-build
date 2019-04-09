@@ -1,5 +1,6 @@
 {
   "id": "4291",
+  "needModeration": true,
   "quoteDoc": "Privacy Policy",
   "quoteEnd": 24219,
   "quoteStart": 23266,
@@ -8,13 +9,10 @@
     "stackoverflow"
   ],
   "title": "you can request access and deletion of personal data",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "You can request access and deletion of personal data",
     "tldr": "you can request access and deletion of personal data"
-  },
-  "needModeration": true
+  }
 }

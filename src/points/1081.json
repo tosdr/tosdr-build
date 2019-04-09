@@ -28,9 +28,9 @@
   "tosdr": {
     "binding": false,
     "case": "The service informs users about the risk of publishing personal info online",
+    "irrelevant": true,
     "point": "good",
     "score": 15,
-    "tldr": "Google provides you information and tips at https://www.google.com/safetycenter/.",
-    "irrelevant": true
+    "tldr": "Google provides you information and tips at https://www.google.com/safetycenter/."
   }
 }

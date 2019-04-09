@@ -9,13 +9,11 @@
     "amnestyinternationallimited(uk)"
   ],
   "title": "No need to register",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "No need to register",
-    "tldr": "Generated through the annotate view",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Generated through the annotate view"
   }
 }
