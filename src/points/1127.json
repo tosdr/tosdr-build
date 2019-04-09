@@ -10,13 +10,11 @@
   ],
   "slug": "1127",
   "title": "The service uses your personal data for advertising",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "The service uses your personal data for advertising",
-    "tldr": "Linkedin can, for example, take all information from calendar, email, places of event, people involved if you synchronize your calendar or email.",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Linkedin can, for example, take all information from calendar, email, places of event, people involved if you synchronize your calendar or email."
   }
 }

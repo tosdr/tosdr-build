@@ -28,7 +28,7 @@
   "tosdr": {
     "binding": true,
     "case": "This service provides a way for you to export your data",
-    "tldr": "Google gives you reasonable advance notice when a service is discontinued and “a chance to get information out of that Service.”",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Google gives you reasonable advance notice when a service is discontinued and “a chance to get information out of that Service.”"
   }
 }

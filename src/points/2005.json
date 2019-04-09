@@ -14,7 +14,7 @@
   "tosdr": {
     "binding": true,
     "case": "Your profile is combined across various products",
-    "tldr": "Google provides Insufficient information to users about personal data processing operations",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Google provides Insufficient information to users about personal data processing operations"
   }
 }

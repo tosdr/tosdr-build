@@ -9,13 +9,11 @@
     "wolframalpha"
   ],
   "title": "The service is transparent regarding government requests or inquiries that may involve user data.",
-  "topics": [
-
-  ],
+  "topics": [],
   "tosdr": {
     "binding": true,
     "case": "The service is transparent regarding government requests or inquiries that may involve user data.",
-    "tldr": "Generated through the annotate view",
-    "irrelevant": true
+    "irrelevant": true,
+    "tldr": "Generated through the annotate view"
   }
 }
