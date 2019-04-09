@@ -16,6 +16,7 @@
       "1039",
       "611",
       "797",
+      "891",
       "974",
       "995"
     ],
@@ -240,8 +241,18 @@
     "points": [
       "1370",
       "1582",
+      "5922",
+      "5923",
+      "5925",
+      "5926",
+      "5927",
+      "5928",
+      "5929",
+      "622",
       "701",
-      "706"
+      "706",
+      "793",
+      "829"
     ],
     "urls": [
       "amazon.com"
@@ -249,7 +260,7 @@
   },
   "amnestyinternationallimited(uk)": {
     "alexa": 32281,
-    "class": false,
+    "class": "B",
     "links": {},
     "points": [
       "4542",
@@ -269,11 +280,24 @@
       "4557",
       "4558",
       "4560",
-      "4563",
-      "4564"
+      "4561",
+      "4562",
+      "4564",
+      "4565"
     ],
     "urls": [
       "amnesty.org"
+    ]
+  },
+  "anki": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5974"
+    ],
+    "urls": [
+      "anki"
     ]
   },
   "apple": {
@@ -347,6 +371,28 @@
       "icloud.com"
     ]
   },
+  "ask": {
+    "alexa": 748,
+    "class": false,
+    "links": {},
+    "points": [
+      "5410"
+    ],
+    "urls": [
+      "ask.fm"
+    ]
+  },
+  "avaaz": {
+    "alexa": 26032,
+    "class": false,
+    "links": {},
+    "points": [
+      "4996"
+    ],
+    "urls": [
+      "avaaz.org"
+    ]
+  },
   "bbc": {
     "alexa": 104,
     "class": false,
@@ -362,10 +408,24 @@
     },
     "points": [
       "1137",
-      "1419"
+      "1419",
+      "1515"
     ],
     "urls": [
       "bbc.com"
+    ]
+  },
+  "betterhelp": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5222",
+      "5230",
+      "5239"
+    ],
+    "urls": [
+      "betterhelp"
     ]
   },
   "bing": {
@@ -398,7 +458,11 @@
     "class": false,
     "links": {},
     "points": [
-      "4241"
+      "4241",
+      "5202",
+      "5203",
+      "5204",
+      "5210"
     ],
     "urls": [
       "bitbucket.org"
@@ -623,6 +687,21 @@
       "cnn.com"
     ]
   },
+  "colloq-io": {
+    "class": false,
+    "links": {},
+    "points": [
+      "5931",
+      "5932",
+      "5933",
+      "5934",
+      "5935",
+      "5936"
+    ],
+    "urls": [
+      "colloq.io"
+    ]
+  },
   "couchsurfing": {
     "alexa": 219946,
     "class": false,
@@ -654,6 +733,17 @@
     ],
     "urls": [
       "couchsurfing.org"
+    ]
+  },
+  "coursehero": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5342"
+    ],
+    "urls": [
+      "coursehero"
     ]
   },
   "coursera": {
@@ -857,7 +947,16 @@
     "links": {},
     "points": [
       "4445",
-      "4512"
+      "4512",
+      "5878",
+      "5879",
+      "6115",
+      "6116",
+      "6117",
+      "6118",
+      "6119",
+      "6121",
+      "6122"
     ],
     "urls": [
       "discordapp.com"
@@ -940,6 +1039,29 @@
       "cispaletter.org"
     ]
   },
+  "duolingo": {
+    "alexa": 906,
+    "class": false,
+    "links": {},
+    "points": [
+      "4971",
+      "4972",
+      "4973",
+      "4978",
+      "4979",
+      "4980",
+      "4982",
+      "4983",
+      "4984",
+      "4986",
+      "4989",
+      "4990",
+      "4991"
+    ],
+    "urls": [
+      "duolingo.com"
+    ]
+  },
   "ebay": {
     "alexa": 40,
     "class": false,
@@ -964,13 +1086,30 @@
   },
   "ecosia": {
     "alexa": 846,
-    "class": "A",
+    "class": "B",
     "links": {},
     "points": [
-      "4377"
+      "4378",
+      "5192",
+      "5193",
+      "5920",
+      "5975",
+      "5976",
+      "5980"
     ],
     "urls": [
       "ecosia.org"
+    ]
+  },
+  "ello": {
+    "alexa": 43737,
+    "class": false,
+    "links": {},
+    "points": [
+      "1557"
+    ],
+    "urls": [
+      "ello.co"
     ]
   },
   "epicgames": {
@@ -978,7 +1117,8 @@
     "class": false,
     "links": {},
     "points": [
-      "4410"
+      "4410",
+      "6018"
     ],
     "urls": [
       "epicgames.com"
@@ -1067,10 +1207,34 @@
     "class": false,
     "links": {},
     "points": [
-      "5621"
+      "5621",
+      "5727",
+      "5728",
+      "5729",
+      "5730"
     ],
     "urls": [
       "feedly"
+    ]
+  },
+  "flattr": {
+    "alexa": 100428,
+    "class": false,
+    "links": {
+      "Privacy Policy": {
+        "name": "Privacy Policy",
+        "url": "https://flattr.com/privacy"
+      },
+      "Terms of Use": {
+        "name": "Terms of Use",
+        "url": "https://flattr.com/terms"
+      }
+    },
+    "points": [
+      "678"
+    ],
+    "urls": [
+      "flattr.com"
     ]
   },
   "flickr": {
@@ -1153,6 +1317,18 @@
       "freecodecamp.org"
     ]
   },
+  "furaffinity": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5662",
+      "5669"
+    ],
+    "urls": [
+      "furaffinity"
+    ]
+  },
   "fwg1240": {
     "class": "A",
     "links": {},
@@ -1201,9 +1377,12 @@
     },
     "points": [
       "4589",
+      "5971",
+      "5972",
       "652",
       "749",
-      "883"
+      "883",
+      "915"
     ],
     "urls": [
       "github.com"
@@ -1317,15 +1496,26 @@
       }
     },
     "points": [
+      "1060",
       "1088",
       "1104",
       "1141",
       "1598",
+      "1888",
       "2142",
+      "2198",
+      "5838",
+      "5839",
+      "5840",
+      "5841",
+      "5842",
+      "5843",
+      "5844",
       "603",
       "612",
       "617",
       "783",
+      "794",
       "856",
       "950"
     ],
@@ -1560,6 +1750,7 @@
     "points": [
       "1011",
       "1093",
+      "1103",
       "1481",
       "4927"
     ],
@@ -1629,10 +1820,31 @@
     "class": false,
     "links": {},
     "points": [
+      "5261",
       "5266"
     ],
     "urls": [
       "humblebundle.com"
+    ]
+  },
+  "icann": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5948",
+      "5949",
+      "5950",
+      "5951",
+      "5952",
+      "5953",
+      "5954",
+      "5955",
+      "5956",
+      "5957"
+    ],
+    "urls": [
+      "icann"
     ]
   },
   "icepop": {
@@ -1652,6 +1864,16 @@
     ],
     "urls": [
       "icepop.com"
+    ]
+  },
+  "idka": {
+    "class": false,
+    "links": {},
+    "points": [
+      "5048"
+    ],
+    "urls": [
+      "idka.com"
     ]
   },
   "ifttt": {
@@ -1675,6 +1897,39 @@
       "ifttt.com"
     ]
   },
+  "imdb": {
+    "alexa": 49,
+    "class": "E",
+    "links": {
+      "Privacy Policy": {
+        "name": "Privacy Policy",
+        "url": "http://www.imdb.com/privacy"
+      },
+      "Terms of Service": {
+        "name": "Terms of Service",
+        "url": "http://www.imdb.com/help/show_article?conditions"
+      }
+    },
+    "points": [
+      "1124",
+      "6149",
+      "6150",
+      "6151",
+      "6152",
+      "6153",
+      "6154",
+      "6155",
+      "6156",
+      "6157",
+      "6158",
+      "6159",
+      "6160",
+      "6161"
+    ],
+    "urls": [
+      "imdb.com"
+    ]
+  },
   "imgur": {
     "alexa": 46,
     "class": false,
@@ -1689,7 +1944,9 @@
       }
     },
     "points": [
-      "1703"
+      "1139",
+      "1703",
+      "5191"
     ],
     "urls": [
       "imgur.com"
@@ -1762,6 +2019,17 @@
       "ironhorsegames.org"
     ]
   },
+  "istudiez": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5362"
+    ],
+    "urls": [
+      "istudiez"
+    ]
+  },
   "itch-io": {
     "alexa": 2705,
     "class": false,
@@ -1832,11 +2100,23 @@
     "class": false,
     "links": {},
     "points": [
+      "4770",
       "4786",
       "4787"
     ],
     "urls": [
       "kink.com"
+    ]
+  },
+  "kitsu": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5497"
+    ],
+    "urls": [
+      "kitsu"
     ]
   },
   "kolabnow": {
@@ -1870,6 +2150,7 @@
     },
     "points": [
       "1029",
+      "1043",
       "562",
       "572",
       "576",
@@ -1911,15 +2192,76 @@
       "linewebtoon"
     ]
   },
+  "linkedin": {
+    "alexa": 33,
+    "class": false,
+    "links": {
+      "Privacy Policy": {
+        "name": "Privacy Policy",
+        "url": "https://www.linkedin.com/legal/privacy-policy"
+      },
+      "Terms of Service": {
+        "name": "Terms of Service",
+        "url": "https://www.linkedin.com/legal/user-agreement"
+      }
+    },
+    "points": [
+      "5880",
+      "5881",
+      "5882",
+      "5883",
+      "5884",
+      "5885",
+      "5886",
+      "5887",
+      "5888",
+      "5889",
+      "5891",
+      "5892",
+      "5918"
+    ],
+    "urls": [
+      "linkedin.com"
+    ]
+  },
   "mailinator": {
     "alexa": 30914,
     "class": false,
     "links": {},
     "points": [
-      "5276"
+      "5276",
+      "5278",
+      "5285"
     ],
     "urls": [
       "mailinator.com"
+    ]
+  },
+  "masonbee": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5990",
+      "5991",
+      "6014"
+    ],
+    "urls": [
+      "masonbee"
+    ]
+  },
+  "massdrop": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5375",
+      "5378",
+      "5380",
+      "5388"
+    ],
+    "urls": [
+      "massdrop"
     ]
   },
   "mastodon-social": {
@@ -1931,6 +2273,19 @@
     ],
     "urls": [
       "mastodon.social"
+    ]
+  },
+  "medium": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5124",
+      "5125",
+      "5130"
+    ],
+    "urls": [
+      "medium"
     ]
   },
   "mega": {
@@ -2068,6 +2423,17 @@
       "musik-sammler.de"
     ]
   },
+  "nabucasa": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5775"
+    ],
+    "urls": [
+      "nabucasa"
+    ]
+  },
   "nanowrimo": {
     "alexa": 1000000,
     "class": false,
@@ -2093,6 +2459,7 @@
       }
     },
     "points": [
+      "1051",
       "638",
       "639",
       "853",
@@ -2118,6 +2485,19 @@
       "nytimes.com"
     ]
   },
+  "nexon": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5293",
+      "5298",
+      "5304"
+    ],
+    "urls": [
+      "nexon"
+    ]
+  },
   "npm": {
     "alexa": 1884,
     "class": false,
@@ -2141,6 +2521,24 @@
       "npmjs.com",
       "npmjs.org",
       "npm.im"
+    ]
+  },
+  "observable": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "6054",
+      "6055",
+      "6056",
+      "6059",
+      "6065",
+      "6078",
+      "6079",
+      "6083"
+    ],
+    "urls": [
+      "observable"
     ]
   },
   "openbookpublishers": {
@@ -2169,6 +2567,34 @@
     ],
     "urls": [
       "osmand.net"
+    ]
+  },
+  "parsec": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5996",
+      "5997",
+      "5998",
+      "5999",
+      "6000",
+      "6001",
+      "6002",
+      "6003",
+      "6004",
+      "6005",
+      "6006",
+      "6007",
+      "6008",
+      "6009",
+      "6010",
+      "6011",
+      "6012",
+      "6013"
+    ],
+    "urls": [
+      "parsec"
     ]
   },
   "patook": {
@@ -2225,6 +2651,30 @@
     "class": false,
     "links": {},
     "points": [
+      "5681",
+      "5682",
+      "5684",
+      "5685",
+      "5687",
+      "5688",
+      "5690",
+      "5691",
+      "5692",
+      "5693",
+      "5694",
+      "5696",
+      "5697",
+      "5699",
+      "5701",
+      "5702",
+      "5704",
+      "5705",
+      "5706",
+      "5707",
+      "5708",
+      "5709",
+      "5710",
+      "5712",
       "5713"
     ],
     "urls": [
@@ -2256,6 +2706,52 @@
     ],
     "urls": [
       "pure.dating"
+    ]
+  },
+  "pythonanywhere": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "6043",
+      "6044",
+      "6045",
+      "6047",
+      "6048",
+      "6049",
+      "6050",
+      "6051"
+    ],
+    "urls": [
+      "pythonanywhere"
+    ]
+  },
+  "quake": {
+    "alexa": 306927,
+    "class": false,
+    "links": {
+      "EULA": {
+        "name": "EULA",
+        "url": "http://www.quakelive.com/legals/eula"
+      },
+      "Legal Notices": {
+        "name": "Legal Notices",
+        "url": "http://www.quakelive.com/legals/notices"
+      },
+      "Privacy Policy": {
+        "name": "Privacy Policy",
+        "url": "http://www.quakelive.com/legals/privacy_policy"
+      },
+      "Terms of Use": {
+        "name": "Terms of Use",
+        "url": "http://www.quakelive.com/legals/terms_of_use"
+      }
+    },
+    "points": [
+      "5995"
+    ],
+    "urls": [
+      "quakelive.com"
     ]
   },
   "quora": {
@@ -2302,6 +2798,18 @@
     ],
     "urls": [
       "qwant.com"
+    ]
+  },
+  "rabbit": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "6016",
+      "6017"
+    ],
+    "urls": [
+      "rabbit"
     ]
   },
   "reddit": {
@@ -2394,7 +2902,25 @@
     "links": {},
     "points": [
       "4265",
-      "4266"
+      "4266",
+      "6019",
+      "6020",
+      "6021",
+      "6022",
+      "6023",
+      "6024",
+      "6026",
+      "6029",
+      "6030",
+      "6031",
+      "6032",
+      "6033",
+      "6034",
+      "6035",
+      "6038",
+      "6039",
+      "6040",
+      "6041"
     ],
     "urls": [
       "roblox.com"
@@ -2425,9 +2951,11 @@
       "5457",
       "5458",
       "5459",
+      "5460",
       "5462",
       "5463",
       "5464",
+      "5465",
       "5466",
       "5467",
       "5468",
@@ -2471,6 +2999,16 @@
     "twitter": "@SeenThis",
     "urls": [
       "seenthis.net"
+    ]
+  },
+  "setlisting": {
+    "class": false,
+    "links": {},
+    "points": [
+      "4605"
+    ],
+    "urls": [
+      "setlisting.com"
     ]
   },
   "signal": {
@@ -2533,6 +3071,17 @@
       "slither.io"
     ]
   },
+  "snapchat": {
+    "alexa": 4606,
+    "class": false,
+    "links": {},
+    "points": [
+      "1650"
+    ],
+    "urls": [
+      "snapchat.com"
+    ]
+  },
   "softpedia": {
     "alexa": 2046,
     "class": false,
@@ -2544,10 +3093,23 @@
     },
     "points": [
       "1339",
+      "1668",
       "1790"
     ],
     "urls": [
       "softpedia.com"
+    ]
+  },
+  "sony": {
+    "alexa": 376,
+    "class": false,
+    "links": {},
+    "points": [
+      "1555",
+      "1599"
+    ],
+    "urls": [
+      "playstation.com"
     ]
   },
   "soundcloud": {
@@ -2597,6 +3159,19 @@
       "spigotmc.org"
     ]
   },
+  "spinonline": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5720",
+      "5721",
+      "5724"
+    ],
+    "urls": [
+      "spinonline"
+    ]
+  },
   "spotify": {
     "alexa": 121,
     "class": false,
@@ -2627,6 +3202,9 @@
       "1082",
       "1143",
       "642",
+      "771",
+      "817",
+      "852",
       "877",
       "905"
     ],
@@ -2655,8 +3233,19 @@
     "links": {},
     "points": [
       "1246",
-      "4291",
-      "4692"
+      "4692",
+      "4722",
+      "6124",
+      "6125",
+      "6126",
+      "6128",
+      "6129",
+      "6131",
+      "6132",
+      "6133",
+      "6134",
+      "6135",
+      "6136"
     ],
     "urls": [
       "stackoverflow.com"
@@ -2734,6 +3323,26 @@
     ],
     "urls": [
       "helloworldcollection.de"
+    ]
+  },
+  "tiktok": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "6084",
+      "6085",
+      "6087",
+      "6088",
+      "6089",
+      "6090",
+      "6091",
+      "6092",
+      "6096",
+      "6097"
+    ],
+    "urls": [
+      "tiktok"
     ]
   },
   "tinder": {
@@ -2837,6 +3446,7 @@
       "1015",
       "1048",
       "1329",
+      "1347",
       "681",
       "876"
     ],
@@ -2873,10 +3483,11 @@
     },
     "points": [
       "4595",
-      "5616",
+      "5833",
+      "5835",
       "606",
+      "614",
       "630",
-      "655",
       "672",
       "699",
       "756",
@@ -2892,10 +3503,39 @@
     "links": {},
     "points": [
       "1463",
+      "1472",
       "1580"
     ],
     "urls": [
       "uber.com"
+    ]
+  },
+  "upcloud": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5731",
+      "5732",
+      "5733",
+      "5736",
+      "5738",
+      "5739",
+      "5740",
+      "5742",
+      "5743",
+      "5745",
+      "5747",
+      "5748",
+      "5749",
+      "5750",
+      "5751",
+      "5752",
+      "5753",
+      "5754"
+    ],
+    "urls": [
+      "upcloud"
     ]
   },
   "uswarrantservice": {
@@ -2926,6 +3566,28 @@
     ],
     "urls": [
       "vimeo.com"
+    ]
+  },
+  "virgin": {
+    "alexa": 33655,
+    "class": false,
+    "links": {},
+    "points": [
+      "4847"
+    ],
+    "urls": [
+      "virgin.com"
+    ]
+  },
+  "virtbiz": {
+    "alexa": 1000000,
+    "class": false,
+    "links": {},
+    "points": [
+      "5755"
+    ],
+    "urls": [
+      "virtbiz"
     ]
   },
   "visible": {
@@ -3074,10 +3736,20 @@
       }
     },
     "points": [
+      "5025",
+      "5026",
+      "5591",
+      "5592",
+      "5593",
+      "5594",
+      "5595",
+      "5596",
+      "5597",
       "5598",
       "5599",
       "5600",
-      "5601"
+      "5601",
+      "5947"
     ],
     "urls": [
       "wikia.com"
@@ -3097,7 +3769,9 @@
       "4721",
       "5619",
       "5620",
-      "5715"
+      "5715",
+      "6137",
+      "6138"
     ],
     "urls": [
       "wikihow.com"
@@ -3188,7 +3862,8 @@
       }
     },
     "points": [
-      "1019"
+      "1019",
+      "708"
     ],
     "urls": [
       "xing.com"
@@ -3217,7 +3892,9 @@
     },
     "points": [
       "1008",
+      "1132",
       "2277",
+      "836",
       "952"
     ],
     "urls": [
@@ -3252,10 +3929,18 @@
     "points": [
       "2078",
       "4616",
+      "5900",
+      "5901",
+      "5902",
+      "5903",
       "666",
       "686",
+      "690",
       "837",
-      "892"
+      "858",
+      "892",
+      "913",
+      "946"
     ],
     "twitter": "@YouTube",
     "urls": [
