@@ -111,7 +111,33 @@ function parseServiceFile(id, grunt) {
   //repo to get a better feeling for what this function does
 
   //console.log('SERVICE '+id);
-  var obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/'+id+'.json');
+  var obj
+  try {
+    obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/'+id+'.json');
+  } catch (e) {
+    console.log('could not load service file, creating!', id)
+    grunt.file.write(grunt.config.get('conf').src + `/services/${id}.json`, prettyjson({
+      alexa: 1000000,
+      freesoftware: false,
+      fulltos: {
+      },
+      id,
+      meta: {
+        'spec-version': '1.1'
+      },
+      name: id,
+      tosdr: {
+        keywords: [],
+        rated: false,
+        related: []
+      },
+      type: 'service',
+      urls: [
+        id
+      ]
+    }, null, 2))
+    obj = grunt.file.readJSON(grunt.config.get('conf').src + '/services/'+id+'.json');
+  }
   // console.log(id);
   if(typeof(obj.tosback2)=='object') {
     for(var i in obj.tosback2) { 
