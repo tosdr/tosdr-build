@@ -1,6 +1,0 @@
-[submodule "dist"]
-	path = dist
-	url = git@github.com:tosdr/tosdr.org.git
-[submodule "src/wiki"]
-	path = src/wiki
-	url = git@github.com:tosdr/tosdr.org.wiki.git
